@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <title>道口卸货及时率 - 测试页V2</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+    <style>
+        * { margin:0; padding:0; box-sizing: border-box; }
+        body {
+            font-family: "Microsoft YaHei", "SimHei", sans-serif;
+            background: #f0f2f5;
+            padding: 20px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        .header {
+            background: linear-gradient(135deg, #34a853 0%, #4285f4 100%);
+            color: white;
+            padding: 20px 28px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 12px rgba(52,168,83,0.3);
+        }
+        .header h1 { font-size: 24px; margin-bottom: 6px; }
+        .header p { font-size: 13px; opacity: 0.9; }
+
+        .kpi-row {
+            display: flex;
+            gap: 16px;
+            margin-bottom: 20px;
+        }
+        .kpi-card {
+            flex: 1;
+            background: white;
+            border-radius: 12px;
+            padding: 20px 24px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+        .kpi-card .label { font-size: 13px; color: #666; margin-bottom: 8px; }
+        .kpi-card .value { font-size: 36px; font-weight: 700; color: #333; }
+        .kpi-card .unit { font-size: 14px; color: #999; margin-left: 4px; }
+        .kpi-card .delta { font-size: 13px; margin-top: 6px; }
+
+        .chart-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+            margin-bottom: 20px;
+        }
+        .chart-box {
+            background: white;
+            border-radius: 12px;
+            padding: 16px 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+        .chart-box h3 { font-size: 15px; color: #333; margin-bottom: 12px; }
+        .chart-box.full { grid-column: 1 / -1; }
+
+        .rank-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 12px;
+        }
+        .rank-table th {
+            background: #f8f9fa;
+            padding: 10px 12px;
+            text-align: left;
+            font-size: 13px;
+            color: #666;
+            border-bottom: 2px solid #e8eaed;
+        }
+        .rank-table td {
+            padding: 10px 12px;
+            font-size: 13px;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        .rank-table tr:hover { background: #f8f9fa; }
+
+        .footer {
+            text-align: center;
+            font-size: 12px;
+            color: #999;
+            margin-top: 20px;
+            padding: 12px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <h1>道口卸货及时率 - 测试页V2</h1>
+    <p>数据更新时间：2026-06-13 17:25:08 ｜ 当前月份：2026-06</p>
+</div>
+
+<!-- 指标卡 -->
+<div class="kpi-row">
+    <div class="kpi-card">
+        <div class="label">当月合格率</div>
+        <div class="value">96.39<span class="unit">%</span></div>
+        <div class="delta" style="color: #34a853;">
+            ↑ +1.38% 较上月
+        </div>
+    </div>
+    <div class="kpi-card">
+        <div class="label">当月总车次</div>
+        <div class="value">858<span class="unit">车次</span></div>
+    </div>
+    <div class="kpi-card">
+        <div class="label">当月超时车次</div>
+        <div class="value">31<span class="unit">车次</span></div>
+    </div>
+</div>
+
+<!-- 图表区域 -->
+<div class="chart-grid">
+
+    <!-- 月度趋势（合格率） -->
+    <div class="chart-box">
+        <h3>月度合格率趋势</h3>
+        <canvas id="chartMonthly"></canvas>
+    </div>
+
+    <!-- 周度趋势（合格率） -->
+    <div class="chart-box">
+        <h3>周度合格率趋势</h3>
+        <canvas id="chartWeekly"></canvas>
+    </div>
+
+    <!-- 天级趋势（柱状图，合格率） -->
+    <div class="chart-box full">
+        <h3>天级合格率（最近30天）</h3>
+        <canvas id="chartDaily"></canvas>
+    </div>
+
+    <!-- 道口排名（按合格率从低到高） -->
+    <div class="chart-box">
+        <h3>道口合格率排名（2026-06）</h3>
+        <table class="rank-table">
+            <thead>
+                <tr><th>排名</th><th>道口</th><th>合格率</th><th>总车次</th></tr>
+            </thead>
+            <tbody>
+                <tr><td>1</td><td>GS13</td><td>88.61%</td><td>79</td></tr><tr><td>2</td><td>GS18</td><td>94.64%</td><td>56</td></tr><tr><td>3</td><td>GS15</td><td>96.12%</td><td>258</td></tr><tr><td>4</td><td>GS22</td><td>96.89%</td><td>225</td></tr><tr><td>5</td><td>GS04</td><td>98.29%</td><td>117</td></tr><tr><td>6</td><td>GS12</td><td>100.0%</td><td>9</td></tr><tr><td>7</td><td>GS16</td><td>100.0%</td><td>114</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- 班次对比（白班A、白班B、夜班A、夜班B） -->
+    <div class="chart-box">
+        <h3>班次合格率对比（2026-06）</h3>
+        <canvas id="chartShift"></canvas>
+    </div>
+
+</div>
+
+<div class="footer">
+    测试页面V2 - 道口卸货及时率 ｜ 数据来源：历史数据档案.xlsx
+</div>
+
+<script>
+// 月度趋势图（合格率 + 95%合格线）
+new Chart(document.getElementById('chartMonthly'), {
+    type: 'bar',
+    data: {
+        labels: ["2026-01", "2026-02", "2026-03", "2026-04", "2026-05", "2026-06"],
+        datasets: [{
+            label: '合格率(%)',
+            data: [96.53, 97.39, 96.78, 87.07, 95.01, 96.39],
+            backgroundColor: [96.53, 97.39, 96.78, 87.07, 95.01, 96.39].map(v => v >= 95 ? '#34a853' : v >= 90 ? '#fbbc04' : '#ea4335'),
+            borderWidth: 0,
+            borderRadius: 6,
+        }, {
+            label: '95%合格线',
+            data: Array(6).fill(95),
+            type: 'line',
+            borderColor: '#ea4335',
+            borderDash: [6, 3],
+            borderWidth: 2,
+            pointRadius: 0,
+            fill: false,
+        }]
+    },
+    options: {
+        responsive: true,
+        plugins: { legend: { display: true, position: 'top' } },
+        scales: { y: { beginAtZero: false, min: 80, max: 100, title: { display: true, text: '合格率(%)' } } }
+    }
+});
+
+// 周度趋势图（合格率 + 95%合格线）
+new Chart(document.getElementById('chartWeekly'), {
+    type: 'line',
+    data: {
+        labels: ["2026-W17", "2026-W18", "2026-W19", "2026-W20", "2026-W21", "2026-W22", "2026-W23", "2026-W24"],
+        datasets: [{
+            label: '合格率(%)',
+            data: [84.28, 84.2, 93.05, 94.05, 95.09, 97.51, 96.27, 96.41],
+            borderColor: '#4285f4',
+            backgroundColor: 'rgba(66,133,244,0.1)',
+            fill: true,
+            tension: 0.3,
+        }, {
+            label: '95%合格线',
+            data: Array(8).fill(95),
+            type: 'line',
+            borderColor: '#ea4335',
+            borderDash: [6, 3],
+            borderWidth: 2,
+            pointRadius: 0,
+            fill: false,
+        }]
+    },
+    options: {
+        responsive: true,
+        plugins: { legend: { display: true, position: 'top' } },
+        scales: { y: { beginAtZero: false, min: 80, max: 100 } }
+    }
+});
+
+// 天级趋势图（柱状图 + 95%合格线）
+new Chart(document.getElementById('chartDaily'), {
+    type: 'bar',
+    data: {
+        labels: ["06-08", "06-09", "06-10", "06-11"],
+        datasets: [{
+            label: '合格率(%)',
+            data: [96.32, 96.74, 97.4, 95.28],
+            backgroundColor: [96.32, 96.74, 97.4, 95.28].map(v => v >= 95 ? '#34a853' : v >= 90 ? '#fbbc04' : '#ea4335'),
+            borderWidth: 0,
+            borderRadius: 3,
+        }, {
+            label: '95%合格线',
+            data: Array(4).fill(95),
+            type: 'line',
+            borderColor: '#ea4335',
+            borderDash: [6, 3],
+            borderWidth: 2,
+            pointRadius: 0,
+            fill: false,
+        }]
+    },
+    options: {
+        responsive: true,
+        plugins: { legend: { display: true, position: 'top' } },
+        scales: { y: { beginAtZero: false, min: 80, max: 100, title: { display: true, text: '合格率(%)' } } }
+    }
+});
+
+// 班次对比图（白班A、白班B、夜班A、夜班B）- 无数据显示为灰色
+new Chart(document.getElementById('chartShift'), {
+    type: 'bar',
+    data: {
+        labels: ["白班\nA班", "白班\nB班", "夜班\nA班", "夜班\nB班"],
+        datasets: [{
+            label: '合格率(%)',
+            data: [96.54, null, null, 96.24],
+            backgroundColor: ["#34a853", "#cccccc", "#cccccc", "#34a853"],
+            borderRadius: 6,
+        }, {
+            label: '95%合格线',
+            data: Array(4).fill(95),
+            type: 'line',
+            borderColor: '#ea4335',
+            borderDash: [6, 3],
+            borderWidth: 2,
+            pointRadius: 0,
+            fill: false,
+        }]
+    },
+    options: {
+        responsive: true,
+        plugins: {
+            legend: { display: true, position: 'top' },
+            tooltip: {
+                callbacks: {
+                    label: function(ctx) {
+                        return ctx.raw === null ? ctx.label.replace(/\n/g,'') + ': 无数据' : '合格率: ' + ctx.raw + '%';
+                    }
+                }
+            }
+        },
+        scales: { y: { beginAtZero: false, min: 80, max: 100, title: { display: true, text: '合格率(%)' } } }
+    }
+});
+</script>
+
+</body>
+</html>
