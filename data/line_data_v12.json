@@ -380,13 +380,63 @@
     ]
   },
   "small": {
-    "shifts": [],
+    "shifts": [
+      "60节拍",
+      "60节拍2",
+      "09-11日",
+      "27-29日"
+    ],
     "data": [
       {
         "team": "小件2",
         "line": "RK1-1",
         "std": 120.0,
-        "shifts": [],
+        "shifts": [
+          {
+            "shift_name": "60节拍",
+            "flow": null,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          },
+          {
+            "shift_name": "60节拍2",
+            "flow": null,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": true,
+            "sat_merge": false,
+            "flow_rowspan": 3,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          },
+          {
+            "shift_name": "09-11日",
+            "flow": 5.6112579101858,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          },
+          {
+            "shift_name": "27-29日",
+            "flow": 6.38957010375449,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          }
+        ],
         "line_group": {
           "group_index": 0,
           "group_size": 3,
@@ -397,7 +447,52 @@
         "team": "小件2",
         "line": "RK1-2",
         "std": 120.0,
-        "shifts": [],
+        "shifts": [
+          {
+            "shift_name": "60节拍",
+            "flow": null,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          },
+          {
+            "shift_name": "60节拍2",
+            "flow": null,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": true,
+            "sat_merge": false,
+            "flow_rowspan": 0,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          },
+          {
+            "shift_name": "09-11日",
+            "flow": null,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          },
+          {
+            "shift_name": "27-29日",
+            "flow": null,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          }
+        ],
         "line_group": {
           "group_index": 1,
           "group_size": 3,
@@ -408,7 +503,52 @@
         "team": "小件2",
         "line": "RK1",
         "std": 120.0,
-        "shifts": [],
+        "shifts": [
+          {
+            "shift_name": "60节拍",
+            "flow": null,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          },
+          {
+            "shift_name": "60节拍2",
+            "flow": null,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": true,
+            "sat_merge": false,
+            "flow_rowspan": 0,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          },
+          {
+            "shift_name": "09-11日",
+            "flow": 50.751453732982,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          },
+          {
+            "shift_name": "27-29日",
+            "flow": 67.7044723982406,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          }
+        ],
         "line_group": {
           "group_index": 2,
           "group_size": 3,
@@ -419,7 +559,52 @@
         "team": "小件3",
         "line": "RK2",
         "std": 60.0,
-        "shifts": [],
+        "shifts": [
+          {
+            "shift_name": "60节拍",
+            "flow": null,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          },
+          {
+            "shift_name": "60节拍2",
+            "flow": null,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          },
+          {
+            "shift_name": "09-11日",
+            "flow": 62.2256018513613,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          },
+          {
+            "shift_name": "27-29日",
+            "flow": 86.2374780543297,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          }
+        ],
         "line_group": {
           "group_index": 0,
           "group_size": 1,
@@ -430,7 +615,52 @@
         "team": "小件3",
         "line": "RK3",
         "std": 60.0,
-        "shifts": [],
+        "shifts": [
+          {
+            "shift_name": "60节拍",
+            "flow": null,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          },
+          {
+            "shift_name": "60节拍2",
+            "flow": null,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          },
+          {
+            "shift_name": "09-11日",
+            "flow": 60.985916990417,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          },
+          {
+            "shift_name": "27-29日",
+            "flow": 71.7033806586932,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          }
+        ],
         "line_group": {
           "group_index": 0,
           "group_size": 2,
@@ -441,7 +671,52 @@
         "team": "小件3",
         "line": "RK3-1",
         "std": 60.0,
-        "shifts": [],
+        "shifts": [
+          {
+            "shift_name": "60节拍",
+            "flow": null,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          },
+          {
+            "shift_name": "60节拍2",
+            "flow": null,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          },
+          {
+            "shift_name": "09-11日",
+            "flow": null,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          },
+          {
+            "shift_name": "27-29日",
+            "flow": null,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          }
+        ],
         "line_group": {
           "group_index": 1,
           "group_size": 2,
@@ -452,7 +727,52 @@
         "team": "小件3",
         "line": "RK2-1",
         "std": 60.0,
-        "shifts": [],
+        "shifts": [
+          {
+            "shift_name": "60节拍",
+            "flow": null,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          },
+          {
+            "shift_name": "60节拍2",
+            "flow": null,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          },
+          {
+            "shift_name": "09-11日",
+            "flow": null,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          },
+          {
+            "shift_name": "27-29日",
+            "flow": null,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          }
+        ],
         "line_group": {
           "group_index": 0,
           "group_size": 1,
@@ -463,7 +783,52 @@
         "team": "小件3",
         "line": "RK4",
         "std": 60.0,
-        "shifts": [],
+        "shifts": [
+          {
+            "shift_name": "60节拍",
+            "flow": null,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          },
+          {
+            "shift_name": "60节拍2",
+            "flow": null,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          },
+          {
+            "shift_name": "09-11日",
+            "flow": 39.9894412758958,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          },
+          {
+            "shift_name": "27-29日",
+            "flow": 45.2475369235142,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          }
+        ],
         "line_group": {
           "group_index": 0,
           "group_size": 1,
@@ -474,7 +839,52 @@
         "team": "小件3",
         "line": "RK5",
         "std": 60.0,
-        "shifts": [],
+        "shifts": [
+          {
+            "shift_name": "60节拍",
+            "flow": null,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          },
+          {
+            "shift_name": "60节拍2",
+            "flow": null,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          },
+          {
+            "shift_name": "09-11日",
+            "flow": 36.0372668401951,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          },
+          {
+            "shift_name": "27-29日",
+            "flow": 58.9880008271677,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          }
+        ],
         "line_group": {
           "group_index": 0,
           "group_size": 1,
@@ -485,7 +895,52 @@
         "team": "小件3",
         "line": "RK6",
         "std": 60.0,
-        "shifts": [],
+        "shifts": [
+          {
+            "shift_name": "60节拍",
+            "flow": null,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          },
+          {
+            "shift_name": "60节拍2",
+            "flow": null,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          },
+          {
+            "shift_name": "09-11日",
+            "flow": 37.0372668401951,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          },
+          {
+            "shift_name": "27-29日",
+            "flow": 59.9880008271677,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          }
+        ],
         "line_group": {
           "group_index": 0,
           "group_size": 1,
@@ -496,7 +951,52 @@
         "team": "小件3",
         "line": "RK7",
         "std": 60.0,
-        "shifts": [],
+        "shifts": [
+          {
+            "shift_name": "60节拍",
+            "flow": null,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          },
+          {
+            "shift_name": "60节拍2",
+            "flow": null,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          },
+          {
+            "shift_name": "09-11日",
+            "flow": 31.6712121212121,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          },
+          {
+            "shift_name": "27-29日",
+            "flow": 52.8565656565657,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          }
+        ],
         "line_group": {
           "group_index": 0,
           "group_size": 3,
@@ -507,7 +1007,52 @@
         "team": "小件3",
         "line": "RK7-1",
         "std": 60.0,
-        "shifts": [],
+        "shifts": [
+          {
+            "shift_name": "60节拍",
+            "flow": null,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          },
+          {
+            "shift_name": "60节拍2",
+            "flow": null,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": true,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          },
+          {
+            "shift_name": "09-11日",
+            "flow": 7.20449598940699,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          },
+          {
+            "shift_name": "27-29日",
+            "flow": 6.59864793416512,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          }
+        ],
         "line_group": {
           "group_index": 1,
           "group_size": 3,
@@ -518,7 +1063,52 @@
         "team": "小件3",
         "line": "RK7-2",
         "std": 60.0,
-        "shifts": [],
+        "shifts": [
+          {
+            "shift_name": "60节拍",
+            "flow": null,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          },
+          {
+            "shift_name": "60节拍2",
+            "flow": null,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": true,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          },
+          {
+            "shift_name": "09-11日",
+            "flow": 8.57020202020202,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          },
+          {
+            "shift_name": "27-29日",
+            "flow": 12.4784175084175,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          }
+        ],
         "line_group": {
           "group_index": 2,
           "group_size": 3,
@@ -529,7 +1119,52 @@
         "team": "小件3",
         "line": "RK8",
         "std": 60.0,
-        "shifts": [],
+        "shifts": [
+          {
+            "shift_name": "60节拍",
+            "flow": null,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          },
+          {
+            "shift_name": "60节拍2",
+            "flow": null,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": true,
+            "sat_merge": false,
+            "flow_rowspan": 3,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          },
+          {
+            "shift_name": "09-11日",
+            "flow": 15.9060606060606,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          },
+          {
+            "shift_name": "27-29日",
+            "flow": 17.2575757575758,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          }
+        ],
         "line_group": {
           "group_index": 0,
           "group_size": 1,
@@ -540,7 +1175,52 @@
         "team": "小件3",
         "line": "RK9",
         "std": 60.0,
-        "shifts": [],
+        "shifts": [
+          {
+            "shift_name": "60节拍",
+            "flow": null,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          },
+          {
+            "shift_name": "60节拍2",
+            "flow": null,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          },
+          {
+            "shift_name": "09-11日",
+            "flow": 54.9501980143544,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          },
+          {
+            "shift_name": "27-29日",
+            "flow": 58.8614971391873,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          }
+        ],
         "line_group": {
           "group_index": 0,
           "group_size": 1,
@@ -551,7 +1231,52 @@
         "team": "小件3",
         "line": "RK8-1",
         "std": 60.0,
-        "shifts": [],
+        "shifts": [
+          {
+            "shift_name": "60节拍",
+            "flow": null,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          },
+          {
+            "shift_name": "60节拍2",
+            "flow": null,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          },
+          {
+            "shift_name": "09-11日",
+            "flow": 52.4832135266199,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          },
+          {
+            "shift_name": "27-29日",
+            "flow": 57.4328107214384,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          }
+        ],
         "line_group": {
           "group_index": 0,
           "group_size": 1,
@@ -562,7 +1287,52 @@
         "team": "小件3",
         "line": "RK9-1",
         "std": 60.0,
-        "shifts": [],
+        "shifts": [
+          {
+            "shift_name": "60节拍",
+            "flow": null,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          },
+          {
+            "shift_name": "60节拍2",
+            "flow": null,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          },
+          {
+            "shift_name": "09-11日",
+            "flow": null,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          },
+          {
+            "shift_name": "27-29日",
+            "flow": null,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          }
+        ],
         "line_group": {
           "group_index": 0,
           "group_size": 1,
@@ -573,7 +1343,52 @@
         "team": "小件2",
         "line": "RK10",
         "std": 60.0,
-        "shifts": [],
+        "shifts": [
+          {
+            "shift_name": "60节拍",
+            "flow": null,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          },
+          {
+            "shift_name": "60节拍2",
+            "flow": null,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          },
+          {
+            "shift_name": "09-11日",
+            "flow": null,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          },
+          {
+            "shift_name": "27-29日",
+            "flow": null,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          }
+        ],
         "line_group": {
           "group_index": 0,
           "group_size": 1,
@@ -584,7 +1399,52 @@
         "team": "小件2",
         "line": "RK11",
         "std": 60.0,
-        "shifts": [],
+        "shifts": [
+          {
+            "shift_name": "60节拍",
+            "flow": null,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          },
+          {
+            "shift_name": "60节拍2",
+            "flow": null,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          },
+          {
+            "shift_name": "09-11日",
+            "flow": 57.2106669003992,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          },
+          {
+            "shift_name": "27-29日",
+            "flow": 60.6415865171754,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          }
+        ],
         "line_group": {
           "group_index": 0,
           "group_size": 1,
@@ -595,7 +1455,52 @@
         "team": "小件2",
         "line": "RK12",
         "std": 60.0,
-        "shifts": [],
+        "shifts": [
+          {
+            "shift_name": "60节拍",
+            "flow": null,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          },
+          {
+            "shift_name": "60节拍2",
+            "flow": null,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          },
+          {
+            "shift_name": "09-11日",
+            "flow": 40.6245395708575,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          },
+          {
+            "shift_name": "27-29日",
+            "flow": 47.0585165881219,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          }
+        ],
         "line_group": {
           "group_index": 0,
           "group_size": 1,
@@ -606,7 +1511,52 @@
         "team": "小件2",
         "line": "RK13",
         "std": 60.0,
-        "shifts": [],
+        "shifts": [
+          {
+            "shift_name": "60节拍",
+            "flow": null,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          },
+          {
+            "shift_name": "60节拍2",
+            "flow": null,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          },
+          {
+            "shift_name": "09-11日",
+            "flow": 47.9200470635483,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          },
+          {
+            "shift_name": "27-29日",
+            "flow": 53.0326962125989,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          }
+        ],
         "line_group": {
           "group_index": 0,
           "group_size": 1,
@@ -617,7 +1567,52 @@
         "team": "小件2",
         "line": "RK14",
         "std": 120.0,
-        "shifts": [],
+        "shifts": [
+          {
+            "shift_name": "60节拍",
+            "flow": null,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          },
+          {
+            "shift_name": "60节拍2",
+            "flow": null,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          },
+          {
+            "shift_name": "09-11日",
+            "flow": 49.5824540457931,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          },
+          {
+            "shift_name": "27-29日",
+            "flow": 61.6273474428413,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          }
+        ],
         "line_group": {
           "group_index": 0,
           "group_size": 1,
@@ -628,7 +1623,52 @@
         "team": "小件2",
         "line": "RK15",
         "std": 60.0,
-        "shifts": [],
+        "shifts": [
+          {
+            "shift_name": "60节拍",
+            "flow": null,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          },
+          {
+            "shift_name": "60节拍2",
+            "flow": null,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          },
+          {
+            "shift_name": "09-11日",
+            "flow": 63.0018957725731,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          },
+          {
+            "shift_name": "27-29日",
+            "flow": 68.8740201435867,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          }
+        ],
         "line_group": {
           "group_index": 0,
           "group_size": 1,
@@ -639,7 +1679,52 @@
         "team": "小件3",
         "line": "RK16",
         "std": 60.0,
-        "shifts": [],
+        "shifts": [
+          {
+            "shift_name": "60节拍",
+            "flow": null,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          },
+          {
+            "shift_name": "60节拍2",
+            "flow": null,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          },
+          {
+            "shift_name": "09-11日",
+            "flow": 11.1306060606061,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          },
+          {
+            "shift_name": "27-29日",
+            "flow": 12.6381818181818,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          }
+        ],
         "line_group": {
           "group_index": 0,
           "group_size": 2,
@@ -650,7 +1735,52 @@
         "team": "小件3",
         "line": "RK16-1",
         "std": 60.0,
-        "shifts": [],
+        "shifts": [
+          {
+            "shift_name": "60节拍",
+            "flow": null,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          },
+          {
+            "shift_name": "60节拍2",
+            "flow": null,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          },
+          {
+            "shift_name": "09-11日",
+            "flow": 25.4893691572776,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          },
+          {
+            "shift_name": "27-29日",
+            "flow": 27.2652458008764,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          }
+        ],
         "line_group": {
           "group_index": 1,
           "group_size": 2,
@@ -661,7 +1791,52 @@
         "team": "小件3",
         "line": "RK17",
         "std": 60.0,
-        "shifts": [],
+        "shifts": [
+          {
+            "shift_name": "60节拍",
+            "flow": null,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          },
+          {
+            "shift_name": "60节拍2",
+            "flow": null,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          },
+          {
+            "shift_name": "09-11日",
+            "flow": 24.4588797135554,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          },
+          {
+            "shift_name": "27-29日",
+            "flow": 27.5750314946887,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          }
+        ],
         "line_group": {
           "group_index": 0,
           "group_size": 1,
@@ -672,7 +1847,52 @@
         "team": "小件2",
         "line": "RK19",
         "std": 60.0,
-        "shifts": [],
+        "shifts": [
+          {
+            "shift_name": "60节拍",
+            "flow": null,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          },
+          {
+            "shift_name": "60节拍2",
+            "flow": null,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          },
+          {
+            "shift_name": "09-11日",
+            "flow": 24.7384848484849,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          },
+          {
+            "shift_name": "27-29日",
+            "flow": 16.2551785714286,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false,
+            "flow_rowspan": 1,
+            "sat_rowspan": 1,
+            "staff_rowspan": 1
+          }
+        ],
         "line_group": {
           "group_index": 0,
           "group_size": 1,
@@ -683,19 +1903,118 @@
         "team": null,
         "line": null,
         "std": null,
-        "shifts": []
+        "shifts": [
+          {
+            "shift_name": "60节拍",
+            "flow": null,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false
+          },
+          {
+            "shift_name": "60节拍2",
+            "flow": null,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false
+          },
+          {
+            "shift_name": "09-11日",
+            "flow": null,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false
+          },
+          {
+            "shift_name": "27-29日",
+            "flow": null,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false
+          }
+        ]
       },
       {
         "team": null,
         "line": null,
         "std": null,
-        "shifts": []
+        "shifts": [
+          {
+            "shift_name": "60节拍",
+            "flow": null,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false
+          },
+          {
+            "shift_name": "60节拍2",
+            "flow": 24.0,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false
+          },
+          {
+            "shift_name": "09-11日",
+            "flow": null,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false
+          },
+          {
+            "shift_name": "27-29日",
+            "flow": null,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false
+          }
+        ]
       },
       {
         "team": null,
         "line": null,
         "std": null,
-        "shifts": []
+        "shifts": [
+          {
+            "shift_name": "60节拍",
+            "flow": null,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false
+          },
+          {
+            "shift_name": "60节拍2",
+            "flow": null,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false
+          },
+          {
+            "shift_name": "09-11日",
+            "flow": null,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false
+          },
+          {
+            "shift_name": "27-29日",
+            "flow": null,
+            "saturation": null,
+            "staff": null,
+            "flow_merge": false,
+            "sat_merge": false
+          }
+        ]
       }
     ]
   }
