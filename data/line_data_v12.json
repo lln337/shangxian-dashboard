@@ -1,62 +1,12 @@
 {
   "big": {
-    "shifts": [
-      "2026/06/12白",
-      "2026/06/12夜",
-      "2026/06/13白",
-      "2026/06/13夜"
-    ],
+    "shifts": [],
     "data": [
       {
         "team": "大件1",
         "line": "RC1-1",
         "std": 10.0,
-        "shifts": [
-          {
-            "shift_name": "2026/06/12白",
-            "flow": -6.81481481481481,
-            "saturation": 68.1481481481481,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/12夜",
-            "flow": -5.98039215686275,
-            "saturation": 59.8039215686274,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13白",
-            "flow": -6.60416666666667,
-            "saturation": 66.0416666666667,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13夜",
-            "flow": -6.5625,
-            "saturation": 65.625,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          }
-        ],
+        "shifts": [],
         "line_group": {
           "group_index": 0,
           "group_size": 2,
@@ -67,52 +17,7 @@
         "team": "大件1",
         "line": "RC1-2",
         "std": 10.0,
-        "shifts": [
-          {
-            "shift_name": "2026/06/12白",
-            "flow": -4.53055555555556,
-            "saturation": 45.3055555555556,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/12夜",
-            "flow": -4.1343137254902,
-            "saturation": 41.343137254902004,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13白",
-            "flow": -4.3875,
-            "saturation": 43.875,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13夜",
-            "flow": -4.30625,
-            "saturation": 43.0625,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          }
-        ],
+        "shifts": [],
         "line_group": {
           "group_index": 1,
           "group_size": 2,
@@ -123,52 +28,7 @@
         "team": "大件1",
         "line": "RG1-1",
         "std": 10.0,
-        "shifts": [
-          {
-            "shift_name": "2026/06/12白",
-            "flow": -6.90179573512907,
-            "saturation": 69.0179573512907,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/12夜",
-            "flow": -5.5046160130719,
-            "saturation": 55.046160130719,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13白",
-            "flow": -5.48702651515152,
-            "saturation": 54.8702651515152,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13夜",
-            "flow": -5.90703914141414,
-            "saturation": 59.0703914141414,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          }
-        ],
+        "shifts": [],
         "line_group": {
           "group_index": 0,
           "group_size": 6,
@@ -179,52 +39,7 @@
         "team": "大件1",
         "line": "RG1-2",
         "std": 10.0,
-        "shifts": [
-          {
-            "shift_name": "2026/06/12白",
-            "flow": -3.98361111111111,
-            "saturation": 39.8361111111111,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/12夜",
-            "flow": -3.65042016806723,
-            "saturation": 36.504201680672296,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13白",
-            "flow": -2.97808035714286,
-            "saturation": 29.7808035714286,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13夜",
-            "flow": -3.47435515873016,
-            "saturation": 34.7435515873016,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          }
-        ],
+        "shifts": [],
         "line_group": {
           "group_index": 1,
           "group_size": 6,
@@ -235,52 +50,7 @@
         "team": "大件1",
         "line": "RG1-3",
         "std": 10.0,
-        "shifts": [
-          {
-            "shift_name": "2026/06/12白",
-            "flow": -5.17032317882403,
-            "saturation": 51.7032317882403,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/12夜",
-            "flow": -5.01533520673227,
-            "saturation": 50.1533520673227,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13白",
-            "flow": -4.77647947827635,
-            "saturation": 47.764794782763495,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13夜",
-            "flow": -4.57404943147131,
-            "saturation": 45.7404943147131,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          }
-        ],
+        "shifts": [],
         "line_group": {
           "group_index": 2,
           "group_size": 6,
@@ -291,52 +61,7 @@
         "team": "大件1",
         "line": "RG1-4",
         "std": 10.0,
-        "shifts": [
-          {
-            "shift_name": "2026/06/12白",
-            "flow": -2.67716049382716,
-            "saturation": 26.771604938271597,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/12夜",
-            "flow": -2.49166666666667,
-            "saturation": 24.9166666666667,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13白",
-            "flow": -2.66371527777778,
-            "saturation": 26.6371527777778,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13夜",
-            "flow": -2.68003472222222,
-            "saturation": 26.8003472222222,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          }
-        ],
+        "shifts": [],
         "line_group": {
           "group_index": 3,
           "group_size": 6,
@@ -347,52 +72,7 @@
         "team": "大件1",
         "line": "RG1-5",
         "std": 10.0,
-        "shifts": [
-          {
-            "shift_name": "2026/06/12白",
-            "flow": -6.85398084672465,
-            "saturation": 68.5398084672465,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/12夜",
-            "flow": -5.29441925893164,
-            "saturation": 52.944192589316394,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13白",
-            "flow": -5.89262141260013,
-            "saturation": 58.9262141260013,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13夜",
-            "flow": -5.8312283466018,
-            "saturation": 58.312283466018,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          }
-        ],
+        "shifts": [],
         "line_group": {
           "group_index": 4,
           "group_size": 6,
@@ -403,52 +83,7 @@
         "team": "大件1",
         "line": "RG1-6",
         "std": 10.0,
-        "shifts": [
-          {
-            "shift_name": "2026/06/12白",
-            "flow": -5.98299886841553,
-            "saturation": 59.829988684155296,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/12夜",
-            "flow": -5.13172735760971,
-            "saturation": 51.3172735760971,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13白",
-            "flow": -5.64443272005772,
-            "saturation": 56.444327200577206,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13夜",
-            "flow": -5.54790584415584,
-            "saturation": 55.47905844155841,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          }
-        ],
+        "shifts": [],
         "line_group": {
           "group_index": 5,
           "group_size": 6,
@@ -459,52 +94,7 @@
         "team": "大件2",
         "line": "RG2-1",
         "std": 10.0,
-        "shifts": [
-          {
-            "shift_name": "2026/06/12白",
-            "flow": -7.48091483138526,
-            "saturation": 74.8091483138526,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/12夜",
-            "flow": -6.77878883713798,
-            "saturation": 67.78788837137981,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13白",
-            "flow": -7.11813701531443,
-            "saturation": 71.1813701531444,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13夜",
-            "flow": -6.96966642228739,
-            "saturation": 69.6966642228739,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          }
-        ],
+        "shifts": [],
         "line_group": {
           "group_index": 0,
           "group_size": 7,
@@ -515,52 +105,7 @@
         "team": "大件2",
         "line": "RG2-2",
         "std": 10.0,
-        "shifts": [
-          {
-            "shift_name": "2026/06/12白",
-            "flow": -8.18902998236332,
-            "saturation": 81.8902998236332,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/12夜",
-            "flow": -6.38027544351074,
-            "saturation": 63.8027544351074,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13白",
-            "flow": -6.62326884920635,
-            "saturation": 66.2326884920635,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13夜",
-            "flow": -6.58932291666667,
-            "saturation": 65.8932291666667,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          }
-        ],
+        "shifts": [],
         "line_group": {
           "group_index": 1,
           "group_size": 7,
@@ -571,52 +116,7 @@
         "team": "大件2",
         "line": "RG2-3",
         "std": 10.0,
-        "shifts": [
-          {
-            "shift_name": "2026/06/12白",
-            "flow": -4.90470251630178,
-            "saturation": 49.0470251630178,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/12夜",
-            "flow": -4.13654946960959,
-            "saturation": 41.3654946960959,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13白",
-            "flow": -4.17571062184343,
-            "saturation": 41.757106218434295,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13夜",
-            "flow": -4.14218710542929,
-            "saturation": 41.4218710542929,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          }
-        ],
+        "shifts": [],
         "line_group": {
           "group_index": 2,
           "group_size": 7,
@@ -627,52 +127,7 @@
         "team": "大件2",
         "line": "RG2-4",
         "std": 10.0,
-        "shifts": [
-          {
-            "shift_name": "2026/06/12白",
-            "flow": -9.73664768129474,
-            "saturation": 97.3664768129474,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/12夜",
-            "flow": -8.48825539627616,
-            "saturation": 84.88255396276159,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13白",
-            "flow": -8.68334214519141,
-            "saturation": 86.83342145191409,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13夜",
-            "flow": -8.55761671335201,
-            "saturation": 85.5761671335201,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          }
-        ],
+        "shifts": [],
         "line_group": {
           "group_index": 3,
           "group_size": 7,
@@ -683,52 +138,7 @@
         "team": "大件2",
         "line": "RG2-5",
         "std": 10.0,
-        "shifts": [
-          {
-            "shift_name": "2026/06/12白",
-            "flow": -5.89299009632343,
-            "saturation": 58.9299009632343,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/12夜",
-            "flow": -5.18920634920635,
-            "saturation": 51.8920634920635,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13白",
-            "flow": -5.77632936507936,
-            "saturation": 57.7632936507936,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13夜",
-            "flow": -5.68014880952381,
-            "saturation": 56.80148809523809,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          }
-        ],
+        "shifts": [],
         "line_group": {
           "group_index": 4,
           "group_size": 7,
@@ -739,52 +149,7 @@
         "team": "大件2",
         "line": "RG2-6",
         "std": 10.0,
-        "shifts": [
-          {
-            "shift_name": "2026/06/12白",
-            "flow": -8.29865195861572,
-            "saturation": 82.9865195861572,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/12夜",
-            "flow": -8.61091661748311,
-            "saturation": 86.1091661748312,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13白",
-            "flow": -8.29779590201465,
-            "saturation": 82.9779590201465,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13夜",
-            "flow": -8.28689652512343,
-            "saturation": 82.8689652512343,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          }
-        ],
+        "shifts": [],
         "line_group": {
           "group_index": 5,
           "group_size": 7,
@@ -795,52 +160,7 @@
         "team": "大件2",
         "line": "RG2-7",
         "std": 10.0,
-        "shifts": [
-          {
-            "shift_name": "2026/06/12白",
-            "flow": -5.46365520282187,
-            "saturation": 54.6365520282187,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/12夜",
-            "flow": -4.83475041298571,
-            "saturation": 48.3475041298571,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13白",
-            "flow": -4.24116071428571,
-            "saturation": 42.4116071428571,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13夜",
-            "flow": -4.77554563492063,
-            "saturation": 47.7554563492063,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          }
-        ],
+        "shifts": [],
         "line_group": {
           "group_index": 6,
           "group_size": 7,
@@ -851,52 +171,7 @@
         "team": "大件3",
         "line": "RC3-1",
         "std": 15.0,
-        "shifts": [
-          {
-            "shift_name": "2026/06/12白",
-            "flow": -10.3636507936508,
-            "saturation": 69.0910052910053,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/12夜",
-            "flow": -8.57887955182073,
-            "saturation": 57.1925303454715,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13白",
-            "flow": -8.80300595238095,
-            "saturation": 58.686706349206396,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13夜",
-            "flow": -8.75875,
-            "saturation": 58.391666666666694,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          }
-        ],
+        "shifts": [],
         "line_group": {
           "group_index": 0,
           "group_size": 2,
@@ -907,52 +182,7 @@
         "team": "大件3",
         "line": "RC3-2",
         "std": 15.0,
-        "shifts": [
-          {
-            "shift_name": "2026/06/12白",
-            "flow": -11.1886232800122,
-            "saturation": 74.5908218667478,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/12夜",
-            "flow": -9.39786599021893,
-            "saturation": 62.6524399347929,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13白",
-            "flow": -10.1504027454027,
-            "saturation": 67.6693516360183,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13夜",
-            "flow": -10.3690164465164,
-            "saturation": 69.1267763101096,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          }
-        ],
+        "shifts": [],
         "line_group": {
           "group_index": 1,
           "group_size": 2,
@@ -963,52 +193,7 @@
         "team": "大件3",
         "line": "RG3-1",
         "std": 10.0,
-        "shifts": [
-          {
-            "shift_name": "2026/06/12白",
-            "flow": -7.40792234514457,
-            "saturation": 74.0792234514457,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/12夜",
-            "flow": -6.2305043431514,
-            "saturation": 62.305043431513994,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13白",
-            "flow": -6.48470238095238,
-            "saturation": 64.84702380952379,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13夜",
-            "flow": -6.48895833333333,
-            "saturation": 64.8895833333333,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          }
-        ],
+        "shifts": [],
         "line_group": {
           "group_index": 0,
           "group_size": 7,
@@ -1019,52 +204,7 @@
         "team": "大件3",
         "line": "RG3-2",
         "std": 10.0,
-        "shifts": [
-          {
-            "shift_name": "2026/06/12白",
-            "flow": -4.15627291432847,
-            "saturation": 41.5627291432847,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/12夜",
-            "flow": -4.07898098633393,
-            "saturation": 40.7898098633393,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13白",
-            "flow": -3.80989583333333,
-            "saturation": 38.0989583333333,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13夜",
-            "flow": -3.67795138888889,
-            "saturation": 36.7795138888889,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          }
-        ],
+        "shifts": [],
         "line_group": {
           "group_index": 1,
           "group_size": 7,
@@ -1075,52 +215,7 @@
         "team": "大件3",
         "line": "RG3-3",
         "std": 10.0,
-        "shifts": [
-          {
-            "shift_name": "2026/06/12白",
-            "flow": -9.44907407407407,
-            "saturation": 94.49074074074069,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/12夜",
-            "flow": -7.27450980392157,
-            "saturation": 72.7450980392157,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13白",
-            "flow": -7.71875,
-            "saturation": 77.1875,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13夜",
-            "flow": -7.61979166666667,
-            "saturation": 76.1979166666667,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          }
-        ],
+        "shifts": [],
         "line_group": {
           "group_index": 2,
           "group_size": 7,
@@ -1131,52 +226,7 @@
         "team": "大件3",
         "line": "RG3-4",
         "std": 10.0,
-        "shifts": [
-          {
-            "shift_name": "2026/06/12白",
-            "flow": -5.83142200089912,
-            "saturation": 58.3142200089912,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/12夜",
-            "flow": -5.04421678475312,
-            "saturation": 50.4421678475312,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13白",
-            "flow": -5.34951272175537,
-            "saturation": 53.495127217553694,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13夜",
-            "flow": -5.21395337301587,
-            "saturation": 52.1395337301587,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          }
-        ],
+        "shifts": [],
         "line_group": {
           "group_index": 3,
           "group_size": 7,
@@ -1187,52 +237,7 @@
         "team": "大件3",
         "line": "RG3-5",
         "std": 10.0,
-        "shifts": [
-          {
-            "shift_name": "2026/06/12白",
-            "flow": -11.5555555555556,
-            "saturation": 115.55555555555601,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/12夜",
-            "flow": -9.19607843137255,
-            "saturation": 91.9607843137255,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13白",
-            "flow": -9.52083333333333,
-            "saturation": 95.2083333333333,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13夜",
-            "flow": -9.45833333333333,
-            "saturation": 94.5833333333333,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          }
-        ],
+        "shifts": [],
         "line_group": {
           "group_index": 4,
           "group_size": 7,
@@ -1243,52 +248,7 @@
         "team": "大件3",
         "line": "RG3-8",
         "std": 10.0,
-        "shifts": [
-          {
-            "shift_name": "2026/06/12白",
-            "flow": -7.69550839659535,
-            "saturation": 76.95508396595349,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/12夜",
-            "flow": -7.08916291154143,
-            "saturation": 70.8916291154143,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13白",
-            "flow": -6.87763888888889,
-            "saturation": 68.77638888888889,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13夜",
-            "flow": -6.94868055555556,
-            "saturation": 69.48680555555559,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          }
-        ],
+        "shifts": [],
         "line_group": {
           "group_index": 5,
           "group_size": 7,
@@ -1299,52 +259,7 @@
         "team": "大件3",
         "line": "RG3-9",
         "std": 10.0,
-        "shifts": [
-          {
-            "shift_name": "2026/06/12白",
-            "flow": -4.17469135802469,
-            "saturation": 41.746913580246904,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/12夜",
-            "flow": -4.87539682539683,
-            "saturation": 48.7539682539683,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13白",
-            "flow": -4.98164682539683,
-            "saturation": 49.816468253968196,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13夜",
-            "flow": -4.38144841269841,
-            "saturation": 43.8144841269841,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          }
-        ],
+        "shifts": [],
         "line_group": {
           "group_index": 6,
           "group_size": 7,
@@ -1355,52 +270,7 @@
         "team": "大件4",
         "line": "RG4-1",
         "std": 10.0,
-        "shifts": [
-          {
-            "shift_name": "2026/06/12白",
-            "flow": -8.2331569664903,
-            "saturation": 82.331569664903,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/12夜",
-            "flow": -7.00915032679739,
-            "saturation": 70.09150326797389,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13白",
-            "flow": -7.66428571428571,
-            "saturation": 76.6428571428571,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13夜",
-            "flow": -7.50892857142857,
-            "saturation": 75.08928571428571,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          }
-        ],
+        "shifts": [],
         "line_group": {
           "group_index": 0,
           "group_size": 9,
@@ -1411,52 +281,7 @@
         "team": "大件4",
         "line": "RG4-2",
         "std": 10.0,
-        "shifts": [
-          {
-            "shift_name": "2026/06/12白",
-            "flow": -6.67201058201058,
-            "saturation": 66.7201058201058,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/12夜",
-            "flow": -5.12401960784314,
-            "saturation": 51.240196078431396,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13白",
-            "flow": -5.79558035714286,
-            "saturation": 57.955803571428596,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13夜",
-            "flow": -5.69352678571429,
-            "saturation": 56.935267857142804,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          }
-        ],
+        "shifts": [],
         "line_group": {
           "group_index": 1,
           "group_size": 9,
@@ -1467,52 +292,7 @@
         "team": "大件4",
         "line": "RG4-3",
         "std": 10.0,
-        "shifts": [
-          {
-            "shift_name": "2026/06/12白",
-            "flow": -5.55412037037037,
-            "saturation": 55.5412037037037,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/12夜",
-            "flow": -4.83703081232493,
-            "saturation": 48.3703081232493,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13白",
-            "flow": -5.84936755952381,
-            "saturation": 58.4936755952381,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13夜",
-            "flow": -5.36205357142857,
-            "saturation": 53.6205357142857,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          }
-        ],
+        "shifts": [],
         "line_group": {
           "group_index": 2,
           "group_size": 9,
@@ -1523,52 +303,7 @@
         "team": "大件4",
         "line": "RG4-4",
         "std": 10.0,
-        "shifts": [
-          {
-            "shift_name": "2026/06/12白",
-            "flow": -4.27047899631233,
-            "saturation": 42.704789963123304,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/12夜",
-            "flow": -4.04307804940158,
-            "saturation": 40.4307804940158,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13白",
-            "flow": -3.10463541666667,
-            "saturation": 31.046354166666703,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13夜",
-            "flow": -3.21427579365079,
-            "saturation": 32.1427579365079,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          }
-        ],
+        "shifts": [],
         "line_group": {
           "group_index": 3,
           "group_size": 9,
@@ -1579,52 +314,7 @@
         "team": "大件4",
         "line": "RG4-5",
         "std": 10.0,
-        "shifts": [
-          {
-            "shift_name": "2026/06/12白",
-            "flow": -8.49232363315697,
-            "saturation": 84.9232363315697,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/12夜",
-            "flow": -7.5187324929972,
-            "saturation": 75.187324929972,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13白",
-            "flow": -7.64343998015873,
-            "saturation": 76.4343998015873,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13夜",
-            "flow": -7.57769097222222,
-            "saturation": 75.7769097222222,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          }
-        ],
+        "shifts": [],
         "line_group": {
           "group_index": 4,
           "group_size": 9,
@@ -1635,52 +325,7 @@
         "team": "大件4",
         "line": "RG4-6",
         "std": 18.0,
-        "shifts": [
-          {
-            "shift_name": "2026/06/12白",
-            "flow": -17.3333333333333,
-            "saturation": 96.2962962962963,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/12夜",
-            "flow": -13.7941176470588,
-            "saturation": 76.6339869281046,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13白",
-            "flow": -14.28125,
-            "saturation": 79.3402777777778,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13夜",
-            "flow": -14.1875,
-            "saturation": 78.8194444444444,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          }
-        ],
+        "shifts": [],
         "line_group": {
           "group_index": 5,
           "group_size": 9,
@@ -1691,52 +336,7 @@
         "team": "大件4",
         "line": "RG4-7",
         "std": 10.0,
-        "shifts": [
-          {
-            "shift_name": "2026/06/12白",
-            "flow": -6.01159832451499,
-            "saturation": 60.1159832451499,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/12夜",
-            "flow": -5.35369981325864,
-            "saturation": 53.5369981325864,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13白",
-            "flow": -5.6265128968254,
-            "saturation": 56.265128968254,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13夜",
-            "flow": -5.4921875,
-            "saturation": 54.921875,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          }
-        ],
+        "shifts": [],
         "line_group": {
           "group_index": 6,
           "group_size": 9,
@@ -1747,52 +347,7 @@
         "team": "大件4",
         "line": "RG4-8",
         "std": 2.0,
-        "shifts": [
-          {
-            "shift_name": "2026/06/12白",
-            "flow": -0.75,
-            "saturation": 37.5,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/12夜",
-            "flow": -0.465686274509804,
-            "saturation": 23.2843137254902,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13白",
-            "flow": -0.359375,
-            "saturation": 17.96875,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13夜",
-            "flow": -0.369791666666667,
-            "saturation": 18.4895833333333,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          }
-        ],
+        "shifts": [],
         "line_group": {
           "group_index": 7,
           "group_size": 9,
@@ -1803,52 +358,7 @@
         "team": "大件4",
         "line": "RG4-9",
         "std": 10.0,
-        "shifts": [
-          {
-            "shift_name": "2026/06/12白",
-            "flow": -6.13292929292929,
-            "saturation": 61.3292929292929,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/12夜",
-            "flow": -5.44183006535948,
-            "saturation": 54.4183006535948,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13白",
-            "flow": -5.79652777777778,
-            "saturation": 57.9652777777778,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13夜",
-            "flow": -5.72746212121212,
-            "saturation": 57.274621212121204,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          }
-        ],
+        "shifts": [],
         "line_group": {
           "group_index": 8,
           "group_size": 9,
@@ -1859,140 +369,24 @@
         "team": null,
         "line": null,
         "std": 10.0,
-        "shifts": [
-          {
-            "shift_name": "2026/06/12白",
-            "flow": -228.154505090911,
-            "saturation": null,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false
-          },
-          {
-            "shift_name": "2026/06/12夜",
-            "flow": -196.974573797703,
-            "saturation": null,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false
-          },
-          {
-            "shift_name": "2026/06/13白",
-            "flow": -203.167130424433,
-            "saturation": null,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false
-          },
-          {
-            "shift_name": "2026/06/13夜",
-            "flow": -201.93504726423,
-            "saturation": null,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false
-          }
-        ]
+        "shifts": []
       },
       {
         "team": null,
         "line": null,
         "std": null,
-        "shifts": [
-          {
-            "shift_name": "2026/06/12白",
-            "flow": -8.14837518181825,
-            "saturation": null,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false
-          },
-          {
-            "shift_name": "2026/06/12夜",
-            "flow": null,
-            "saturation": null,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false
-          },
-          {
-            "shift_name": "2026/06/13白",
-            "flow": null,
-            "saturation": null,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false
-          },
-          {
-            "shift_name": "2026/06/13夜",
-            "flow": null,
-            "saturation": null,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false
-          }
-        ]
+        "shifts": []
       }
     ]
   },
   "small": {
-    "shifts": [
-      "2026/06/12白",
-      "2026/06/12夜",
-      "2026/06/13白",
-      "2026/06/13夜"
-    ],
+    "shifts": [],
     "data": [
       {
         "team": "小件2",
         "line": "RK1-1",
         "std": 120.0,
-        "shifts": [
-          {
-            "shift_name": "2026/06/12白",
-            "flow": -80.8757949686199,
-            "saturation": 67.3964958071833,
-            "staff": null,
-            "flow_merge": true,
-            "sat_merge": true,
-            "flow_rowspan": 3,
-            "sat_rowspan": 3,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/12夜",
-            "flow": -66.0845174197866,
-            "saturation": 55.0704311831555,
-            "staff": null,
-            "flow_merge": true,
-            "sat_merge": true,
-            "flow_rowspan": 3,
-            "sat_rowspan": 3,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13白",
-            "flow": -69.8693686613368,
-            "saturation": 58.224473884447306,
-            "staff": null,
-            "flow_merge": true,
-            "sat_merge": true,
-            "flow_rowspan": 3,
-            "sat_rowspan": 3,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13夜",
-            "flow": -68.3148142046632,
-            "saturation": 56.9290118372193,
-            "staff": null,
-            "flow_merge": true,
-            "sat_merge": true,
-            "flow_rowspan": 3,
-            "sat_rowspan": 3,
-            "staff_rowspan": 3
-          }
-        ],
+        "shifts": [],
         "line_group": {
           "group_index": 0,
           "group_size": 3,
@@ -2003,52 +397,7 @@
         "team": "小件2",
         "line": "RK1-2",
         "std": 120.0,
-        "shifts": [
-          {
-            "shift_name": "2026/06/12白",
-            "flow": -80.8757949686199,
-            "saturation": 67.3964958071833,
-            "staff": null,
-            "flow_merge": true,
-            "sat_merge": true,
-            "flow_rowspan": 0,
-            "sat_rowspan": 0,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/12夜",
-            "flow": -66.0845174197866,
-            "saturation": 55.0704311831555,
-            "staff": null,
-            "flow_merge": true,
-            "sat_merge": true,
-            "flow_rowspan": 0,
-            "sat_rowspan": 0,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13白",
-            "flow": -69.8693686613368,
-            "saturation": 58.224473884447306,
-            "staff": null,
-            "flow_merge": true,
-            "sat_merge": true,
-            "flow_rowspan": 0,
-            "sat_rowspan": 0,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13夜",
-            "flow": -68.3148142046632,
-            "saturation": 56.9290118372193,
-            "staff": null,
-            "flow_merge": true,
-            "sat_merge": true,
-            "flow_rowspan": 0,
-            "sat_rowspan": 0,
-            "staff_rowspan": 0
-          }
-        ],
+        "shifts": [],
         "line_group": {
           "group_index": 1,
           "group_size": 3,
@@ -2059,52 +408,7 @@
         "team": "小件2",
         "line": "RK1",
         "std": 120.0,
-        "shifts": [
-          {
-            "shift_name": "2026/06/12白",
-            "flow": -80.8757949686199,
-            "saturation": 67.3964958071833,
-            "staff": null,
-            "flow_merge": true,
-            "sat_merge": true,
-            "flow_rowspan": 0,
-            "sat_rowspan": 0,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/12夜",
-            "flow": -66.0845174197866,
-            "saturation": 55.0704311831555,
-            "staff": null,
-            "flow_merge": true,
-            "sat_merge": true,
-            "flow_rowspan": 0,
-            "sat_rowspan": 0,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13白",
-            "flow": -69.8693686613368,
-            "saturation": 58.224473884447306,
-            "staff": null,
-            "flow_merge": true,
-            "sat_merge": true,
-            "flow_rowspan": 0,
-            "sat_rowspan": 0,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13夜",
-            "flow": -68.3148142046632,
-            "saturation": 56.9290118372193,
-            "staff": null,
-            "flow_merge": true,
-            "sat_merge": true,
-            "flow_rowspan": 0,
-            "sat_rowspan": 0,
-            "staff_rowspan": 0
-          }
-        ],
+        "shifts": [],
         "line_group": {
           "group_index": 2,
           "group_size": 3,
@@ -2115,52 +419,7 @@
         "team": "小件3",
         "line": "RK2",
         "std": 60.0,
-        "shifts": [
-          {
-            "shift_name": "2026/06/12白",
-            "flow": -42.2388082943291,
-            "saturation": 70.3980138238819,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/12夜",
-            "flow": -51.7794380995729,
-            "saturation": 86.2990634992882,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13白",
-            "flow": -45.1220684085398,
-            "saturation": 75.2034473475663,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13夜",
-            "flow": -47.232988611986,
-            "saturation": 78.72164768664341,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          }
-        ],
+        "shifts": [],
         "line_group": {
           "group_index": 0,
           "group_size": 1,
@@ -2171,52 +430,7 @@
         "team": "小件3",
         "line": "RK3",
         "std": 60.0,
-        "shifts": [
-          {
-            "shift_name": "2026/06/12白",
-            "flow": -57.0102569738722,
-            "saturation": 95.01709495645359,
-            "staff": null,
-            "flow_merge": true,
-            "sat_merge": true,
-            "flow_rowspan": 2,
-            "sat_rowspan": 2,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/12夜",
-            "flow": -31.921921101774,
-            "saturation": 53.203201836290106,
-            "staff": null,
-            "flow_merge": true,
-            "sat_merge": true,
-            "flow_rowspan": 2,
-            "sat_rowspan": 2,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13白",
-            "flow": -46.3775830853175,
-            "saturation": 77.29597180886239,
-            "staff": null,
-            "flow_merge": true,
-            "sat_merge": true,
-            "flow_rowspan": 2,
-            "sat_rowspan": 2,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13夜",
-            "flow": -42.2402108134921,
-            "saturation": 70.4003513558201,
-            "staff": null,
-            "flow_merge": true,
-            "sat_merge": true,
-            "flow_rowspan": 2,
-            "sat_rowspan": 2,
-            "staff_rowspan": 1
-          }
-        ],
+        "shifts": [],
         "line_group": {
           "group_index": 0,
           "group_size": 2,
@@ -2227,52 +441,7 @@
         "team": "小件3",
         "line": "RK3-1",
         "std": 60.0,
-        "shifts": [
-          {
-            "shift_name": "2026/06/12白",
-            "flow": -57.0102569738722,
-            "saturation": 95.01709495645359,
-            "staff": null,
-            "flow_merge": true,
-            "sat_merge": true,
-            "flow_rowspan": 0,
-            "sat_rowspan": 0,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/12夜",
-            "flow": -31.921921101774,
-            "saturation": 53.203201836290106,
-            "staff": null,
-            "flow_merge": true,
-            "sat_merge": true,
-            "flow_rowspan": 0,
-            "sat_rowspan": 0,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13白",
-            "flow": -46.3775830853175,
-            "saturation": 77.29597180886239,
-            "staff": null,
-            "flow_merge": true,
-            "sat_merge": true,
-            "flow_rowspan": 0,
-            "sat_rowspan": 0,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13夜",
-            "flow": -42.2402108134921,
-            "saturation": 70.4003513558201,
-            "staff": null,
-            "flow_merge": true,
-            "sat_merge": true,
-            "flow_rowspan": 0,
-            "sat_rowspan": 0,
-            "staff_rowspan": 1
-          }
-        ],
+        "shifts": [],
         "line_group": {
           "group_index": 1,
           "group_size": 2,
@@ -2283,52 +452,7 @@
         "team": "小件3",
         "line": "RK2-1",
         "std": 60.0,
-        "shifts": [
-          {
-            "shift_name": "2026/06/12白",
-            "flow": -46.2556255307336,
-            "saturation": 77.0927092178893,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/12夜",
-            "flow": -47.6811071342117,
-            "saturation": 79.4685118903529,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13白",
-            "flow": -47.0207915380659,
-            "saturation": 78.3679858967764,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13夜",
-            "flow": -46.8428465792181,
-            "saturation": 78.0714109653635,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          }
-        ],
+        "shifts": [],
         "line_group": {
           "group_index": 0,
           "group_size": 1,
@@ -2339,52 +463,7 @@
         "team": "小件3",
         "line": "RK4",
         "std": 60.0,
-        "shifts": [
-          {
-            "shift_name": "2026/06/12白",
-            "flow": -42.791325068964,
-            "saturation": 71.31887511494,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/12夜",
-            "flow": -45.1074588973118,
-            "saturation": 75.17909816218639,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13白",
-            "flow": -43.9224603174603,
-            "saturation": 73.2041005291005,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13夜",
-            "flow": -44.0956286075036,
-            "saturation": 73.4927143458394,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          }
-        ],
+        "shifts": [],
         "line_group": {
           "group_index": 0,
           "group_size": 1,
@@ -2395,52 +474,7 @@
         "team": "小件3",
         "line": "RK5",
         "std": 60.0,
-        "shifts": [
-          {
-            "shift_name": "2026/06/12白",
-            "flow": -50.126403262646,
-            "saturation": 83.5440054377433,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/12夜",
-            "flow": -41.2506221435943,
-            "saturation": 68.7510369059904,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13白",
-            "flow": -47.0177714883801,
-            "saturation": 78.3629524806335,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13夜",
-            "flow": -45.2914957137161,
-            "saturation": 75.48582618952679,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          }
-        ],
+        "shifts": [],
         "line_group": {
           "group_index": 0,
           "group_size": 1,
@@ -2451,52 +485,7 @@
         "team": "小件3",
         "line": "RK6",
         "std": 60.0,
-        "shifts": [
-          {
-            "shift_name": "2026/06/12白",
-            "flow": -43.2240740740741,
-            "saturation": 72.0401234567901,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/12夜",
-            "flow": -38.0509803921569,
-            "saturation": 63.4183006535948,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13白",
-            "flow": -38.69375,
-            "saturation": 64.4895833333333,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13夜",
-            "flow": -38.5479166666667,
-            "saturation": 64.2465277777778,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          }
-        ],
+        "shifts": [],
         "line_group": {
           "group_index": 0,
           "group_size": 1,
@@ -2507,52 +496,7 @@
         "team": "小件3",
         "line": "RK7",
         "std": 60.0,
-        "shifts": [
-          {
-            "shift_name": "2026/06/12白",
-            "flow": -36.3651355056343,
-            "saturation": 60.6085591760571,
-            "staff": null,
-            "flow_merge": true,
-            "sat_merge": true,
-            "flow_rowspan": 3,
-            "sat_rowspan": 3,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/12夜",
-            "flow": -36.1276521333693,
-            "saturation": 60.21275355561539,
-            "staff": null,
-            "flow_merge": true,
-            "sat_merge": true,
-            "flow_rowspan": 3,
-            "sat_rowspan": 3,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13白",
-            "flow": -35.4646130717726,
-            "saturation": 59.1076884529544,
-            "staff": null,
-            "flow_merge": true,
-            "sat_merge": true,
-            "flow_rowspan": 3,
-            "sat_rowspan": 3,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13夜",
-            "flow": -35.432059896244,
-            "saturation": 59.0534331604067,
-            "staff": null,
-            "flow_merge": true,
-            "sat_merge": true,
-            "flow_rowspan": 3,
-            "sat_rowspan": 3,
-            "staff_rowspan": 1
-          }
-        ],
+        "shifts": [],
         "line_group": {
           "group_index": 0,
           "group_size": 3,
@@ -2563,52 +507,7 @@
         "team": "小件3",
         "line": "RK7-1",
         "std": 60.0,
-        "shifts": [
-          {
-            "shift_name": "2026/06/12白",
-            "flow": -36.3651355056343,
-            "saturation": 60.6085591760571,
-            "staff": null,
-            "flow_merge": true,
-            "sat_merge": true,
-            "flow_rowspan": 0,
-            "sat_rowspan": 0,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/12夜",
-            "flow": -36.1276521333693,
-            "saturation": 60.21275355561539,
-            "staff": null,
-            "flow_merge": true,
-            "sat_merge": true,
-            "flow_rowspan": 0,
-            "sat_rowspan": 0,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13白",
-            "flow": -35.4646130717726,
-            "saturation": 59.1076884529544,
-            "staff": null,
-            "flow_merge": true,
-            "sat_merge": true,
-            "flow_rowspan": 0,
-            "sat_rowspan": 0,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13夜",
-            "flow": -35.432059896244,
-            "saturation": 59.0534331604067,
-            "staff": null,
-            "flow_merge": true,
-            "sat_merge": true,
-            "flow_rowspan": 0,
-            "sat_rowspan": 0,
-            "staff_rowspan": 1
-          }
-        ],
+        "shifts": [],
         "line_group": {
           "group_index": 1,
           "group_size": 3,
@@ -2619,52 +518,7 @@
         "team": "小件3",
         "line": "RK7-2",
         "std": 60.0,
-        "shifts": [
-          {
-            "shift_name": "2026/06/12白",
-            "flow": -36.3651355056343,
-            "saturation": 60.6085591760571,
-            "staff": null,
-            "flow_merge": true,
-            "sat_merge": true,
-            "flow_rowspan": 0,
-            "sat_rowspan": 0,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/12夜",
-            "flow": -36.1276521333693,
-            "saturation": 60.21275355561539,
-            "staff": null,
-            "flow_merge": true,
-            "sat_merge": true,
-            "flow_rowspan": 0,
-            "sat_rowspan": 0,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13白",
-            "flow": -35.4646130717726,
-            "saturation": 59.1076884529544,
-            "staff": null,
-            "flow_merge": true,
-            "sat_merge": true,
-            "flow_rowspan": 0,
-            "sat_rowspan": 0,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13夜",
-            "flow": -35.432059896244,
-            "saturation": 59.0534331604067,
-            "staff": null,
-            "flow_merge": true,
-            "sat_merge": true,
-            "flow_rowspan": 0,
-            "sat_rowspan": 0,
-            "staff_rowspan": 1
-          }
-        ],
+        "shifts": [],
         "line_group": {
           "group_index": 2,
           "group_size": 3,
@@ -2675,52 +529,7 @@
         "team": "小件3",
         "line": "RK8",
         "std": 60.0,
-        "shifts": [
-          {
-            "shift_name": "2026/06/12白",
-            "flow": -46.8850658688322,
-            "saturation": 78.1417764480537,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/12夜",
-            "flow": -43.4394981748355,
-            "saturation": 72.3991636247259,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13白",
-            "flow": -43.5259137199946,
-            "saturation": 72.54318953332431,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13夜",
-            "flow": -43.799993798753,
-            "saturation": 72.9999896645883,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 3
-          }
-        ],
+        "shifts": [],
         "line_group": {
           "group_index": 0,
           "group_size": 1,
@@ -2731,52 +540,7 @@
         "team": "小件3",
         "line": "RK9",
         "std": 60.0,
-        "shifts": [
-          {
-            "shift_name": "2026/06/12白",
-            "flow": -50.734732976416,
-            "saturation": 84.5578882940266,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/12夜",
-            "flow": -45.7818254390745,
-            "saturation": 76.30304239845759,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13白",
-            "flow": -46.8440213588835,
-            "saturation": 78.0733689314725,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13夜",
-            "flow": -46.7222854654196,
-            "saturation": 77.8704757756994,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          }
-        ],
+        "shifts": [],
         "line_group": {
           "group_index": 0,
           "group_size": 1,
@@ -2787,52 +551,7 @@
         "team": "小件3",
         "line": "RK8-1",
         "std": 60.0,
-        "shifts": [
-          {
-            "shift_name": "2026/06/12白",
-            "flow": -21.7495890118112,
-            "saturation": 36.249315019685405,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/12夜",
-            "flow": -19.2762931839402,
-            "saturation": 32.127155306567104,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13白",
-            "flow": -20.7024016203704,
-            "saturation": 34.5040027006173,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13夜",
-            "flow": -20.2437268518519,
-            "saturation": 33.7395447530864,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          }
-        ],
+        "shifts": [],
         "line_group": {
           "group_index": 0,
           "group_size": 1,
@@ -2843,52 +562,7 @@
         "team": "小件3",
         "line": "RK9-1",
         "std": 60.0,
-        "shifts": [
-          {
-            "shift_name": "2026/06/12白",
-            "flow": -22.2141877772433,
-            "saturation": 37.0236462954056,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/12夜",
-            "flow": -19.5882866479925,
-            "saturation": 32.6471444133209,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13白",
-            "flow": -20.9304571759259,
-            "saturation": 34.884095293209896,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13夜",
-            "flow": -20.6493518518519,
-            "saturation": 34.415586419753105,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          }
-        ],
+        "shifts": [],
         "line_group": {
           "group_index": 0,
           "group_size": 1,
@@ -2899,52 +573,7 @@
         "team": "小件2",
         "line": "RK10",
         "std": 60.0,
-        "shifts": [
-          {
-            "shift_name": "2026/06/12白",
-            "flow": -46.6265989482014,
-            "saturation": 77.71099824700231,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/12夜",
-            "flow": -46.6647667910927,
-            "saturation": 77.7746113184878,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13白",
-            "flow": -43.8566711095837,
-            "saturation": 73.0944518493062,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13夜",
-            "flow": -47.6865927016384,
-            "saturation": 79.4776545027306,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          }
-        ],
+        "shifts": [],
         "line_group": {
           "group_index": 0,
           "group_size": 1,
@@ -2955,52 +584,7 @@
         "team": "小件2",
         "line": "RK11",
         "std": 60.0,
-        "shifts": [
-          {
-            "shift_name": "2026/06/12白",
-            "flow": -41.1623059611038,
-            "saturation": 68.60384326850641,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/12夜",
-            "flow": -38.8063238261251,
-            "saturation": 64.67720637687519,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13白",
-            "flow": -38.6442035605659,
-            "saturation": 64.4070059342765,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13夜",
-            "flow": -39.8950661731905,
-            "saturation": 66.4917769553175,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          }
-        ],
+        "shifts": [],
         "line_group": {
           "group_index": 0,
           "group_size": 1,
@@ -3011,52 +595,7 @@
         "team": "小件2",
         "line": "RK12",
         "std": 60.0,
-        "shifts": [
-          {
-            "shift_name": "2026/06/12白",
-            "flow": -45.0431848780028,
-            "saturation": 75.0719747966713,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/12夜",
-            "flow": -41.5637546747085,
-            "saturation": 69.2729244578476,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13白",
-            "flow": -42.7525740331613,
-            "saturation": 71.2542900552688,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13夜",
-            "flow": -42.06112342595,
-            "saturation": 70.1018723765834,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          }
-        ],
+        "shifts": [],
         "line_group": {
           "group_index": 0,
           "group_size": 1,
@@ -3067,52 +606,7 @@
         "team": "小件2",
         "line": "RK13",
         "std": 60.0,
-        "shifts": [
-          {
-            "shift_name": "2026/06/12白",
-            "flow": -51.0438812321402,
-            "saturation": 85.0731353869003,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/12夜",
-            "flow": -42.1154472676041,
-            "saturation": 70.1924121126735,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13白",
-            "flow": -47.947792662155,
-            "saturation": 79.9129877702584,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13夜",
-            "flow": -46.9676272400907,
-            "saturation": 78.27937873348449,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          }
-        ],
+        "shifts": [],
         "line_group": {
           "group_index": 0,
           "group_size": 1,
@@ -3123,52 +617,7 @@
         "team": "小件2",
         "line": "RK14",
         "std": 120.0,
-        "shifts": [
-          {
-            "shift_name": "2026/06/12白",
-            "flow": -73.8227781564008,
-            "saturation": 61.518981797000606,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/12夜",
-            "flow": -67.8684690998268,
-            "saturation": 56.557057583189,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13白",
-            "flow": -69.367754868106,
-            "saturation": 57.8064623900883,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13夜",
-            "flow": -70.6221637028325,
-            "saturation": 58.851803085693696,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          }
-        ],
+        "shifts": [],
         "line_group": {
           "group_index": 0,
           "group_size": 1,
@@ -3179,52 +628,7 @@
         "team": "小件2",
         "line": "RK15",
         "std": 60.0,
-        "shifts": [
-          {
-            "shift_name": "2026/06/12白",
-            "flow": -1.64814814814815,
-            "saturation": 2.7469135802469102,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/12夜",
-            "flow": -2.94117647058824,
-            "saturation": 4.90196078431373,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13白",
-            "flow": -1.25,
-            "saturation": 2.08333333333333,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13夜",
-            "flow": -1.66666666666667,
-            "saturation": 2.77777777777778,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          }
-        ],
+        "shifts": [],
         "line_group": {
           "group_index": 0,
           "group_size": 1,
@@ -3235,52 +639,7 @@
         "team": "小件3",
         "line": "RK16",
         "std": 60.0,
-        "shifts": [
-          {
-            "shift_name": "2026/06/12白",
-            "flow": -32.0418328848718,
-            "saturation": 53.4030548081196,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/12夜",
-            "flow": -30.4463125647853,
-            "saturation": 50.743854274642096,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13白",
-            "flow": -31.931607155769,
-            "saturation": 53.219345259615004,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13夜",
-            "flow": -31.3756223143612,
-            "saturation": 52.2927038572687,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          }
-        ],
+        "shifts": [],
         "line_group": {
           "group_index": 0,
           "group_size": 2,
@@ -3291,52 +650,7 @@
         "team": "小件3",
         "line": "RK16-1",
         "std": 60.0,
-        "shifts": [
-          {
-            "shift_name": "2026/06/12白",
-            "flow": -21.2523587438404,
-            "saturation": 35.4205979064007,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/12夜",
-            "flow": -19.5904720262381,
-            "saturation": 32.6507867103969,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13白",
-            "flow": -19.455672503587,
-            "saturation": 32.4261208393117,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13夜",
-            "flow": -19.0944735561698,
-            "saturation": 31.8241225936163,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          }
-        ],
+        "shifts": [],
         "line_group": {
           "group_index": 1,
           "group_size": 2,
@@ -3347,52 +661,7 @@
         "team": "小件3",
         "line": "RK17",
         "std": 60.0,
-        "shifts": [
-          {
-            "shift_name": "2026/06/12白",
-            "flow": -11.7796296296296,
-            "saturation": 19.6327160493827,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/12夜",
-            "flow": -13.5147058823529,
-            "saturation": 22.5245098039216,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13白",
-            "flow": -12.2604166666667,
-            "saturation": 20.4340277777778,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13夜",
-            "flow": -12.4895833333333,
-            "saturation": 20.8159722222222,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          }
-        ],
+        "shifts": [],
         "line_group": {
           "group_index": 0,
           "group_size": 1,
@@ -3403,52 +672,7 @@
         "team": "小件2",
         "line": "RK19",
         "std": 60.0,
-        "shifts": [
-          {
-            "shift_name": "2026/06/12白",
-            "flow": -36.295020154134,
-            "saturation": 60.49170025689,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/12夜",
-            "flow": -30.8621928150812,
-            "saturation": 51.4369880251354,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13白",
-            "flow": -31.7035289994003,
-            "saturation": 52.8392149990005,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          },
-          {
-            "shift_name": "2026/06/13夜",
-            "flow": -32.1488043455128,
-            "saturation": 53.581340575854696,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false,
-            "flow_rowspan": 1,
-            "sat_rowspan": 1,
-            "staff_rowspan": 1
-          }
-        ],
+        "shifts": [],
         "line_group": {
           "group_index": 0,
           "group_size": 1,
@@ -3459,118 +683,19 @@
         "team": null,
         "line": null,
         "std": null,
-        "shifts": [
-          {
-            "shift_name": "2026/06/12白",
-            "flow": -901.186738049649,
-            "saturation": 13.7306241914523,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false
-          },
-          {
-            "shift_name": "2026/06/12夜",
-            "flow": -820.463222186023,
-            "saturation": 12.5581121487703,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false
-          },
-          {
-            "shift_name": "2026/06/13白",
-            "flow": -844.661422005042,
-            "saturation": 12.9173810040053,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false
-          },
-          {
-            "shift_name": "2026/06/13夜",
-            "flow": -843.421042521112,
-            "saturation": 12.8992092261227,
-            "staff": 0.0,
-            "flow_merge": false,
-            "sat_merge": false
-          }
-        ]
+        "shifts": []
       },
       {
         "team": null,
         "line": null,
         "std": null,
-        "shifts": [
-          {
-            "shift_name": "2026/06/12白",
-            "flow": null,
-            "saturation": null,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false
-          },
-          {
-            "shift_name": "2026/06/12夜",
-            "flow": null,
-            "saturation": null,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false
-          },
-          {
-            "shift_name": "2026/06/13白",
-            "flow": null,
-            "saturation": null,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false
-          },
-          {
-            "shift_name": "2026/06/13夜",
-            "flow": null,
-            "saturation": null,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false
-          }
-        ]
+        "shifts": []
       },
       {
         "team": null,
         "line": null,
         "std": null,
-        "shifts": [
-          {
-            "shift_name": "2026/06/12白",
-            "flow": null,
-            "saturation": null,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false
-          },
-          {
-            "shift_name": "2026/06/12夜",
-            "flow": null,
-            "saturation": null,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false
-          },
-          {
-            "shift_name": "2026/06/13白",
-            "flow": null,
-            "saturation": null,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false
-          },
-          {
-            "shift_name": "2026/06/13夜",
-            "flow": null,
-            "saturation": null,
-            "staff": null,
-            "flow_merge": false,
-            "sat_merge": false
-          }
-        ]
+        "shifts": []
       }
     ]
   }
