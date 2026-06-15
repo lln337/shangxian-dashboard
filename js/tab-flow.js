@@ -70,7 +70,7 @@ function renderFlowCharts() {
             container.appendChild(chartDiv);
 
             // 创建图表
-            var labels = group.lines || [];
+            var labels = group.labels || [];
             var datasets = (group.datasets || []).map(function(ds) {
                 return {
                     label: ds.label,
