@@ -1,7 +1,7 @@
 /* ===== Tab1：上线流量 ===== */
 
-// 从全局变量获取数据（由 HTML 内嵌注入）
-// 生成脚本会将 JSON 数据写入 window.LINE_DATA
+// 当前子Tab（big=大件，small=小件）
+var currentFlowSubTab = 'big';
 
 function initFlowTab() {
     var data = window.LINE_DATA;
@@ -18,15 +18,60 @@ function initFlowTab() {
     if (elEmpty) elEmpty.style.display = 'none';
     if (elStats) elStats.style.display = '';
 
+    // 默认显示大件
+    currentFlowSubTab = 'big';
+
     renderFlowStats();
     renderFlowCharts();
     renderFlowTables();
+
+    // 确保正确的子Tab按钮状态
+    document.querySelectorAll('.flow-subtab-btn').forEach(function(b) {
+        b.classList.remove('active');
+    });
+    var defaultBtn = document.querySelector('.flow-subtab-btn[data-subtab="big"]');
+    if (defaultBtn) defaultBtn.classList.add('active');
+}
+
+function switchFlowSubTab(tab) {
+    currentFlowSubTab = tab;
+
+    // 切换按钮状态
+    document.querySelectorAll('.flow-subtab-btn').forEach(function(b) {
+        b.classList.remove('active');
+    });
+    var btn = document.querySelector('.flow-subtab-btn[data-subtab="' + tab + '"]');
+    if (btn) btn.classList.add('active');
+
+    // 切换图表容器显示/隐藏
+    document.querySelectorAll('.flow-subtab').forEach(function(c) {
+        c.classList.remove('active');
+    });
+    var chartBox = document.getElementById('flow-charts-' + tab);
+    if (chartBox) chartBox.classList.add('active');
+
+    // 切换表格容器显示/隐藏
+    document.querySelectorAll('#main-tab-flow .sheet-section').forEach(function(c) {
+        c.style.display = 'none';
+    });
+    var tableBox = document.getElementById('flow-table-' + tab);
+    if (tableBox) tableBox.style.display = '';
+
+    // 更新统计卡片
+    renderFlowStats();
+
+    // resize 当前Tab的图表
+    var prefix = tab === 'big' ? 'chart-big-' : 'chart-small-';
+    setTimeout(function() { resizeChartsByPrefix(prefix); }, 100);
 }
 
 function renderFlowStats() {
     var data = window.LINE_DATA;
-    if (!data || !data.summary) return;
-    var s = data.summary;
+    if (!data) return;
+
+    // 根据当前子Tab选择对应的summary
+    var key = currentFlowSubTab === 'big' ? 'big_summary' : 'small_summary';
+    var s = data[key] || data.summary || {};
 
     var elTotal = document.getElementById('flow-total');
     var elHigh = document.getElementById('flow-high');
@@ -41,7 +86,6 @@ function renderFlowCharts() {
     if (!data || !data.charts) return;
 
     ['big', 'small'].forEach(function(type) {
-        // 获取图表容器
         var containerId = 'flow-charts-' + type;
         var container = document.getElementById(containerId);
         if (!container) return;
@@ -101,7 +145,8 @@ function renderFlowTables() {
 
         // tableData 是 HTML 字符串，直接注入
         wrapper.innerHTML = tableData || '';
-        wrapper.style.display = '';
+        // 默认只显示大件表格，小件隐藏由CSS控制
+        wrapper.style.display = type === 'big' ? '' : 'none';
     });
 }
 
