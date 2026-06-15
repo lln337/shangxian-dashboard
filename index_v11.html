@@ -23,9 +23,10 @@
     </div>
 
     <!-- ========== Tab1：上线流量 ========== -->
-    <div id="main-tab-flow" class="main-tab-content active">
-        <!-- 数据日期信息（由生成脚本注入） -->
-        <div id="flow-date-info" style="padding:8px 0;font-size:13px;color:#666;"></div>
+        <div id="main-tab-flow" class="main-tab-content active">
+            <!-- 数据日期信息（由生成脚本注入） -->
+            <div id="flow-date-info" style="padding:8px 0;font-size:13px;color:#666;"></div>
+            <div id="flow-update-time" style="font-size:12px;color:#999;margin-bottom:8px;"></div>
 
         <!-- 流量子 Tab -->
         <div class="flow-subtab-nav">
@@ -61,6 +62,7 @@
 
     <!-- ========== Tab2：排序零件GKB查询 ========== -->
     <div id="main-tab-part" class="main-tab-content">
+        <div id="part-update-time" style="font-size:12px;color:#999;margin-bottom:8px;"></div>
         <div class="search-bar">
             <div class="search-input-wrapper">
                 <input type="text" id="part-search-input" placeholder="输入零件编码 / 名称 / GKB 进行搜索...">
@@ -94,6 +96,7 @@
 
     <!-- ========== Tab3：道口卸货及时率 ========== -->
     <div id="main-tab-daokou" class="main-tab-content">
+        <div id="daokou-update-time" style="font-size:12px;color:#999;margin-bottom:8px;"></div>
         <!-- KPI 卡片 -->
         <div class="stats-row" id="daokou-kpi" style="display:none;">
             <div class="stat-card stat-info">
@@ -145,7 +148,6 @@
 
     <div class="footer">
         <div>现场信息看板 | 上线流量 + 排序零件GKB查询 + 道口卸货及时率</div>
-        <div style="margin-top:4px;" id="footer-update-time"></div>
     </div>
 
     <!-- ===== 数据注入（由 Python 生成脚本替换，必须在 tab JS 之前） ===== -->
@@ -154,7 +156,7 @@
         window.LINE_DATA = {
   "has_data": true,
   "date_range": "2026-06-15 ~ 2026-06-16",
-  "update_time": "",
+  "update_time": "2026年06月16日 06:54",
   "summary": {
     "total_lines": 56,
     "high_sat_lines": 10,
@@ -53831,7 +53833,9 @@
 
         // 数据日期信息（生成脚本替换此处）
         document.getElementById('flow-date-info').innerHTML = '数据日期：2026-06-15 ~ 2026-06-16';
-        document.getElementById('footer-update-time').innerHTML = '网页更新时间：2026年06月16日 06:43';
+        document.getElementById('flow-update-time').innerHTML = '数据更新：' + '2026年06月16日 06:54';
+        document.getElementById('part-update-time').innerHTML = '数据更新：' + '2026-06-15 17:50:22';
+        document.getElementById('daokou-update-time').innerHTML = '数据更新：' + '2026-06-15 19:16:59';
     </script>
 
     <!-- ===== 模块化 JS 加载（依赖上面的全局变量） ===== -->
