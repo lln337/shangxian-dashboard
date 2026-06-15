@@ -148,13 +148,7 @@
         <div style="margin-top:4px;" id="footer-update-time"></div>
     </div>
 
-    <!-- ===== 模块化 JS 加载 ===== -->
-    <script src="js/common.js"></script>
-    <script src="js/tab-flow.js"></script>
-    <script src="js/tab-gkb.js"></script>
-    <script src="js/tab-daokou.js"></script>
-
-    <!-- ===== 数据注入（由 Python 生成脚本替换） ===== -->
+    <!-- ===== 数据注入（由 Python 生成脚本替换，必须在 tab JS 之前） ===== -->
     <script>
         // 上线流量数据（生成脚本替换此处）
         window.LINE_DATA = {
@@ -53823,7 +53817,13 @@
 
         // 数据日期信息（生成脚本替换此处）
         document.getElementById('flow-date-info').innerHTML = '数据日期：2026-06-15 ~ 2026-06-16';
-        document.getElementById('footer-update-time').innerHTML = '网页更新时间：2026年06月15日 20:16';
+        document.getElementById('footer-update-time').innerHTML = '网页更新时间：2026年06月15日 20:34';
     </script>
+
+    <!-- ===== 模块化 JS 加载（依赖上面的全局变量） ===== -->
+    <script src="js/common.js"></script>
+    <script src="js/tab-flow.js"></script>
+    <script src="js/tab-gkb.js"></script>
+    <script src="js/tab-daokou.js"></script>
 </body>
 </html>
