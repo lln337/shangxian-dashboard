@@ -38,7 +38,7 @@ function switchFlowSubTab(tab) {
 function resizeChartsByPrefix(...prefixes) {
     Object.keys(allCharts).forEach(function(id) {
         let match = false;
-        prefixs.forEach(function(p) {
+        prefixes.forEach(function(p) {
             if (id.startsWith(p)) match = true;
         });
         if (match) {
