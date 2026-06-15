@@ -4,49 +4,81 @@
 // 生成脚本会将 JSON 数据写入 window.LINE_DATA
 
 function initFlowTab() {
-    if (!window.LINE_DATA) {
-        document.getElementById('flow-empty') &&
-            (document.getElementById('flow-empty').style.display = 'block');
+    var data = window.LINE_DATA;
+    var elEmpty = document.getElementById('flow-empty');
+    var elStats = document.getElementById('flow-stats');
+
+    if (!data || !data.has_data) {
+        if (elEmpty) elEmpty.style.display = 'block';
+        if (elStats) elStats.style.display = 'none';
         return;
     }
+
+    // 有数据：隐藏空状态，显示内容
+    if (elEmpty) elEmpty.style.display = 'none';
+    if (elStats) elStats.style.display = '';
+
     renderFlowStats();
     renderFlowCharts();
     renderFlowTables();
 }
 
 function renderFlowStats() {
-    const data = window.LINE_DATA;
+    var data = window.LINE_DATA;
     if (!data || !data.summary) return;
-    const s = data.summary;
+    var s = data.summary;
 
-    const elTotal = document.getElementById('flow-total');
-    const elHigh = document.getElementById('flow-high');
-    const elSevere = document.getElementById('flow-severe');
+    var elTotal = document.getElementById('flow-total');
+    var elHigh = document.getElementById('flow-high');
+    var elSevere = document.getElementById('flow-severe');
     if (elTotal) elTotal.textContent = s.total_lines || '--';
     if (elHigh) elHigh.textContent = s.high_sat_lines || '--';
     if (elSevere) elSevere.textContent = s.severe_sat_lines || '--';
 }
 
 function renderFlowCharts() {
-    const data = window.LINE_DATA;
+    var data = window.LINE_DATA;
     if (!data || !data.charts) return;
 
     ['big', 'small'].forEach(function(type) {
-        const groups = data.charts[type] || [];
-        groups.forEach(function(group, idx) {
-            const canvasId = 'chart-' + type + '-' + idx;
-            if (!document.getElementById(canvasId)) return;
+        // 获取图表容器
+        var containerId = 'flow-charts-' + type;
+        var container = document.getElementById(containerId);
+        if (!container) return;
 
-            const labels = group.lines || [];
-            const datasets = (group.datasets || []).map(function(ds) {
+        // 清空容器
+        container.innerHTML = '';
+
+        var groups = data.charts[type] || [];
+        groups.forEach(function(group, idx) {
+            var chartDiv = document.createElement('div');
+            chartDiv.className = 'chart-box';
+
+            var title = document.createElement('h3');
+            title.textContent = group.team_name + '（' + group.line_count + '条线路）';
+            chartDiv.appendChild(title);
+
+            var chartContainer = document.createElement('div');
+            chartContainer.className = 'chart-container';
+            chartContainer.style.height = '300px';
+
+            var canvasId = 'chart-' + type + '-' + idx;
+            var canvas = document.createElement('canvas');
+            canvas.id = canvasId;
+            chartContainer.appendChild(canvas);
+            chartDiv.appendChild(chartContainer);
+            container.appendChild(chartDiv);
+
+            // 创建图表
+            var labels = group.lines || [];
+            var datasets = (group.datasets || []).map(function(ds) {
                 return {
                     label: ds.label,
                     data: ds.data,
                     backgroundColor: ds.backgroundColor,
                     borderColor: ds.borderColor,
                     borderWidth: 1,
-                    barPercentage: 0.7,
-                    legendColor: ds.legendColor,
+                    barPercentage: ds.barPercentage || 0.7,
                 };
             });
             if (datasets.length > 0) {
@@ -57,18 +89,19 @@ function renderFlowCharts() {
 }
 
 function renderFlowTables() {
-    const data = window.LINE_DATA;
+    var data = window.LINE_DATA;
     if (!data || !data.tables) return;
 
     ['big', 'small'].forEach(function(type) {
-        const tableData = data.tables[type];
+        var tableData = data.tables[type];
         if (!tableData) return;
 
-        const wrapper = document.getElementById('flow-table-' + type);
+        var wrapper = document.getElementById('flow-table-' + type);
         if (!wrapper) return;
 
         // tableData 是 HTML 字符串，直接注入
         wrapper.innerHTML = tableData || '';
+        wrapper.style.display = '';
     });
 }
 
