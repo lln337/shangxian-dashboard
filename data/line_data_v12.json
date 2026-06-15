@@ -6,10 +6,12 @@
       "06-14白",
       "06-14夜"
     ],
+    "date_range": "2026-06-13 ~ 2026-06-14",
     "data": [
       {
         "team": "大件1",
         "line": "RC1-1",
+        "std": 10.0,
         "shifts": [
           {
             "shift_name": "06-13白",
@@ -36,6 +38,7 @@
       {
         "team": "大件1",
         "line": "RC1-2",
+        "std": 10.0,
         "shifts": [
           {
             "shift_name": "06-13白",
@@ -62,6 +65,7 @@
       {
         "team": "大件1",
         "line": "RG1-1",
+        "std": 10.0,
         "shifts": [
           {
             "shift_name": "06-13白",
@@ -88,6 +92,7 @@
       {
         "team": "大件1",
         "line": "RG1-2",
+        "std": 10.0,
         "shifts": [
           {
             "shift_name": "06-13白",
@@ -114,6 +119,7 @@
       {
         "team": "大件1",
         "line": "RG1-3",
+        "std": 10.0,
         "shifts": [
           {
             "shift_name": "06-13白",
@@ -140,6 +146,7 @@
       {
         "team": "大件1",
         "line": "RG1-4",
+        "std": 10.0,
         "shifts": [
           {
             "shift_name": "06-13白",
@@ -166,6 +173,7 @@
       {
         "team": "大件1",
         "line": "RG1-5",
+        "std": 10.0,
         "shifts": [
           {
             "shift_name": "06-13白",
@@ -192,6 +200,7 @@
       {
         "team": "大件1",
         "line": "RG1-6",
+        "std": 10.0,
         "shifts": [
           {
             "shift_name": "06-13白",
@@ -218,6 +227,7 @@
       {
         "team": "大件2",
         "line": "RG2-1",
+        "std": 10.0,
         "shifts": [
           {
             "shift_name": "06-13白",
@@ -244,6 +254,7 @@
       {
         "team": "大件2",
         "line": "RG2-2",
+        "std": 10.0,
         "shifts": [
           {
             "shift_name": "06-13白",
@@ -270,6 +281,7 @@
       {
         "team": "大件2",
         "line": "RG2-3",
+        "std": 10.0,
         "shifts": [
           {
             "shift_name": "06-13白",
@@ -296,6 +308,7 @@
       {
         "team": "大件2",
         "line": "RG2-4",
+        "std": 10.0,
         "shifts": [
           {
             "shift_name": "06-13白",
@@ -322,6 +335,7 @@
       {
         "team": "大件2",
         "line": "RG2-5",
+        "std": 10.0,
         "shifts": [
           {
             "shift_name": "06-13白",
@@ -348,6 +362,7 @@
       {
         "team": "大件2",
         "line": "RG2-6",
+        "std": 10.0,
         "shifts": [
           {
             "shift_name": "06-13白",
@@ -374,6 +389,7 @@
       {
         "team": "大件2",
         "line": "RG2-7",
+        "std": 10.0,
         "shifts": [
           {
             "shift_name": "06-13白",
@@ -400,6 +416,7 @@
       {
         "team": "大件3",
         "line": "RC3-1",
+        "std": 15.0,
         "shifts": [
           {
             "shift_name": "06-13白",
@@ -426,6 +443,7 @@
       {
         "team": "大件3",
         "line": "RC3-2",
+        "std": 15.0,
         "shifts": [
           {
             "shift_name": "06-13白",
@@ -452,6 +470,7 @@
       {
         "team": "大件3",
         "line": "RG3-1",
+        "std": 10.0,
         "shifts": [
           {
             "shift_name": "06-13白",
@@ -478,6 +497,7 @@
       {
         "team": "大件3",
         "line": "RG3-2",
+        "std": 10.0,
         "shifts": [
           {
             "shift_name": "06-13白",
@@ -504,6 +524,7 @@
       {
         "team": "大件3",
         "line": "RG3-3",
+        "std": 10.0,
         "shifts": [
           {
             "shift_name": "06-13白",
@@ -530,6 +551,7 @@
       {
         "team": "大件3",
         "line": "RG3-4",
+        "std": 10.0,
         "shifts": [
           {
             "shift_name": "06-13白",
@@ -556,6 +578,7 @@
       {
         "team": "大件3",
         "line": "RG3-5",
+        "std": 10.0,
         "shifts": [
           {
             "shift_name": "06-13白",
@@ -582,6 +605,7 @@
       {
         "team": "大件3",
         "line": "RG3-8",
+        "std": 10.0,
         "shifts": [
           {
             "shift_name": "06-13白",
@@ -608,6 +632,7 @@
       {
         "team": "大件3",
         "line": "RG3-9",
+        "std": 10.0,
         "shifts": [
           {
             "shift_name": "06-13白",
@@ -634,6 +659,7 @@
       {
         "team": "大件4",
         "line": "RG4-1",
+        "std": 10.0,
         "shifts": [
           {
             "shift_name": "06-13白",
@@ -660,6 +686,7 @@
       {
         "team": "大件4",
         "line": "RG4-2",
+        "std": 10.0,
         "shifts": [
           {
             "shift_name": "06-13白",
@@ -686,6 +713,7 @@
       {
         "team": "大件4",
         "line": "RG4-3",
+        "std": 10.0,
         "shifts": [
           {
             "shift_name": "06-13白",
@@ -712,6 +740,7 @@
       {
         "team": "大件4",
         "line": "RG4-4",
+        "std": 10.0,
         "shifts": [
           {
             "shift_name": "06-13白",
@@ -738,6 +767,7 @@
       {
         "team": "大件4",
         "line": "RG4-5",
+        "std": 10.0,
         "shifts": [
           {
             "shift_name": "06-13白",
@@ -764,6 +794,7 @@
       {
         "team": "大件4",
         "line": "RG4-6",
+        "std": 18.0,
         "shifts": [
           {
             "shift_name": "06-13白",
@@ -790,6 +821,7 @@
       {
         "team": "大件4",
         "line": "RG4-7",
+        "std": 10.0,
         "shifts": [
           {
             "shift_name": "06-13白",
@@ -816,6 +848,7 @@
       {
         "team": "大件4",
         "line": "RG4-8",
+        "std": 2.0,
         "shifts": [
           {
             "shift_name": "06-13白",
@@ -842,6 +875,7 @@
       {
         "team": "大件4",
         "line": "RG4-9",
+        "std": 10.0,
         "shifts": [
           {
             "shift_name": "06-13白",
@@ -868,6 +902,7 @@
       {
         "team": "大件4",
         "line": "RG4-10",
+        "std": 10.0,
         "shifts": [
           {
             "shift_name": "06-13白",
@@ -900,88 +935,39 @@
       "06-14白",
       "06-14夜"
     ],
+    "date_range": "2026-06-13 ~ 2026-06-14",
     "data": [
       {
         "team": "小件2",
         "line": "RK1",
+        "std": 120,
         "shifts": [
           {
             "shift_name": "06-13白",
-            "flow": 62.06,
-            "saturation": 0.0
+            "flow": 79.53,
+            "saturation": 66.3
           },
           {
             "shift_name": "06-13夜",
-            "flow": 53.68,
-            "saturation": 0.0
+            "flow": 67.83,
+            "saturation": 56.5
           },
           {
             "shift_name": "06-14白",
-            "flow": 53.24,
-            "saturation": 0.0
+            "flow": 68.47,
+            "saturation": 57.1
           },
           {
             "shift_name": "06-14夜",
-            "flow": 46.32,
-            "saturation": 0.0
-          }
-        ]
-      },
-      {
-        "team": "小件2",
-        "line": "RK1-1",
-        "shifts": [
-          {
-            "shift_name": "06-13白",
-            "flow": 7.4,
-            "saturation": 6.2
-          },
-          {
-            "shift_name": "06-13夜",
-            "flow": 6.32,
-            "saturation": 5.3
-          },
-          {
-            "shift_name": "06-14白",
-            "flow": 6.52,
-            "saturation": 5.4
-          },
-          {
-            "shift_name": "06-14夜",
-            "flow": 5.56,
-            "saturation": 4.6
-          }
-        ]
-      },
-      {
-        "team": "小件2",
-        "line": "RK1-2",
-        "shifts": [
-          {
-            "shift_name": "06-13白",
-            "flow": 10.07,
-            "saturation": 0.0
-          },
-          {
-            "shift_name": "06-13夜",
-            "flow": 7.83,
-            "saturation": 0.0
-          },
-          {
-            "shift_name": "06-14白",
-            "flow": 8.71,
-            "saturation": 0.0
-          },
-          {
-            "shift_name": "06-14夜",
-            "flow": 7.4,
-            "saturation": 0.0
+            "flow": 59.28,
+            "saturation": 49.4
           }
         ]
       },
       {
         "team": "小件2",
         "line": "RK10",
+        "std": 60.0,
         "shifts": [
           {
             "shift_name": "06-13白",
@@ -1008,6 +994,7 @@
       {
         "team": "小件2",
         "line": "RK11",
+        "std": 60.0,
         "shifts": [
           {
             "shift_name": "06-13白",
@@ -1034,6 +1021,7 @@
       {
         "team": "小件2",
         "line": "RK12",
+        "std": 60.0,
         "shifts": [
           {
             "shift_name": "06-13白",
@@ -1060,6 +1048,7 @@
       {
         "team": "小件2",
         "line": "RK13",
+        "std": 60.0,
         "shifts": [
           {
             "shift_name": "06-13白",
@@ -1086,6 +1075,7 @@
       {
         "team": "小件2",
         "line": "RK14",
+        "std": 120.0,
         "shifts": [
           {
             "shift_name": "06-13白",
@@ -1112,6 +1102,7 @@
       {
         "team": "小件2",
         "line": "RK15",
+        "std": 60.0,
         "shifts": [
           {
             "shift_name": "06-13白",
@@ -1138,6 +1129,7 @@
       {
         "team": "小件2",
         "line": "RK19",
+        "std": 60.0,
         "shifts": [
           {
             "shift_name": "06-13白",
@@ -1164,6 +1156,7 @@
       {
         "team": "小件3",
         "line": "RK2",
+        "std": 60.0,
         "shifts": [
           {
             "shift_name": "06-13白",
@@ -1190,6 +1183,7 @@
       {
         "team": "小件3",
         "line": "RK2-1",
+        "std": 60.0,
         "shifts": [
           {
             "shift_name": "06-13白",
@@ -1216,58 +1210,34 @@
       {
         "team": "小件3",
         "line": "RK3",
+        "std": 60,
         "shifts": [
           {
             "shift_name": "06-13白",
-            "flow": 17.03,
-            "saturation": 28.4
+            "flow": 51.49,
+            "saturation": 85.8
           },
           {
             "shift_name": "06-13夜",
-            "flow": 13.93,
-            "saturation": 23.2
+            "flow": 42.24,
+            "saturation": 70.4
           },
           {
             "shift_name": "06-14白",
-            "flow": 16.18,
-            "saturation": 27.0
+            "flow": 48.46,
+            "saturation": 80.8
           },
           {
             "shift_name": "06-14夜",
-            "flow": 12.37,
-            "saturation": 20.6
-          }
-        ]
-      },
-      {
-        "team": "小件3",
-        "line": "RK3-1",
-        "shifts": [
-          {
-            "shift_name": "06-13白",
-            "flow": 34.46,
-            "saturation": 57.4
-          },
-          {
-            "shift_name": "06-13夜",
-            "flow": 28.31,
-            "saturation": 47.2
-          },
-          {
-            "shift_name": "06-14白",
-            "flow": 32.28,
-            "saturation": 53.8
-          },
-          {
-            "shift_name": "06-14夜",
-            "flow": 25.15,
-            "saturation": 41.9
+            "flow": 37.52,
+            "saturation": 62.5
           }
         ]
       },
       {
         "team": "小件3",
         "line": "RK4",
+        "std": 60.0,
         "shifts": [
           {
             "shift_name": "06-13白",
@@ -1294,6 +1264,7 @@
       {
         "team": "小件3",
         "line": "RK5",
+        "std": 60.0,
         "shifts": [
           {
             "shift_name": "06-13白",
@@ -1320,6 +1291,7 @@
       {
         "team": "小件3",
         "line": "RK6",
+        "std": 60.0,
         "shifts": [
           {
             "shift_name": "06-13白",
@@ -1346,84 +1318,34 @@
       {
         "team": "小件3",
         "line": "RK7",
+        "std": 60,
         "shifts": [
           {
             "shift_name": "06-13白",
-            "flow": 7.45,
-            "saturation": 12.4
+            "flow": 38.37,
+            "saturation": 64.0
           },
           {
             "shift_name": "06-13夜",
-            "flow": 6.32,
-            "saturation": 10.5
+            "flow": 33.0,
+            "saturation": 55.0
           },
           {
             "shift_name": "06-14白",
-            "flow": 5.9,
-            "saturation": 9.8
+            "flow": 32.11,
+            "saturation": 53.5
           },
           {
             "shift_name": "06-14夜",
-            "flow": 5.46,
-            "saturation": 9.1
-          }
-        ]
-      },
-      {
-        "team": "小件3",
-        "line": "RK7-1",
-        "shifts": [
-          {
-            "shift_name": "06-13白",
-            "flow": 12.3,
-            "saturation": 20.5
-          },
-          {
-            "shift_name": "06-13夜",
-            "flow": 10.62,
-            "saturation": 17.7
-          },
-          {
-            "shift_name": "06-14白",
-            "flow": 10.64,
-            "saturation": 17.7
-          },
-          {
-            "shift_name": "06-14夜",
-            "flow": 9.24,
-            "saturation": 15.4
-          }
-        ]
-      },
-      {
-        "team": "小件3",
-        "line": "RK7-2",
-        "shifts": [
-          {
-            "shift_name": "06-13白",
-            "flow": 18.62,
-            "saturation": 31.0
-          },
-          {
-            "shift_name": "06-13夜",
-            "flow": 16.06,
-            "saturation": 26.8
-          },
-          {
-            "shift_name": "06-14白",
-            "flow": 15.57,
-            "saturation": 25.9
-          },
-          {
-            "shift_name": "06-14夜",
-            "flow": 13.54,
-            "saturation": 22.6
+            "flow": 28.24,
+            "saturation": 47.1
           }
         ]
       },
       {
         "team": "小件3",
         "line": "RK8",
+        "std": 60.0,
         "shifts": [
           {
             "shift_name": "06-13白",
@@ -1450,6 +1372,7 @@
       {
         "team": "小件3",
         "line": "RK8-1",
+        "std": 60.0,
         "shifts": [
           {
             "shift_name": "06-13白",
@@ -1476,6 +1399,7 @@
       {
         "team": "小件3",
         "line": "RK9",
+        "std": 60.0,
         "shifts": [
           {
             "shift_name": "06-13白",
@@ -1502,6 +1426,7 @@
       {
         "team": "小件3",
         "line": "RK9-1",
+        "std": 60.0,
         "shifts": [
           {
             "shift_name": "06-13白",
@@ -1528,6 +1453,7 @@
       {
         "team": "小件3",
         "line": "RK16",
+        "std": 60.0,
         "shifts": [
           {
             "shift_name": "06-13白",
@@ -1554,6 +1480,7 @@
       {
         "team": "小件3",
         "line": "RK16-1",
+        "std": 60.0,
         "shifts": [
           {
             "shift_name": "06-13白",
@@ -1580,6 +1507,7 @@
       {
         "team": "小件3",
         "line": "RK17",
+        "std": 60.0,
         "shifts": [
           {
             "shift_name": "06-13白",
@@ -1612,10 +1540,12 @@
       "06-14白",
       "06-14夜"
     ],
+    "date_range": "2026-06-13 ~ 2026-06-14",
     "data": [
       {
         "team": "隔离区",
         "line": "RG29",
+        "std": 10.0,
         "shifts": [
           {
             "shift_name": "06-13白",
