@@ -380,14 +380,1008 @@
         
         <!-- 流量数据信息 -->
         <div style="padding:8px 0;font-size:13px;color:#666;">
-            数据日期： | 更新时间：2026年06月15日 17:04
+            数据日期：2026-06-15 ~ 2026-06-16 | 更新时间：2026年06月15日 17:26
         </div>
         <!-- 流量子 Tab -->
         <div class="flow-subtab-nav">
             <button class="flow-subtab-btn active" data-subtab="big" onclick="switchFlowSubTab('big')">大件线路</button>
             <button class="flow-subtab-btn" data-subtab="small" onclick="switchFlowSubTab('small')">小件线路</button>
         </div>
-        <div id="tab-big" class="flow-subtab active"><div class="empty-state">暂无上线流量数据<br>请先在工具中执行"上线流量填充"</div></div>
+        
+    <!-- ========== 大件线路子Tab ========== -->
+    <div id="tab-big" class="flow-subtab active">
+        <div class="stats-row">
+            <div class="stat-card stat-total">
+                <div class="stat-value">132</div>
+                <div class="stat-label">线路班次总数</div>
+            </div>
+            <div class="stat-card stat-high">
+                <div class="stat-value">10</div>
+                <div class="stat-label">高饱和 (&gt;85%)</div>
+            </div>
+            <div class="stat-card stat-severe">
+                <div class="stat-value">3</div>
+                <div class="stat-label">严重饱和 (&gt;95%)</div>
+            </div>
+        </div>
+
+        <div class="chart-section">
+            <div class="chart-header">大件1（8条线路）</div>
+            <div class="chart-container"><canvas id="chart-big-0"></canvas></div>
+        </div>
+
+        <div class="chart-section">
+            <div class="chart-header">大件2（7条线路）</div>
+            <div class="chart-container"><canvas id="chart-big-1"></canvas></div>
+        </div>
+
+        <div class="chart-section">
+            <div class="chart-header">大件3（9条线路）</div>
+            <div class="chart-container"><canvas id="chart-big-2"></canvas></div>
+        </div>
+
+        <div class="chart-section">
+            <div class="chart-header">大件4（10条线路）</div>
+            <div class="chart-container"><canvas id="chart-big-3"></canvas></div>
+        </div>
+<div class="sheet-section"><h2>大件线路（数据明细）</h2>
+<div class="table-container"><table class="data-table"><thead><tr>
+<th>班组</th><th>线路</th>
+<th colspan="3">06-15白</th>
+<th colspan="3">06-15夜</th>
+<th colspan="3">06-16白</th>
+<th colspan="3">06-16夜</th>
+<th>效率标准箱</th></tr>
+<tr class="sub-header"><th></th><th></th>
+<th>线路流量</th><th>饱和度</th><th>现有人员</th>
+<th>线路流量</th><th>饱和度</th><th>现有人员</th>
+<th>线路流量</th><th>饱和度</th><th>现有人员</th>
+<th>线路流量</th><th>饱和度</th><th>现有人员</th>
+<th></th></tr></thead><tbody>
+<tr>
+<td class="team-cell" rowspan="8">大件1</td>
+<td class="line-cell">RC1-1</td>
+<td class="number-cell" rowspan="1">7.52</td>
+<td class="number-cell sat-normal" rowspan="1">75.2%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">6.17</td>
+<td class="number-cell sat-normal" rowspan="1">61.7%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">7.63</td>
+<td class="number-cell sat-normal" rowspan="1">76.3%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">6.41</td>
+<td class="number-cell sat-normal" rowspan="1">64.1%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell">10</td>
+</tr>
+<tr>
+<td class="line-cell">RC1-2</td>
+<td class="number-cell" rowspan="1">5.16</td>
+<td class="number-cell sat-normal" rowspan="1">51.6%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">4.55</td>
+<td class="number-cell sat-normal" rowspan="1">45.5%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">5.66</td>
+<td class="number-cell sat-normal" rowspan="1">56.6%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">4.70</td>
+<td class="number-cell sat-normal" rowspan="1">47.0%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell">10</td>
+</tr>
+<tr>
+<td class="line-cell">RG1-1</td>
+<td class="number-cell" rowspan="1">5.65</td>
+<td class="number-cell sat-normal" rowspan="1">56.5%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">5.41</td>
+<td class="number-cell sat-normal" rowspan="1">54.1%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">6.15</td>
+<td class="number-cell sat-normal" rowspan="1">61.5%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">5.47</td>
+<td class="number-cell sat-normal" rowspan="1">54.7%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell">10</td>
+</tr>
+<tr>
+<td class="line-cell">RG1-2</td>
+<td class="number-cell" rowspan="1">2.44</td>
+<td class="number-cell sat-normal" rowspan="1">24.4%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">2.59</td>
+<td class="number-cell sat-normal" rowspan="1">25.9%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">2.24</td>
+<td class="number-cell sat-normal" rowspan="1">22.4%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">2.98</td>
+<td class="number-cell sat-normal" rowspan="1">29.8%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell">10</td>
+</tr>
+<tr>
+<td class="line-cell">RG1-3</td>
+<td class="number-cell" rowspan="1">5.40</td>
+<td class="number-cell sat-normal" rowspan="1">54.0%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">6.09</td>
+<td class="number-cell sat-normal" rowspan="1">60.9%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">7.20</td>
+<td class="number-cell sat-normal" rowspan="1">72.0%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">4.27</td>
+<td class="number-cell sat-normal" rowspan="1">42.7%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell">10</td>
+</tr>
+<tr>
+<td class="line-cell">RG1-4</td>
+<td class="number-cell" rowspan="1">2.46</td>
+<td class="number-cell sat-normal" rowspan="1">24.6%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">2.06</td>
+<td class="number-cell sat-normal" rowspan="1">20.6%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">2.33</td>
+<td class="number-cell sat-normal" rowspan="1">23.3%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">2.45</td>
+<td class="number-cell sat-normal" rowspan="1">24.5%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell">10</td>
+</tr>
+<tr>
+<td class="line-cell">RG1-5</td>
+<td class="number-cell" rowspan="1">6.31</td>
+<td class="number-cell sat-normal" rowspan="1">63.1%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">5.12</td>
+<td class="number-cell sat-normal" rowspan="1">51.2%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">6.62</td>
+<td class="number-cell sat-normal" rowspan="1">66.2%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">5.83</td>
+<td class="number-cell sat-normal" rowspan="1">58.3%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell">10</td>
+</tr>
+<tr>
+<td class="line-cell">RG1-6</td>
+<td class="number-cell" rowspan="1">5.86</td>
+<td class="number-cell sat-normal" rowspan="1">58.6%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">5.60</td>
+<td class="number-cell sat-normal" rowspan="1">56.0%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">7.00</td>
+<td class="number-cell sat-normal" rowspan="1">70.0%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">4.51</td>
+<td class="number-cell sat-normal" rowspan="1">45.1%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell">10</td>
+</tr>
+<tr>
+<td class="team-cell" rowspan="7">大件2</td>
+<td class="line-cell">RG2-1</td>
+<td class="number-cell" rowspan="1">7.58</td>
+<td class="number-cell sat-normal" rowspan="1">75.8%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">5.27</td>
+<td class="number-cell sat-normal" rowspan="1">52.7%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">7.91</td>
+<td class="number-cell sat-normal" rowspan="1">79.1%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">5.34</td>
+<td class="number-cell sat-normal" rowspan="1">53.4%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell">10</td>
+</tr>
+<tr>
+<td class="line-cell">RG2-2</td>
+<td class="number-cell" rowspan="1">7.61</td>
+<td class="number-cell sat-normal" rowspan="1">76.1%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">6.49</td>
+<td class="number-cell sat-normal" rowspan="1">64.9%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">8.05</td>
+<td class="number-cell sat-normal" rowspan="1">80.5%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">6.13</td>
+<td class="number-cell sat-normal" rowspan="1">61.3%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell">10</td>
+</tr>
+<tr>
+<td class="line-cell">RG2-3</td>
+<td class="number-cell" rowspan="1">5.40</td>
+<td class="number-cell sat-normal" rowspan="1">54.0%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">5.02</td>
+<td class="number-cell sat-normal" rowspan="1">50.2%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">5.55</td>
+<td class="number-cell sat-normal" rowspan="1">55.5%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">4.25</td>
+<td class="number-cell sat-normal" rowspan="1">42.5%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell">10</td>
+</tr>
+<tr>
+<td class="line-cell">RG2-4</td>
+<td class="number-cell" rowspan="1">8.86</td>
+<td class="number-cell sat-yellow" rowspan="1">88.6%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">7.76</td>
+<td class="number-cell sat-normal" rowspan="1">77.6%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">9.29</td>
+<td class="number-cell sat-yellow" rowspan="1">92.9%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">8.02</td>
+<td class="number-cell sat-normal" rowspan="1">80.2%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell">10</td>
+</tr>
+<tr>
+<td class="line-cell">RG2-5</td>
+<td class="number-cell" rowspan="1">6.36</td>
+<td class="number-cell sat-normal" rowspan="1">63.6%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">5.45</td>
+<td class="number-cell sat-normal" rowspan="1">54.5%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">6.50</td>
+<td class="number-cell sat-normal" rowspan="1">65.0%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">4.96</td>
+<td class="number-cell sat-normal" rowspan="1">49.6%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell">10</td>
+</tr>
+<tr>
+<td class="line-cell">RG2-6</td>
+<td class="number-cell" rowspan="1">8.15</td>
+<td class="number-cell sat-normal" rowspan="1">81.5%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">7.53</td>
+<td class="number-cell sat-normal" rowspan="1">75.3%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">8.80</td>
+<td class="number-cell sat-yellow" rowspan="1">88.0%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">7.40</td>
+<td class="number-cell sat-normal" rowspan="1">74.0%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell">10</td>
+</tr>
+<tr>
+<td class="line-cell">RG2-7</td>
+<td class="number-cell" rowspan="1">4.54</td>
+<td class="number-cell sat-normal" rowspan="1">45.4%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">4.63</td>
+<td class="number-cell sat-normal" rowspan="1">46.3%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">4.81</td>
+<td class="number-cell sat-normal" rowspan="1">48.1%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">4.62</td>
+<td class="number-cell sat-normal" rowspan="1">46.2%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell">10</td>
+</tr>
+<tr>
+<td class="team-cell" rowspan="9">大件3</td>
+<td class="line-cell">RC3-1</td>
+<td class="number-cell" rowspan="1">10.52</td>
+<td class="number-cell sat-normal" rowspan="1">70.1%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">8.81</td>
+<td class="number-cell sat-normal" rowspan="1">58.7%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">11.03</td>
+<td class="number-cell sat-normal" rowspan="1">73.5%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">8.21</td>
+<td class="number-cell sat-normal" rowspan="1">54.7%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell">15</td>
+</tr>
+<tr>
+<td class="line-cell">RC3-2</td>
+<td class="number-cell" rowspan="1">12.01</td>
+<td class="number-cell sat-normal" rowspan="1">80.1%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">9.40</td>
+<td class="number-cell sat-normal" rowspan="1">62.7%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">12.14</td>
+<td class="number-cell sat-normal" rowspan="1">80.9%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">9.22</td>
+<td class="number-cell sat-normal" rowspan="1">61.4%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell">15</td>
+</tr>
+<tr>
+<td class="line-cell">RG3-1</td>
+<td class="number-cell" rowspan="1">6.98</td>
+<td class="number-cell sat-normal" rowspan="1">69.8%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">5.71</td>
+<td class="number-cell sat-normal" rowspan="1">57.1%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">6.58</td>
+<td class="number-cell sat-normal" rowspan="1">65.8%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">6.14</td>
+<td class="number-cell sat-normal" rowspan="1">61.4%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell">10</td>
+</tr>
+<tr>
+<td class="line-cell">RG3-2</td>
+<td class="number-cell" rowspan="1">4.77</td>
+<td class="number-cell sat-normal" rowspan="1">47.7%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">4.92</td>
+<td class="number-cell sat-normal" rowspan="1">49.2%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">5.83</td>
+<td class="number-cell sat-normal" rowspan="1">58.3%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">2.76</td>
+<td class="number-cell sat-normal" rowspan="1">27.6%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell">10</td>
+</tr>
+<tr>
+<td class="line-cell">RG3-3</td>
+<td class="number-cell" rowspan="1">8.65</td>
+<td class="number-cell sat-yellow" rowspan="1">86.5%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">6.62</td>
+<td class="number-cell sat-normal" rowspan="1">66.2%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">8.92</td>
+<td class="number-cell sat-yellow" rowspan="1">89.2%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">6.78</td>
+<td class="number-cell sat-normal" rowspan="1">67.8%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell">10</td>
+</tr>
+<tr>
+<td class="line-cell">RG3-4</td>
+<td class="number-cell" rowspan="1">5.33</td>
+<td class="number-cell sat-normal" rowspan="1">53.3%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">4.66</td>
+<td class="number-cell sat-normal" rowspan="1">46.6%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">5.82</td>
+<td class="number-cell sat-normal" rowspan="1">58.2%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">4.31</td>
+<td class="number-cell sat-normal" rowspan="1">43.1%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell">10</td>
+</tr>
+<tr>
+<td class="line-cell">RG3-5</td>
+<td class="number-cell" rowspan="1">10.78</td>
+<td class="number-cell sat-red" rowspan="1">107.8%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">8.28</td>
+<td class="number-cell sat-normal" rowspan="1">82.8%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">11.06</td>
+<td class="number-cell sat-red" rowspan="1">110.6%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">8.50</td>
+<td class="number-cell sat-normal" rowspan="1">85.0%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell">10</td>
+</tr>
+<tr>
+<td class="line-cell">RG3-8</td>
+<td class="number-cell" rowspan="1">7.55</td>
+<td class="number-cell sat-normal" rowspan="1">75.5%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">6.79</td>
+<td class="number-cell sat-normal" rowspan="1">67.9%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">8.34</td>
+<td class="number-cell sat-normal" rowspan="1">83.4%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">5.62</td>
+<td class="number-cell sat-normal" rowspan="1">56.2%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell">10</td>
+</tr>
+<tr>
+<td class="line-cell">RG3-9</td>
+<td class="number-cell" rowspan="1">4.56</td>
+<td class="number-cell sat-normal" rowspan="1">45.6%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">4.66</td>
+<td class="number-cell sat-normal" rowspan="1">46.6%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">5.78</td>
+<td class="number-cell sat-normal" rowspan="1">57.8%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">3.67</td>
+<td class="number-cell sat-normal" rowspan="1">36.7%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell">10</td>
+</tr>
+<tr>
+<td class="team-cell" rowspan="10">大件4</td>
+<td class="line-cell">RG4-1</td>
+<td class="number-cell" rowspan="1">8.13</td>
+<td class="number-cell sat-normal" rowspan="1">81.3%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">6.95</td>
+<td class="number-cell sat-normal" rowspan="1">69.5%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">8.79</td>
+<td class="number-cell sat-yellow" rowspan="1">87.9%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">6.46</td>
+<td class="number-cell sat-normal" rowspan="1">64.6%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell">10</td>
+</tr>
+<tr>
+<td class="line-cell">RG4-2</td>
+<td class="number-cell" rowspan="1">5.73</td>
+<td class="number-cell sat-normal" rowspan="1">57.3%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">4.72</td>
+<td class="number-cell sat-normal" rowspan="1">47.2%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">5.78</td>
+<td class="number-cell sat-normal" rowspan="1">57.8%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">4.96</td>
+<td class="number-cell sat-normal" rowspan="1">49.6%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell">10</td>
+</tr>
+<tr>
+<td class="line-cell">RG4-3</td>
+<td class="number-cell" rowspan="1">7.49</td>
+<td class="number-cell sat-normal" rowspan="1">74.9%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">6.72</td>
+<td class="number-cell sat-normal" rowspan="1">67.2%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">9.43</td>
+<td class="number-cell sat-yellow" rowspan="1">94.3%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">4.50</td>
+<td class="number-cell sat-normal" rowspan="1">45.0%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell">10</td>
+</tr>
+<tr>
+<td class="line-cell">RG4-4</td>
+<td class="number-cell" rowspan="1">4.66</td>
+<td class="number-cell sat-normal" rowspan="1">46.6%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">5.28</td>
+<td class="number-cell sat-normal" rowspan="1">52.8%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">5.79</td>
+<td class="number-cell sat-normal" rowspan="1">57.9%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">2.04</td>
+<td class="number-cell sat-normal" rowspan="1">20.4%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell">10</td>
+</tr>
+<tr>
+<td class="line-cell">RG4-5</td>
+<td class="number-cell" rowspan="1">8.81</td>
+<td class="number-cell sat-yellow" rowspan="1">88.1%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">7.76</td>
+<td class="number-cell sat-normal" rowspan="1">77.6%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">9.62</td>
+<td class="number-cell sat-red" rowspan="1">96.2%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">6.84</td>
+<td class="number-cell sat-normal" rowspan="1">68.4%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell">10</td>
+</tr>
+<tr>
+<td class="line-cell">RG4-6</td>
+<td class="number-cell" rowspan="1">16.17</td>
+<td class="number-cell sat-yellow" rowspan="1">89.8%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">12.42</td>
+<td class="number-cell sat-normal" rowspan="1">69.0%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">16.58</td>
+<td class="number-cell sat-yellow" rowspan="1">92.1%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">12.75</td>
+<td class="number-cell sat-normal" rowspan="1">70.8%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell">18</td>
+</tr>
+<tr>
+<td class="line-cell">RG4-7</td>
+<td class="number-cell" rowspan="1">6.90</td>
+<td class="number-cell sat-normal" rowspan="1">69.0%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">6.36</td>
+<td class="number-cell sat-normal" rowspan="1">63.6%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">7.82</td>
+<td class="number-cell sat-normal" rowspan="1">78.2%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">4.70</td>
+<td class="number-cell sat-normal" rowspan="1">47.0%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell">10</td>
+</tr>
+<tr>
+<td class="line-cell">RG4-8</td>
+<td class="number-cell" rowspan="1">0.78</td>
+<td class="number-cell sat-normal" rowspan="1">39.1%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">0.84</td>
+<td class="number-cell sat-normal" rowspan="1">42.2%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">0.89</td>
+<td class="number-cell sat-normal" rowspan="1">44.4%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">0.40</td>
+<td class="number-cell sat-normal" rowspan="1">20.0%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell">2</td>
+</tr>
+<tr>
+<td class="line-cell">RG4-9</td>
+<td class="number-cell" rowspan="1">6.00</td>
+<td class="number-cell sat-normal" rowspan="1">60.0%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">5.14</td>
+<td class="number-cell sat-normal" rowspan="1">51.4%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">6.20</td>
+<td class="number-cell sat-normal" rowspan="1">62.0%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">4.76</td>
+<td class="number-cell sat-normal" rowspan="1">47.6%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell">10</td>
+</tr>
+<tr>
+<td class="line-cell">RG4-10</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell sat-normal" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell sat-normal" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell sat-normal" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell sat-normal" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell">10</td>
+</tr>
+</tbody></table></div></div></div>
+
+    <div id="tab-small" class="flow-subtab">
+        <div class="stats-row">
+            <div class="stat-card stat-total">
+                <div class="stat-value">88</div>
+                <div class="stat-label">线路班次总数</div>
+            </div>
+            <div class="stat-card stat-high">
+                <div class="stat-value">7</div>
+                <div class="stat-label">高饱和 (&gt;85%)</div>
+            </div>
+            <div class="stat-card stat-severe">
+                <div class="stat-value">1</div>
+                <div class="stat-label">严重饱和 (&gt;95%)</div>
+            </div>
+        </div>
+
+        <div class="chart-section">
+            <div class="chart-header">小件2（8条线路）</div>
+            <div class="chart-container"><canvas id="chart-small-0"></canvas></div>
+        </div>
+
+        <div class="chart-section">
+            <div class="chart-header">小件3（14条线路）</div>
+            <div class="chart-container"><canvas id="chart-small-1"></canvas></div>
+        </div>
+<div class="sheet-section"><h2>小件线路（数据明细）</h2>
+<div class="table-container"><table class="data-table"><thead><tr>
+<th>班组</th><th>线路</th>
+<th colspan="3">06-15白</th>
+<th colspan="3">06-15夜</th>
+<th colspan="3">06-16白</th>
+<th colspan="3">06-16夜</th>
+<th>效率标准箱</th></tr>
+<tr class="sub-header"><th></th><th></th>
+<th>线路流量</th><th>饱和度</th><th>现有人员</th>
+<th>线路流量</th><th>饱和度</th><th>现有人员</th>
+<th>线路流量</th><th>饱和度</th><th>现有人员</th>
+<th>线路流量</th><th>饱和度</th><th>现有人员</th>
+<th></th></tr></thead><tbody>
+<tr>
+<td class="team-cell" rowspan="8">小件2</td>
+<td class="line-cell">RK1</td>
+<td class="number-cell" rowspan="1">77.57</td>
+<td class="number-cell sat-normal" rowspan="1">64.6%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">61.18</td>
+<td class="number-cell sat-normal" rowspan="1">51.0%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">81.34</td>
+<td class="number-cell sat-normal" rowspan="1">67.8%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">62.74</td>
+<td class="number-cell sat-normal" rowspan="1">52.3%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell">120</td>
+</tr>
+<tr>
+<td class="line-cell">RK10</td>
+<td class="number-cell" rowspan="1">38.47</td>
+<td class="number-cell sat-normal" rowspan="1">64.1%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">42.32</td>
+<td class="number-cell sat-normal" rowspan="1">70.5%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">44.27</td>
+<td class="number-cell sat-normal" rowspan="1">73.8%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">40.67</td>
+<td class="number-cell sat-normal" rowspan="1">67.8%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell">60</td>
+</tr>
+<tr>
+<td class="line-cell">RK11</td>
+<td class="number-cell" rowspan="1">40.59</td>
+<td class="number-cell sat-normal" rowspan="1">67.7%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">38.14</td>
+<td class="number-cell sat-normal" rowspan="1">63.6%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">44.59</td>
+<td class="number-cell sat-normal" rowspan="1">74.3%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">38.47</td>
+<td class="number-cell sat-normal" rowspan="1">64.1%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell">60</td>
+</tr>
+<tr>
+<td class="line-cell">RK12</td>
+<td class="number-cell" rowspan="1">33.77</td>
+<td class="number-cell sat-normal" rowspan="1">56.3%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">30.47</td>
+<td class="number-cell sat-normal" rowspan="1">50.8%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">38.60</td>
+<td class="number-cell sat-normal" rowspan="1">64.3%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">27.26</td>
+<td class="number-cell sat-normal" rowspan="1">45.4%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell">60</td>
+</tr>
+<tr>
+<td class="line-cell">RK13</td>
+<td class="number-cell" rowspan="1">50.47</td>
+<td class="number-cell sat-normal" rowspan="1">84.1%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">41.95</td>
+<td class="number-cell sat-normal" rowspan="1">69.9%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">53.61</td>
+<td class="number-cell sat-yellow" rowspan="1">89.4%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">41.16</td>
+<td class="number-cell sat-normal" rowspan="1">68.6%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell">60</td>
+</tr>
+<tr>
+<td class="line-cell">RK14</td>
+<td class="number-cell" rowspan="1">73.59</td>
+<td class="number-cell sat-normal" rowspan="1">61.3%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">67.54</td>
+<td class="number-cell sat-normal" rowspan="1">56.3%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">72.51</td>
+<td class="number-cell sat-normal" rowspan="1">60.4%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">68.75</td>
+<td class="number-cell sat-normal" rowspan="1">57.3%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell">120</td>
+</tr>
+<tr>
+<td class="line-cell">RK15</td>
+<td class="number-cell" rowspan="1">2.58</td>
+<td class="number-cell sat-normal" rowspan="1">4.3%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">5.31</td>
+<td class="number-cell sat-normal" rowspan="1">8.8%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">4.39</td>
+<td class="number-cell sat-normal" rowspan="1">7.3%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">2.31</td>
+<td class="number-cell sat-normal" rowspan="1">3.8%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell">60</td>
+</tr>
+<tr>
+<td class="line-cell">RK19</td>
+<td class="number-cell" rowspan="1">32.13</td>
+<td class="number-cell sat-normal" rowspan="1">53.5%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">28.76</td>
+<td class="number-cell sat-normal" rowspan="1">47.9%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">35.56</td>
+<td class="number-cell sat-normal" rowspan="1">59.3%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">26.59</td>
+<td class="number-cell sat-normal" rowspan="1">44.3%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell">60</td>
+</tr>
+<tr>
+<td class="team-cell" rowspan="14">小件3</td>
+<td class="line-cell">RK2</td>
+<td class="number-cell" rowspan="1">54.49</td>
+<td class="number-cell sat-yellow" rowspan="1">90.8%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">55.60</td>
+<td class="number-cell sat-yellow" rowspan="1">92.7%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">59.52</td>
+<td class="number-cell sat-red" rowspan="1">99.2%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">42.79</td>
+<td class="number-cell sat-normal" rowspan="1">71.3%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell">60</td>
+</tr>
+<tr>
+<td class="line-cell">RK2-1</td>
+<td class="number-cell" rowspan="1">51.98</td>
+<td class="number-cell sat-yellow" rowspan="1">86.6%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">44.18</td>
+<td class="number-cell sat-normal" rowspan="1">73.6%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">54.95</td>
+<td class="number-cell sat-yellow" rowspan="1">91.6%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">46.65</td>
+<td class="number-cell sat-normal" rowspan="1">77.8%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell">60</td>
+</tr>
+<tr>
+<td class="line-cell">RK3</td>
+<td class="number-cell" rowspan="1">46.14</td>
+<td class="number-cell sat-normal" rowspan="1">76.9%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">35.56</td>
+<td class="number-cell sat-normal" rowspan="1">59.3%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">53.26</td>
+<td class="number-cell sat-yellow" rowspan="1">88.8%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">30.85</td>
+<td class="number-cell sat-normal" rowspan="1">51.4%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell">60</td>
+</tr>
+<tr>
+<td class="line-cell">RK4</td>
+<td class="number-cell" rowspan="1">44.79</td>
+<td class="number-cell sat-normal" rowspan="1">74.7%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">40.97</td>
+<td class="number-cell sat-normal" rowspan="1">68.3%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">47.77</td>
+<td class="number-cell sat-normal" rowspan="1">79.6%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">38.83</td>
+<td class="number-cell sat-normal" rowspan="1">64.7%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell">60</td>
+</tr>
+<tr>
+<td class="line-cell">RK5</td>
+<td class="number-cell" rowspan="1">44.63</td>
+<td class="number-cell sat-normal" rowspan="1">74.4%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">38.14</td>
+<td class="number-cell sat-normal" rowspan="1">63.6%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">48.08</td>
+<td class="number-cell sat-normal" rowspan="1">80.1%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">35.50</td>
+<td class="number-cell sat-normal" rowspan="1">59.2%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell">60</td>
+</tr>
+<tr>
+<td class="line-cell">RK6</td>
+<td class="number-cell" rowspan="1">40.94</td>
+<td class="number-cell sat-normal" rowspan="1">68.2%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">35.95</td>
+<td class="number-cell sat-normal" rowspan="1">59.9%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">43.24</td>
+<td class="number-cell sat-normal" rowspan="1">72.1%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">34.56</td>
+<td class="number-cell sat-normal" rowspan="1">57.6%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell">60</td>
+</tr>
+<tr>
+<td class="line-cell">RK7</td>
+<td class="number-cell" rowspan="1">32.91</td>
+<td class="number-cell sat-normal" rowspan="1">54.9%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">28.29</td>
+<td class="number-cell sat-normal" rowspan="1">47.1%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">33.15</td>
+<td class="number-cell sat-normal" rowspan="1">55.2%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">25.73</td>
+<td class="number-cell sat-normal" rowspan="1">42.9%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell">60</td>
+</tr>
+<tr>
+<td class="line-cell">RK8</td>
+<td class="number-cell" rowspan="1">47.34</td>
+<td class="number-cell sat-normal" rowspan="1">78.9%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">43.93</td>
+<td class="number-cell sat-normal" rowspan="1">73.2%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">52.68</td>
+<td class="number-cell sat-yellow" rowspan="1">87.8%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">41.71</td>
+<td class="number-cell sat-normal" rowspan="1">69.5%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell">60</td>
+</tr>
+<tr>
+<td class="line-cell">RK8-1</td>
+<td class="number-cell" rowspan="1">21.05</td>
+<td class="number-cell sat-normal" rowspan="1">35.1%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">17.95</td>
+<td class="number-cell sat-normal" rowspan="1">29.9%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">22.49</td>
+<td class="number-cell sat-normal" rowspan="1">37.5%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">18.51</td>
+<td class="number-cell sat-normal" rowspan="1">30.9%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell">60</td>
+</tr>
+<tr>
+<td class="line-cell">RK9</td>
+<td class="number-cell" rowspan="1">46.13</td>
+<td class="number-cell sat-normal" rowspan="1">76.9%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">39.66</td>
+<td class="number-cell sat-normal" rowspan="1">66.1%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">47.57</td>
+<td class="number-cell sat-normal" rowspan="1">79.3%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">38.21</td>
+<td class="number-cell sat-normal" rowspan="1">63.7%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell">60</td>
+</tr>
+<tr>
+<td class="line-cell">RK9-1</td>
+<td class="number-cell" rowspan="1">21.50</td>
+<td class="number-cell sat-normal" rowspan="1">35.8%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">17.97</td>
+<td class="number-cell sat-normal" rowspan="1">30.0%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">21.86</td>
+<td class="number-cell sat-normal" rowspan="1">36.4%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">18.29</td>
+<td class="number-cell sat-normal" rowspan="1">30.5%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell">60</td>
+</tr>
+<tr>
+<td class="line-cell">RK16</td>
+<td class="number-cell" rowspan="1">30.20</td>
+<td class="number-cell sat-normal" rowspan="1">50.3%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">26.17</td>
+<td class="number-cell sat-normal" rowspan="1">43.6%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">31.18</td>
+<td class="number-cell sat-normal" rowspan="1">52.0%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">25.43</td>
+<td class="number-cell sat-normal" rowspan="1">42.4%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell">60</td>
+</tr>
+<tr>
+<td class="line-cell">RK16-1</td>
+<td class="number-cell" rowspan="1">14.90</td>
+<td class="number-cell sat-normal" rowspan="1">24.8%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">14.18</td>
+<td class="number-cell sat-normal" rowspan="1">23.6%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">16.55</td>
+<td class="number-cell sat-normal" rowspan="1">27.6%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">10.47</td>
+<td class="number-cell sat-normal" rowspan="1">17.5%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell">60</td>
+</tr>
+<tr>
+<td class="line-cell">RK17</td>
+<td class="number-cell" rowspan="1">15.89</td>
+<td class="number-cell sat-normal" rowspan="1">26.5%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">13.64</td>
+<td class="number-cell sat-normal" rowspan="1">22.7%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">15.09</td>
+<td class="number-cell sat-normal" rowspan="1">25.2%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell" rowspan="1">13.14</td>
+<td class="number-cell sat-normal" rowspan="1">21.9%</td>
+<td class="number-cell" rowspan="1">-</td>
+<td class="number-cell">60</td>
+</tr>
+</tbody></table></div></div></div>
 
         <!-- 饱和度图例 -->
         <div class="legend">
@@ -471,7 +1465,7 @@
 
     <div class="footer">
         <div>现场信息看板 | 上线流量 + 排序零件GKB查询</div>
-        <div style="margin-top:4px;">网页更新时间：2026年06月15日 17:04</div>
+        <div style="margin-top:4px;">网页更新时间：2026年06月15日 17:26</div>
     </div>
 
     <script>
@@ -652,7 +1646,12 @@
     // ========== 初始化 ==========
     document.addEventListener('DOMContentLoaded', function() {
         // 流量图表 (if has data)
-        /* 无流量数据 */
+        createChart('chart-big-0', ["RC1-1", "RC1-2", "RG1-1", "RG1-2", "RG1-3", "RG1-4", "RG1-5", "RG1-6"], [{"label": "06-15白", "data": [75.2, 51.6, 56.5, 24.4, 54.0, 24.6, 63.1, 58.6], "backgroundColor": ["#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50"], "borderColor": ["#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50"], "borderWidth": 1, "barPercentage": 0.7, "legendColor": "#4caf50"}, {"label": "06-15夜", "data": [61.7, 45.5, 54.1, 25.9, 60.9, 20.6, 51.2, 56.0], "backgroundColor": ["#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50"], "borderColor": ["#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50"], "borderWidth": 1, "barPercentage": 0.7, "legendColor": "#4caf50"}, {"label": "06-16白", "data": [76.3, 56.6, 61.5, 22.4, 72.0, 23.3, 66.2, 70.0], "backgroundColor": ["#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50"], "borderColor": ["#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50"], "borderWidth": 1, "barPercentage": 0.7, "legendColor": "#4caf50"}, {"label": "06-16夜", "data": [64.1, 47.0, 54.7, 29.8, 42.7, 24.5, 58.3, 45.1], "backgroundColor": ["#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50"], "borderColor": ["#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50"], "borderWidth": 1, "barPercentage": 0.7, "legendColor": "#4caf50"}]);
+createChart('chart-big-1', ["RG2-1", "RG2-2", "RG2-3", "RG2-4", "RG2-5", "RG2-6", "RG2-7"], [{"label": "06-15白", "data": [75.8, 76.1, 54.0, 88.6, 63.6, 81.5, 45.4], "backgroundColor": ["#4caf50", "#4caf50", "#4caf50", "#ffc107", "#4caf50", "#4caf50", "#4caf50"], "borderColor": ["#4caf50", "#4caf50", "#4caf50", "#ffc107", "#4caf50", "#4caf50", "#4caf50"], "borderWidth": 1, "barPercentage": 0.7, "legendColor": "#4caf50"}, {"label": "06-15夜", "data": [52.7, 64.9, 50.2, 77.6, 54.5, 75.3, 46.3], "backgroundColor": ["#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50"], "borderColor": ["#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50"], "borderWidth": 1, "barPercentage": 0.7, "legendColor": "#4caf50"}, {"label": "06-16白", "data": [79.1, 80.5, 55.5, 92.9, 65.0, 88.0, 48.1], "backgroundColor": ["#4caf50", "#4caf50", "#4caf50", "#ffc107", "#4caf50", "#ffc107", "#4caf50"], "borderColor": ["#4caf50", "#4caf50", "#4caf50", "#ffc107", "#4caf50", "#ffc107", "#4caf50"], "borderWidth": 1, "barPercentage": 0.7, "legendColor": "#4caf50"}, {"label": "06-16夜", "data": [53.4, 61.3, 42.5, 80.2, 49.6, 74.0, 46.2], "backgroundColor": ["#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50"], "borderColor": ["#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50"], "borderWidth": 1, "barPercentage": 0.7, "legendColor": "#4caf50"}]);
+createChart('chart-big-2', ["RC3-1", "RC3-2", "RG3-1", "RG3-2", "RG3-3", "RG3-4", "RG3-5", "RG3-8", "RG3-9"], [{"label": "06-15白", "data": [70.1, 80.1, 69.8, 47.7, 86.5, 53.3, 107.8, 75.5, 45.6], "backgroundColor": ["#4caf50", "#4caf50", "#4caf50", "#4caf50", "#ffc107", "#4caf50", "#f44336", "#4caf50", "#4caf50"], "borderColor": ["#4caf50", "#4caf50", "#4caf50", "#4caf50", "#ffc107", "#4caf50", "#f44336", "#4caf50", "#4caf50"], "borderWidth": 1, "barPercentage": 0.7, "legendColor": "#4caf50"}, {"label": "06-15夜", "data": [58.7, 62.7, 57.1, 49.2, 66.2, 46.6, 82.8, 67.9, 46.6], "backgroundColor": ["#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50"], "borderColor": ["#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50"], "borderWidth": 1, "barPercentage": 0.7, "legendColor": "#4caf50"}, {"label": "06-16白", "data": [73.5, 80.9, 65.8, 58.3, 89.2, 58.2, 110.6, 83.4, 57.8], "backgroundColor": ["#4caf50", "#4caf50", "#4caf50", "#4caf50", "#ffc107", "#4caf50", "#f44336", "#4caf50", "#4caf50"], "borderColor": ["#4caf50", "#4caf50", "#4caf50", "#4caf50", "#ffc107", "#4caf50", "#f44336", "#4caf50", "#4caf50"], "borderWidth": 1, "barPercentage": 0.7, "legendColor": "#4caf50"}, {"label": "06-16夜", "data": [54.7, 61.4, 61.4, 27.6, 67.8, 43.1, 85.0, 56.2, 36.7], "backgroundColor": ["#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50"], "borderColor": ["#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50"], "borderWidth": 1, "barPercentage": 0.7, "legendColor": "#4caf50"}]);
+createChart('chart-big-3', ["RG4-1", "RG4-2", "RG4-3", "RG4-4", "RG4-5", "RG4-6", "RG4-7", "RG4-8", "RG4-9", "RG4-10"], [{"label": "06-15白", "data": [81.3, 57.3, 74.9, 46.6, 88.1, 89.8, 69.0, 39.1, 60.0, 0.0], "backgroundColor": ["#4caf50", "#4caf50", "#4caf50", "#4caf50", "#ffc107", "#ffc107", "#4caf50", "#4caf50", "#4caf50", "#4caf50"], "borderColor": ["#4caf50", "#4caf50", "#4caf50", "#4caf50", "#ffc107", "#ffc107", "#4caf50", "#4caf50", "#4caf50", "#4caf50"], "borderWidth": 1, "barPercentage": 0.7, "legendColor": "#4caf50"}, {"label": "06-15夜", "data": [69.5, 47.2, 67.2, 52.8, 77.6, 69.0, 63.6, 42.2, 51.4, 0.0], "backgroundColor": ["#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50"], "borderColor": ["#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50"], "borderWidth": 1, "barPercentage": 0.7, "legendColor": "#4caf50"}, {"label": "06-16白", "data": [87.9, 57.8, 94.3, 57.9, 96.2, 92.1, 78.2, 44.4, 62.0, 0.0], "backgroundColor": ["#ffc107", "#4caf50", "#ffc107", "#4caf50", "#f44336", "#ffc107", "#4caf50", "#4caf50", "#4caf50", "#4caf50"], "borderColor": ["#ffc107", "#4caf50", "#ffc107", "#4caf50", "#f44336", "#ffc107", "#4caf50", "#4caf50", "#4caf50", "#4caf50"], "borderWidth": 1, "barPercentage": 0.7, "legendColor": "#4caf50"}, {"label": "06-16夜", "data": [64.6, 49.6, 45.0, 20.4, 68.4, 70.8, 47.0, 20.0, 47.6, 0.0], "backgroundColor": ["#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50"], "borderColor": ["#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50"], "borderWidth": 1, "barPercentage": 0.7, "legendColor": "#4caf50"}]);
+createChart('chart-small-0', ["RK1", "RK10", "RK11", "RK12", "RK13", "RK14", "RK15", "RK19"], [{"label": "06-15白", "data": [64.6, 64.1, 67.7, 56.3, 84.1, 61.3, 4.3, 53.5], "backgroundColor": ["#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50"], "borderColor": ["#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50"], "borderWidth": 1, "barPercentage": 0.7, "legendColor": "#4caf50"}, {"label": "06-15夜", "data": [51.0, 70.5, 63.6, 50.8, 69.9, 56.3, 8.8, 47.9], "backgroundColor": ["#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50"], "borderColor": ["#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50"], "borderWidth": 1, "barPercentage": 0.7, "legendColor": "#4caf50"}, {"label": "06-16白", "data": [67.8, 73.8, 74.3, 64.3, 89.4, 60.4, 7.3, 59.3], "backgroundColor": ["#4caf50", "#4caf50", "#4caf50", "#4caf50", "#ffc107", "#4caf50", "#4caf50", "#4caf50"], "borderColor": ["#4caf50", "#4caf50", "#4caf50", "#4caf50", "#ffc107", "#4caf50", "#4caf50", "#4caf50"], "borderWidth": 1, "barPercentage": 0.7, "legendColor": "#4caf50"}, {"label": "06-16夜", "data": [52.3, 67.8, 64.1, 45.4, 68.6, 57.3, 3.8, 44.3], "backgroundColor": ["#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50"], "borderColor": ["#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50"], "borderWidth": 1, "barPercentage": 0.7, "legendColor": "#4caf50"}]);
+createChart('chart-small-1', ["RK2", "RK2-1", "RK3", "RK4", "RK5", "RK6", "RK7", "RK8", "RK8-1", "RK9", "RK9-1", "RK16", "RK16-1", "RK17"], [{"label": "06-15白", "data": [90.8, 86.6, 76.9, 74.7, 74.4, 68.2, 54.9, 78.9, 35.1, 76.9, 35.8, 50.3, 24.8, 26.5], "backgroundColor": ["#ffc107", "#ffc107", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50"], "borderColor": ["#ffc107", "#ffc107", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50"], "borderWidth": 1, "barPercentage": 0.7, "legendColor": "#4caf50"}, {"label": "06-15夜", "data": [92.7, 73.6, 59.3, 68.3, 63.6, 59.9, 47.1, 73.2, 29.9, 66.1, 30.0, 43.6, 23.6, 22.7], "backgroundColor": ["#ffc107", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50"], "borderColor": ["#ffc107", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50"], "borderWidth": 1, "barPercentage": 0.7, "legendColor": "#4caf50"}, {"label": "06-16白", "data": [99.2, 91.6, 88.8, 79.6, 80.1, 72.1, 55.2, 87.8, 37.5, 79.3, 36.4, 52.0, 27.6, 25.2], "backgroundColor": ["#f44336", "#ffc107", "#ffc107", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#ffc107", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50"], "borderColor": ["#f44336", "#ffc107", "#ffc107", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#ffc107", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50"], "borderWidth": 1, "barPercentage": 0.7, "legendColor": "#4caf50"}, {"label": "06-16夜", "data": [71.3, 77.8, 51.4, 64.7, 59.2, 57.6, 42.9, 69.5, 30.9, 63.7, 30.5, 42.4, 17.5, 21.9], "backgroundColor": ["#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50"], "borderColor": ["#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50", "#4caf50"], "borderWidth": 1, "barPercentage": 0.7, "legendColor": "#4caf50"}]);
 
         // 零件表格
         initPartTable();
