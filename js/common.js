@@ -23,17 +23,6 @@ function switchMainTab(tab) {
     }
 }
 
-function switchFlowSubTab(tab) {
-    document.querySelectorAll('.flow-subtab-btn').forEach(b => b.classList.remove('active'));
-    document.querySelectorAll('.flow-subtab').forEach(c => c.classList.remove('active'));
-    const btn = document.querySelector('.flow-subtab-btn[data-subtab="' + tab + '"]');
-    if (btn) btn.classList.add('active');
-    const content = document.getElementById('tab-' + tab);
-    if (content) content.classList.add('active');
-
-    const prefix = tab === 'big' ? 'chart-big-' : 'chart-small-';
-    setTimeout(() => resizeChartsByPrefix(prefix), 100);
-}
 
 function resizeChartsByPrefix(...prefixes) {
     Object.keys(allCharts).forEach(function(id) {
