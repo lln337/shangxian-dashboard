@@ -22,7 +22,7 @@ function initFlowTab() {
     currentFlowSubTab = 'big';
 
     renderFlowStats();
-    renderFlowCharts();
+    try { renderFlowCharts(); } catch(e) { console.warn('图表渲染异常（可能Chart.js未加载）:', e); }
     renderFlowTables();
 
     // 确保正确的子Tab按钮状态
