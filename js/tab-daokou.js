@@ -1,7 +1,19 @@
 /* ===== Tab3：道口卸货及时率 ===== */
 
-// 从全局变量获取数据（由 HTML 内嵌注入）
-// 生成脚本会将 JSON 数据写入 window.DAOKOU_DATA
+// 初始化：检查数据是否已加载
+function initDaokouTab() {
+    if (window.DAOKOU_DATA) {
+        renderDaokouCharts();
+        return;
+    }
+    // 显示空状态
+    const emptyEl = document.getElementById('daokou-empty');
+    const kpiEl = document.getElementById('daokou-kpi');
+    const chartsEl = document.getElementById('daokou-charts');
+    if (emptyEl) emptyEl.style.display = 'block';
+    if (kpiEl) kpiEl.style.display = 'none';
+    if (chartsEl) chartsEl.style.display = 'none';
+}
 
 function renderDaokouCharts() {
     if (!window.DAOKOU_DATA || !window.DAOKOU_DATA.current_month) {
@@ -98,9 +110,4 @@ function renderDaokouCharts() {
     }, 100);
 }
 
-// 页面加载后初始化
-if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', renderDaokouCharts);
-} else {
-    renderDaokouCharts();
-}
+// 页面加载时不自动初始化，由 switchMainTab() 触发
