@@ -21,7 +21,9 @@ function renderFlow() {
     var elEmpty = document.getElementById('flow-empty');
     var elStats = document.getElementById('flow-stats');
 
-    if (!data || !data.has_data) {
+    // 兼容：有 has_data 字段则用，否则检查 big/small 是否有内容
+    var hasData = data && (data.has_data || (data.big && data.big.shifts && data.big.shifts.length > 0) || (data.small && data.small.shifts && data.small.shifts.length > 0));
+    if (!hasData) {
         if (elEmpty) elEmpty.style.display = 'block';
         if (elStats) elStats.style.display = 'none';
         return;
@@ -163,9 +165,5 @@ function renderFlowTables() {
     });
 }
 
-// 页面加载后初始化
-if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', initFlowTab);
-} else {
-    initFlowTab();
-}
+    // 页面加载时不自动初始化，由 switchMainTab() 触发
+    //（DOMContentLoaded 监听已统一放在 index.html 末尾）
