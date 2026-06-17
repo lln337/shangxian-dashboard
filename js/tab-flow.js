@@ -104,7 +104,7 @@ function renderFlowCharts() {
         var container = document.getElementById(containerId);
         if (!container) return;
 
-        var typeData = data[typeKey];
+        var typeData = data[type];
         if (!typeData || !typeData.data) return;
 
         container.innerHTML = '';
