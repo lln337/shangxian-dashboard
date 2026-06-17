@@ -9,6 +9,10 @@
     <title>现场信息看板</title>
     <script src="js/chart.umd.min.js"></script>
     <link rel="stylesheet" href="css/common.css">
+    <!-- 预加载数据文件（优化加载速度） -->
+    <link rel="preload" href="data/line_data_v12.json" as="fetch" type="application/json" crossorigin>
+    <link rel="preload" href="data/part_sort_data.json" as="fetch" type="application/json" crossorigin>
+    <link rel="preload" href="data/daokou_data.json" as="fetch" type="application/json" crossorigin>
 </head>
 <body>
     <div class="header">
@@ -163,7 +167,7 @@
                 if (self.flowLoaded && window.LINE_DATA) {
                     return Promise.resolve(window.LINE_DATA);
                 }
-                return fetch('data/line_data_v12.json?t=' + new Date().getTime())
+                return fetch('data/line_data_v12.json')
                     .then(function(r) { return r.json(); })
                     .then(function(data) {
                         window.LINE_DATA = data;
@@ -190,7 +194,7 @@
                 if (self.partLoaded && window.PART_DATA) {
                     return Promise.resolve(window.PART_DATA);
                 }
-                return fetch('data/part_sort_data.json?t=' + new Date().getTime())
+                return fetch('data/part_sort_data.json')
                     .then(function(r) { return r.json(); })
                     .then(function(data) {
                         window.PART_DATA = data;
@@ -212,7 +216,7 @@
                 if (self.daokouLoaded && window.DAOKOU_DATA) {
                     return Promise.resolve(window.DAOKOU_DATA);
                 }
-                return fetch('data/daokou_data.json?t=' + new Date().getTime())
+                return fetch('data/daokou_data.json')
                     .then(function(r) { return r.json(); })
                     .then(function(data) {
                         window.DAOKOU_DATA = data;
@@ -242,6 +246,31 @@
         document.addEventListener('DOMContentLoaded', function() {
             // 默认激活上线流量 Tab 并加载数据
             switchMainTab('flow');
+            
+            // 预加载其他 Tab 数据（页面完全加载后后台进行）
+            window.addEventListener('load', function() {
+                // 预加载GKB数据
+                if (!window.PART_DATA) {
+                    fetch('data/part_sort_data.json')
+                        .then(function(r) { return r.json(); })
+                        .then(function(data) { 
+                            window.PART_DATA = data; 
+                            console.log('预加载：GKB数据完成');
+                        })
+                        .catch(function() {});
+                }
+                
+                // 预加载道口数据
+                if (!window.DAOKOU_DATA) {
+                    fetch('data/daokou_data.json')
+                        .then(function(r) { return r.json(); })
+                        .then(function(data) { 
+                            window.DAOKOU_DATA = data; 
+                            console.log('预加载：道口数据完成');
+                        })
+                        .catch(function() {});
+                }
+            });
         });
     </script>
 </body>
