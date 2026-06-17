@@ -59,6 +59,11 @@ function updateFlowDateInfo(data) {
     var dateRange = typeData.date_range || '';
     var el = document.getElementById('flow-date-info');
     if (el) el.innerHTML = dateRange ? '数据日期：' + dateRange : '';
+
+    // 更新数据更新时间
+    var updateTime = data.update_time || '';
+    var elTime = document.getElementById('flow-update-time');
+    if (elTime) elTime.textContent = updateTime ? '数据更新：' + updateTime : '';
 }
 
 /* ========== 统计卡片 ========== */
@@ -99,115 +104,128 @@ function renderFlowCharts() {
     var data = window.LINE_DATA;
     if (!data) return;
 
-    ['big', 'small'].forEach(function(type) {
-        var containerId = 'flow-charts-' + type;
-        var container = document.getElementById(containerId);
-        if (!container) return;
+    // 只在大件tab显示柱状图
+    var containerBig = document.getElementById('flow-charts-big');
+    var containerSmall = document.getElementById('flow-charts-small');
+    if (containerSmall) containerSmall.innerHTML = '';
+    if (currentFlowSubTab === 'small') {
+        if (containerBig) containerBig.innerHTML = '';
+        return;
+    }
 
-        var typeData = data[type];
-        if (!typeData || !typeData.data) return;
+    if (!containerBig) return;
+    var typeData = data['big'];
+    if (!typeData || !typeData.data) return;
 
-        container.innerHTML = '';
+    containerBig.innerHTML = '';
 
-        // 按 team 分组
-        var teams = {};
-        var teamOrder = [];
-        for (var i = 0; i < typeData.data.length; i++) {
-            var line = typeData.data[i];
-            var teamName = line.team || '未分组';
-            if (!teams[teamName]) {
-                teams[teamName] = [];
-                teamOrder.push(teamName);
-            }
-            teams[teamName].push(line);
+    // 按 team 分组
+    var teams = {};
+    var teamOrder = [];
+    for (var i = 0; i < typeData.data.length; i++) {
+        var line = typeData.data[i];
+        var teamName = line.team || '未分组';
+        if (!teams[teamName]) {
+            teams[teamName] = [];
+            teamOrder.push(teamName);
+        }
+        teams[teamName].push(line);
+    }
+
+    var shiftNames = typeData.shifts || [];
+
+    teamOrder.forEach(function(teamName) {
+        var teamLines = teams[teamName];
+
+        var chartDiv = document.createElement('div');
+        chartDiv.className = 'chart-box';
+
+        var title = document.createElement('h3');
+        title.textContent = teamName + '（' + teamLines.length + '条线路）';
+        chartDiv.appendChild(title);
+
+        var chartContainer = document.createElement('div');
+        chartContainer.className = 'chart-container';
+        chartContainer.style.height = Math.max(300, teamLines.length * 28) + 'px';
+
+        var canvasId = 'chart-big-' + teamName.replace(/\s/g, '-');
+        var canvas = document.createElement('canvas');
+        canvas.id = canvasId;
+        chartContainer.appendChild(canvas);
+        chartDiv.appendChild(chartContainer);
+        containerBig.appendChild(chartDiv);
+
+        // 构建图表数据：每个班次一个 dataset
+        var labels = [];
+        teamLines.sort(function(a, b) { return (a.line || '').localeCompare(b.line || ''); });
+        for (var k = 0; k < teamLines.length; k++) {
+            labels.push(teamLines[k].line || '');
         }
 
-        var shiftNames = typeData.shifts || [];
-
-        teamOrder.forEach(function(teamName) {
-            var teamLines = teams[teamName];
-
-            var chartDiv = document.createElement('div');
-            chartDiv.className = 'chart-box';
-
-            var title = document.createElement('h3');
-            title.textContent = teamName + '（' + teamLines.length + '条线路）';
-            chartDiv.appendChild(title);
-
-            var chartContainer = document.createElement('div');
-            chartContainer.className = 'chart-container';
-            chartContainer.style.height = Math.max(300, teamLines.length * 28) + 'px';
-
-            var canvasId = 'chart-' + type + '-' + teamName.replace(/\s/g, '-');
-            var canvas = document.createElement('canvas');
-            canvas.id = canvasId;
-            chartContainer.appendChild(canvas);
-            chartDiv.appendChild(chartContainer);
-            container.appendChild(chartDiv);
-
-            // 构建图表数据：每条线一个 bar group
-            var labels = [];
-            var flowData = [];
+        // 为每个班次创建一个 dataset（饱和度）
+        var datasets = [];
+        for (var s = 0; s < shiftNames.length; s++) {
+            var shiftName = shiftNames[s];
             var satData = [];
-
-            teamLines.sort(function(a, b) { return (a.line || '').localeCompare(b.line || ''); });
-
             for (var k = 0; k < teamLines.length; k++) {
-                labels.push(teamLines[k].line || '');
-                // 用第一个班次的数据展示，或者用平均
                 var shifts = teamLines[k].shifts || [];
-                var avgFlow = 0, avgSat = 0;
-                if (shifts.length > 0) {
-                    var sumF = 0, sumS = 0;
-                    for (var s = 0; s < shifts.length; s++) {
-                        sumF += parseFloat(shifts[s].flow) || 0;
-                        sumS += parseFloat(shifts[s].saturation) || 0;
+                var sat = 0;
+                for (var j = 0; j < shifts.length; j++) {
+                    if (shifts[j].shift_name === shiftName) {
+                        sat = parseFloat(shifts[j].saturation) || 0;
+                        break;
                     }
-                    avgFlow = Math.round(sumF / shifts.length * 100) / 100;
-                    avgSat = Math.round(sumS / shifts.length * 10) / 10;
                 }
-                flowData.push(avgFlow);
-                satData.push(avgSat);
+                satData.push(sat);
             }
 
-            var datasets = [
-                {
-                    label: '饱和度(%)',
-                    data: satData,
-                    backgroundColor: satData.map(function(v) {
-                        if (v > 95) return 'rgba(220, 53, 69, 0.7)';
-                        if (v > 85) return 'rgba(255, 193, 7, 0.7)';
-                        return 'rgba(40, 167, 69, 0.7)';
-                    }),
-                    borderColor: satData.map(function(v) {
-                        if (v > 95) return 'rgb(220, 53, 69)';
-                        if (v > 85) return 'rgb(255, 193, 7)';
-                        return 'rgb(40, 167, 69)';
-                    }),
-                    borderWidth: 1,
-                    barPercentage: 0.7,
-                },
-                {
-                    label: '流量',
-                    data: flowData,
-                    backgroundColor: 'rgba(0, 123, 255, 0.5)',
-                    borderColor: 'rgb(0, 123, 255)',
-                    borderWidth: 1,
-                    barPercentage: 0.7,
-                    yAxisID: 'y1',
+            datasets.push({
+                label: shiftName + ' 饱和度(%)',
+                data: satData,
+                backgroundColor: satData.map(function(v) {
+                    if (v > 95) return 'rgba(220, 53, 69, 0.7)';
+                    if (v > 85) return 'rgba(255, 193, 7, 0.7)';
+                    return 'rgba(40, 167, 69, 0.7)';
+                }),
+                borderColor: satData.map(function(v) {
+                    if (v > 95) return 'rgb(220, 53, 69)';
+                    if (v > 85) return 'rgb(255, 193, 7)';
+                    return 'rgb(40, 167, 69)';
+                }),
+                borderWidth: 1,
+                barPercentage: 0.7,
+            });
+        }
+
+        // 添加流量数据集（每个班次一个）
+        for (var s = 0; s < shiftNames.length; s++) {
+            var shiftName = shiftNames[s];
+            var flowData = [];
+            for (var k = 0; k < teamLines.length; k++) {
+                var shifts = teamLines[k].shifts || [];
+                var flow = 0;
+                for (var j = 0; j < shifts.length; j++) {
+                    if (shifts[j].shift_name === shiftName) {
+                        flow = parseFloat(shifts[j].flow) || 0;
+                        break;
+                    }
                 }
-            ];
-
-            if (datasets[0].data.length > 0) {
-                createChart(canvasId, labels, datasets);
+                flowData.push(flow);
             }
-        });
-    });
+            datasets.push({
+                label: shiftName + '(流量)',
+                data: flowData,
+                backgroundColor: 'rgba(0, 123, 255, 0.5)',
+                borderColor: 'rgb(0, 123, 255)',
+                borderWidth: 1,
+                barPercentage: 0.7,
+                yAxisID: 'y1',
+            });
+        }
 
-    // 隐藏非当前Tab的图表容器
-    ['big', 'small'].forEach(function(t) {
-        var box = document.getElementById('flow-charts-' + t);
-        if (box) box.style.display = (t === currentFlowSubTab) ? '' : 'none';
+        if (datasets.length > 0) {
+            createChart(canvasId, labels, datasets);
+        }
     });
 }
 
