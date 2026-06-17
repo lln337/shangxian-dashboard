@@ -236,5 +236,13 @@
     <script src="js/tab-flow.js"></script>
     <script src="js/tab-gkb.js"></script>
     <script src="js/tab-daokou.js"></script>
+
+    <!-- 页面加载后自动初始化默认 Tab（触发 fetch 数据） -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // 默认激活上线流量 Tab 并加载数据
+            switchMainTab('flow');
+        });
+    </script>
 </body>
 </html>
