@@ -1,15 +1,22 @@
 /* ===== Tab2：排序零件GKB查询 ===== */
 
-// 从全局变量获取数据（由 HTML 内嵌注入）
-// 生成脚本会将 JSON 数据写入 window.PART_DATA
-
 function initPartTable() {
+    // 如果数据已加载，直接渲染
+    if (window.PART_DATA) {
+        renderPartTable();
+        return;
+    }
+    // 否则显示空状态
+    const container = document.getElementById('part-container');
+    if (container) {
+        container.innerHTML =
+            '<div class="empty-state">暂无排序零件GKB查询数据<br>请先在工具中导入零件属性 ZIP 文件</div>';
+    }
+}
+
+function renderPartTable() {
     if (!window.PART_DATA || !window.PART_DATA.data) {
-        const container = document.getElementById('part-container');
-        if (container) {
-            container.innerHTML =
-                '<div class="empty-state">暂无排序零件GKB查询数据<br>请先在工具中导入零件属性 ZIP 文件</div>';
-        }
+        initPartTable();
         return;
     }
 
