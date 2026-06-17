@@ -110,26 +110,18 @@ function renderFlowCharts() {
     if (!data) return;
 
     // 大件和小件都显示柱状图
-    var containerBig = document.getElementById('flow-charts-big');
-    var containerSmall = document.getElementById('flow-charts-small');
-
-    // 根据当前tab决定显示哪个容器
-    if (containerBig) containerBig.innerHTML = '';
-    if (containerSmall) containerSmall.innerHTML = '';
-
-    if (!containerBig && !containerSmall) return;
-
-    // 确定当前要渲染的数据类型和容器
     var currentType = currentFlowSubTab; // 'big' or 'small'
-    var currentContainer = currentType === 'big' ? containerBig : containerSmall;
-    var typeData = data[currentType];
-    if (!typeData || !typeData.data) return;
-
-    // 只渲染当前tab的图表
+    var currentContainer = document.getElementById('flow-charts-' + currentType);
     if (!currentContainer) return;
-    if (!typeData || !typeData.data) return;
 
-    containerBig.innerHTML = '';
+    var typeData = data[currentType];
+    if (!typeData || !typeData.data) {
+        currentContainer.innerHTML = '';
+        return;
+    }
+
+    // 只清除当前tab的容器
+    currentContainer.innerHTML = '';
 
     // 按 team 分组
     var teams = {};
@@ -312,6 +304,9 @@ function switchFlowSubTab(tab) {
     // 更新统计和日期
     renderFlowStats();
     updateFlowDateInfo(window.LINE_DATA);
+
+    // 重新渲染图表（切换tab时需要重新渲染）
+    try { renderFlowCharts(); } catch(e) { console.warn('图表渲染异常:', e); }
 
     // 图表resize
     var prefix = 'chart-' + tab + '-';
