@@ -31,7 +31,23 @@
             <!-- 数据日期信息（由生成脚本注入） -->
             <div id="flow-date-info" style="padding:8px 0;font-size:13px;color:#666;"></div>
             <div id="flow-update-time" style="font-size:12px;color:#999;margin-bottom:8px;"></div>
-        <div id="flow-page-update-time" style="font-size:12px;color:#999;margin-bottom:8px;"></div>
+        <div id="flow-page-update-time" style="font-size:12px;color:#666;margin-bottom:8px;"></div>
+        <script>
+            // 立即显示网页更新时间
+            (function() {
+                var el = document.getElementById('flow-page-update-time');
+                if (el) {
+                    var now = new Date();
+                    var timeStr = now.getFullYear() + '-' +
+                        String(now.getMonth() + 1).padStart(2, '0') + '-' +
+                        String(now.getDate()).padStart(2, '0') + ' ' +
+                        String(now.getHours()).padStart(2, '0') + ':' +
+                        String(now.getMinutes()).padStart(2, '0') + ':' +
+                        String(now.getSeconds()).padStart(2, '0');
+                    el.textContent = '网页更新：' + timeStr;
+                }
+            })();
+        </script>
 
         <!-- 流量子 Tab -->
         <div class="flow-subtab-nav">
