@@ -12,13 +12,27 @@ function switchMainTab(tab) {
     if (targetBtn) targetBtn.classList.add('active');
     if (targetContent) targetContent.classList.add('active');
 
-    // 激活时 resize 图表
+    // 按需加载数据
     if (tab === 'flow') {
+        if (typeof dataLoader !== 'undefined') {
+            dataLoader.loadFlowData().then(function(data) {
+                if (typeof renderFlow === 'function') renderFlow();
+            });
+        }
         setTimeout(() => resizeChartsByPrefix('chart-big-', 'chart-small-'), 100);
     }
+    if (tab === 'part') {
+        if (typeof dataLoader !== 'undefined') {
+            dataLoader.loadPartData().then(function(data) {
+                if (typeof initPartTable === 'function') initPartTable();
+            });
+        }
+    }
     if (tab === 'daokou') {
-        if (typeof renderDaokouCharts === 'function') {
-            renderDaokouCharts();
+        if (typeof dataLoader !== 'undefined') {
+            dataLoader.loadDaokouData().then(function(data) {
+                if (typeof renderDaokouCharts === 'function') renderDaokouCharts();
+            });
         }
     }
 }
