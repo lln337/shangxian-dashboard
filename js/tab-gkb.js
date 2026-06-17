@@ -12,6 +12,13 @@ function initPartTable() {
         container.innerHTML =
             '<div class="empty-state">暂无排序零件GKB查询数据<br>请先在工具中导入零件属性 ZIP 文件</div>';
     }
+
+    // 添加搜索框事件监听（修复：动态筛选功能丢失）
+    const searchInput = document.getElementById('part-search-input');
+    if (searchInput && !searchInput._listenerAdded) {
+        searchInput.addEventListener('input', searchParts);
+        searchInput._listenerAdded = true;
+    }
 }
 
 function renderPartTable() {
