@@ -75,19 +75,5 @@ function searchParts() {
     if (visibleEl) visibleEl.textContent = visible;
 }
 
-// 初始化
-if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', function() {
-        initPartTable();
-        const searchInput = document.getElementById('part-search-input');
-        if (searchInput) {
-            searchInput.addEventListener('input', searchParts);
-        }
-    });
-} else {
-    initPartTable();
-    const searchInput = document.getElementById('part-search-input');
-    if (searchInput) {
-        searchInput.addEventListener('input', searchParts);
-    }
-}
+// 页面加载时不自动初始化，由 switchMainTab() 触发
+    //（DOMContentLoaded 监听已统一放在 index.html 末尾）
