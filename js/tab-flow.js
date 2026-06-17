@@ -64,6 +64,11 @@ function updateFlowDateInfo(data) {
     var updateTime = data.update_time || '';
     var elTime = document.getElementById('flow-update-time');
     if (elTime) elTime.textContent = updateTime ? '数据更新：' + updateTime : '';
+
+    // 更新网页更新时间（使用当前时间作为网页加载时间）
+    var pageUpdateTime = new Date().toLocaleString('zh-CN');
+    var elPageTime = document.getElementById('flow-page-update-time');
+    if (elPageTime) elPageTime.textContent = '网页更新：' + pageUpdateTime;
 }
 
 /* ========== 统计卡片 ========== */
@@ -104,17 +109,24 @@ function renderFlowCharts() {
     var data = window.LINE_DATA;
     if (!data) return;
 
-    // 只在大件tab显示柱状图
+    // 大件和小件都显示柱状图
     var containerBig = document.getElementById('flow-charts-big');
     var containerSmall = document.getElementById('flow-charts-small');
-    if (containerSmall) containerSmall.innerHTML = '';
-    if (currentFlowSubTab === 'small') {
-        if (containerBig) containerBig.innerHTML = '';
-        return;
-    }
 
-    if (!containerBig) return;
-    var typeData = data['big'];
+    // 根据当前tab决定显示哪个容器
+    if (containerBig) containerBig.innerHTML = '';
+    if (containerSmall) containerSmall.innerHTML = '';
+
+    if (!containerBig && !containerSmall) return;
+
+    // 确定当前要渲染的数据类型和容器
+    var currentType = currentFlowSubTab; // 'big' or 'small'
+    var currentContainer = currentType === 'big' ? containerBig : containerSmall;
+    var typeData = data[currentType];
+    if (!typeData || !typeData.data) return;
+
+    // 只渲染当前tab的图表
+    if (!currentContainer) return;
     if (!typeData || !typeData.data) return;
 
     containerBig.innerHTML = '';
@@ -148,12 +160,12 @@ function renderFlowCharts() {
         chartContainer.className = 'chart-container';
         chartContainer.style.height = Math.max(300, teamLines.length * 28) + 'px';
 
-        var canvasId = 'chart-big-' + teamName.replace(/\s/g, '-');
+        var canvasId = 'chart-' + currentType + '-' + teamName.replace(/\s/g, '-');
         var canvas = document.createElement('canvas');
         canvas.id = canvasId;
         chartContainer.appendChild(canvas);
         chartDiv.appendChild(chartContainer);
-        containerBig.appendChild(chartDiv);
+        currentContainer.appendChild(chartDiv);
 
         // 构建图表数据：每个班次一个 dataset
         var labels = [];
@@ -197,31 +209,7 @@ function renderFlowCharts() {
             });
         }
 
-        // 添加流量数据集（每个班次一个）
-        for (var s = 0; s < shiftNames.length; s++) {
-            var shiftName = shiftNames[s];
-            var flowData = [];
-            for (var k = 0; k < teamLines.length; k++) {
-                var shifts = teamLines[k].shifts || [];
-                var flow = 0;
-                for (var j = 0; j < shifts.length; j++) {
-                    if (shifts[j].shift_name === shiftName) {
-                        flow = parseFloat(shifts[j].flow) || 0;
-                        break;
-                    }
-                }
-                flowData.push(flow);
-            }
-            datasets.push({
-                label: shiftName + '(流量)',
-                data: flowData,
-                backgroundColor: 'rgba(0, 123, 255, 0.5)',
-                borderColor: 'rgb(0, 123, 255)',
-                borderWidth: 1,
-                barPercentage: 0.7,
-                yAxisID: 'y1',
-            });
-        }
+        // 大件只显示饱和度，不显示流量
 
         if (datasets.length > 0) {
             createChart(canvasId, labels, datasets);
@@ -247,11 +235,12 @@ function renderFlowTables() {
         var shiftNames = typeData.shifts || [];
         var lines = typeData.data;
 
-        // 构建 HTML 表格
+        // 构建 HTML 表格（每个班次拆分成2列：流量和饱和度）
         var html = '<table class="data-table flow-table"><thead><tr>';
         html += '<th>序号</th><th>团队</th><th>线路</th><th>标准</th>';
         for (var s = 0; s < shiftNames.length; s++) {
-            html += '<th>' + escapeHtml(shiftNames[s]) + '</th>';
+            html += '<th>' + escapeHtml(shiftNames[s]) + ' 流量</th>';
+            html += '<th>' + escapeHtml(shiftNames[s]) + ' 饱和度</th>';
         }
         html += '</tr></thead><tbody>';
 
@@ -273,14 +262,17 @@ function renderFlowTables() {
                     }
                 }
                 if (shiftData) {
+                    // 流量列
+                    html += '<td>' + (shiftData.flow || 0) + '</td>';
+
+                    // 饱和度列（带颜色标记）
                     var sat = parseFloat(shiftData.saturation) || 0;
                     var cls = '';
                     if (sat > 95) cls = ' style="color:#dc3545;font-weight:bold;"';
                     else if (sat > 85) cls = ' style="color:#ffc107;font-weight:bold;"';
-                    html += '<td' + cls + '>' +
-                        (shiftData.flow || 0) + ' / ' + sat.toFixed(1) + '%</td>';
+                    html += '<td' + cls + '>' + sat.toFixed(1) + '%</td>';
                 } else {
-                    html += '<td>-</td>';
+                    html += '<td>-</td><td>-</td>';
                 }
             }
             html += '</tr>';
@@ -322,7 +314,7 @@ function switchFlowSubTab(tab) {
     updateFlowDateInfo(window.LINE_DATA);
 
     // 图表resize
-    var prefix = tab === 'big' ? 'chart-big-' : 'chart-small-';
+    var prefix = 'chart-' + tab + '-';
     setTimeout(function() { resizeChartsByPrefix(prefix); }, 100);
 }
 
