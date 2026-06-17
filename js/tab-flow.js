@@ -4,6 +4,19 @@
 var currentFlowSubTab = 'big';
 
 function initFlowTab() {
+    // 如果数据已加载，直接渲染
+    if (window.LINE_DATA) {
+        renderFlow();
+        return;
+    }
+    // 否则显示加载中
+    var elEmpty = document.getElementById('flow-empty');
+    var elStats = document.getElementById('flow-stats');
+    if (elEmpty) elEmpty.style.display = 'block';
+    if (elStats) elStats.style.display = 'none';
+}
+
+function renderFlow() {
     var data = window.LINE_DATA;
     var elEmpty = document.getElementById('flow-empty');
     var elStats = document.getElementById('flow-stats');
