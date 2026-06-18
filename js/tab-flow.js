@@ -104,12 +104,11 @@ function setElText(id, val) {
     if (el) el.textContent = val !== undefined && val !== null ? val : '--';
 }
 
-/* ========== 图表渲染（按团队分组）========== */
+/* ========== 图表渲染（按团队分组，保持数据原顺序）========== */
 function renderFlowCharts() {
     var data = window.LINE_DATA;
     if (!data) return;
 
-    // 大件和小件都显示柱状图
     var currentType = currentFlowSubTab; // 'big' or 'small'
     var currentContainer = document.getElementById('flow-charts-' + currentType);
     if (!currentContainer) return;
@@ -123,7 +122,7 @@ function renderFlowCharts() {
     // 只清除当前tab的容器
     currentContainer.innerHTML = '';
 
-    // 按 team 分组
+    // 按 team 分组（保持数据中首次出现的顺序）
     var teams = {};
     var teamOrder = [];
     for (var i = 0; i < typeData.data.length; i++) {
@@ -136,6 +135,7 @@ function renderFlowCharts() {
         teams[teamName].push(line);
     }
 
+    // 注意：teamLines 保持原顺序，不做任何排序
     var shiftNames = typeData.shifts || [];
 
     teamOrder.forEach(function(teamName) {
@@ -159,9 +159,8 @@ function renderFlowCharts() {
         chartDiv.appendChild(chartContainer);
         currentContainer.appendChild(chartDiv);
 
-        // 构建图表数据：每个班次一个 dataset
+        // 构建图表数据：保持 teamLines 原顺序
         var labels = [];
-        teamLines.sort(function(a, b) { return (a.line || '').localeCompare(b.line || ''); });
         for (var k = 0; k < teamLines.length; k++) {
             labels.push(teamLines[k].line || '');
         }
@@ -201,15 +200,13 @@ function renderFlowCharts() {
             });
         }
 
-        // 大件只显示饱和度，不显示流量
-
         if (datasets.length > 0) {
             createChart(canvasId, labels, datasets);
         }
     });
 }
 
-/* ========== 表格渲染 ========== */
+/* ========== 表格渲染（保持数据原顺序）========== */
 function renderFlowTables() {
     var data = window.LINE_DATA;
     if (!data) return;
@@ -225,7 +222,7 @@ function renderFlowTables() {
         }
 
         var shiftNames = typeData.shifts || [];
-        var lines = typeData.data;
+        var lines = typeData.data;  // 保持原顺序，不排序
 
         // 构建 HTML 表格（每个班次拆分成2列：流量和饱和度）
         var html = '<table class="data-table flow-table"><thead><tr>';
