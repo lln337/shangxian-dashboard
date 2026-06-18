@@ -30,29 +30,47 @@ function renderPartTable() {
     const data = window.PART_DATA.data;
     const tbody = document.getElementById('part-tbody');
     if (!tbody) return;
-    tbody.innerHTML = '';
 
-    for (let i = 0; i < data.length; i++) {
-        const row = data[i];
-        const code = (row['零件编码'] || '').trim();
-        const name = (row['零件名称'] || '').trim();
-        const gkb = (row['GKB'] || '').trim();
-        const tr = document.createElement('tr');
-        tr.setAttribute('data-code', code.toLowerCase());
-        tr.setAttribute('data-name', name);
-        tr.setAttribute('data-gkb', gkb);
-        tr.innerHTML = '<td>' + (i + 1) + '</td>' +
-            '<td class="part-code-cell">' + escapeHtml(code) + '</td>' +
-            '<td>' + escapeHtml(name) + '</td>' +
-            '<td>' + escapeHtml(gkb) + '</td>';
-        tbody.appendChild(tr);
+    // 惰性渲染：每批 50 条，避免阻塞主线程
+    tbody.innerHTML = '';
+    const BATCH = 50;
+    let idx = 0;
+
+    function appendBatch() {
+        const frag = document.createDocumentFragment();
+        const end = Math.min(idx + BATCH, data.length);
+        for (; idx < end; idx++) {
+            const row  = data[idx];
+            const code = (row['零件编码'] || '').trim();
+            const name = (row['零件名称'] || '').trim();
+            const gkb  = (row['GKB'] || '').trim();
+            const tr   = document.createElement('tr');
+            tr.setAttribute('data-code', code.toLowerCase());
+            tr.setAttribute('data-name', name);
+            tr.setAttribute('data-gkb', gkb);
+            tr.innerHTML =
+                '<td>' + (idx + 1) + '</td>' +
+                '<td class="part-code-cell">' + escapeHtml(code) + '</td>' +
+                '<td>' + escapeHtml(name) + '</td>' +
+                '<td>' + escapeHtml(gkb) + '</td>';
+            frag.appendChild(tr);
+        }
+        tbody.appendChild(frag);
+
+        // 更新计数
+        const totalEl   = document.getElementById('part-total-count');
+        const visibleEl = document.getElementById('part-visible-count');
+        if (totalEl)   totalEl.textContent   = data.length;
+        if (visibleEl) visibleEl.textContent = idx;   // 已渲染条数
+
+        if (idx < data.length) {
+            setTimeout(appendBatch, 0);   // 让出主线程
+        }
     }
 
-    const totalEl = document.getElementById('part-total-count');
-    const visibleEl = document.getElementById('part-visible-count');
-    if (totalEl) totalEl.textContent = data.length;
-    if (visibleEl) visibleEl.textContent = data.length;
+    appendBatch();
 }
+
 
 function searchParts() {
     const query = document.getElementById('part-search-input');
@@ -66,7 +84,7 @@ function searchParts() {
     for (let i = 0; i < rows.length; i++) {
         const code = rows[i].getAttribute('data-code') || '';
         const name = rows[i].getAttribute('data-name') || '';
-        const gkb = rows[i].getAttribute('data-gkb') || '';
+        const gkb  = rows[i].getAttribute('data-gkb') || '';
 
         if (!q || code.indexOf(q) !== -1 ||
             name.toLowerCase().indexOf(q) !== -1 ||
