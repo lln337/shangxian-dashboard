@@ -9,10 +9,6 @@
     <title>现场信息看板</title>
     <script src="js/chart.umd.min.js"></script>
     <link rel="stylesheet" href="css/common.css">
-    <!-- 预加载数据文件（优化加载速度） -->
-    <link rel="preload" href="data/line_data_v12.json" as="fetch" type="application/json" crossorigin>
-    <link rel="preload" href="data/part_sort_data.json" as="fetch" type="application/json" crossorigin>
-    <link rel="preload" href="data/daokou_data.json" as="fetch" type="application/json" crossorigin>
 </head>
 <body>
     <div class="header">
@@ -31,23 +27,6 @@
             <!-- 数据日期信息（由生成脚本注入） -->
             <div id="flow-date-info" style="padding:8px 0;font-size:13px;color:#666;"></div>
             <div id="flow-update-time" style="font-size:12px;color:#999;margin-bottom:8px;"></div>
-        <div id="flow-page-update-time" style="font-size:12px;color:#666;margin-bottom:8px;"></div>
-        <script>
-            // 立即显示网页更新时间
-            (function() {
-                var el = document.getElementById('flow-page-update-time');
-                if (el) {
-                    var now = new Date();
-                    var timeStr = now.getFullYear() + '-' +
-                        String(now.getMonth() + 1).padStart(2, '0') + '-' +
-                        String(now.getDate()).padStart(2, '0') + ' ' +
-                        String(now.getHours()).padStart(2, '0') + ':' +
-                        String(now.getMinutes()).padStart(2, '0') + ':' +
-                        String(now.getSeconds()).padStart(2, '0');
-                    el.textContent = '网页更新：' + timeStr;
-                }
-            })();
-        </script>
 
         <!-- 流量子 Tab -->
         <div class="flow-subtab-nav">
@@ -86,7 +65,7 @@
         <div id="part-update-time" style="font-size:12px;color:#999;margin-bottom:8px;"></div>
         <div class="search-bar">
             <div class="search-input-wrapper">
-                <input type="text" id="part-search-input" placeholder="输入零件编码 / 名称 / GKB 进行搜索..." oninput="searchParts()">
+                <input type="text" id="part-search-input" placeholder="输入零件编码 / 名称 / GKB 进行搜索...">
                 <span class="search-icon">&#128269;</span>
             </div>
             <div class="search-stats">
@@ -184,7 +163,7 @@
                 if (self.flowLoaded && window.LINE_DATA) {
                     return Promise.resolve(window.LINE_DATA);
                 }
-                return fetch('data/line_data_v12.json')
+                return fetch('data/line_data_v12.json?t=' + new Date().getTime())
                     .then(function(r) { return r.json(); })
                     .then(function(data) {
                         window.LINE_DATA = data;
@@ -211,7 +190,7 @@
                 if (self.partLoaded && window.PART_DATA) {
                     return Promise.resolve(window.PART_DATA);
                 }
-                return fetch('data/part_sort_data.json')
+                return fetch('data/part_sort_data.json?t=' + new Date().getTime())
                     .then(function(r) { return r.json(); })
                     .then(function(data) {
                         window.PART_DATA = data;
@@ -233,7 +212,7 @@
                 if (self.daokouLoaded && window.DAOKOU_DATA) {
                     return Promise.resolve(window.DAOKOU_DATA);
                 }
-                return fetch('data/daokou_data.json')
+                return fetch('data/daokou_data.json?t=' + new Date().getTime())
                     .then(function(r) { return r.json(); })
                     .then(function(data) {
                         window.DAOKOU_DATA = data;
@@ -263,31 +242,6 @@
         document.addEventListener('DOMContentLoaded', function() {
             // 默认激活上线流量 Tab 并加载数据
             switchMainTab('flow');
-            
-            // 预加载其他 Tab 数据（页面完全加载后后台进行）
-            window.addEventListener('load', function() {
-                // 预加载GKB数据
-                if (!window.PART_DATA) {
-                    fetch('data/part_sort_data.json')
-                        .then(function(r) { return r.json(); })
-                        .then(function(data) { 
-                            window.PART_DATA = data; 
-                            console.log('预加载：GKB数据完成');
-                        })
-                        .catch(function() {});
-                }
-                
-                // 预加载道口数据
-                if (!window.DAOKOU_DATA) {
-                    fetch('data/daokou_data.json')
-                        .then(function(r) { return r.json(); })
-                        .then(function(data) { 
-                            window.DAOKOU_DATA = data; 
-                            console.log('预加载：道口数据完成');
-                        })
-                        .catch(function() {});
-                }
-            });
         });
     </script>
 </body>
