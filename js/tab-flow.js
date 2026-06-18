@@ -71,7 +71,7 @@ function updateFlowDateInfo(data) {
     if (elPageTime) elPageTime.textContent = '网页更新：' + pageUpdateTime;
 }
 
-/* ========== 统计卡片 ========== */
+/* ========= 统计卡片 ========= */
 function renderFlowStats() {
     var data = window.LINE_DATA;
     if (!data) return;
@@ -104,7 +104,7 @@ function setElText(id, val) {
     if (el) el.textContent = val !== undefined && val !== null ? val : '--';
 }
 
-/* ========== 图表渲染（按团队分组，保持数据原顺序）========== */
+/* ========= 图表渲染（按团队分组，保持数据原顺序）========== */
 function renderFlowCharts() {
     var data = window.LINE_DATA;
     if (!data) return;
@@ -206,7 +206,7 @@ function renderFlowCharts() {
     });
 }
 
-/* ========== 表格渲染（保持数据原顺序）========== */
+/* ========= 表格渲染（保持数据原顺序）========== */
 function renderFlowTables() {
     var data = window.LINE_DATA;
     if (!data) return;
@@ -273,7 +273,7 @@ function renderFlowTables() {
     });
 }
 
-/* ========== 子Tab切换 ========== */
+/* ========= 子Tab切换 ========= */
 function switchFlowSubTab(tab) {
     currentFlowSubTab = tab;
 
@@ -310,7 +310,7 @@ function switchFlowSubTab(tab) {
     setTimeout(function() { resizeChartsByPrefix(prefix); }, 100);
 }
 
-/* ========== 工具函数 ========== */
+/* ========= 工具函数 ========= */
 function escapeHtml(str) {
     if (!str) return '';
     return String(str).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
