@@ -1,6 +1,9 @@
 /* ===== Tab2：排序零件GKB查询 ===== */
 
 function initPartTable() {
+    // 绑定搜索框事件（每次激活Tab都确保绑定，防止被覆盖）
+    bindPartSearch();
+
     // 如果数据已加载，直接渲染
     if (window.PART_DATA) {
         renderPartTable();
@@ -12,12 +15,25 @@ function initPartTable() {
         container.innerHTML =
             '<div class="empty-state">暂无排序零件GKB查询数据<br>请先在工具中导入零件属性 ZIP 文件</div>';
     }
+}
 
-    // 添加搜索框事件监听（修复：动态筛选功能丢失）
+function bindPartSearch() {
+    // 搜索框 input 事件
     const searchInput = document.getElementById('part-search-input');
-    if (searchInput && !searchInput._listenerAdded) {
+    if (searchInput && !searchInput._inputListenerAdded) {
         searchInput.addEventListener('input', searchParts);
-        searchInput._listenerAdded = true;
+        searchInput._inputListenerAdded = true;
+    }
+    // 搜索图标点击事件：触发搜索（等价于 input 事件）
+    const searchIcon = document.querySelector('.search-icon');
+    if (searchIcon && !searchIcon._clickListenerAdded) {
+        searchIcon.addEventListener('click', function() {
+            searchParts();
+            // 同时聚焦输入框
+            if (searchInput) searchInput.focus();
+        });
+        searchIcon._clickListenerAdded = true;
+        searchIcon.style.cursor = 'pointer';
     }
 }
 
@@ -98,6 +114,13 @@ function searchParts() {
 
     const visibleEl = document.getElementById('part-visible-count');
     if (visibleEl) visibleEl.textContent = visible;
+}
+
+// 安全网：脚本加载后立即绑定搜索（防止 initPartTable 未触发时搜索失效）
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', bindPartSearch);
+} else {
+    bindPartSearch();
 }
 
 // 页面加载时不自动初始化，由 switchMainTab() 触发
