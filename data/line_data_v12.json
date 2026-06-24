@@ -1,12 +1,12 @@
 {
   "big": {
     "shifts": [
-      "06-22白",
-      "06-22夜",
       "06-23白",
-      "06-23夜"
+      "06-23夜",
+      "06-24白",
+      "06-24夜"
     ],
-    "date_range": "2026-06-22 ~ 2026-06-23",
+    "date_range": "2026-06-23 ~ 2026-06-24",
     "data": [
       {
         "team": "大件1",
@@ -14,321 +14,348 @@
         "std": 10.0,
         "shifts": [
           {
-            "shift_name": "06-22白",
-            "flow": 7.25,
-            "saturation": 72.5
-          },
-          {
-            "shift_name": "06-22夜",
-            "flow": 5.6,
-            "saturation": 56.0
-          },
-          {
             "shift_name": "06-23白",
-            "flow": 6.47,
-            "saturation": 64.7
+            "flow": 6.75,
+            "saturation": 67.5
           },
           {
             "shift_name": "06-23夜",
             "flow": 5.7,
             "saturation": 57.0
+          },
+          {
+            "shift_name": "06-24白",
+            "flow": 6.96,
+            "saturation": 69.6
+          },
+          {
+            "shift_name": "06-24夜",
+            "flow": 5.9,
+            "saturation": 59.0
           }
         ]
       },
       {
         "team": "大件1",
         "line": "RC1-2",
-        "std": 10.0,
+        "std": 0.0,
         "shifts": [
           {
-            "shift_name": "06-22白",
-            "flow": 5.17,
-            "saturation": 51.7
-          },
-          {
-            "shift_name": "06-22夜",
-            "flow": 3.88,
-            "saturation": 38.8
-          },
-          {
             "shift_name": "06-23白",
-            "flow": 5.01,
-            "saturation": 50.1
+            "flow": 5.24,
+            "saturation": 0.0
           },
           {
             "shift_name": "06-23夜",
             "flow": 4.65,
-            "saturation": 46.5
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24白",
+            "flow": 5.48,
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24夜",
+            "flow": 4.91,
+            "saturation": 0.0
           }
         ]
       },
       {
         "team": "大件1",
         "line": "RG1-1",
-        "std": 10.0,
+        "std": 0.0,
         "shifts": [
           {
-            "shift_name": "06-22白",
-            "flow": 5.85,
-            "saturation": 58.5
-          },
-          {
-            "shift_name": "06-22夜",
-            "flow": 6.02,
-            "saturation": 60.2
-          },
-          {
             "shift_name": "06-23白",
-            "flow": 5.41,
-            "saturation": 54.1
+            "flow": 5.71,
+            "saturation": 0.0
           },
           {
             "shift_name": "06-23夜",
             "flow": 6.36,
-            "saturation": 63.6
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24白",
+            "flow": 5.71,
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24夜",
+            "flow": 5.76,
+            "saturation": 0.0
           }
         ]
       },
       {
         "team": "大件1",
         "line": "RG1-2",
-        "std": 10.0,
+        "std": 0.0,
         "shifts": [
           {
-            "shift_name": "06-22白",
-            "flow": 4.56,
-            "saturation": 45.6
-          },
-          {
-            "shift_name": "06-22夜",
-            "flow": 4.5,
-            "saturation": 45.0
-          },
-          {
             "shift_name": "06-23白",
-            "flow": 3.48,
-            "saturation": 34.8
+            "flow": 3.76,
+            "saturation": 0.0
           },
           {
             "shift_name": "06-23夜",
-            "flow": 4.39,
-            "saturation": 43.9
+            "flow": 4.43,
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24白",
+            "flow": 4.08,
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24夜",
+            "flow": 3.89,
+            "saturation": 0.0
           }
         ]
       },
       {
         "team": "大件1",
         "line": "RG1-3",
-        "std": 10.0,
+        "std": 0.0,
         "shifts": [
           {
-            "shift_name": "06-22白",
-            "flow": 4.59,
-            "saturation": 45.9
-          },
-          {
-            "shift_name": "06-22夜",
-            "flow": 5.07,
-            "saturation": 50.7
-          },
-          {
             "shift_name": "06-23白",
-            "flow": 4.99,
-            "saturation": 49.9
+            "flow": 5.18,
+            "saturation": 0.0
           },
           {
             "shift_name": "06-23夜",
             "flow": 6.43,
-            "saturation": 64.3
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24白",
+            "flow": 4.9,
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24夜",
+            "flow": 6.0,
+            "saturation": 0.0
           }
         ]
       },
       {
         "team": "大件1",
         "line": "RG1-4",
-        "std": 10.0,
+        "std": 0.0,
         "shifts": [
           {
-            "shift_name": "06-22白",
-            "flow": 2.42,
-            "saturation": 24.2
-          },
-          {
-            "shift_name": "06-22夜",
-            "flow": 2.63,
-            "saturation": 26.3
-          },
-          {
             "shift_name": "06-23白",
-            "flow": 2.3,
-            "saturation": 23.0
+            "flow": 2.43,
+            "saturation": 0.0
           },
           {
             "shift_name": "06-23夜",
             "flow": 2.79,
-            "saturation": 27.9
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24白",
+            "flow": 2.47,
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24夜",
+            "flow": 2.59,
+            "saturation": 0.0
           }
         ]
       },
       {
         "team": "大件1",
         "line": "RG1-5",
-        "std": 10.0,
+        "std": 0.0,
         "shifts": [
           {
-            "shift_name": "06-22白",
-            "flow": 6.37,
-            "saturation": 63.7
-          },
-          {
-            "shift_name": "06-22夜",
-            "flow": 5.0,
-            "saturation": 50.0
-          },
-          {
             "shift_name": "06-23白",
-            "flow": 5.72,
-            "saturation": 57.2
+            "flow": 5.98,
+            "saturation": 0.0
           },
           {
             "shift_name": "06-23夜",
             "flow": 5.2,
-            "saturation": 52.0
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24白",
+            "flow": 6.37,
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24夜",
+            "flow": 5.46,
+            "saturation": 0.0
           }
         ]
       },
       {
         "team": "大件1",
         "line": "RG1-6",
-        "std": 10.0,
+        "std": 0.0,
         "shifts": [
           {
-            "shift_name": "06-22白",
-            "flow": 5.72,
-            "saturation": 57.2
-          },
-          {
-            "shift_name": "06-22夜",
-            "flow": 5.73,
-            "saturation": 57.3
-          },
-          {
             "shift_name": "06-23白",
-            "flow": 5.65,
-            "saturation": 56.5
+            "flow": 5.96,
+            "saturation": 0.0
           },
           {
             "shift_name": "06-23夜",
             "flow": 6.05,
-            "saturation": 60.5
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24白",
+            "flow": 5.9,
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24夜",
+            "flow": 5.98,
+            "saturation": 0.0
+          }
+        ]
+      },
+      {
+        "team": "大件1",
+        "line": "RG1-7",
+        "std": 0.0,
+        "shifts": [
+          {
+            "shift_name": "06-23白",
+            "flow": 6.06,
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-23夜",
+            "flow": 5.48,
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24白",
+            "flow": 6.09,
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24夜",
+            "flow": 5.51,
+            "saturation": 0.0
           }
         ]
       },
       {
         "team": "大件2",
         "line": "RG2-1",
-        "std": 10.0,
+        "std": 0.0,
         "shifts": [
           {
-            "shift_name": "06-22白",
-            "flow": 7.74,
-            "saturation": 77.4
-          },
-          {
-            "shift_name": "06-22夜",
-            "flow": 7.83,
-            "saturation": 78.3
-          },
-          {
             "shift_name": "06-23白",
-            "flow": 7.28,
-            "saturation": 72.8
+            "flow": 7.56,
+            "saturation": 0.0
           },
           {
             "shift_name": "06-23夜",
-            "flow": 7.47,
-            "saturation": 74.7
+            "flow": 7.37,
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24白",
+            "flow": 7.24,
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24夜",
+            "flow": 6.93,
+            "saturation": 0.0
           }
         ]
       },
       {
         "team": "大件2",
         "line": "RG2-2",
-        "std": 10.0,
+        "std": 0.0,
         "shifts": [
           {
-            "shift_name": "06-22白",
-            "flow": 7.04,
-            "saturation": 70.4
-          },
-          {
-            "shift_name": "06-22夜",
-            "flow": 6.28,
-            "saturation": 62.8
-          },
-          {
             "shift_name": "06-23白",
-            "flow": 6.41,
-            "saturation": 64.1
+            "flow": 6.7,
+            "saturation": 0.0
           },
           {
             "shift_name": "06-23夜",
             "flow": 6.46,
-            "saturation": 64.6
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24白",
+            "flow": 6.72,
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24夜",
+            "flow": 6.86,
+            "saturation": 0.0
           }
         ]
       },
       {
         "team": "大件2",
         "line": "RG2-3",
-        "std": 10.0,
+        "std": 0.0,
         "shifts": [
           {
-            "shift_name": "06-22白",
-            "flow": 4.68,
-            "saturation": 46.8
-          },
-          {
-            "shift_name": "06-22夜",
-            "flow": 3.68,
-            "saturation": 36.8
-          },
-          {
             "shift_name": "06-23白",
-            "flow": 4.23,
-            "saturation": 42.3
+            "flow": 4.42,
+            "saturation": 0.0
           },
           {
             "shift_name": "06-23夜",
             "flow": 3.84,
-            "saturation": 38.4
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24白",
+            "flow": 4.6,
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24夜",
+            "flow": 4.13,
+            "saturation": 0.0
           }
         ]
       },
       {
         "team": "大件2",
         "line": "RG2-4",
-        "std": 10.0,
+        "std": 0.0,
         "shifts": [
           {
-            "shift_name": "06-22白",
-            "flow": 8.16,
-            "saturation": 81.6
-          },
-          {
-            "shift_name": "06-22夜",
-            "flow": 8.4,
-            "saturation": 84.0
-          },
-          {
             "shift_name": "06-23白",
-            "flow": 7.95,
-            "saturation": 79.5
+            "flow": 8.31,
+            "saturation": 0.0
           },
           {
             "shift_name": "06-23夜",
             "flow": 9.17,
-            "saturation": 91.7
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24白",
+            "flow": 8.12,
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24夜",
+            "flow": 9.24,
+            "saturation": 0.0
           }
         ]
       },
@@ -338,564 +365,564 @@
         "std": 10.0,
         "shifts": [
           {
-            "shift_name": "06-22白",
-            "flow": 6.61,
-            "saturation": 66.1
-          },
-          {
-            "shift_name": "06-22夜",
-            "flow": 5.6,
-            "saturation": 56.0
-          },
-          {
             "shift_name": "06-23白",
-            "flow": 5.77,
-            "saturation": 57.7
+            "flow": 0.0,
+            "saturation": 0.0
           },
           {
             "shift_name": "06-23夜",
             "flow": 5.48,
-            "saturation": 54.8
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24白",
+            "flow": 0.0,
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24夜",
+            "flow": 0.01,
+            "saturation": 0.0
           }
         ]
       },
       {
         "team": "大件2",
         "line": "RG2-6",
-        "std": 10.0,
+        "std": 0.0,
         "shifts": [
           {
-            "shift_name": "06-22白",
-            "flow": 8.49,
-            "saturation": 84.9
-          },
-          {
-            "shift_name": "06-22夜",
-            "flow": 8.55,
-            "saturation": 85.5
-          },
-          {
             "shift_name": "06-23白",
-            "flow": 7.35,
-            "saturation": 73.5
+            "flow": 7.74,
+            "saturation": 0.0
           },
           {
             "shift_name": "06-23夜",
             "flow": 8.58,
-            "saturation": 85.8
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24白",
+            "flow": 7.73,
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24夜",
+            "flow": 8.48,
+            "saturation": 0.0
           }
         ]
       },
       {
         "team": "大件2",
         "line": "RG2-7",
-        "std": 10.0,
+        "std": 0.0,
         "shifts": [
           {
-            "shift_name": "06-22白",
-            "flow": 4.11,
-            "saturation": 41.1
-          },
-          {
-            "shift_name": "06-22夜",
-            "flow": 4.06,
-            "saturation": 40.6
-          },
-          {
             "shift_name": "06-23白",
-            "flow": 3.81,
-            "saturation": 38.1
+            "flow": 4.07,
+            "saturation": 0.0
           },
           {
             "shift_name": "06-23夜",
-            "flow": 4.17,
-            "saturation": 41.7
+            "flow": 4.26,
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24白",
+            "flow": 4.1,
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24夜",
+            "flow": 4.26,
+            "saturation": 0.0
           }
         ]
       },
       {
         "team": "大件3",
         "line": "RC3-1",
-        "std": 15.0,
+        "std": 0.0,
         "shifts": [
           {
-            "shift_name": "06-22白",
-            "flow": 10.05,
-            "saturation": 67.0
-          },
-          {
-            "shift_name": "06-22夜",
-            "flow": 8.83,
-            "saturation": 58.9
-          },
-          {
             "shift_name": "06-23白",
-            "flow": 9.77,
-            "saturation": 65.1
+            "flow": 10.41,
+            "saturation": 0.0
           },
           {
             "shift_name": "06-23夜",
-            "flow": 9.07,
-            "saturation": 60.5
+            "flow": 9.27,
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24白",
+            "flow": 10.35,
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24夜",
+            "flow": 9.45,
+            "saturation": 0.0
           }
         ]
       },
       {
         "team": "大件3",
         "line": "RC3-2",
-        "std": 15.0,
+        "std": 0.0,
         "shifts": [
           {
-            "shift_name": "06-22白",
-            "flow": 11.13,
-            "saturation": 74.2
-          },
-          {
-            "shift_name": "06-22夜",
-            "flow": 9.75,
-            "saturation": 65.0
-          },
-          {
             "shift_name": "06-23白",
-            "flow": 10.77,
-            "saturation": 71.8
+            "flow": 11.25,
+            "saturation": 0.0
           },
           {
             "shift_name": "06-23夜",
             "flow": 10.22,
-            "saturation": 68.1
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24白",
+            "flow": 11.4,
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24夜",
+            "flow": 10.41,
+            "saturation": 0.0
           }
         ]
       },
       {
         "team": "大件3",
         "line": "RG3-1",
-        "std": 10.0,
+        "std": 0.0,
         "shifts": [
           {
-            "shift_name": "06-22白",
-            "flow": 7.12,
-            "saturation": 71.2
-          },
-          {
-            "shift_name": "06-22夜",
-            "flow": 5.46,
-            "saturation": 54.6
-          },
-          {
             "shift_name": "06-23白",
-            "flow": 5.98,
-            "saturation": 59.8
+            "flow": 4.61,
+            "saturation": 0.0
           },
           {
             "shift_name": "06-23夜",
-            "flow": 5.11,
-            "saturation": 51.1
+            "flow": 3.89,
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24白",
+            "flow": 4.67,
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24夜",
+            "flow": 4.15,
+            "saturation": 0.0
           }
         ]
       },
       {
         "team": "大件3",
         "line": "RG3-2",
-        "std": 10.0,
+        "std": 0.0,
         "shifts": [
           {
-            "shift_name": "06-22白",
-            "flow": 5.03,
-            "saturation": 50.3
-          },
-          {
-            "shift_name": "06-22夜",
-            "flow": 4.61,
-            "saturation": 46.1
-          },
-          {
             "shift_name": "06-23白",
-            "flow": 4.63,
-            "saturation": 46.3
+            "flow": 6.52,
+            "saturation": 0.0
           },
           {
             "shift_name": "06-23夜",
-            "flow": 5.02,
-            "saturation": 50.2
+            "flow": 6.24,
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24白",
+            "flow": 6.72,
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24夜",
+            "flow": 6.37,
+            "saturation": 0.0
           }
         ]
       },
       {
         "team": "大件3",
         "line": "RG3-3",
-        "std": 10.0,
+        "std": 0.0,
         "shifts": [
           {
-            "shift_name": "06-22白",
-            "flow": 7.95,
-            "saturation": 79.5
-          },
-          {
-            "shift_name": "06-22夜",
-            "flow": 6.94,
-            "saturation": 69.4
-          },
-          {
             "shift_name": "06-23白",
-            "flow": 8.44,
-            "saturation": 84.4
+            "flow": 8.81,
+            "saturation": 0.0
           },
           {
             "shift_name": "06-23夜",
             "flow": 7.37,
-            "saturation": 73.7
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24白",
+            "flow": 8.84,
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24夜",
+            "flow": 7.51,
+            "saturation": 0.0
           }
         ]
       },
       {
         "team": "大件3",
         "line": "RG3-4",
-        "std": 10.0,
+        "std": 0.0,
         "shifts": [
           {
-            "shift_name": "06-22白",
-            "flow": 5.76,
-            "saturation": 57.6
-          },
-          {
-            "shift_name": "06-22夜",
-            "flow": 5.46,
-            "saturation": 54.6
-          },
-          {
             "shift_name": "06-23白",
-            "flow": 5.55,
-            "saturation": 55.5
+            "flow": 5.91,
+            "saturation": 0.0
           },
           {
             "shift_name": "06-23夜",
-            "flow": 5.96,
-            "saturation": 59.6
+            "flow": 6.03,
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24白",
+            "flow": 5.84,
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24夜",
+            "flow": 6.02,
+            "saturation": 0.0
           }
         ]
       },
       {
         "team": "大件3",
         "line": "RG3-5",
-        "std": 10.0,
+        "std": 0.0,
         "shifts": [
           {
-            "shift_name": "06-22白",
-            "flow": 9.72,
-            "saturation": 97.2
-          },
-          {
-            "shift_name": "06-22夜",
-            "flow": 8.49,
-            "saturation": 84.9
-          },
-          {
             "shift_name": "06-23白",
-            "flow": 10.46,
-            "saturation": 104.6
+            "flow": 10.89,
+            "saturation": 0.0
           },
           {
             "shift_name": "06-23夜",
             "flow": 9.07,
-            "saturation": 90.7
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24白",
+            "flow": 10.86,
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24夜",
+            "flow": 9.22,
+            "saturation": 0.0
           }
         ]
       },
       {
         "team": "大件3",
         "line": "RG3-8",
-        "std": 10.0,
+        "std": 0.0,
         "shifts": [
           {
-            "shift_name": "06-22白",
-            "flow": 8.2,
-            "saturation": 82.0
-          },
-          {
-            "shift_name": "06-22夜",
-            "flow": 7.35,
-            "saturation": 73.5
-          },
-          {
             "shift_name": "06-23白",
-            "flow": 7.75,
-            "saturation": 77.5
+            "flow": 8.11,
+            "saturation": 0.0
           },
           {
             "shift_name": "06-23夜",
             "flow": 7.89,
-            "saturation": 78.9
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24白",
+            "flow": 7.73,
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24夜",
+            "flow": 7.99,
+            "saturation": 0.0
           }
         ]
       },
       {
         "team": "大件3",
         "line": "RG3-9",
-        "std": 10.0,
+        "std": 0.0,
         "shifts": [
           {
-            "shift_name": "06-22白",
-            "flow": 4.22,
-            "saturation": 42.2
-          },
-          {
-            "shift_name": "06-22夜",
-            "flow": 3.79,
-            "saturation": 37.9
-          },
-          {
             "shift_name": "06-23白",
-            "flow": 4.15,
-            "saturation": 41.5
+            "flow": 4.6,
+            "saturation": 0.0
           },
           {
             "shift_name": "06-23夜",
-            "flow": 4.02,
-            "saturation": 40.2
+            "flow": 4.19,
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24白",
+            "flow": 4.9,
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24夜",
+            "flow": 4.57,
+            "saturation": 0.0
           }
         ]
       },
       {
         "team": "大件4",
         "line": "RG4-1",
-        "std": 10.0,
+        "std": 0.0,
         "shifts": [
           {
-            "shift_name": "06-22白",
-            "flow": 8.52,
-            "saturation": 85.2
-          },
-          {
-            "shift_name": "06-22夜",
-            "flow": 7.46,
-            "saturation": 74.6
-          },
-          {
             "shift_name": "06-23白",
-            "flow": 7.9,
-            "saturation": 79.0
+            "flow": 8.3,
+            "saturation": 0.0
           },
           {
             "shift_name": "06-23夜",
             "flow": 7.81,
-            "saturation": 78.1
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24白",
+            "flow": 8.48,
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24夜",
+            "flow": 7.89,
+            "saturation": 0.0
           }
         ]
       },
       {
         "team": "大件4",
         "line": "RG4-2",
-        "std": 10.0,
+        "std": 0.0,
         "shifts": [
           {
-            "shift_name": "06-22白",
-            "flow": 6.3,
-            "saturation": 63.0
-          },
-          {
-            "shift_name": "06-22夜",
-            "flow": 5.5,
-            "saturation": 55.0
-          },
-          {
             "shift_name": "06-23白",
-            "flow": 5.65,
-            "saturation": 56.5
+            "flow": 5.86,
+            "saturation": 0.0
           },
           {
             "shift_name": "06-23夜",
-            "flow": 5.56,
-            "saturation": 55.6
+            "flow": 5.5,
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24白",
+            "flow": 6.02,
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24夜",
+            "flow": 5.6,
+            "saturation": 0.0
           }
         ]
       },
       {
         "team": "大件4",
         "line": "RG4-3",
-        "std": 10.0,
+        "std": 0.0,
         "shifts": [
           {
-            "shift_name": "06-22白",
-            "flow": 7.45,
-            "saturation": 74.5
-          },
-          {
-            "shift_name": "06-22夜",
-            "flow": 7.1,
-            "saturation": 71.0
-          },
-          {
             "shift_name": "06-23白",
-            "flow": 6.57,
-            "saturation": 65.7
+            "flow": 6.98,
+            "saturation": 0.0
           },
           {
             "shift_name": "06-23夜",
             "flow": 6.72,
-            "saturation": 67.2
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24白",
+            "flow": 6.8,
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24夜",
+            "flow": 6.51,
+            "saturation": 0.0
           }
         ]
       },
       {
         "team": "大件4",
         "line": "RG4-4",
-        "std": 10.0,
+        "std": 0.0,
         "shifts": [
           {
-            "shift_name": "06-22白",
-            "flow": 3.98,
-            "saturation": 39.8
-          },
-          {
-            "shift_name": "06-22夜",
-            "flow": 3.05,
-            "saturation": 30.5
-          },
-          {
             "shift_name": "06-23白",
-            "flow": 3.73,
-            "saturation": 37.3
+            "flow": 3.83,
+            "saturation": 0.0
           },
           {
             "shift_name": "06-23夜",
             "flow": 3.55,
-            "saturation": 35.5
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24白",
+            "flow": 3.97,
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24夜",
+            "flow": 3.97,
+            "saturation": 0.0
           }
         ]
       },
       {
         "team": "大件4",
         "line": "RG4-5",
-        "std": 10.0,
+        "std": 0.0,
         "shifts": [
           {
-            "shift_name": "06-22白",
-            "flow": 8.25,
-            "saturation": 82.5
-          },
-          {
-            "shift_name": "06-22夜",
-            "flow": 6.97,
-            "saturation": 69.7
-          },
-          {
             "shift_name": "06-23白",
-            "flow": 7.76,
-            "saturation": 77.6
+            "flow": 8.28,
+            "saturation": 0.0
           },
           {
             "shift_name": "06-23夜",
-            "flow": 7.38,
-            "saturation": 73.8
+            "flow": 7.52,
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24白",
+            "flow": 8.29,
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24夜",
+            "flow": 7.74,
+            "saturation": 0.0
           }
         ]
       },
       {
         "team": "大件4",
         "line": "RG4-6",
-        "std": 18.0,
+        "std": 0.0,
         "shifts": [
           {
-            "shift_name": "06-22白",
-            "flow": 13.89,
-            "saturation": 77.2
-          },
-          {
-            "shift_name": "06-22夜",
-            "flow": 12.53,
-            "saturation": 69.6
-          },
-          {
             "shift_name": "06-23白",
-            "flow": 14.5,
-            "saturation": 80.6
+            "flow": 16.34,
+            "saturation": 0.0
           },
           {
             "shift_name": "06-23夜",
-            "flow": 12.42,
-            "saturation": 69.0
+            "flow": 13.61,
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24白",
+            "flow": 16.29,
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24夜",
+            "flow": 13.83,
+            "saturation": 0.0
           }
         ]
       },
       {
         "team": "大件4",
         "line": "RG4-7",
-        "std": 10.0,
+        "std": 0.0,
         "shifts": [
           {
-            "shift_name": "06-22白",
-            "flow": 6.58,
-            "saturation": 65.8
-          },
-          {
-            "shift_name": "06-22夜",
-            "flow": 5.61,
-            "saturation": 56.1
-          },
-          {
             "shift_name": "06-23白",
-            "flow": 5.92,
-            "saturation": 59.2
+            "flow": 6.2,
+            "saturation": 0.0
           },
           {
             "shift_name": "06-23夜",
             "flow": 5.7,
-            "saturation": 57.0
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24白",
+            "flow": 6.28,
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24夜",
+            "flow": 5.83,
+            "saturation": 0.0
           }
         ]
       },
       {
         "team": "大件4",
         "line": "RG4-8",
-        "std": 2.0,
+        "std": 0.0,
         "shifts": [
           {
-            "shift_name": "06-22白",
-            "flow": 0.55,
-            "saturation": 27.4
-          },
-          {
-            "shift_name": "06-22夜",
-            "flow": 0.37,
-            "saturation": 18.3
-          },
-          {
             "shift_name": "06-23白",
-            "flow": 0.5,
-            "saturation": 25.0
+            "flow": 0.51,
+            "saturation": 0.0
           },
           {
             "shift_name": "06-23夜",
             "flow": 0.4,
-            "saturation": 20.1
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24白",
+            "flow": 0.47,
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24夜",
+            "flow": 0.54,
+            "saturation": 0.0
           }
         ]
       },
       {
         "team": "大件4",
         "line": "RG4-9",
-        "std": 10.0,
+        "std": 0.0,
         "shifts": [
           {
-            "shift_name": "06-22白",
-            "flow": 6.18,
-            "saturation": 61.8
-          },
-          {
-            "shift_name": "06-22夜",
-            "flow": 5.49,
-            "saturation": 54.9
-          },
-          {
             "shift_name": "06-23白",
-            "flow": 5.71,
-            "saturation": 57.1
+            "flow": 5.99,
+            "saturation": 0.0
           },
           {
             "shift_name": "06-23夜",
             "flow": 5.64,
-            "saturation": 56.4
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24白",
+            "flow": 6.06,
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24夜",
+            "flow": 5.68,
+            "saturation": 0.0
           }
         ]
       }
@@ -903,12 +930,12 @@
   },
   "small": {
     "shifts": [
-      "06-22白",
-      "06-22夜",
       "06-23白",
-      "06-23夜"
+      "06-23夜",
+      "06-24白",
+      "06-24夜"
     ],
-    "date_range": "2026-06-22 ~ 2026-06-23",
+    "date_range": "2026-06-23 ~ 2026-06-24",
     "data": [
       {
         "team": "小件2",
@@ -916,375 +943,375 @@
         "std": 120,
         "shifts": [
           {
-            "shift_name": "06-22白",
-            "flow": 76.56,
-            "saturation": 63.8
-          },
-          {
-            "shift_name": "06-22夜",
-            "flow": 65.66,
-            "saturation": 54.7
-          },
-          {
             "shift_name": "06-23白",
-            "flow": 76.12,
-            "saturation": 63.4
+            "flow": 79.44,
+            "saturation": 66.2
           },
           {
             "shift_name": "06-23夜",
-            "flow": 67.06,
-            "saturation": 55.9
+            "flow": 67.15,
+            "saturation": 56.0
+          },
+          {
+            "shift_name": "06-24白",
+            "flow": 79.68,
+            "saturation": 66.4
+          },
+          {
+            "shift_name": "06-24夜",
+            "flow": 67.83,
+            "saturation": 56.5
           }
         ]
       },
       {
         "team": "小件2",
         "line": "RK10",
-        "std": 60.0,
+        "std": 0.0,
         "shifts": [
           {
-            "shift_name": "06-22白",
-            "flow": 43.14,
-            "saturation": 71.9
-          },
-          {
-            "shift_name": "06-22夜",
-            "flow": 44.88,
-            "saturation": 74.8
-          },
-          {
             "shift_name": "06-23白",
-            "flow": 40.42,
-            "saturation": 67.4
+            "flow": 43.4,
+            "saturation": 0.0
           },
           {
             "shift_name": "06-23夜",
-            "flow": 47.84,
-            "saturation": 79.7
+            "flow": 49.41,
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24白",
+            "flow": 43.22,
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24夜",
+            "flow": 44.71,
+            "saturation": 0.0
           }
         ]
       },
       {
         "team": "小件2",
         "line": "RK11",
-        "std": 60.0,
+        "std": 0.0,
         "shifts": [
           {
-            "shift_name": "06-22白",
-            "flow": 44.85,
-            "saturation": 74.8
-          },
-          {
-            "shift_name": "06-22夜",
-            "flow": 42.29,
-            "saturation": 70.5
-          },
-          {
             "shift_name": "06-23白",
-            "flow": 38.12,
-            "saturation": 63.5
+            "flow": 39.22,
+            "saturation": 0.0
           },
           {
             "shift_name": "06-23夜",
-            "flow": 40.86,
-            "saturation": 68.1
+            "flow": 39.29,
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24白",
+            "flow": 40.13,
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24夜",
+            "flow": 38.77,
+            "saturation": 0.0
           }
         ]
       },
       {
         "team": "小件2",
         "line": "RK12",
-        "std": 60.0,
+        "std": 0.0,
         "shifts": [
           {
-            "shift_name": "06-22白",
-            "flow": 35.45,
-            "saturation": 59.1
-          },
-          {
-            "shift_name": "06-22夜",
-            "flow": 35.66,
-            "saturation": 59.4
-          },
-          {
             "shift_name": "06-23白",
-            "flow": 32.81,
-            "saturation": 54.7
+            "flow": 34.37,
+            "saturation": 0.0
           },
           {
             "shift_name": "06-23夜",
-            "flow": 34.98,
-            "saturation": 58.3
+            "flow": 34.92,
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24白",
+            "flow": 33.86,
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24夜",
+            "flow": 34.38,
+            "saturation": 0.0
           }
         ]
       },
       {
         "team": "小件2",
         "line": "RK13",
-        "std": 60.0,
+        "std": 0.0,
         "shifts": [
           {
-            "shift_name": "06-22白",
-            "flow": 49.83,
-            "saturation": 83.0
-          },
-          {
-            "shift_name": "06-22夜",
-            "flow": 39.38,
-            "saturation": 65.6
-          },
-          {
             "shift_name": "06-23白",
-            "flow": 45.84,
-            "saturation": 76.4
+            "flow": 47.96,
+            "saturation": 0.0
           },
           {
             "shift_name": "06-23夜",
             "flow": 41.65,
-            "saturation": 69.4
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24白",
+            "flow": 49.65,
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24夜",
+            "flow": 43.16,
+            "saturation": 0.0
           }
         ]
       },
       {
         "team": "小件2",
         "line": "RK14",
-        "std": 120.0,
+        "std": 0.0,
         "shifts": [
           {
-            "shift_name": "06-22白",
-            "flow": 72.8,
-            "saturation": 60.7
-          },
-          {
-            "shift_name": "06-22夜",
-            "flow": 73.74,
-            "saturation": 61.4
-          },
-          {
             "shift_name": "06-23白",
-            "flow": 64.35,
-            "saturation": 53.6
+            "flow": 67.91,
+            "saturation": 0.0
           },
           {
             "shift_name": "06-23夜",
             "flow": 71.24,
-            "saturation": 59.4
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24白",
+            "flow": 69.68,
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24夜",
+            "flow": 70.08,
+            "saturation": 0.0
           }
         ]
       },
       {
         "team": "小件2",
         "line": "RK15",
-        "std": 60.0,
+        "std": 0.0,
         "shifts": [
           {
-            "shift_name": "06-22白",
-            "flow": 5.39,
-            "saturation": 9.0
-          },
-          {
-            "shift_name": "06-22夜",
-            "flow": 3.9,
-            "saturation": 6.5
-          },
-          {
             "shift_name": "06-23白",
-            "flow": 1.42,
-            "saturation": 2.4
+            "flow": 1.63,
+            "saturation": 0.0
           },
           {
             "shift_name": "06-23夜",
             "flow": 0.68,
-            "saturation": 1.1
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24白",
+            "flow": 3.0,
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24夜",
+            "flow": 1.0,
+            "saturation": 0.0
           }
         ]
       },
       {
         "team": "小件2",
         "line": "RK19",
-        "std": 60.0,
+        "std": 0.0,
         "shifts": [
           {
-            "shift_name": "06-22白",
-            "flow": 33.14,
-            "saturation": 55.2
-          },
-          {
-            "shift_name": "06-22夜",
-            "flow": 33.23,
-            "saturation": 55.4
-          },
-          {
             "shift_name": "06-23白",
-            "flow": 32.14,
-            "saturation": 53.6
+            "flow": 33.63,
+            "saturation": 0.0
           },
           {
             "shift_name": "06-23夜",
-            "flow": 34.82,
-            "saturation": 58.0
+            "flow": 34.76,
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24白",
+            "flow": 33.04,
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24夜",
+            "flow": 34.19,
+            "saturation": 0.0
           }
         ]
       },
       {
         "team": "小件3",
         "line": "RK2",
-        "std": 60.0,
+        "std": 0.0,
         "shifts": [
           {
-            "shift_name": "06-22白",
-            "flow": 52.55,
-            "saturation": 87.6
-          },
-          {
-            "shift_name": "06-22夜",
-            "flow": 46.52,
-            "saturation": 77.5
-          },
-          {
             "shift_name": "06-23白",
-            "flow": 44.88,
-            "saturation": 74.8
+            "flow": 46.92,
+            "saturation": 0.0
           },
           {
             "shift_name": "06-23夜",
             "flow": 44.73,
-            "saturation": 74.6
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24白",
+            "flow": 42.91,
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24夜",
+            "flow": 45.7,
+            "saturation": 0.0
           }
         ]
       },
       {
         "team": "小件3",
         "line": "RK2-1",
-        "std": 60.0,
+        "std": 0.0,
         "shifts": [
           {
-            "shift_name": "06-22白",
-            "flow": 50.28,
-            "saturation": 83.8
-          },
-          {
-            "shift_name": "06-22夜",
-            "flow": 41.39,
-            "saturation": 69.0
-          },
-          {
             "shift_name": "06-23白",
-            "flow": 44.4,
-            "saturation": 74.0
+            "flow": 46.59,
+            "saturation": 0.0
           },
           {
             "shift_name": "06-23夜",
             "flow": 40.84,
-            "saturation": 68.1
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24白",
+            "flow": 44.54,
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24夜",
+            "flow": 41.75,
+            "saturation": 0.0
           }
         ]
       },
       {
         "team": "小件3",
         "line": "RK3",
-        "std": 60.0,
+        "std": 0.0,
         "shifts": [
           {
-            "shift_name": "06-22白",
-            "flow": 56.81,
-            "saturation": 94.7
-          },
-          {
-            "shift_name": "06-22夜",
-            "flow": 48.9,
-            "saturation": 81.5
-          },
-          {
             "shift_name": "06-23白",
-            "flow": 55.81,
-            "saturation": 93.0
+            "flow": 58.85,
+            "saturation": 0.0
           },
           {
             "shift_name": "06-23夜",
-            "flow": 55.66,
-            "saturation": 92.8
+            "flow": 55.75,
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24白",
+            "flow": 64.04,
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24夜",
+            "flow": 56.65,
+            "saturation": 0.0
           }
         ]
       },
       {
         "team": "小件3",
         "line": "RK4",
-        "std": 60.0,
+        "std": 0.0,
         "shifts": [
           {
-            "shift_name": "06-22白",
-            "flow": 49.05,
-            "saturation": 81.8
-          },
-          {
-            "shift_name": "06-22夜",
-            "flow": 43.34,
-            "saturation": 72.2
-          },
-          {
             "shift_name": "06-23白",
-            "flow": 42.21,
-            "saturation": 70.4
+            "flow": 40.85,
+            "saturation": 0.0
           },
           {
             "shift_name": "06-23夜",
-            "flow": 41.76,
-            "saturation": 69.6
+            "flow": 39.0,
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24白",
+            "flow": 42.09,
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24夜",
+            "flow": 38.95,
+            "saturation": 0.0
           }
         ]
       },
       {
         "team": "小件3",
         "line": "RK5",
-        "std": 60.0,
+        "std": 0.0,
         "shifts": [
           {
-            "shift_name": "06-22白",
-            "flow": 50.65,
-            "saturation": 84.4
-          },
-          {
-            "shift_name": "06-22夜",
-            "flow": 46.14,
-            "saturation": 76.9
-          },
-          {
             "shift_name": "06-23白",
-            "flow": 45.12,
-            "saturation": 75.2
+            "flow": 51.44,
+            "saturation": 0.0
           },
           {
             "shift_name": "06-23夜",
-            "flow": 46.75,
-            "saturation": 77.9
+            "flow": 49.94,
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24白",
+            "flow": 50.37,
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24夜",
+            "flow": 49.92,
+            "saturation": 0.0
           }
         ]
       },
       {
         "team": "小件3",
         "line": "RK6",
-        "std": 60.0,
+        "std": 0.0,
         "shifts": [
           {
-            "shift_name": "06-22白",
-            "flow": 42.46,
-            "saturation": 70.8
-          },
-          {
-            "shift_name": "06-22夜",
-            "flow": 36.65,
-            "saturation": 61.1
-          },
-          {
             "shift_name": "06-23白",
-            "flow": 38.31,
-            "saturation": 63.8
+            "flow": 40.51,
+            "saturation": 0.0
           },
           {
             "shift_name": "06-23夜",
-            "flow": 38.02,
-            "saturation": 63.4
+            "flow": 38.26,
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24白",
+            "flow": 40.35,
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24夜",
+            "flow": 39.37,
+            "saturation": 0.0
           }
         ]
       },
@@ -1294,213 +1321,213 @@
         "std": 60,
         "shifts": [
           {
-            "shift_name": "06-22白",
-            "flow": 32.6,
-            "saturation": 54.3
-          },
-          {
-            "shift_name": "06-22夜",
-            "flow": 29.7,
-            "saturation": 49.5
-          },
-          {
             "shift_name": "06-23白",
-            "flow": 29.99,
-            "saturation": 50.0
+            "flow": 31.37,
+            "saturation": 52.3
           },
           {
             "shift_name": "06-23夜",
             "flow": 30.31,
             "saturation": 50.5
+          },
+          {
+            "shift_name": "06-24白",
+            "flow": 29.7,
+            "saturation": 49.5
+          },
+          {
+            "shift_name": "06-24夜",
+            "flow": 31.07,
+            "saturation": 51.8
           }
         ]
       },
       {
         "team": "小件3",
         "line": "RK8",
-        "std": 60.0,
+        "std": 0.0,
         "shifts": [
           {
-            "shift_name": "06-22白",
-            "flow": 53.76,
-            "saturation": 89.6
-          },
-          {
-            "shift_name": "06-22夜",
-            "flow": 48.14,
-            "saturation": 80.2
-          },
-          {
             "shift_name": "06-23白",
-            "flow": 47.56,
-            "saturation": 79.3
+            "flow": 50.02,
+            "saturation": 0.0
           },
           {
             "shift_name": "06-23夜",
             "flow": 47.6,
-            "saturation": 79.3
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24白",
+            "flow": 48.82,
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24夜",
+            "flow": 47.26,
+            "saturation": 0.0
           }
         ]
       },
       {
         "team": "小件3",
         "line": "RK8-1",
-        "std": 60.0,
+        "std": 0.0,
         "shifts": [
           {
-            "shift_name": "06-22白",
-            "flow": 21.6,
-            "saturation": 36.0
-          },
-          {
-            "shift_name": "06-22夜",
-            "flow": 18.91,
-            "saturation": 31.5
-          },
-          {
             "shift_name": "06-23白",
-            "flow": 20.03,
-            "saturation": 33.4
+            "flow": 20.94,
+            "saturation": 0.0
           },
           {
             "shift_name": "06-23夜",
             "flow": 20.12,
-            "saturation": 33.5
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24白",
+            "flow": 21.67,
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24夜",
+            "flow": 20.67,
+            "saturation": 0.0
           }
         ]
       },
       {
         "team": "小件3",
         "line": "RK9",
-        "std": 60.0,
+        "std": 0.0,
         "shifts": [
           {
-            "shift_name": "06-22白",
-            "flow": 46.23,
-            "saturation": 77.0
-          },
-          {
-            "shift_name": "06-22夜",
-            "flow": 42.9,
-            "saturation": 71.5
-          },
-          {
             "shift_name": "06-23白",
-            "flow": 42.26,
-            "saturation": 70.4
+            "flow": 44.31,
+            "saturation": 0.0
           },
           {
             "shift_name": "06-23夜",
             "flow": 43.56,
-            "saturation": 72.6
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24白",
+            "flow": 43.41,
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24夜",
+            "flow": 44.05,
+            "saturation": 0.0
           }
         ]
       },
       {
         "team": "小件3",
         "line": "RK9-1",
-        "std": 60.0,
+        "std": 0.0,
         "shifts": [
           {
-            "shift_name": "06-22白",
-            "flow": 23.96,
-            "saturation": 39.9
-          },
-          {
-            "shift_name": "06-22夜",
-            "flow": 19.69,
-            "saturation": 32.8
-          },
-          {
             "shift_name": "06-23白",
-            "flow": 21.01,
-            "saturation": 35.0
+            "flow": 22.06,
+            "saturation": 0.0
           },
           {
             "shift_name": "06-23夜",
             "flow": 20.34,
-            "saturation": 33.9
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24白",
+            "flow": 22.88,
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24夜",
+            "flow": 20.73,
+            "saturation": 0.0
           }
         ]
       },
       {
         "team": "小件3",
         "line": "RK16",
-        "std": 60.0,
+        "std": 0.0,
         "shifts": [
           {
-            "shift_name": "06-22白",
-            "flow": 33.5,
-            "saturation": 55.8
-          },
-          {
-            "shift_name": "06-22夜",
-            "flow": 30.12,
-            "saturation": 50.2
-          },
-          {
             "shift_name": "06-23白",
-            "flow": 29.57,
-            "saturation": 49.3
+            "flow": 31.08,
+            "saturation": 0.0
           },
           {
             "shift_name": "06-23夜",
             "flow": 29.99,
-            "saturation": 50.0
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24白",
+            "flow": 31.31,
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24夜",
+            "flow": 30.04,
+            "saturation": 0.0
           }
         ]
       },
       {
         "team": "小件3",
         "line": "RK16-1",
-        "std": 60.0,
+        "std": 0.0,
         "shifts": [
           {
-            "shift_name": "06-22白",
-            "flow": 13.88,
-            "saturation": 23.1
-          },
-          {
-            "shift_name": "06-22夜",
-            "flow": 12.32,
-            "saturation": 20.5
-          },
-          {
             "shift_name": "06-23白",
-            "flow": 13.11,
-            "saturation": 21.9
+            "flow": 13.59,
+            "saturation": 0.0
           },
           {
             "shift_name": "06-23夜",
-            "flow": 13.29,
-            "saturation": 22.2
+            "flow": 13.3,
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24白",
+            "flow": 13.62,
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24夜",
+            "flow": 13.6,
+            "saturation": 0.0
           }
         ]
       },
       {
         "team": "小件3",
         "line": "RK17",
-        "std": 60.0,
+        "std": 0.0,
         "shifts": [
           {
-            "shift_name": "06-22白",
-            "flow": 14.55,
-            "saturation": 24.3
-          },
-          {
-            "shift_name": "06-22夜",
-            "flow": 12.77,
-            "saturation": 21.3
-          },
-          {
             "shift_name": "06-23白",
-            "flow": 13.82,
-            "saturation": 23.0
+            "flow": 14.42,
+            "saturation": 0.0
           },
           {
             "shift_name": "06-23夜",
             "flow": 13.52,
-            "saturation": 22.5
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24白",
+            "flow": 13.68,
+            "saturation": 0.0
+          },
+          {
+            "shift_name": "06-24夜",
+            "flow": 13.64,
+            "saturation": 0.0
           }
         ]
       }
@@ -1508,12 +1535,12 @@
   },
   "isolate": {
     "shifts": [
-      "06-22白",
-      "06-22夜",
       "06-23白",
-      "06-23夜"
+      "06-23夜",
+      "06-24白",
+      "06-24夜"
     ],
-    "date_range": "2026-06-22 ~ 2026-06-23",
+    "date_range": "2026-06-23 ~ 2026-06-24",
     "data": [
       {
         "team": "隔离区",
@@ -1521,24 +1548,24 @@
         "std": 10.0,
         "shifts": [
           {
-            "shift_name": "06-22白",
-            "flow": 1.28,
-            "saturation": 12.8
-          },
-          {
-            "shift_name": "06-22夜",
-            "flow": 1.19,
-            "saturation": 11.9
-          },
-          {
             "shift_name": "06-23白",
-            "flow": 1.16,
-            "saturation": 11.6
+            "flow": 1.22,
+            "saturation": 12.2
           },
           {
             "shift_name": "06-23夜",
             "flow": 1.23,
             "saturation": 12.3
+          },
+          {
+            "shift_name": "06-24白",
+            "flow": 1.18,
+            "saturation": 11.8
+          },
+          {
+            "shift_name": "06-24夜",
+            "flow": 1.21,
+            "saturation": 12.1
           }
         ]
       }
