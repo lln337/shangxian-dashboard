@@ -61,9 +61,9 @@ function updateFlowDateInfo(data) {
     if (el) el.innerHTML = dateRange ? '数据日期：' + dateRange : '';
 
     // 显示节拍
-    var taktTime = data.takt_time || 63;
+    var taktTime = data.takt_time || 60;
     var elTakt = document.getElementById('flow-takt-info');
-    if (elTakt) elTakt.textContent = '节拍：' + taktTime + ' 箱/h';
+    if (elTakt) elTakt.textContent = '节拍：' + taktTime + ' JPH';
 
     // 更新数据更新时间
     var updateTime = data.update_time || '';
