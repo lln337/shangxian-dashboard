@@ -60,11 +60,6 @@ function updateFlowDateInfo(data) {
     var el = document.getElementById('flow-date-info');
     if (el) el.innerHTML = dateRange ? '数据日期：' + dateRange : '';
 
-    // 显示节拍
-    var taktTime = data.takt_time || 60;
-    var elTakt = document.getElementById('flow-takt-info');
-    if (elTakt) elTakt.textContent = '节拍：' + taktTime + ' JPH';
-
     // 更新数据更新时间
     var updateTime = data.update_time || '';
     var elTime = document.getElementById('flow-update-time');
@@ -230,31 +225,11 @@ function renderFlowTables() {
         var lines = typeData.data;  // 保持原顺序，不排序
 
         // 构建 HTML 表格（每个班次拆分成2列：流量和饱和度）
-        // 先读取每个班次的生产时间
-        var prodTimes = {};
-        if (typeData.data && typeData.data.length > 0) {
-            for (var s = 0; s < shiftNames.length; s++) {
-                var sn = shiftNames[s];
-                prodTimes[sn] = 0;
-                for (var k = 0; k < typeData.data.length; k++) {
-                    var shifts = typeData.data[k].shifts || [];
-                    for (var j = 0; j < shifts.length; j++) {
-                        if (shifts[j].shift_name === sn) {
-                            prodTimes[sn] = shifts[j].prod_time || 0;
-                            break;
-                        }
-                    }
-                    if (prodTimes[sn] !== 0) break;
-                }
-            }
-        }
-        
         var html = '<table class="data-table flow-table"><thead><tr>';
         html += '<th>序号</th><th>团队</th><th>线路</th><th>标准</th>';
         for (var s = 0; s < shiftNames.length; s++) {
-            var pt = prodTimes[shiftNames[s]] || 0;
-            html += '<th>' + escapeHtml(shiftNames[s]) + ' (' + pt + 'h) 流量</th>';
-            html += '<th>' + escapeHtml(shiftNames[s]) + ' (' + pt + 'h) 饱和度</th>';
+            html += '<th>' + escapeHtml(shiftNames[s]) + ' 流量</th>';
+            html += '<th>' + escapeHtml(shiftNames[s]) + ' 饱和度</th>';
         }
         html += '</tr></thead><tbody>';
 
