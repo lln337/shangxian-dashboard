@@ -35,6 +35,9 @@ function switchMainTab(tab) {
             });
         }
     }
+    if (tab === 'audit') {
+        if (typeof renderAuditTab === 'function') renderAuditTab();
+    }
 }
 
 
