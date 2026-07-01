@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-01 11:35:12",
+  "generated_at": "2026-07-01 11:39:05",
   "current_month": {
     "month": "2026-06",
-    "total": 4006,
-    "timeout": 158,
-    "rate": 3.94,
+    "total": 4201,
+    "timeout": 168,
+    "rate": 4.0,
     "is_complete": true,
-    "delta": -1.05,
+    "delta": -0.99,
     "trend": "down"
   },
   "monthly_trend": [
@@ -42,9 +42,9 @@
     },
     {
       "month": "2026-06",
-      "total": 4006,
-      "timeout": 158,
-      "rate": 3.94
+      "total": 4201,
+      "timeout": 168,
+      "rate": 4.0
     }
   ],
   "weekly_trend": [
