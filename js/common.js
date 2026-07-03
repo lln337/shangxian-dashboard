@@ -38,6 +38,13 @@ function switchMainTab(tab) {
     if (tab === 'audit') {
         if (typeof renderAuditTab === 'function') renderAuditTab();
     }
+    if (tab === 'plan') {
+        if (typeof dataLoader !== 'undefined') {
+            dataLoader.loadPlanData().then(function(data) {
+                if (typeof initPlanTab === 'function') initPlanTab();
+            });
+        }
+    }
 }
 
 
