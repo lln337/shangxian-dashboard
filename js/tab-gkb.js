@@ -1,19 +1,76 @@
-/* ===== Tab2：排序零件GKB查询 ===== */
+/* ===== Tab2：排序零件GKB查询（密码保护） ===== */
+
+var GKB_PASSWORD = 'Smpv2';
 
 function initPartTable() {
-    // 绑定搜索框事件（每次激活Tab都确保绑定，防止被覆盖）
-    bindPartSearch();
+    var container = document.getElementById('part-container');
+    if (!container) return;
 
-    // 如果数据已加载，直接渲染
+    // 密码检查
+    if (sessionStorage.getItem('gkb_verified') !== 'true') {
+        showGkbPasswordOverlay();
+        return;
+    }
+
+    // 已验证密码，正常渲染
+    bindPartSearch();
     if (window.PART_DATA) {
         renderPartTable();
         return;
     }
-    // 否则显示空状态
-    const container = document.getElementById('part-container');
-    if (container) {
-        container.innerHTML =
-            '<div class="empty-state">暂无排序零件GKB查询数据<br>请先在工具中导入零件属性 ZIP 文件</div>';
+    container.innerHTML =
+        '<div class="empty-state">暂无排序零件GKB查询数据<br>请先在工具中导入零件属性 ZIP 文件</div>';
+}
+
+function showGkbPasswordOverlay() {
+    var container = document.getElementById('part-container');
+    if (!container) return;
+
+    // 隐藏搜索栏
+    var searchBar = document.querySelector('.search-bar');
+    if (searchBar) searchBar.style.display = 'none';
+    var updateTime = document.getElementById('part-update-time');
+    if (updateTime) updateTime.style.display = 'none';
+
+    container.innerHTML =
+        '<div class="plan-password-overlay">' +
+            '<div class="plan-password-box">' +
+                '<div class="plan-password-icon">&#128274;</div>' +
+                '<h3>排序零件GKB查询</h3>' +
+                '<p>请输入密码查看数据</p>' +
+                '<div class="plan-password-input-wrap">' +
+                    '<input type="password" id="gkb-password-input" placeholder="请输入密码" ' +
+                        'onkeydown="if(event.key===\'Enter\')checkGkbPassword()">' +
+                '</div>' +
+                '<button class="plan-password-btn" onclick="checkGkbPassword()">确认</button>' +
+                '<div id="gkb-password-error" class="plan-password-error"></div>' +
+            '</div>' +
+        '</div>';
+
+    setTimeout(function() {
+        var input = document.getElementById('gkb-password-input');
+        if (input) input.focus();
+    }, 100);
+}
+
+function checkGkbPassword() {
+    var input = document.getElementById('gkb-password-input');
+    var error = document.getElementById('gkb-password-error');
+    if (!input || !error) return;
+
+    if (input.value === GKB_PASSWORD) {
+        sessionStorage.setItem('gkb_verified', 'true');
+        // 恢复搜索栏显示
+        var searchBar = document.querySelector('.search-bar');
+        if (searchBar) searchBar.style.display = '';
+        var updateTime = document.getElementById('part-update-time');
+        if (updateTime) updateTime.style.display = '';
+        // 重新初始化
+        initPartTable();
+    } else {
+        error.textContent = '密码错误，请重试';
+        input.value = '';
+        input.focus();
     }
 }
 
