@@ -8,28 +8,35 @@ function initPartTable() {
 
     // 密码检查
     if (sessionStorage.getItem('gkb_verified') !== 'true') {
-        showGkbPasswordOverlay();
+        showGkbPasswordOverlay(container);
         return;
     }
 
-    // 已验证密码，正常渲染
+    // 已验证密码：确保表格结构存在，再渲染数据
+    ensureGkbTableStructure(container);
     bindPartSearch();
-    if (window.PART_DATA) {
+
+    if (window.PART_DATA && window.PART_DATA.data) {
         renderPartTable();
-        return;
+    } else {
+        document.getElementById('part-tbody').innerHTML =
+            '<tr><td colspan="4" class="empty-state">暂无排序零件GKB查询数据<br>请先在工具中导入零件属性 ZIP 文件</td></tr>';
     }
-    container.innerHTML =
-        '<div class="empty-state">暂无排序零件GKB查询数据<br>请先在工具中导入零件属性 ZIP 文件</div>';
+
+    // 更新时间
+    if (window.PART_DATA && window.PART_DATA.generated_at) {
+        var el = document.getElementById('part-update-time');
+        if (el) el.innerHTML = '数据更新：' + window.PART_DATA.generated_at;
+    }
 }
 
-function showGkbPasswordOverlay() {
-    var container = document.getElementById('part-container');
+function showGkbPasswordOverlay(container) {
     if (!container) return;
 
-    // 隐藏搜索栏
-    var searchBar = document.querySelector('.search-bar');
+    // 隐藏搜索栏和更新时间
+    var searchBar = container.parentNode.querySelector('.search-bar');
     if (searchBar) searchBar.style.display = 'none';
-    var updateTime = document.getElementById('part-update-time');
+    var updateTime = container.parentNode.querySelector('#part-update-time');
     if (updateTime) updateTime.style.display = 'none';
 
     container.innerHTML =
@@ -53,6 +60,33 @@ function showGkbPasswordOverlay() {
     }, 100);
 }
 
+function ensureGkbTableStructure(container) {
+    if (!container) return;
+    // 检查是否已有表格结构，没有则重建
+    if (!document.getElementById('part-tbody')) {
+        container.innerHTML =
+            '<div class="part-table-container" id="gkb-part-table-container">' +
+                '<div class="part-table-header">' +
+                    '<h2>排序零件 GKB 查询结果</h2>' +
+                    '<span class="data-badge" id="part-source-badge"></span>' +
+                '</div>' +
+                '<div class="part-table-wrapper">' +
+                    '<table class="part-table">' +
+                        '<thead>' +
+                            '<tr>' +
+                                '<th style="width:50px;">#</th>' +
+                                '<th style="width:140px;">零件编码</th>' +
+                                '<th>零件名称</th>' +
+                                '<th style="width:100px;">GKB</th>' +
+                            '</tr>' +
+                        '</thead>' +
+                        '<tbody id="part-tbody"></tbody>' +
+                    '</table>' +
+                '</div>' +
+            '</div>';
+    }
+}
+
 function checkGkbPassword() {
     var input = document.getElementById('gkb-password-input');
     var error = document.getElementById('gkb-password-error');
@@ -60,12 +94,17 @@ function checkGkbPassword() {
 
     if (input.value === GKB_PASSWORD) {
         sessionStorage.setItem('gkb_verified', 'true');
-        // 恢复搜索栏显示
-        var searchBar = document.querySelector('.search-bar');
-        if (searchBar) searchBar.style.display = '';
-        var updateTime = document.getElementById('part-update-time');
-        if (updateTime) updateTime.style.display = '';
-        // 重新初始化
+
+        // 恢复搜索栏
+        var container = document.getElementById('part-container');
+        if (container) {
+            var searchBar = container.parentNode.querySelector('.search-bar');
+            if (searchBar) searchBar.style.display = '';
+            var updateTime = container.parentNode.querySelector('#part-update-time');
+            if (updateTime) updateTime.style.display = '';
+        }
+
+        // 重新初始化（重建表格结构 + 渲染）
         initPartTable();
     } else {
         error.textContent = '密码错误，请重试';
@@ -75,18 +114,16 @@ function checkGkbPassword() {
 }
 
 function bindPartSearch() {
-    // 搜索框 input 事件
-    const searchInput = document.getElementById('part-search-input');
+    var searchInput = document.getElementById('part-search-input');
     if (searchInput && !searchInput._inputListenerAdded) {
         searchInput.addEventListener('input', searchParts);
         searchInput._inputListenerAdded = true;
     }
-    // 搜索图标点击事件：触发搜索（等价于 input 事件）
-    const searchIcon = document.querySelector('.search-icon');
+    var searchIcon = document.querySelector('#main-tab-part .search-icon') ||
+                     document.querySelector('.part-table-container .search-icon');
     if (searchIcon && !searchIcon._clickListenerAdded) {
         searchIcon.addEventListener('click', function() {
             searchParts();
-            // 同时聚焦输入框
             if (searchInput) searchInput.focus();
         });
         searchIcon._clickListenerAdded = true;
@@ -100,24 +137,29 @@ function renderPartTable() {
         return;
     }
 
-    const data = window.PART_DATA.data;
-    const tbody = document.getElementById('part-tbody');
+    var data = window.PART_DATA.data;
+    var tbody = document.getElementById('part-tbody');
     if (!tbody) return;
 
-    // 惰性渲染：每批 50 条，避免阻塞主线程
+    // 更新来源
+    var badge = document.getElementById('part-source-badge');
+    if (badge && window.PART_DATA.source_file) {
+        badge.textContent = '来源: ' + window.PART_DATA.source_file;
+    }
+
     tbody.innerHTML = '';
-    const BATCH = 50;
-    let idx = 0;
+    var BATCH = 50;
+    var idx = 0;
 
     function appendBatch() {
-        const frag = document.createDocumentFragment();
-        const end = Math.min(idx + BATCH, data.length);
+        var frag = document.createDocumentFragment();
+        var end = Math.min(idx + BATCH, data.length);
         for (; idx < end; idx++) {
-            const row  = data[idx];
-            const code = (row['零件编码'] || '').trim();
-            const name = (row['零件名称'] || '').trim();
-            const gkb  = (row['GKB'] || '').trim();
-            const tr   = document.createElement('tr');
+            var row = data[idx];
+            var code = (row['零件编码'] || '').trim();
+            var name = (row['零件名称'] || '').trim();
+            var gkb = (row['GKB'] || '').trim();
+            var tr = document.createElement('tr');
             tr.setAttribute('data-code', code.toLowerCase());
             tr.setAttribute('data-name', name);
             tr.setAttribute('data-gkb', gkb);
@@ -130,14 +172,13 @@ function renderPartTable() {
         }
         tbody.appendChild(frag);
 
-        // 更新计数
-        const totalEl   = document.getElementById('part-total-count');
-        const visibleEl = document.getElementById('part-visible-count');
-        if (totalEl)   totalEl.textContent   = data.length;
-        if (visibleEl) visibleEl.textContent = idx;   // 已渲染条数
+        var totalEl = document.getElementById('part-total-count');
+        var visibleEl = document.getElementById('part-visible-count');
+        if (totalEl) totalEl.textContent = data.length;
+        if (visibleEl) visibleEl.textContent = idx;
 
         if (idx < data.length) {
-            setTimeout(appendBatch, 0);   // 让出主线程
+            setTimeout(appendBatch, 0);
         }
     }
 
@@ -146,18 +187,18 @@ function renderPartTable() {
 
 
 function searchParts() {
-    const query = document.getElementById('part-search-input');
+    var query = document.getElementById('part-search-input');
     if (!query) return;
-    const q = query.value.trim().toLowerCase();
-    const tbody = document.getElementById('part-tbody');
+    var q = query.value.trim().toLowerCase();
+    var tbody = document.getElementById('part-tbody');
     if (!tbody) return;
-    const rows = tbody.getElementsByTagName('tr');
-    let visible = 0;
+    var rows = tbody.getElementsByTagName('tr');
+    var visible = 0;
 
-    for (let i = 0; i < rows.length; i++) {
-        const code = rows[i].getAttribute('data-code') || '';
-        const name = rows[i].getAttribute('data-name') || '';
-        const gkb  = rows[i].getAttribute('data-gkb') || '';
+    for (var i = 0; i < rows.length; i++) {
+        var code = rows[i].getAttribute('data-code') || '';
+        var name = rows[i].getAttribute('data-name') || '';
+        var gkb = rows[i].getAttribute('data-gkb') || '';
 
         if (!q || code.indexOf(q) !== -1 ||
             name.toLowerCase().indexOf(q) !== -1 ||
@@ -169,16 +210,6 @@ function searchParts() {
         }
     }
 
-    const visibleEl = document.getElementById('part-visible-count');
+    var visibleEl = document.getElementById('part-visible-count');
     if (visibleEl) visibleEl.textContent = visible;
 }
-
-// 安全网：脚本加载后立即绑定搜索（防止 initPartTable 未触发时搜索失效）
-if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', bindPartSearch);
-} else {
-    bindPartSearch();
-}
-
-// 页面加载时不自动初始化，由 switchMainTab() 触发
-    //（DOMContentLoaded 监听已统一放在 index.html 末尾）
