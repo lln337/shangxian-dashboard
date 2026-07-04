@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-04 13:25:57",
+  "generated_at": "2026-07-04 13:54:07",
   "current_month": {
     "month": "2026-07",
     "total": 468,
@@ -52,49 +52,57 @@
       "week": "2026-W20",
       "total": 1766,
       "timeout": 106,
-      "rate": 6.0
+      "rate": 6.0,
+      "incomplete": false
     },
     {
       "week": "2026-W21",
       "total": 1715,
       "timeout": 84,
-      "rate": 4.9
+      "rate": 4.9,
+      "incomplete": false
     },
     {
       "week": "2026-W22",
       "total": 7,
       "timeout": 0,
-      "rate": 0.0
+      "rate": 0.0,
+      "incomplete": true
     },
     {
       "week": "2026-W23",
       "total": 9,
       "timeout": 0,
-      "rate": 0.0
+      "rate": 0.0,
+      "incomplete": true
     },
     {
       "week": "2026-W24",
       "total": 578,
       "timeout": 11,
-      "rate": 1.9
+      "rate": 1.9,
+      "incomplete": false
     },
     {
       "week": "2026-W25",
       "total": 446,
       "timeout": 10,
-      "rate": 2.24
+      "rate": 2.24,
+      "incomplete": false
     },
     {
       "week": "2026-W26",
       "total": 676,
       "timeout": 21,
-      "rate": 3.11
+      "rate": 3.11,
+      "incomplete": false
     },
     {
       "week": "2026-W27",
       "total": 354,
       "timeout": 25,
-      "rate": 7.06
+      "rate": 7.06,
+      "incomplete": false
     }
   ],
   "daily_trend": [
