@@ -63,8 +63,7 @@ function renderDaokouCharts() {
     if (window.DAOKOU_DATA.weekly_trend && window.DAOKOU_DATA.weekly_trend.length > 0) {
         const wl = window.DAOKOU_DATA.weekly_trend.map(w => w.week);
         const wp = window.DAOKOU_DATA.weekly_trend.map(w => round2(100 - w.rate));
-        const wi = window.DAOKOU_DATA.weekly_trend.map(w => !!w.incomplete);
-        createDaokouLineChart('chart-dk-weekly', wl, wp, wi);
+        createDaokouLineChart('chart-dk-weekly', wl, wp);
     }
 
     // 天级趋势
