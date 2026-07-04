@@ -183,13 +183,10 @@ function createDaokouChart(canvasId, labels, data, type, minY, maxY) {
 function createDaokouLineChart(canvasId, labels, data, incomplete) {
     if (allCharts[canvasId]) { try { allCharts[canvasId].destroy(); } catch(e) {} }
     const _inc = Array.isArray(incomplete) ? incomplete : [];
-    // 不完整点：灰色空心圆 + 虚线连接；完整点：蓝色实心
+    // 不完整点：灰色空心圆；完整点：蓝色实心
     const ptBg = data.map(function(_, i) { return _inc[i] ? '#ffffff' : '#4285f4'; });
     const ptBd = data.map(function(_, i) { return _inc[i] ? '#999999' : '#4285f4'; });
-    const ptRd = data.map(function(_, i) { return _inc[i] ? 6 : 4; });
-    const segBg = data.map(function(_, i) { return _inc[i] ? 'rgba(150,150,150,0.3)' : 'rgba(66,133,244,0.1); });
-    const segBd = data.map(function(_, i) { return _inc[i] ? '#999999' : '#4285f4'; });
-    const segDash = data.map(function(_, i) { return _inc[i] ? [4, 4] : []; });
+    const ptRd = data.map(function(_, i) { return _inc[i] ? 5 : 3; });
 
     const ctx = document.getElementById(canvasId).getContext('2d');
     const chart = new Chart(ctx, {
@@ -199,17 +196,14 @@ function createDaokouLineChart(canvasId, labels, data, incomplete) {
             datasets: [{
                 label: '合格率(%)',
                 data: data,
-                segment: {
-                    borderColor: function(ctx2) { return segBd[ctx2.p0DataIndex] || '#4285f4'; },
-                    borderDash: function(ctx2) { return segDash[ctx2.p0DataIndex] || []; }
-                },
+                borderColor: '#4285f4',
+                backgroundColor: 'rgba(66,133,244,0.1)',
+                fill: true,
+                tension: 0.3,
                 pointBackgroundColor: ptBg,
                 pointBorderColor: ptBd,
                 pointRadius: ptRd,
                 pointBorderWidth: 2,
-                backgroundColor: 'transparent',
-                fill: false,
-                tension: 0.3,
             }, {
                 label: '95%合格线',
                 data: Array(labels.length).fill(95),
