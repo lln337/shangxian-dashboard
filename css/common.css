@@ -53,6 +53,12 @@ body {
     box-shadow: 0 4px 12px rgba(232,113,10,0.3);
 }
 .main-tab-btn[data-tab="audit"]:hover:not(.active) { background: #fff3e0; }
+.main-tab-btn[data-tab="daily"].active {
+    background: #e8710a;
+    color: white;
+    box-shadow: 0 4px 12px rgba(232,113,10,0.3);
+}
+.main-tab-btn[data-tab="daily"]:hover:not(.active) { background: #fff3e0; }
 .main-tab-content { display: none; }
 .main-tab-content.active { display: block; }
 
