@@ -180,21 +180,54 @@ function createDaokouChart(canvasId, labels, data, type, minY, maxY) {
     allCharts[canvasId] = chart;
 }
 
-function createDaokouLineChart(canvasId, labels, data) {
+function createDaokouLineChart(canvasId, labels, data, incomplete) {
     if (allCharts[canvasId]) { try { allCharts[canvasId].destroy(); } catch(e) {} }
+    const _inc = Array.isArray(incomplete) ? incomplete : [];
+    // 不完整点：灰色空心圆；完整点：蓝色实心
+    const ptBg = data.map(function(_, i) { return _inc[i] ? '#ffffff' : null; });
+    const ptBd = data.map(function(_, i) { return _inc[i] ? '#999999' : null; });
+    const ptRd = data.map(function(_, i) { return _inc[i] ? 5 : null; });
+    const ptBw = data.map(function(_, i) { return _inc[i] ? 2 : null; });
+    // 过滤掉null值，只保留需要覆盖的索引
+    const pOpts = {
+        backgroundColor: ptBg.some(v => v !== null) ? ptBg : undefined,
+        borderColor: ptBd.some(v => v !== null) ? ptBd : undefined,
+        radius: ptRd.some(v => v !== null) ? ptRd : undefined,
+        borderWidth: ptBw.some(v => v !== null) ? ptBw : undefined,
+    };
+    // 构建dataset配置
+    var dsConfig = {
+        label: '合格率(%)',
+        data: data,
+        borderColor: '#4285f4',
+        backgroundColor: 'rgba(66,133,244,0.1)',
+        fill: true,
+        tension: 0.3,
+    };
+    // 只有存在不完整数据时才附加point样式
+    if (_inc.length > 0) {
+        dsConfig.pointBackgroundColor = pOpts.backgroundColor;
+        dsConfig.pointBorderColor = pOpts.borderColor;
+        dsConfig.pointRadius = pOpts.radius;
+        dsConfig.pointBorderWidth = pOpts.borderWidth;
+    }
     const ctx = document.getElementById(canvasId).getContext('2d');
+    var optPlugins = { legend: { display: true, position: 'top' } };
+    if (_inc.length > 0) {
+        optPlugins.tooltip = {
+            callbacks: {
+                afterLabel: function(ctx) {
+                    if (_inc[ctx.dataIndex]) return '（数据不完整）';
+                    return '';
+                }
+            }
+        };
+    }
     const chart = new Chart(ctx, {
         type: 'line',
         data: {
             labels: labels,
-            datasets: [{
-                label: '合格率(%)',
-                data: data,
-                borderColor: '#4285f4',
-                backgroundColor: 'rgba(66,133,244,0.1)',
-                fill: true,
-                tension: 0.3,
-            }, {
+            datasets: [dsConfig, {
                 label: '95%合格线',
                 data: Array(labels.length).fill(95),
                 type: 'line',
@@ -208,7 +241,7 @@ function createDaokouLineChart(canvasId, labels, data) {
         options: {
             responsive: true,
             maintainAspectRatio: false,
-            plugins: { legend: { display: true, position: 'top' } },
+            plugins: optPlugins,
             scales: {
                 y: { beginAtZero: false, min: 80, max: 100 }
             }
