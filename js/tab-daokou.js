@@ -70,7 +70,9 @@ function renderDaokouCharts() {
     if (window.DAOKOU_DATA.daily_trend && window.DAOKOU_DATA.daily_trend.length > 0) {
         const dl = window.DAOKOU_DATA.daily_trend.map(d => d.date.slice(5));
         const dp = window.DAOKOU_DATA.daily_trend.map(d => round2(100 - d.rate));
-        createDaokouChart('chart-dk-daily', dl, dp, 'bar', 80, 100);
+        // 动态Y轴下限：数据最小值向下取整到10的倍数，但不低于50
+        const dMin = Math.max(50, Math.floor(Math.min(...dp) / 10) * 10);
+        createDaokouChart('chart-dk-daily', dl, dp, 'bar', dMin, 100);
     }
 
     // 道口排名表格
