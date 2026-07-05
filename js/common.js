@@ -45,6 +45,13 @@ function switchMainTab(tab) {
             });
         }
     }
+    if (tab === 'daily') {
+        if (typeof dataLoader !== 'undefined') {
+            dataLoader.loadDailyData().then(function(data) {
+                if (typeof renderDailyTab === 'function') renderDailyTab();
+            });
+        }
+    }
 }
 
 
