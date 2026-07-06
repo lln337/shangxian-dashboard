@@ -47,7 +47,15 @@ function showDailyEmpty() {
     var elStats = document.getElementById('daily-stats');
     var elChart = document.getElementById('daily-chart-section');
     var elTable = document.getElementById('daily-table-section');
-    if (elEmpty) elEmpty.style.display = 'block';
+    if (elEmpty) {
+        elEmpty.style.display = 'block';
+        // 如果是 file:// 协议打开，提示用 http server
+        if (window.location.protocol === 'file:') {
+            elEmpty.innerHTML = '暂无每日数据统计<br>本地双击打开无法加载数据，请用本地服务器访问：' +
+                '<br><code>python -m http.server 8080</code>（在 dashboard 目录运行）' +
+                '<br>然后访问 <code>http://localhost:8080/index_v14.html</code>';
+        }
+    }
     if (elStats) elStats.style.display = 'none';
     if (elChart) elChart.style.display = 'none';
     if (elTable) elTable.style.display = 'none';
@@ -169,9 +177,22 @@ function renderDailyTable(data) {
     headerHtml += '</tr>';
     thead.innerHTML = headerHtml;
 
-    // 数据行
+    // 数据行：4个主要指标 + 3个额外行
+    var rowKeys = ['到货箱数', '上架箱数', '拣货数量', '出库箱数',
+                   '生产体制', '小时级箱量', '车型配置'];
+
+    // 行着色（主要指标用背景色区分，额外行用不同背景）
+    var rowStyles = {
+        '到货箱数': ' style="background:#e8f4fd;"',
+        '上架箱数': ' style="background:#e6f4ea;"',
+        '拣货数量': ' style="background:#fef7e0;"',
+        '出库箱数': ' style="background:#fce8e6;"',
+        '生产体制': ' style="background:#f3e8fd;color:#7b1fa2;font-weight:bold;"',
+        '小时级箱量': ' style="background:#e0f7fa;color:#00695c;font-weight:bold;"',
+        '车型配置': ' style="background:#fff8e1;color:#e65100;font-weight:bold;"',
+    };
+
     var indicators = data.table_data || data.indicators || {};
-    var rowKeys = ['到货箱数', '上架箱数', '拣货数量', '出库箱数'];
 
     var bodyHtml = '';
     for (var r = 0; r < rowKeys.length; r++) {
@@ -179,8 +200,9 @@ function renderDailyTable(data) {
         var vals = indicators[key];
         if (!vals || vals.length === 0) continue;
 
-        bodyHtml += '<tr>';
-        bodyHtml += '<td style="font-weight:600;text-align:center;background:#f8f9fa;">' + escapeHtml(key) + '</td>';
+        var style = rowStyles[key] || '';
+        bodyHtml += '<tr' + style + '>';
+        bodyHtml += '<td style="font-weight:600;text-align:center;white-space:nowrap;">' + escapeHtml(key) + '</td>';
         for (var c = 0; c < Math.min(vals.length, shifts.length); c++) {
             var v = vals[c];
             var display = (v !== null && v !== undefined) ? formatNumber(v) : '-';
