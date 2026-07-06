@@ -8,7 +8,7 @@
     <meta http-equiv="Expires" content="0">
     <title>现场信息看板</title>
     <script src="js/chart.umd.min.js"></script>
-    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/common.css?v=20260706">
 </head>
 <body>
     <div class="header">
@@ -21,7 +21,7 @@
         <button class="main-tab-btn" data-tab="part" onclick="switchMainTab('part')">排序零件GKB查询</button>
         <button class="main-tab-btn" data-tab="daokou" onclick="switchMainTab('daokou')">道口卸货及时率</button>
         <button class="main-tab-btn" data-tab="plan" onclick="switchMainTab('plan')">零件计划查询</button>
-        <button class="main-tab-btn" data-tab="daily" onclick="switchMainTab('daily')" style="border-color:#e8710a;color:#e8710a;">每日数据统计</button>
+        <button class="main-tab-btn" data-tab="daily" onclick="switchMainTab('daily')">每日数据统计</button>
     </div>
 
     <!-- ========== Tab1：上线流量 ========== -->
@@ -201,7 +201,8 @@
         <div>现场信息看板 | 上线流量 + GKB查询 + 道口卸货及时率 + 零件计划 + 每日数据统计</div>
     </div>
 
-    <!-- ===== 数据加载（按需 fetch，不打包数据） ===== -->
+    <!-- ===== 数据加载（JS数据文件支持file://，线上则走fetch） ===== -->
+    <script src="data/daily_stats_data.js?v=20260706"></script>
     <script>
         // 数据加载器：每个 Tab 第一次激活时 fetch 对应 JSON
         var dataLoader = {
@@ -309,6 +310,16 @@
                 if (self.dailyLoaded && window.DAILY_STATS) {
                     return Promise.resolve(window.DAILY_STATS);
                 }
+                // 优先使用 JS 文件写入的全局变量（支持 file:// 协议双击打开）
+                if (typeof DAILY_STATS_INLINE !== 'undefined') {
+                    window.DAILY_STATS = DAILY_STATS_INLINE;
+                    self.dailyLoaded = true;
+                    var el = document.getElementById('daily-update-time');
+                    if (el && window.DAILY_STATS.generated_at) {
+                        el.innerHTML = '数据更新：' + window.DAILY_STATS.generated_at;
+                    }
+                    return Promise.resolve(window.DAILY_STATS);
+                }
                 return fetch('data/daily_stats_data.json?t=' + new Date().getTime())
                     .then(function(r) { return r.json(); })
                     .then(function(data) {
@@ -329,12 +340,12 @@
     </script>
 
     <!-- ===== 模块化 JS 加载（依赖上面的全局变量） ===== -->
-    <script src="js/common.js"></script>
-    <script src="js/tab-flow.js"></script>
-    <script src="js/tab-gkb.js"></script>
-    <script src="js/tab-daokou.js"></script>
-    <script src="js/tab-plan.js"></script>
-    <script src="js/tab-daily.js"></script>
+    <script src="js/common.js?v=20260706"></script>
+    <script src="js/tab-flow.js?v=20260706"></script>
+    <script src="js/tab-gkb.js?v=20260706"></script>
+    <script src="js/tab-daokou.js?v=20260706"></script>
+    <script src="js/tab-plan.js?v=20260706"></script>
+    <script src="js/tab-daily.js?v=20260706"></script>
 
     <!-- 页面加载后自动初始化默认 Tab（触发 fetch 数据） -->
     <script>
