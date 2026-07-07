@@ -18,9 +18,9 @@
     <!-- 顶层 Tab 导航 -->
     <div class="main-tab-nav">
         <button class="main-tab-btn active" data-tab="flow" onclick="switchMainTab('flow')">上线流量</button>
-        <button class="main-tab-btn" data-tab="part" onclick="switchMainTab('part')">排序零件GKB查询</button>
+        <button class="main-tab-btn" data-tab="part" onclick="switchMainTab('part')">排序零件GKB查询 <span style="font-size:11px;color:#999;">&#x1F512;</span></button>
         <button class="main-tab-btn" data-tab="daokou" onclick="switchMainTab('daokou')">道口卸货及时率</button>
-        <button class="main-tab-btn" data-tab="plan" onclick="switchMainTab('plan')">零件计划查询</button>
+        <button class="main-tab-btn" data-tab="plan" onclick="switchMainTab('plan')">零件计划查询 <span style="font-size:11px;color:#999;">&#x1F512;</span></button>
         <button class="main-tab-btn" data-tab="daily" onclick="switchMainTab('daily')">每日数据统计</button>
     </div>
 
@@ -274,20 +274,23 @@
                 if (self.partLoaded && window.PART_DATA) {
                     return Promise.resolve(window.PART_DATA);
                 }
-                return fetchWithDecrypt('data/part_sort_data.json')
-                    .then(function(data) {
-                        window.PART_DATA = data;
-                        self.partLoaded = true;
-                        var el = document.getElementById('part-update-time');
-                        if (el && data.generated_at) {
-                            el.innerHTML = '数据更新：' + data.generated_at;
-                        }
-                        return data;
-                    })
-                    .catch(function() {
-                        window.PART_DATA = null;
-                        return null;
+                // 需要密码认证
+                return new Promise(function(resolve) {
+                    PasswordGate.requireAuth(function() {
+                        resolve(fetchWithDecrypt('data/part_sort_data.json'));
                     });
+                }).then(function(data) {
+                    window.PART_DATA = data;
+                    self.partLoaded = true;
+                    var el = document.getElementById('part-update-time');
+                    if (el && data.generated_at) {
+                        el.innerHTML = '数据更新：' + data.generated_at;
+                    }
+                    return data;
+                }).catch(function() {
+                    window.PART_DATA = null;
+                    return null;
+                });
             },
 
             loadDaokouData: function() {
@@ -317,20 +320,23 @@
                 if (self.planLoaded && window.PLAN_DATA) {
                     return Promise.resolve(window.PLAN_DATA);
                 }
-                return fetchWithDecrypt('data/part_plan_data.json')
-                    .then(function(data) {
-                        window.PLAN_DATA = data;
-                        self.planLoaded = true;
-                        var el = document.getElementById('plan-update-time');
-                        if (el && data.generated_at) {
-                            el.innerHTML = '数据更新：' + data.generated_at;
-                        }
-                        return data;
-                    })
-                    .catch(function() {
-                        window.PLAN_DATA = null;
-                        return null;
+                // 需要密码认证
+                return new Promise(function(resolve) {
+                    PasswordGate.requireAuth(function() {
+                        resolve(fetchWithDecrypt('data/part_plan_data.json'));
                     });
+                }).then(function(data) {
+                    window.PLAN_DATA = data;
+                    self.planLoaded = true;
+                    var el = document.getElementById('plan-update-time');
+                    if (el && data.generated_at) {
+                        el.innerHTML = '数据更新：' + data.generated_at;
+                    }
+                    return data;
+                }).catch(function() {
+                    window.PLAN_DATA = null;
+                    return null;
+                });
             },
 
             loadDailyData: function() {
