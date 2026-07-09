@@ -8,7 +8,7 @@
     <meta http-equiv="Expires" content="0">
     <title>现场信息看板</title>
     <script src="js/chart.umd.min.js"></script>
-    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/common.css?v=20260706">
 </head>
 <body>
     <div class="header">
@@ -18,8 +18,10 @@
     <!-- 顶层 Tab 导航 -->
     <div class="main-tab-nav">
         <button class="main-tab-btn active" data-tab="flow" onclick="switchMainTab('flow')">上线流量</button>
-        <button class="main-tab-btn" data-tab="part" onclick="switchMainTab('part')">排序零件GKB查询</button>
+        <button class="main-tab-btn" data-tab="part" onclick="switchMainTab('part')">排序零件GKB查询 <span style="font-size:11px;color:#999;">&#x1F512;</span></button>
         <button class="main-tab-btn" data-tab="daokou" onclick="switchMainTab('daokou')">道口卸货及时率</button>
+        <button class="main-tab-btn" data-tab="plan" onclick="switchMainTab('plan')">零件计划查询 <span style="font-size:11px;color:#999;">&#x1F512;</span></button>
+        <button class="main-tab-btn" data-tab="daily" onclick="switchMainTab('daily')">每日数据统计</button>
     </div>
 
     <!-- ========== Tab1：上线流量 ========== -->
@@ -147,17 +149,98 @@
         </div>
     </div>
 
-    <div class="footer">
-        <div>现场信息看板 | 上线流量 + 排序零件GKB查询 + 道口卸货及时率</div>
+    <!-- ========== Tab4：零件计划查询 ========== -->
+    <div id="main-tab-plan" class="main-tab-content">
+        <div id="plan-container"></div>
     </div>
 
-    <!-- ===== 数据加载（按需 fetch，不打包数据） ===== -->
+    <!-- ========== Tab5：每日数据统计 ========== -->
+    <div id="main-tab-daily" class="main-tab-content">
+        <div id="daily-update-time" style="font-size:12px;color:#999;margin-bottom:8px;"></div>
+
+        <!-- 4 个统计卡片 -->
+        <div class="stats-row" id="daily-stats" style="display:none;">
+            <div class="stat-card" style="border-color:#4285f4;">
+                <div class="stat-value" id="daily-incoming" style="color:#4285f4;">--</div>
+                <div class="stat-label">到货箱数</div>
+            </div>
+            <div class="stat-card" style="border-color:#34a853;">
+                <div class="stat-value" id="daily-shelving" style="color:#34a853;">--</div>
+                <div class="stat-label">上架箱数</div>
+            </div>
+            <div class="stat-card" style="border-color:#fbbc04;">
+                <div class="stat-value" id="daily-picking" style="color:#fbbc04;">--</div>
+                <div class="stat-label">拣货数量</div>
+            </div>
+            <div class="stat-card" style="border-color:#ea4335;">
+                <div class="stat-value" id="daily-outgoing" style="color:#ea4335;">--</div>
+                <div class="stat-label">出库箱数</div>
+            </div>
+        </div>
+        <div class="empty-state" id="daily-empty">暂无每日数据统计<br>请先执行邮箱下载</div>
+
+        <!-- 折线图 -->
+        <div class="chart-box full" id="daily-chart-section" style="display:none;">
+            <h3>最新14个班次趋势</h3>
+            <div class="chart-container" style="height:350px;"><canvas id="chart-daily-trend"></canvas></div>
+        </div>
+
+        <!-- 数据表 -->
+        <div class="sheet-section" id="daily-table-section" style="display:none;">
+            <h2>每日数据统计明细（最新14个班次）</h2>
+            <div class="table-container">
+                <table class="data-table" id="daily-table">
+                    <thead></thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div>现场信息看板 | 上线流量 + GKB查询 + 道口卸货及时率 + 零件计划 + 每日数据统计</div>
+    </div>
+
+    <!-- ===== 密码验证与加密模块（必须先加载） ===== -->
+    <script src="data/password-config.js?v=20260707"></script>
+    <script src="js/crypto-client.js?v=20260707"></script>
+    <script src="js/password-gate.js?v=20260707"></script>
+
+    <!-- ===== 数据加载（JS数据文件支持file://，线上则走fetch） ===== -->
+    <script src="data/daily_stats_data.js?v=20260706"></script>
     <script>
+        /**
+         * 带解密支持的 fetch：检测响应内容是否为加密格式，自动解密
+         */
+        function fetchWithDecrypt(url) {
+            return fetch(url + '?t=' + new Date().getTime())
+                .then(function(r) { return r.arrayBuffer(); })
+                .then(function(buffer) {
+                    // 判断是否加密
+                    if (CryptoClient.isEncrypted(buffer)) {
+                        var password = CryptoClient.getPassword();
+                        if (!password) {
+                            throw new Error('密码不存在，请刷新页面重新登录');
+                        }
+                        return CryptoClient.decryptData(buffer, password).then(function(plaintext) {
+                            var decoder = new TextDecoder();
+                            return JSON.parse(decoder.decode(plaintext));
+                        });
+                    } else {
+                        // 未加密 → 直接解析 JSON
+                        var decoder = new TextDecoder();
+                        return JSON.parse(decoder.decode(buffer));
+                    }
+                });
+        }
+
         // 数据加载器：每个 Tab 第一次激活时 fetch 对应 JSON
         var dataLoader = {
             flowLoaded: false,
             partLoaded: false,
             daokouLoaded: false,
+            planLoaded: false,
+            dailyLoaded: false,
 
             loadFlowData: function() {
                 var self = this;
@@ -191,21 +274,23 @@
                 if (self.partLoaded && window.PART_DATA) {
                     return Promise.resolve(window.PART_DATA);
                 }
-                return fetch('data/part_sort_data.json?t=' + new Date().getTime())
-                    .then(function(r) { return r.json(); })
-                    .then(function(data) {
-                        window.PART_DATA = data;
-                        self.partLoaded = true;
-                        var el = document.getElementById('part-update-time');
-                        if (el && data.generated_at) {
-                            el.innerHTML = '数据更新：' + data.generated_at;
-                        }
-                        return data;
-                    })
-                    .catch(function() {
-                        window.PART_DATA = null;
-                        return null;
+                // 需要密码认证
+                return new Promise(function(resolve) {
+                    PasswordGate.requireAuth(function() {
+                        resolve(fetchWithDecrypt('data/part_sort_data.json'));
                     });
+                }).then(function(data) {
+                    window.PART_DATA = data;
+                    self.partLoaded = true;
+                    var el = document.getElementById('part-update-time');
+                    if (el && data.generated_at) {
+                        el.innerHTML = '数据更新：' + data.generated_at;
+                    }
+                    return data;
+                }).catch(function() {
+                    window.PART_DATA = null;
+                    return null;
+                });
             },
 
             loadDaokouData: function() {
@@ -228,15 +313,73 @@
                         window.DAOKOU_DATA = null;
                         return null;
                     });
+            },
+
+            loadPlanData: function() {
+                var self = this;
+                if (self.planLoaded && window.PLAN_DATA) {
+                    return Promise.resolve(window.PLAN_DATA);
+                }
+                // 需要密码认证
+                return new Promise(function(resolve) {
+                    PasswordGate.requireAuth(function() {
+                        resolve(fetchWithDecrypt('data/part_plan_data.json'));
+                    });
+                }).then(function(data) {
+                    window.PLAN_DATA = data;
+                    self.planLoaded = true;
+                    var el = document.getElementById('plan-update-time');
+                    if (el && data.generated_at) {
+                        el.innerHTML = '数据更新：' + data.generated_at;
+                    }
+                    return data;
+                }).catch(function() {
+                    window.PLAN_DATA = null;
+                    return null;
+                });
+            },
+
+            loadDailyData: function() {
+                var self = this;
+                if (self.dailyLoaded && window.DAILY_STATS) {
+                    return Promise.resolve(window.DAILY_STATS);
+                }
+                // 优先使用 JS 文件写入的全局变量（支持 file:// 协议双击打开）
+                if (typeof DAILY_STATS_INLINE !== 'undefined') {
+                    window.DAILY_STATS = DAILY_STATS_INLINE;
+                    self.dailyLoaded = true;
+                    var el = document.getElementById('daily-update-time');
+                    if (el && window.DAILY_STATS.generated_at) {
+                        el.innerHTML = '数据更新：' + window.DAILY_STATS.generated_at;
+                    }
+                    return Promise.resolve(window.DAILY_STATS);
+                }
+                return fetch('data/daily_stats_data.json?t=' + new Date().getTime())
+                    .then(function(r) { return r.json(); })
+                    .then(function(data) {
+                        window.DAILY_STATS = data;
+                        self.dailyLoaded = true;
+                        var el = document.getElementById('daily-update-time');
+                        if (el && data.generated_at) {
+                            el.innerHTML = '数据更新：' + data.generated_at;
+                        }
+                        return data;
+                    })
+                    .catch(function() {
+                        window.DAILY_STATS = null;
+                        return null;
+                    });
             }
         };
     </script>
 
     <!-- ===== 模块化 JS 加载（依赖上面的全局变量） ===== -->
-    <script src="js/common.js"></script>
-    <script src="js/tab-flow.js"></script>
-    <script src="js/tab-gkb.js"></script>
-    <script src="js/tab-daokou.js"></script>
+    <script src="js/common.js?v=20260706"></script>
+    <script src="js/tab-flow.js?v=20260706"></script>
+    <script src="js/tab-gkb.js?v=20260706"></script>
+    <script src="js/tab-daokou.js?v=20260706"></script>
+    <script src="js/tab-plan.js?v=20260706"></script>
+    <script src="js/tab-daily.js?v=20260706"></script>
 
     <!-- 页面加载后自动初始化默认 Tab（触发 fetch 数据） -->
     <script>
