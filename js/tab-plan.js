@@ -1,44 +1,11 @@
 /* ===== Tab4：零件计划查询（密码保护） ===== */
-
-var PLAN_PASSWORD = 'Smpv2';
+/* 密码验证由 PasswordGate 统一处理（loadPlanData 内），此处不再二次弹密码 */
 
 function initPlanTab() {
     var container = document.getElementById('plan-container');
     if (!container) return;
 
-    // 密码未验证
-    if (sessionStorage.getItem('plan_verified') !== 'true') {
-        var overlay = document.getElementById('plan-password-overlay');
-        if (!overlay) {
-            overlay = document.createElement('div');
-            overlay.id = 'plan-password-overlay';
-            overlay.className = 'plan-password-overlay';
-            overlay.style.cssText =
-                'min-height:350px;display:flex;justify-content:center;' +
-                'align-items:center;background:white;';
-            overlay.innerHTML =
-                '<div class="plan-password-box">' +
-                    '<div class="plan-password-icon">&#128274;</div>' +
-                    '<h3>零件计划查询</h3>' +
-                    '<p style="font-size:13px;color:#999;margin-bottom:20px;">请输入密码查看数据</p>' +
-                    '<div class="plan-password-input-wrap">' +
-                        '<input type="password" id="plan-password-input" placeholder="请输入密码" ' +
-                            'onkeydown="if(event.key===\'Enter\')checkPlanPassword()">' +
-                    '</div>' +
-                    '<button class="plan-password-btn" onclick="checkPlanPassword()">确认</button>' +
-                    '<div id="plan-password-error" class="plan-password-error"></div>' +
-                '</div>';
-            container.appendChild(overlay);
-        } else {
-            overlay.style.display = '';
-            // 隐藏数据区
-            var dataArea = document.getElementById('plan-data-area');
-            if (dataArea) dataArea.style.display = 'none';
-        }
-        return;
-    }
-
-    // 已验证
+    // 密码已由 PasswordGate 统一验证，直接构建数据区
     var overlay = document.getElementById('plan-password-overlay');
     if (overlay) overlay.style.display = 'none';
 
@@ -48,21 +15,6 @@ function initPlanTab() {
 
     if (window.PLAN_DATA && window.PLAN_DATA.data) {
         renderPlanTable();
-    }
-}
-
-function checkPlanPassword() {
-    var input = document.getElementById('plan-password-input');
-    var error = document.getElementById('plan-password-error');
-    if (!input || !error) return;
-
-    if (input.value === PLAN_PASSWORD) {
-        sessionStorage.setItem('plan_verified', 'true');
-        initPlanTab();
-    } else {
-        error.textContent = '密码错误，请重试';
-        input.value = '';
-        input.focus();
     }
 }
 
