@@ -1,37 +1,11 @@
 /* ===== Tab2：排序零件GKB查询（密码保护） ===== */
-
-var GKB_PASSWORD = 'Smpv2';
+/* 密码验证由 PasswordGate 统一处理（loadPartData 内），此处不再二次弹密码 */
 
 function initPartTable() {
     var tabContent = document.getElementById('main-tab-part');
     if (!tabContent) return;
 
-    // 密码未验证：清空内容，显示密码遮罩（占满整个Tab区域）
-    if (sessionStorage.getItem('gkb_verified') !== 'true') {
-        tabContent.innerHTML =
-            '<div class="plan-password-overlay">' +
-                '<div class="plan-password-box">' +
-                    '<div class="plan-password-icon">&#128274;</div>' +
-                    '<h3>排序零件GKB查询</h3>' +
-                    '<p style="font-size:13px;color:#999;margin-bottom:20px;">请输入密码查看数据</p>' +
-                    '<div class="plan-password-input-wrap">' +
-                        '<input type="password" id="gkb-password-input" placeholder="请输入密码" ' +
-                            'onkeydown="if(event.key===\'Enter\')checkGkbPassword()">' +
-                    '</div>' +
-                    '<button class="plan-password-btn" onclick="checkGkbPassword()">确认</button>' +
-                    '<div id="gkb-password-error" class="plan-password-error"></div>' +
-                '</div>' +
-            '</div>';
-
-        // 聚焦
-        setTimeout(function() {
-            var inp = document.getElementById('gkb-password-input');
-            if (inp) inp.focus();
-        }, 100);
-        return;
-    }
-
-    // 已验证：重建完整UI（搜索栏 + 表格）
+    // 密码已由 PasswordGate 统一验证，直接重建完整UI（搜索栏 + 表格）
     buildGkbFullUi(tabContent);
     bindPartSearch();
 
@@ -68,21 +42,6 @@ function buildGkbFullUi(parent) {
     // 更新时间
     if (window.PART_DATA && window.PART_DATA.generated_at) {
         document.getElementById('part-update-time').innerHTML = '数据更新：' + window.PART_DATA.generated_at;
-    }
-}
-
-function checkGkbPassword() {
-    var input = document.getElementById('gkb-password-input');
-    var error = document.getElementById('gkb-password-error');
-    if (!input || !error) return;
-
-    if (input.value === GKB_PASSWORD) {
-        sessionStorage.setItem('gkb_verified', 'true');
-        initPartTable();  // 重建完整UI
-    } else {
-        error.textContent = '密码错误，请重试';
-        input.value = '';
-        input.focus();
     }
 }
 
