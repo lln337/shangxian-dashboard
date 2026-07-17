@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-16 08:54:55",
+  "generated_at": "2026-07-17 08:53:25",
   "current_month": {
     "month": "2026-07",
-    "total": 2437,
-    "timeout": 209,
-    "rate": 8.58,
+    "total": 2524,
+    "timeout": 225,
+    "rate": 8.91,
     "is_complete": false,
-    "delta": 3.59,
+    "delta": 3.92,
     "trend": "up"
   },
   "monthly_trend": [
@@ -48,9 +48,9 @@
     },
     {
       "month": "2026-07",
-      "total": 2437,
-      "timeout": 209,
-      "rate": 8.58
+      "total": 2524,
+      "timeout": 225,
+      "rate": 8.91
     }
   ],
   "weekly_trend": [
@@ -105,19 +105,13 @@
     },
     {
       "week": "2026-W29",
-      "total": 479,
-      "timeout": 47,
-      "rate": 9.81,
+      "total": 566,
+      "timeout": 63,
+      "rate": 11.13,
       "incomplete": false
     }
   ],
   "daily_trend": [
-    {
-      "date": "2026-06-16",
-      "total": 211,
-      "timeout": 3,
-      "rate": 1.42
-    },
     {
       "date": "2026-06-17",
       "total": 173,
@@ -291,44 +285,50 @@
       "total": 59,
       "timeout": 1,
       "rate": 1.69
+    },
+    {
+      "date": "2026-07-16",
+      "total": 87,
+      "timeout": 16,
+      "rate": 18.39
     }
   ],
   "berth_rank": [
     {
       "berth": "GS15",
-      "total": 655,
-      "timeout": 95,
-      "rate": 14.5
+      "total": 677,
+      "timeout": 102,
+      "rate": 15.07
     },
     {
       "berth": "GS13",
-      "total": 279,
-      "timeout": 32,
-      "rate": 11.47
+      "total": 288,
+      "timeout": 36,
+      "rate": 12.5
     },
     {
       "berth": "GS18",
-      "total": 150,
-      "timeout": 16,
-      "rate": 10.67
+      "total": 157,
+      "timeout": 18,
+      "rate": 11.46
     },
     {
       "berth": "GS22",
-      "total": 576,
-      "timeout": 52,
-      "rate": 9.03
+      "total": 596,
+      "timeout": 53,
+      "rate": 8.89
     },
     {
       "berth": "GS04",
-      "total": 373,
-      "timeout": 12,
-      "rate": 3.22
+      "total": 390,
+      "timeout": 14,
+      "rate": 3.59
     },
     {
       "berth": "GS12",
-      "total": 76,
+      "total": 77,
       "timeout": 2,
-      "rate": 2.63
+      "rate": 2.6
     },
     {
       "berth": "GS03",
@@ -338,7 +338,7 @@
     },
     {
       "berth": "GS16",
-      "total": 327,
+      "total": 338,
       "timeout": 0,
       "rate": 0.0
     }
@@ -354,26 +354,26 @@
     },
     {
       "shift": "白班-B班",
-      "total": 0,
-      "timeout": 0,
-      "rate": null,
-      "pass_rate": null,
-      "has_data": false
+      "total": 68,
+      "timeout": 9,
+      "rate": 13.24,
+      "pass_rate": 86.76,
+      "has_data": true
     },
     {
       "shift": "夜班-A班",
-      "total": 0,
-      "timeout": 0,
-      "rate": null,
-      "pass_rate": null,
-      "has_data": false
+      "total": 18,
+      "timeout": 7,
+      "rate": 38.89,
+      "pass_rate": 61.11,
+      "has_data": true
     },
     {
       "shift": "夜班-B班",
-      "total": 1153,
+      "total": 1154,
       "timeout": 95,
-      "rate": 8.24,
-      "pass_rate": 91.76,
+      "rate": 8.23,
+      "pass_rate": 91.77,
       "has_data": true
     }
   ]
