@@ -352,3 +352,45 @@ body {
 .plan-table tbody tr:hover { background: #e8f0fe; }
 .plan-table tbody tr:nth-child(even) { background: #fafbfc; }
 .plan-table tbody tr:nth-child(even):hover { background: #e8f0fe; }
+
+/* === 配料需求表格 === */
+.peiliao-table { font-size: 12px; table-layout: fixed; }
+/* 首两列（配料区/工位、大小件）固定窄宽，数据列自适应剩余宽度 */
+.peiliao-table th.peiliao-col-fixed { width: 150px; }
+.peiliao-table th.peiliao-col-size { width: 60px; }
+.peiliao-table td.peiliao-col-fixed { width: 150px; }
+.peiliao-table td.peiliao-col-size { width: 60px; }
+.peiliao-table th { background: #5e35b1; }
+.peiliao-table th[colspan] { border-bottom: 1px solid rgba(255,255,255,0.25); }
+.pl-area-row td {
+    background: #f4f5f7;
+    font-weight: 700;
+    color: #444;
+    padding: 9px 12px !important;
+    border-bottom: 2px solid #e0e0e0 !important;
+}
+.pl-area-name { font-size: 13px; }
+.pl-area-person { font-size: 12px; color: #00897b; font-weight: 600; margin-left: 10px; }
+.pl-station-row td { padding: 7px 8px !important; }
+.pl-station-row:nth-of-type(even) td { background: #fafafc; }
+.pl-subtotal-row td {
+    background: #f3f0f7;
+    font-weight: 700;
+    color: #5e35b1;
+    border-bottom: 1px solid #e0e0e0 !important;
+}
+.pl-sub-label { text-align: left !important; padding-left: 20px !important; }
+.pl-station-row:hover { background: #efeaf8 !important; }
+.pl-station-name { text-align: left !important; padding-left: 20px !important; font-weight: 600; color: #333; white-space: nowrap; }
+.pl-section-title { margin: 22px 0 8px; font-size: 15px; color: #5e35b1; border-left: 4px solid #7b1fa2; padding-left: 8px; }
+.peiliao-renxiao-table { font-size: 13px; max-width: 560px; }
+.peiliao-renxiao-table th { background: #5e35b1; }
+.pl-total-row td { background: #ede7f6; font-weight: 700; color: #4a148c; border-top: 2px solid #b39ddb !important; }
+
+/* 配料需求 - 筛选按钮栏 */
+.pl-filterbar { display: flex; flex-wrap: wrap; gap: 18px; margin: 10px 0 14px; padding: 10px 12px; background: #faf7fd; border: 1px solid #e6dced; border-radius: 8px; }
+.pl-filter-group { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
+.pl-filter-label { font-size: 13px; font-weight: 600; color: #5e35b1; margin-right: 2px; }
+.pl-chip { padding: 4px 12px; font-size: 13px; line-height: 1.5; border: 1px solid #d5c7e0; border-radius: 14px; background: #fff; color: #555; cursor: pointer; transition: all .15s; }
+.pl-chip:hover { border-color: #7b1fa2; color: #7b1fa2; }
+.pl-chip.active { background: #7b1fa2; border-color: #7b1fa2; color: #fff; font-weight: 600; }
