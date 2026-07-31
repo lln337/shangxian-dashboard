@@ -22,6 +22,7 @@
         <button class="main-tab-btn" data-tab="daokou" onclick="switchMainTab('daokou')">道口卸货及时率</button>
         <button class="main-tab-btn" data-tab="plan" onclick="switchMainTab('plan')">零件计划查询 <span style="font-size:11px;color:#999;">&#x1F512;</span></button>
         <button class="main-tab-btn" data-tab="daily" onclick="switchMainTab('daily')">每日数据统计</button>
+        <button class="main-tab-btn" data-tab="peiliao" onclick="switchMainTab('peiliao')">配料需求</button>
     </div>
 
     <!-- ========== Tab1：上线流量 ========== -->
@@ -197,8 +198,71 @@
         </div>
     </div>
 
+    <!-- ========== Tab6：配料需求 ========== -->
+    <div id="main-tab-peiliao" class="main-tab-content">
+        <div id="peiliao-update-time" style="font-size:12px;color:#999;margin-bottom:8px;"></div>
+
+        <!-- 配料区 / 班次 筛选按钮（由JS动态生成） -->
+        <div id="peiliao-filterbar" class="pl-filterbar" style="display:none;"></div>
+
+        <!-- 统计卡片 -->
+        <div class="stats-row" id="peiliao-stats" style="display:none;">
+            <div class="stat-card" style="border-color:#7b1fa2;">
+                <div class="stat-value" id="peiliao-total-sps" style="color:#7b1fa2;">--</div>
+                <div class="stat-label">SPS 合计</div>
+            </div>
+            <div class="stat-card" style="border-color:#00897b;">
+                <div class="stat-value" id="peiliao-total-sort" style="color:#00897b;">--</div>
+                <div class="stat-label">排序 合计</div>
+            </div>
+            <div class="stat-card" style="border-color:#e65100;">
+                <div class="stat-value" id="peiliao-total-all" style="color:#e65100;">--</div>
+                <div class="stat-label">合计</div>
+            </div>
+            <div class="stat-card stat-info">
+                <div class="stat-value" id="peiliao-area-count">--</div>
+                <div class="stat-label">配料区数量</div>
+            </div>
+            <div class="stat-card stat-info">
+                <div class="stat-value" id="peiliao-station-count">--</div>
+                <div class="stat-label">上线工位数</div>
+            </div>
+            <div class="stat-card stat-info">
+                <div class="stat-value" id="peiliao-people-count">--</div>
+                <div class="stat-label">总人数</div>
+            </div>
+            <div class="stat-card stat-total">
+                <div class="stat-value" id="peiliao-renxiao-avg" style="color:#5e35b1;">--</div>
+                <div class="stat-label">平均人效</div>
+            </div>
+            <div class="stat-card" style="border-color:#c62828;">
+                <div class="stat-value" id="peiliao-hourly" style="color:#c62828;">--</div>
+                <div class="stat-label" id="peiliao-hourly-label">每小时需求（个/小时）</div>
+            </div>
+        </div>
+
+        <!-- 班次堆积柱状图 -->
+        <div id="peiliao-chart-wrap" style="display:none;">
+            <h3 class="pl-section-title" id="peiliao-chart-title">各配料区班次每小时需求（堆积）</h3>
+            <div class="chart-container" style="height:380px;"><canvas id="chart-peiliao-shift"></canvas></div>
+        </div>
+
+        <!-- 搜索过滤 -->
+        <div id="peiliao-filter-wrap" class="search-bar" style="display:none;margin:10px 0;">
+            <div class="search-input-wrapper">
+                <input type="text" id="peiliao-filter" placeholder="输入配料区或工位进行筛选...">
+                <span class="search-icon">&#128269;</span>
+            </div>
+        </div>
+
+        <div class="empty-state" id="peiliao-empty">暂无配料需求数据<br>请先执行配料管线生成配料需求汇总</div>
+
+        <!-- 明细表（由JS动态渲染） -->
+        <div id="peiliao-content"></div>
+    </div>
+
     <div class="footer">
-        <div>现场信息看板 | 上线流量 + GKB查询 + 道口卸货及时率 + 零件计划 + 每日数据统计</div>
+        <div>现场信息看板 | 上线流量 + GKB查询 + 道口卸货及时率 + 零件计划 + 每日数据统计 + 配料需求</div>
     </div>
 
     <!-- ===== 密码验证与加密模块（必须先加载） ===== -->
@@ -208,6 +272,7 @@
 
     <!-- ===== 数据加载（JS数据文件支持file://，线上则走fetch） ===== -->
     <script src="data/daily_stats_data.js?v=20260706"></script>
+    <script src="data/peiliao_data.js?v=20260714"></script>
     <script>
         /**
          * 带解密支持的 fetch：检测响应内容是否为加密格式，自动解密
@@ -241,6 +306,7 @@
             daokouLoaded: false,
             planLoaded: false,
             dailyLoaded: false,
+            peiliaoLoaded: false,
 
             loadFlowData: function() {
                 var self = this;
@@ -369,6 +435,28 @@
                         window.DAILY_STATS = null;
                         return null;
                     });
+            },
+
+            loadPeiliaoData: function() {
+                var self = this;
+                // 内联JS已加载（支持 file:// 双击打开）或之前已加载过
+                if (window.PEILIAO_DATA) {
+                    self.peiliaoLoaded = true;
+                    return Promise.resolve(window.PEILIAO_DATA);
+                }
+                return fetch('data/peiliao_data.json?t=' + new Date().getTime())
+                    .then(function(r) { return r.json(); })
+                    .then(function(data) {
+                        window.PEILIAO_DATA = data;
+                        self.peiliaoLoaded = true;
+                        var el = document.getElementById('peiliao-update-time');
+                        if (el) el.innerHTML = '数据来源：配料需求汇总（本地生成）';
+                        return data;
+                    })
+                    .catch(function() {
+                        window.PEILIAO_DATA = null;
+                        return null;
+                    });
             }
         };
     </script>
@@ -380,6 +468,7 @@
     <script src="js/tab-daokou.js?v=20260706"></script>
     <script src="js/tab-plan.js?v=20260710"></script>
     <script src="js/tab-daily.js?v=20260706"></script>
+    <script src="js/tab-peiliao.js?v=20260714"></script>
 
     <!-- 页面加载后自动初始化默认 Tab（触发 fetch 数据） -->
     <script>
