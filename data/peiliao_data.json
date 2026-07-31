@@ -1,0 +1,5770 @@
+{
+  "grand_total": {
+    "station_count": 58,
+    "SPS": 13331.6,
+    "sort_sps": 1720.0,
+    "数量": 15051.6,
+    "total": 15051.6
+  },
+  "areas": [
+    {
+      "area": "SD1",
+      "stations": [
+        {
+          "station": "1L",
+          "大小件": "大件",
+          "SPS": 0.0,
+          "sort_sps": 120.0,
+          "数量": 120.0,
+          "total": 283.8
+        },
+        {
+          "station": "1L",
+          "大小件": "小件",
+          "SPS": 163.8,
+          "sort_sps": 0.0,
+          "数量": 163.8,
+          "total": 0.0
+        },
+        {
+          "station": "1R",
+          "大小件": "大件",
+          "SPS": 0.0,
+          "sort_sps": 120.0,
+          "数量": 120.0,
+          "total": 276.6
+        },
+        {
+          "station": "1R",
+          "大小件": "小件",
+          "SPS": 156.6,
+          "sort_sps": 0.0,
+          "数量": 156.6,
+          "total": 0.0
+        },
+        {
+          "station": "2L",
+          "大小件": "大件",
+          "SPS": 0.0,
+          "sort_sps": 0.0,
+          "数量": 0.0,
+          "total": 331.0
+        },
+        {
+          "station": "2L",
+          "大小件": "小件",
+          "SPS": 331.0,
+          "sort_sps": 0.0,
+          "数量": 331.0,
+          "total": 0.0
+        },
+        {
+          "station": "2R",
+          "大小件": "大件",
+          "SPS": 0.0,
+          "sort_sps": 0.0,
+          "数量": 0.0,
+          "total": 331.5
+        },
+        {
+          "station": "2R",
+          "大小件": "小件",
+          "SPS": 331.5,
+          "sort_sps": 0.0,
+          "数量": 331.5,
+          "total": 0.0
+        },
+        {
+          "station": "3L",
+          "大小件": "大件",
+          "SPS": 0.0,
+          "sort_sps": 0.0,
+          "数量": 0.0,
+          "total": 274.1
+        },
+        {
+          "station": "3L",
+          "大小件": "小件",
+          "SPS": 274.1,
+          "sort_sps": 0.0,
+          "数量": 274.1,
+          "total": 0.0
+        },
+        {
+          "station": "3R",
+          "大小件": "大件",
+          "SPS": 0.0,
+          "sort_sps": 0.0,
+          "数量": 0.0,
+          "total": 276.7
+        },
+        {
+          "station": "3R",
+          "大小件": "小件",
+          "SPS": 276.7,
+          "sort_sps": 0.0,
+          "数量": 276.7,
+          "total": 0.0
+        },
+        {
+          "station": "4L",
+          "大小件": "大件",
+          "SPS": 56.7,
+          "sort_sps": 0.0,
+          "数量": 56.7,
+          "total": 330.4
+        },
+        {
+          "station": "4L",
+          "大小件": "小件",
+          "SPS": 273.8,
+          "sort_sps": 0.0,
+          "数量": 273.8,
+          "total": 0.0
+        },
+        {
+          "station": "4R",
+          "大小件": "大件",
+          "SPS": 56.7,
+          "sort_sps": 0.0,
+          "数量": 56.7,
+          "total": 315.9
+        },
+        {
+          "station": "4R",
+          "大小件": "小件",
+          "SPS": 259.3,
+          "sort_sps": 0.0,
+          "数量": 259.3,
+          "total": 0.0
+        },
+        {
+          "station": "5L",
+          "大小件": "大件",
+          "SPS": 56.7,
+          "sort_sps": 0.0,
+          "数量": 56.7,
+          "total": 344.8
+        },
+        {
+          "station": "5L",
+          "大小件": "小件",
+          "SPS": 288.1,
+          "sort_sps": 0.0,
+          "数量": 288.1,
+          "total": 0.0
+        },
+        {
+          "station": "5R",
+          "大小件": "大件",
+          "SPS": 56.7,
+          "sort_sps": 0.0,
+          "数量": 56.7,
+          "total": 326.6
+        },
+        {
+          "station": "5R",
+          "大小件": "小件",
+          "SPS": 270.0,
+          "sort_sps": 0.0,
+          "数量": 270.0,
+          "total": 0.0
+        },
+        {
+          "station": "6L",
+          "大小件": "大件",
+          "SPS": 67.8,
+          "sort_sps": 180.0,
+          "数量": 247.8,
+          "total": 299.9
+        },
+        {
+          "station": "6L",
+          "大小件": "小件",
+          "SPS": 52.1,
+          "sort_sps": 0.0,
+          "数量": 52.1,
+          "total": 0.0
+        },
+        {
+          "station": "6R",
+          "大小件": "大件",
+          "SPS": 67.8,
+          "sort_sps": 180.0,
+          "数量": 247.8,
+          "total": 299.9
+        },
+        {
+          "station": "6R",
+          "大小件": "小件",
+          "SPS": 52.1,
+          "sort_sps": 0.0,
+          "数量": 52.1,
+          "total": 0.0
+        },
+        {
+          "station": "7L",
+          "大小件": "大件",
+          "SPS": 2.5,
+          "sort_sps": 0.0,
+          "数量": 2.5,
+          "total": 298.5
+        },
+        {
+          "station": "7L",
+          "大小件": "小件",
+          "SPS": 296.0,
+          "sort_sps": 0.0,
+          "数量": 296.0,
+          "total": 0.0
+        },
+        {
+          "station": "7R",
+          "大小件": "大件",
+          "SPS": 12.5,
+          "sort_sps": 0.0,
+          "数量": 12.5,
+          "total": 294.1
+        },
+        {
+          "station": "7R",
+          "大小件": "小件",
+          "SPS": 281.6,
+          "sort_sps": 0.0,
+          "数量": 281.6,
+          "total": 0.0
+        },
+        {
+          "station": "8L",
+          "大小件": "大件",
+          "SPS": 44.4,
+          "sort_sps": 0.0,
+          "数量": 44.4,
+          "total": 327.4
+        },
+        {
+          "station": "8L",
+          "大小件": "小件",
+          "SPS": 282.9,
+          "sort_sps": 0.0,
+          "数量": 282.9,
+          "total": 0.0
+        },
+        {
+          "station": "8R",
+          "大小件": "大件",
+          "SPS": 34.4,
+          "sort_sps": 0.0,
+          "数量": 34.4,
+          "total": 331.9
+        },
+        {
+          "station": "8R",
+          "大小件": "小件",
+          "SPS": 297.4,
+          "sort_sps": 0.0,
+          "数量": 297.4,
+          "total": 0.0
+        },
+        {
+          "station": "9L",
+          "大小件": "大件",
+          "SPS": 0.0,
+          "sort_sps": 0.0,
+          "数量": 0.0,
+          "total": 29.9
+        },
+        {
+          "station": "9L",
+          "大小件": "小件",
+          "SPS": 29.9,
+          "sort_sps": 0.0,
+          "数量": 29.9,
+          "total": 0.0
+        },
+        {
+          "station": "9R",
+          "大小件": "大件",
+          "SPS": 0.0,
+          "sort_sps": 0.0,
+          "数量": 0.0,
+          "total": 25.7
+        },
+        {
+          "station": "9R",
+          "大小件": "小件",
+          "SPS": 25.7,
+          "sort_sps": 0.0,
+          "数量": 25.7,
+          "total": 0.0
+        }
+      ],
+      "person_count": 16,
+      "station_count": 18,
+      "subtotal": {
+        "SPS": 4398.8,
+        "sort_sps": 600.0,
+        "数量": 4998.8,
+        "total": 4998.7
+      }
+    },
+    {
+      "area": "ST2",
+      "stations": [
+        {
+          "station": "1L",
+          "大小件": "大件",
+          "SPS": 24.9,
+          "sort_sps": 60.0,
+          "数量": 84.9,
+          "total": 200.2
+        },
+        {
+          "station": "1L",
+          "大小件": "小件",
+          "SPS": 115.3,
+          "sort_sps": 0.0,
+          "数量": 115.3,
+          "total": 0.0
+        },
+        {
+          "station": "1R",
+          "大小件": "大件",
+          "SPS": 4.8,
+          "sort_sps": 0.0,
+          "数量": 4.8,
+          "total": 284.5
+        },
+        {
+          "station": "1R",
+          "大小件": "小件",
+          "SPS": 279.7,
+          "sort_sps": 0.0,
+          "数量": 279.7,
+          "total": 0.0
+        },
+        {
+          "station": "2",
+          "大小件": "大件",
+          "SPS": 25.6,
+          "sort_sps": 60.0,
+          "数量": 85.6,
+          "total": 189.3
+        },
+        {
+          "station": "2",
+          "大小件": "小件",
+          "SPS": 103.7,
+          "sort_sps": 0.0,
+          "数量": 103.7,
+          "total": 0.0
+        },
+        {
+          "station": "3",
+          "大小件": "大件",
+          "SPS": 32.0,
+          "sort_sps": 50.0,
+          "数量": 82.0,
+          "total": 184.8
+        },
+        {
+          "station": "3",
+          "大小件": "小件",
+          "SPS": 102.8,
+          "sort_sps": 0.0,
+          "数量": 102.8,
+          "total": 0.0
+        },
+        {
+          "station": "4",
+          "大小件": "大件",
+          "SPS": 53.2,
+          "sort_sps": 60.0,
+          "数量": 113.2,
+          "total": 213.4
+        },
+        {
+          "station": "4",
+          "大小件": "小件",
+          "SPS": 100.2,
+          "sort_sps": 0.0,
+          "数量": 100.2,
+          "total": 0.0
+        },
+        {
+          "station": "5",
+          "大小件": "大件",
+          "SPS": 20.6,
+          "sort_sps": 60.0,
+          "数量": 80.6,
+          "total": 219.2
+        },
+        {
+          "station": "5",
+          "大小件": "小件",
+          "SPS": 138.6,
+          "sort_sps": 0.0,
+          "数量": 138.6,
+          "total": 0.0
+        },
+        {
+          "station": "6",
+          "大小件": "大件",
+          "SPS": 3.7,
+          "sort_sps": 70.0,
+          "数量": 73.7,
+          "total": 249.0
+        },
+        {
+          "station": "6",
+          "大小件": "小件",
+          "SPS": 175.2,
+          "sort_sps": 0.0,
+          "数量": 175.2,
+          "total": 0.0
+        },
+        {
+          "station": "7",
+          "大小件": "大件",
+          "SPS": 60.3,
+          "sort_sps": 50.0,
+          "数量": 110.3,
+          "total": 268.5
+        },
+        {
+          "station": "7",
+          "大小件": "小件",
+          "SPS": 158.2,
+          "sort_sps": 0.0,
+          "数量": 158.2,
+          "total": 0.0
+        },
+        {
+          "station": "8",
+          "大小件": "大件",
+          "SPS": 24.2,
+          "sort_sps": 0.0,
+          "数量": 24.2,
+          "total": 206.9
+        },
+        {
+          "station": "8",
+          "大小件": "小件",
+          "SPS": 182.7,
+          "sort_sps": 0.0,
+          "数量": 182.7,
+          "total": 0.0
+        },
+        {
+          "station": "9",
+          "大小件": "大件",
+          "SPS": 12.4,
+          "sort_sps": 0.0,
+          "数量": 12.4,
+          "total": 273.3
+        },
+        {
+          "station": "9",
+          "大小件": "小件",
+          "SPS": 260.8,
+          "sort_sps": 0.0,
+          "数量": 260.8,
+          "total": 0.0
+        },
+        {
+          "station": "10",
+          "大小件": "大件",
+          "SPS": 13.9,
+          "sort_sps": 0.0,
+          "数量": 13.9,
+          "total": 226.4
+        },
+        {
+          "station": "10",
+          "大小件": "小件",
+          "SPS": 212.5,
+          "sort_sps": 0.0,
+          "数量": 212.5,
+          "total": 0.0
+        },
+        {
+          "station": "11",
+          "大小件": "大件",
+          "SPS": 19.9,
+          "sort_sps": 0.0,
+          "数量": 19.9,
+          "total": 184.3
+        },
+        {
+          "station": "11",
+          "大小件": "小件",
+          "SPS": 164.4,
+          "sort_sps": 0.0,
+          "数量": 164.4,
+          "total": 0.0
+        },
+        {
+          "station": "12",
+          "大小件": "大件",
+          "SPS": 18.4,
+          "sort_sps": 0.0,
+          "数量": 18.4,
+          "total": 208.7
+        },
+        {
+          "station": "12",
+          "大小件": "小件",
+          "SPS": 190.3,
+          "sort_sps": 0.0,
+          "数量": 190.3,
+          "total": 0.0
+        }
+      ],
+      "person_count": 13,
+      "station_count": 13,
+      "subtotal": {
+        "SPS": 2498.3,
+        "sort_sps": 410.0,
+        "数量": 2908.3,
+        "total": 2908.5
+      }
+    },
+    {
+      "area": "ST1",
+      "stations": [
+        {
+          "station": "1",
+          "大小件": "大件",
+          "SPS": 0.0,
+          "sort_sps": 0.0,
+          "数量": 0.0,
+          "total": 317.7
+        },
+        {
+          "station": "1",
+          "大小件": "小件",
+          "SPS": 317.7,
+          "sort_sps": 0.0,
+          "数量": 317.7,
+          "total": 0.0
+        },
+        {
+          "station": "2",
+          "大小件": "大件",
+          "SPS": 0.0,
+          "sort_sps": 0.0,
+          "数量": 0.0,
+          "total": 371.8
+        },
+        {
+          "station": "2",
+          "大小件": "小件",
+          "SPS": 371.8,
+          "sort_sps": 0.0,
+          "数量": 371.8,
+          "total": 0.0
+        },
+        {
+          "station": "3",
+          "大小件": "大件",
+          "SPS": 0.0,
+          "sort_sps": 0.0,
+          "数量": 0.0,
+          "total": 399.2
+        },
+        {
+          "station": "3",
+          "大小件": "小件",
+          "SPS": 399.2,
+          "sort_sps": 0.0,
+          "数量": 399.2,
+          "total": 0.0
+        },
+        {
+          "station": "4",
+          "大小件": "大件",
+          "SPS": 0.0,
+          "sort_sps": 0.0,
+          "数量": 0.0,
+          "total": 383.8
+        },
+        {
+          "station": "4",
+          "大小件": "小件",
+          "SPS": 383.8,
+          "sort_sps": 0.0,
+          "数量": 383.8,
+          "total": 0.0
+        },
+        {
+          "station": "5",
+          "大小件": "大件",
+          "SPS": 0.0,
+          "sort_sps": 0.0,
+          "数量": 0.0,
+          "total": 328.5
+        },
+        {
+          "station": "5",
+          "大小件": "小件",
+          "SPS": 328.5,
+          "sort_sps": 0.0,
+          "数量": 328.5,
+          "total": 0.0
+        },
+        {
+          "station": "6",
+          "大小件": "大件",
+          "SPS": 138.1,
+          "sort_sps": 0.0,
+          "数量": 138.1,
+          "total": 138.1
+        },
+        {
+          "station": "6",
+          "大小件": "小件",
+          "SPS": 0.0,
+          "sort_sps": 0.0,
+          "数量": 0.0,
+          "total": 0.0
+        },
+        {
+          "station": "7",
+          "大小件": "大件",
+          "SPS": 135.8,
+          "sort_sps": 60.0,
+          "数量": 195.8,
+          "total": 195.8
+        },
+        {
+          "station": "7",
+          "大小件": "小件",
+          "SPS": 0.0,
+          "sort_sps": 0.0,
+          "数量": 0.0,
+          "total": 0.0
+        },
+        {
+          "station": "8",
+          "大小件": "大件",
+          "SPS": 123.6,
+          "sort_sps": 60.0,
+          "数量": 183.6,
+          "total": 183.6
+        },
+        {
+          "station": "8",
+          "大小件": "小件",
+          "SPS": 0.0,
+          "sort_sps": 0.0,
+          "数量": 0.0,
+          "total": 0.0
+        },
+        {
+          "station": "9",
+          "大小件": "大件",
+          "SPS": 0.0,
+          "sort_sps": 0.0,
+          "数量": 0.0,
+          "total": 317.7
+        },
+        {
+          "station": "9",
+          "大小件": "小件",
+          "SPS": 317.7,
+          "sort_sps": 0.0,
+          "数量": 317.7,
+          "total": 0.0
+        },
+        {
+          "station": "10",
+          "大小件": "大件",
+          "SPS": 0.0,
+          "sort_sps": 0.0,
+          "数量": 0.0,
+          "total": 322.2
+        },
+        {
+          "station": "10",
+          "大小件": "小件",
+          "SPS": 322.2,
+          "sort_sps": 0.0,
+          "数量": 322.2,
+          "total": 0.0
+        },
+        {
+          "station": "11",
+          "大小件": "大件",
+          "SPS": 0.0,
+          "sort_sps": 60.0,
+          "数量": 60.0,
+          "total": 333.2
+        },
+        {
+          "station": "11",
+          "大小件": "小件",
+          "SPS": 273.2,
+          "sort_sps": 0.0,
+          "数量": 273.2,
+          "total": 0.0
+        }
+      ],
+      "person_count": 11,
+      "station_count": 11,
+      "subtotal": {
+        "SPS": 3111.6,
+        "sort_sps": 180.0,
+        "数量": 3291.6,
+        "total": 3291.6
+      }
+    },
+    {
+      "area": "SW1",
+      "stations": [
+        {
+          "station": "1",
+          "大小件": "大件",
+          "SPS": 26.0,
+          "sort_sps": 0.0,
+          "数量": 26.0,
+          "total": 206.1
+        },
+        {
+          "station": "1",
+          "大小件": "小件",
+          "SPS": 180.1,
+          "sort_sps": 0.0,
+          "数量": 180.1,
+          "total": 0.0
+        },
+        {
+          "station": "2",
+          "大小件": "大件",
+          "SPS": 62.4,
+          "sort_sps": 0.0,
+          "数量": 62.4,
+          "total": 211.2
+        },
+        {
+          "station": "2",
+          "大小件": "小件",
+          "SPS": 148.8,
+          "sort_sps": 0.0,
+          "数量": 148.8,
+          "total": 0.0
+        },
+        {
+          "station": "3",
+          "大小件": "大件",
+          "SPS": 21.3,
+          "sort_sps": 60.0,
+          "数量": 81.3,
+          "total": 246.9
+        },
+        {
+          "station": "3",
+          "大小件": "小件",
+          "SPS": 165.5,
+          "sort_sps": 0.0,
+          "数量": 165.5,
+          "total": 0.0
+        },
+        {
+          "station": "4",
+          "大小件": "大件",
+          "SPS": 5.6,
+          "sort_sps": 60.0,
+          "数量": 65.6,
+          "total": 222.9
+        },
+        {
+          "station": "4",
+          "大小件": "小件",
+          "SPS": 157.3,
+          "sort_sps": 0.0,
+          "数量": 157.3,
+          "total": 0.0
+        },
+        {
+          "station": "5",
+          "大小件": "大件",
+          "SPS": 33.3,
+          "sort_sps": 0.0,
+          "数量": 33.3,
+          "total": 316.9
+        },
+        {
+          "station": "5",
+          "大小件": "小件",
+          "SPS": 283.6,
+          "sort_sps": 0.0,
+          "数量": 283.6,
+          "total": 0.0
+        },
+        {
+          "station": "6",
+          "大小件": "大件",
+          "SPS": 20.9,
+          "sort_sps": 60.0,
+          "数量": 80.9,
+          "total": 254.6
+        },
+        {
+          "station": "6",
+          "大小件": "小件",
+          "SPS": 173.7,
+          "sort_sps": 0.0,
+          "数量": 173.7,
+          "total": 0.0
+        },
+        {
+          "station": "7",
+          "大小件": "大件",
+          "SPS": 22.4,
+          "sort_sps": 0.0,
+          "数量": 22.4,
+          "total": 298.1
+        },
+        {
+          "station": "7",
+          "大小件": "小件",
+          "SPS": 275.6,
+          "sort_sps": 0.0,
+          "数量": 275.6,
+          "total": 0.0
+        },
+        {
+          "station": "8",
+          "大小件": "大件",
+          "SPS": 19.7,
+          "sort_sps": 50.0,
+          "数量": 69.7,
+          "total": 266.0
+        },
+        {
+          "station": "8",
+          "大小件": "小件",
+          "SPS": 196.4,
+          "sort_sps": 0.0,
+          "数量": 196.4,
+          "total": 0.0
+        }
+      ],
+      "person_count": 8,
+      "station_count": 8,
+      "subtotal": {
+        "SPS": 1792.6,
+        "sort_sps": 230.0,
+        "数量": 2022.6,
+        "total": 2022.7
+      }
+    },
+    {
+      "area": "SIP",
+      "stations": [
+        {
+          "station": "1",
+          "大小件": "大件",
+          "SPS": 0.0,
+          "sort_sps": 0.0,
+          "数量": 0.0,
+          "total": 150.1
+        },
+        {
+          "station": "1",
+          "大小件": "小件",
+          "SPS": 150.1,
+          "sort_sps": 0.0,
+          "数量": 150.1,
+          "total": 0.0
+        },
+        {
+          "station": "2",
+          "大小件": "大件",
+          "SPS": 9.6,
+          "sort_sps": 0.0,
+          "数量": 9.6,
+          "total": 277.0
+        },
+        {
+          "station": "2",
+          "大小件": "小件",
+          "SPS": 147.3,
+          "sort_sps": 120.0,
+          "数量": 267.3,
+          "total": 0.0
+        },
+        {
+          "station": "3L",
+          "大小件": "大件",
+          "SPS": 0.0,
+          "sort_sps": 60.0,
+          "数量": 60.0,
+          "total": 283.1
+        },
+        {
+          "station": "3L",
+          "大小件": "小件",
+          "SPS": 223.1,
+          "sort_sps": 0.0,
+          "数量": 223.1,
+          "total": 0.0
+        },
+        {
+          "station": "3R",
+          "大小件": "大件",
+          "SPS": 0.0,
+          "sort_sps": 60.0,
+          "数量": 60.0,
+          "total": 267.9
+        },
+        {
+          "station": "3R",
+          "大小件": "小件",
+          "SPS": 207.9,
+          "sort_sps": 0.0,
+          "数量": 207.9,
+          "total": 0.0
+        },
+        {
+          "station": "4L",
+          "大小件": "大件",
+          "SPS": 0.0,
+          "sort_sps": 0.0,
+          "数量": 0.0,
+          "total": 228.8
+        },
+        {
+          "station": "4L",
+          "大小件": "小件",
+          "SPS": 228.8,
+          "sort_sps": 0.0,
+          "数量": 228.8,
+          "total": 0.0
+        },
+        {
+          "station": "4R",
+          "大小件": "大件",
+          "SPS": 0.0,
+          "sort_sps": 60.0,
+          "数量": 60.0,
+          "total": 260.5
+        },
+        {
+          "station": "4R",
+          "大小件": "小件",
+          "SPS": 200.5,
+          "sort_sps": 0.0,
+          "数量": 200.5,
+          "total": 0.0
+        }
+      ],
+      "person_count": 6,
+      "station_count": 6,
+      "subtotal": {
+        "SPS": 1167.3,
+        "sort_sps": 300.0,
+        "数量": 1467.3,
+        "total": 1467.4
+      }
+    },
+    {
+      "area": "SE1",
+      "stations": [
+        {
+          "station": "1",
+          "大小件": "大件",
+          "SPS": 48.2,
+          "sort_sps": 0.0,
+          "数量": 48.2,
+          "total": 283.4
+        },
+        {
+          "station": "1",
+          "大小件": "小件",
+          "SPS": 235.2,
+          "sort_sps": 0.0,
+          "数量": 235.2,
+          "total": 0.0
+        },
+        {
+          "station": "2",
+          "大小件": "大件",
+          "SPS": 54.0,
+          "sort_sps": 0.0,
+          "数量": 54.0,
+          "total": 168.9
+        },
+        {
+          "station": "2",
+          "大小件": "小件",
+          "SPS": 114.9,
+          "sort_sps": 0.0,
+          "数量": 114.9,
+          "total": 0.0
+        }
+      ],
+      "person_count": 2,
+      "station_count": 2,
+      "subtotal": {
+        "SPS": 452.3,
+        "sort_sps": 0.0,
+        "数量": 452.3,
+        "total": 452.3
+      }
+    }
+  ],
+  "shift_summary": [
+    {
+      "shift": "2026-07-31_白",
+      "area": "SD1",
+      "big_sps": 440.4,
+      "small_sps": 3646.0,
+      "big_sort": 600.0,
+      "small_sort": 0.0,
+      "total": 4686.4
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "ST2",
+      "big_sps": 331.6,
+      "small_sps": 2001.0,
+      "big_sort": 410.0,
+      "small_sort": 0.0,
+      "total": 2742.6
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "ST1",
+      "big_sps": 430.2,
+      "small_sps": 2634.95,
+      "big_sort": 180.0,
+      "small_sort": 0.0,
+      "total": 3245.15
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "SW1",
+      "big_sps": 178.2,
+      "small_sps": 1644.9,
+      "big_sort": 230.0,
+      "small_sort": 0.0,
+      "total": 2053.1
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "SIP",
+      "big_sps": 46.4,
+      "small_sps": 1268.85,
+      "big_sort": 180.0,
+      "small_sort": 120.0,
+      "total": 1615.25
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "SE1",
+      "big_sps": 83.0,
+      "small_sps": 396.8,
+      "big_sort": 0.0,
+      "small_sort": 0.0,
+      "total": 479.8
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "SD1",
+      "big_sps": 440.92,
+      "small_sps": 3769.85,
+      "big_sort": 600.0,
+      "small_sort": 0.0,
+      "total": 4810.77
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "ST2",
+      "big_sps": 345.69,
+      "small_sps": 2095.92,
+      "big_sort": 410.0,
+      "small_sort": 0.0,
+      "total": 2851.62
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "ST1",
+      "big_sps": 441.54,
+      "small_sps": 2769.92,
+      "big_sort": 180.0,
+      "small_sort": 0.0,
+      "total": 3391.46
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "SW1",
+      "big_sps": 193.85,
+      "small_sps": 1703.54,
+      "big_sort": 230.0,
+      "small_sort": 0.0,
+      "total": 2127.38
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "SIP",
+      "big_sps": 55.38,
+      "small_sps": 1008.46,
+      "big_sort": 180.0,
+      "small_sort": 120.0,
+      "total": 1363.85
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "SE1",
+      "big_sps": 80.0,
+      "small_sps": 432.61,
+      "big_sort": 0.0,
+      "small_sort": 0.0,
+      "total": 512.61
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "SD1",
+      "big_sps": 393.43,
+      "small_sps": 3786.57,
+      "big_sort": 600.0,
+      "small_sort": 0.0,
+      "total": 4780.0
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "ST2",
+      "big_sps": 344.14,
+      "small_sps": 2092.22,
+      "big_sort": 410.0,
+      "small_sort": 0.0,
+      "total": 2846.36
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "ST1",
+      "big_sps": 433.0,
+      "small_sps": 2848.36,
+      "big_sort": 180.0,
+      "small_sort": 0.0,
+      "total": 3461.36
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "SW1",
+      "big_sps": 198.86,
+      "small_sps": 1711.29,
+      "big_sort": 230.0,
+      "small_sort": 0.0,
+      "total": 2140.14
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "SIP",
+      "big_sps": 64.86,
+      "small_sps": 1170.43,
+      "big_sort": 180.0,
+      "small_sort": 120.0,
+      "total": 1535.29
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "SE1",
+      "big_sps": 73.43,
+      "small_sps": 448.71,
+      "big_sort": 0.0,
+      "small_sort": 0.0,
+      "total": 522.14
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "SD1",
+      "big_sps": 454.29,
+      "small_sps": 3851.86,
+      "big_sort": 600.0,
+      "small_sort": 0.0,
+      "total": 4906.14
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "ST2",
+      "big_sps": 303.57,
+      "small_sps": 2068.43,
+      "big_sort": 410.0,
+      "small_sort": 0.0,
+      "total": 2782.0
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "ST1",
+      "big_sps": 350.57,
+      "small_sps": 2666.86,
+      "big_sort": 180.0,
+      "small_sort": 0.0,
+      "total": 3197.43
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "SW1",
+      "big_sps": 237.57,
+      "small_sps": 1470.57,
+      "big_sort": 230.0,
+      "small_sort": 0.0,
+      "total": 1938.14
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "SIP",
+      "big_sps": 68.57,
+      "small_sps": 927.71,
+      "big_sort": 180.0,
+      "small_sort": 120.0,
+      "total": 1296.28
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "SE1",
+      "big_sps": 36.29,
+      "small_sps": 351.43,
+      "big_sort": 0.0,
+      "small_sort": 0.0,
+      "total": 387.71
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "SD1",
+      "big_sps": 478.86,
+      "small_sps": 3985.58,
+      "big_sort": 600.0,
+      "small_sort": 0.0,
+      "total": 5064.43
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "ST2",
+      "big_sps": 380.0,
+      "small_sps": 2233.29,
+      "big_sort": 410.0,
+      "small_sort": 0.0,
+      "total": 3023.29
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "ST1",
+      "big_sps": 430.57,
+      "small_sps": 2911.14,
+      "big_sort": 180.0,
+      "small_sort": 0.0,
+      "total": 3521.72
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "SW1",
+      "big_sps": 252.71,
+      "small_sps": 1643.0,
+      "big_sort": 230.0,
+      "small_sort": 0.0,
+      "total": 2125.72
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "SIP",
+      "big_sps": 68.71,
+      "small_sps": 991.0,
+      "big_sort": 180.0,
+      "small_sort": 120.0,
+      "total": 1359.71
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "SE1",
+      "big_sps": 50.0,
+      "small_sps": 440.0,
+      "big_sort": 0.0,
+      "small_sort": 0.0,
+      "total": 490.0
+    }
+  ],
+  "shifts": [
+    "2026-07-31_白",
+    "2026-08-03_夜",
+    "2026-08-04_白",
+    "2026-08-04_夜",
+    "2026-08-05_白"
+  ],
+  "station_shift": [
+    {
+      "shift": "2026-07-31_白",
+      "area": "SD1",
+      "station": "1L",
+      "size": "大件",
+      "sps": 0.0,
+      "sort_sps": 120.0,
+      "total": 120.0
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "SD1",
+      "station": "1L",
+      "size": "小件",
+      "sps": 138.2,
+      "sort_sps": 0.0,
+      "total": 138.2
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "SD1",
+      "station": "1R",
+      "size": "大件",
+      "sps": 0.0,
+      "sort_sps": 120.0,
+      "total": 120.0
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "SD1",
+      "station": "1R",
+      "size": "小件",
+      "sps": 125.9,
+      "sort_sps": 0.0,
+      "total": 125.9
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "SD1",
+      "station": "2L",
+      "size": "大件",
+      "sps": 31.2,
+      "sort_sps": 0.0,
+      "total": 31.2
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "SD1",
+      "station": "2L",
+      "size": "小件",
+      "sps": 300.4,
+      "sort_sps": 0.0,
+      "total": 300.4
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "SD1",
+      "station": "2R",
+      "size": "小件",
+      "sps": 295.0,
+      "sort_sps": 0.0,
+      "total": 295.0
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "SD1",
+      "station": "3L",
+      "size": "大件",
+      "sps": 55.6,
+      "sort_sps": 0.0,
+      "total": 55.6
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "SD1",
+      "station": "3L",
+      "size": "小件",
+      "sps": 254.5,
+      "sort_sps": 0.0,
+      "total": 254.5
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "SD1",
+      "station": "3R",
+      "size": "小件",
+      "sps": 252.6,
+      "sort_sps": 0.0,
+      "total": 252.6
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "SD1",
+      "station": "4L",
+      "size": "大件",
+      "sps": 41.4,
+      "sort_sps": 0.0,
+      "total": 41.4
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "SD1",
+      "station": "4L",
+      "size": "小件",
+      "sps": 270.9,
+      "sort_sps": 0.0,
+      "total": 270.9
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "SD1",
+      "station": "4R",
+      "size": "大件",
+      "sps": 41.4,
+      "sort_sps": 0.0,
+      "total": 41.4
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "SD1",
+      "station": "4R",
+      "size": "小件",
+      "sps": 259.1,
+      "sort_sps": 0.0,
+      "total": 259.1
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "SD1",
+      "station": "5L",
+      "size": "大件",
+      "sps": 41.4,
+      "sort_sps": 0.0,
+      "total": 41.4
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "SD1",
+      "station": "5L",
+      "size": "小件",
+      "sps": 283.9,
+      "sort_sps": 0.0,
+      "total": 283.9
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "SD1",
+      "station": "5R",
+      "size": "大件",
+      "sps": 41.4,
+      "sort_sps": 0.0,
+      "total": 41.4
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "SD1",
+      "station": "5R",
+      "size": "小件",
+      "sps": 258.0,
+      "sort_sps": 0.0,
+      "total": 258.0
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "SD1",
+      "station": "6L",
+      "size": "大件",
+      "sps": 40.8,
+      "sort_sps": 180.0,
+      "total": 220.8
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "SD1",
+      "station": "6L",
+      "size": "小件",
+      "sps": 56.1,
+      "sort_sps": 0.0,
+      "total": 56.1
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "SD1",
+      "station": "6R",
+      "size": "大件",
+      "sps": 40.8,
+      "sort_sps": 180.0,
+      "total": 220.8
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "SD1",
+      "station": "6R",
+      "size": "小件",
+      "sps": 53.6,
+      "sort_sps": 0.0,
+      "total": 53.6
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "SD1",
+      "station": "7L",
+      "size": "大件",
+      "sps": 1.1,
+      "sort_sps": 0.0,
+      "total": 1.1
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "SD1",
+      "station": "7L",
+      "size": "小件",
+      "sps": 297.8,
+      "sort_sps": 0.0,
+      "total": 297.8
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "SD1",
+      "station": "7R",
+      "size": "大件",
+      "sps": 41.1,
+      "sort_sps": 0.0,
+      "total": 41.1
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "SD1",
+      "station": "7R",
+      "size": "小件",
+      "sps": 247.6,
+      "sort_sps": 0.0,
+      "total": 247.6
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "SD1",
+      "station": "8L",
+      "size": "大件",
+      "sps": 38.1,
+      "sort_sps": 0.0,
+      "total": 38.1
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "SD1",
+      "station": "8L",
+      "size": "小件",
+      "sps": 274.9,
+      "sort_sps": 0.0,
+      "total": 274.9
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "SD1",
+      "station": "8R",
+      "size": "大件",
+      "sps": 26.1,
+      "sort_sps": 0.0,
+      "total": 26.1
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "SD1",
+      "station": "8R",
+      "size": "小件",
+      "sps": 277.5,
+      "sort_sps": 0.0,
+      "total": 277.5
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "ST2",
+      "station": "1L",
+      "size": "大件",
+      "sps": 26.2,
+      "sort_sps": 60.0,
+      "total": 86.2
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "ST2",
+      "station": "1L",
+      "size": "小件",
+      "sps": 101.5,
+      "sort_sps": 0.0,
+      "total": 101.5
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "ST2",
+      "station": "1R",
+      "size": "小件",
+      "sps": 256.0,
+      "sort_sps": 0.0,
+      "total": 256.0
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "ST2",
+      "station": "2",
+      "size": "大件",
+      "sps": 31.4,
+      "sort_sps": 60.0,
+      "total": 91.4
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "ST2",
+      "station": "2",
+      "size": "小件",
+      "sps": 106.5,
+      "sort_sps": 0.0,
+      "total": 106.5
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "ST2",
+      "station": "3",
+      "size": "大件",
+      "sps": 27.7,
+      "sort_sps": 50.0,
+      "total": 77.7
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "ST2",
+      "station": "3",
+      "size": "小件",
+      "sps": 82.5,
+      "sort_sps": 0.0,
+      "total": 82.5
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "ST2",
+      "station": "4",
+      "size": "大件",
+      "sps": 51.6,
+      "sort_sps": 60.0,
+      "total": 111.6
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "ST2",
+      "station": "4",
+      "size": "小件",
+      "sps": 92.0,
+      "sort_sps": 0.0,
+      "total": 92.0
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "ST2",
+      "station": "5",
+      "size": "大件",
+      "sps": 42.6,
+      "sort_sps": 60.0,
+      "total": 102.6
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "ST2",
+      "station": "5",
+      "size": "小件",
+      "sps": 95.7,
+      "sort_sps": 0.0,
+      "total": 95.7
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "ST2",
+      "station": "6",
+      "size": "大件",
+      "sps": 23.8,
+      "sort_sps": 70.0,
+      "total": 93.8
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "ST2",
+      "station": "6",
+      "size": "小件",
+      "sps": 164.9,
+      "sort_sps": 0.0,
+      "total": 164.9
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "ST2",
+      "station": "7",
+      "size": "大件",
+      "sps": 40.2,
+      "sort_sps": 50.0,
+      "total": 90.2
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "ST2",
+      "station": "7",
+      "size": "小件",
+      "sps": 173.6,
+      "sort_sps": 0.0,
+      "total": 173.6
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "ST2",
+      "station": "8",
+      "size": "大件",
+      "sps": 20.6,
+      "sort_sps": 0.0,
+      "total": 20.6
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "ST2",
+      "station": "8",
+      "size": "小件",
+      "sps": 183.0,
+      "sort_sps": 0.0,
+      "total": 183.0
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "ST2",
+      "station": "9",
+      "size": "大件",
+      "sps": 32.2,
+      "sort_sps": 0.0,
+      "total": 32.2
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "ST2",
+      "station": "9",
+      "size": "小件",
+      "sps": 212.4,
+      "sort_sps": 0.0,
+      "total": 212.4
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "ST2",
+      "station": "10",
+      "size": "大件",
+      "sps": 7.4,
+      "sort_sps": 0.0,
+      "total": 7.4
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "ST2",
+      "station": "10",
+      "size": "小件",
+      "sps": 227.6,
+      "sort_sps": 0.0,
+      "total": 227.6
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "ST2",
+      "station": "11",
+      "size": "大件",
+      "sps": 13.1,
+      "sort_sps": 0.0,
+      "total": 13.1
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "ST2",
+      "station": "11",
+      "size": "小件",
+      "sps": 145.4,
+      "sort_sps": 0.0,
+      "total": 145.4
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "ST2",
+      "station": "12",
+      "size": "大件",
+      "sps": 14.8,
+      "sort_sps": 0.0,
+      "total": 14.8
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "ST2",
+      "station": "12",
+      "size": "小件",
+      "sps": 159.9,
+      "sort_sps": 0.0,
+      "total": 159.9
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "ST1",
+      "station": "1",
+      "size": "大件",
+      "sps": 25.0,
+      "sort_sps": 0.0,
+      "total": 25.0
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "ST1",
+      "station": "1",
+      "size": "小件",
+      "sps": 279.4,
+      "sort_sps": 0.0,
+      "total": 279.4
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "ST1",
+      "station": "2",
+      "size": "小件",
+      "sps": 347.9,
+      "sort_sps": 0.0,
+      "total": 347.9
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "ST1",
+      "station": "3",
+      "size": "小件",
+      "sps": 361.7,
+      "sort_sps": 0.0,
+      "total": 361.7
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "ST1",
+      "station": "4",
+      "size": "小件",
+      "sps": 346.6,
+      "sort_sps": 0.0,
+      "total": 346.6
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "ST1",
+      "station": "5",
+      "size": "小件",
+      "sps": 379.4,
+      "sort_sps": 0.0,
+      "total": 379.4
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "ST1",
+      "station": "6",
+      "size": "大件",
+      "sps": 116.8,
+      "sort_sps": 0.0,
+      "total": 116.8
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "ST1",
+      "station": "7",
+      "size": "大件",
+      "sps": 153.6,
+      "sort_sps": 60.0,
+      "total": 213.6
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "ST1",
+      "station": "8",
+      "size": "大件",
+      "sps": 95.8,
+      "sort_sps": 60.0,
+      "total": 155.8
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "ST1",
+      "station": "9",
+      "size": "大件",
+      "sps": 39.0,
+      "sort_sps": 0.0,
+      "total": 39.0
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "ST1",
+      "station": "9",
+      "size": "小件",
+      "sps": 305.6,
+      "sort_sps": 0.0,
+      "total": 305.6
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "ST1",
+      "station": "10",
+      "size": "小件",
+      "sps": 329.6,
+      "sort_sps": 0.0,
+      "total": 329.6
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "ST1",
+      "station": "11",
+      "size": "大件",
+      "sps": 0.0,
+      "sort_sps": 60.0,
+      "total": 60.0
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "ST1",
+      "station": "11",
+      "size": "小件",
+      "sps": 284.8,
+      "sort_sps": 0.0,
+      "total": 284.8
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "SW1",
+      "station": "1",
+      "size": "大件",
+      "sps": 13.8,
+      "sort_sps": 0.0,
+      "total": 13.8
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "SW1",
+      "station": "1",
+      "size": "小件",
+      "sps": 236.1,
+      "sort_sps": 0.0,
+      "total": 236.1
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "SW1",
+      "station": "2",
+      "size": "大件",
+      "sps": 65.2,
+      "sort_sps": 0.0,
+      "total": 65.2
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "SW1",
+      "station": "2",
+      "size": "小件",
+      "sps": 162.1,
+      "sort_sps": 0.0,
+      "total": 162.1
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "SW1",
+      "station": "3",
+      "size": "大件",
+      "sps": 9.9,
+      "sort_sps": 60.0,
+      "total": 69.9
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "SW1",
+      "station": "3",
+      "size": "小件",
+      "sps": 140.5,
+      "sort_sps": 0.0,
+      "total": 140.5
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "SW1",
+      "station": "4",
+      "size": "大件",
+      "sps": 16.5,
+      "sort_sps": 60.0,
+      "total": 76.5
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "SW1",
+      "station": "4",
+      "size": "小件",
+      "sps": 166.1,
+      "sort_sps": 0.0,
+      "total": 166.1
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "SW1",
+      "station": "5",
+      "size": "大件",
+      "sps": 12.2,
+      "sort_sps": 0.0,
+      "total": 12.2
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "SW1",
+      "station": "5",
+      "size": "小件",
+      "sps": 274.2,
+      "sort_sps": 0.0,
+      "total": 274.2
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "SW1",
+      "station": "6",
+      "size": "大件",
+      "sps": 7.2,
+      "sort_sps": 60.0,
+      "total": 67.2
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "SW1",
+      "station": "6",
+      "size": "小件",
+      "sps": 199.9,
+      "sort_sps": 0.0,
+      "total": 199.9
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "SW1",
+      "station": "7",
+      "size": "大件",
+      "sps": 38.5,
+      "sort_sps": 0.0,
+      "total": 38.5
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "SW1",
+      "station": "7",
+      "size": "小件",
+      "sps": 255.8,
+      "sort_sps": 0.0,
+      "total": 255.8
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "SW1",
+      "station": "8",
+      "size": "大件",
+      "sps": 14.9,
+      "sort_sps": 50.0,
+      "total": 64.9
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "SW1",
+      "station": "8",
+      "size": "小件",
+      "sps": 210.2,
+      "sort_sps": 0.0,
+      "total": 210.2
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "SIP",
+      "station": "1",
+      "size": "小件",
+      "sps": 165.7,
+      "sort_sps": 0.0,
+      "total": 165.7
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "SIP",
+      "station": "2",
+      "size": "大件",
+      "sps": 15.7,
+      "sort_sps": 0.0,
+      "total": 15.7
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "SIP",
+      "station": "2",
+      "size": "小件",
+      "sps": 168.6,
+      "sort_sps": 120.0,
+      "total": 288.6
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "SIP",
+      "station": "3L",
+      "size": "大件",
+      "sps": 0.0,
+      "sort_sps": 60.0,
+      "total": 60.0
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "SIP",
+      "station": "3L",
+      "size": "小件",
+      "sps": 257.3,
+      "sort_sps": 0.0,
+      "total": 257.3
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "SIP",
+      "station": "3R",
+      "size": "大件",
+      "sps": 24.6,
+      "sort_sps": 60.0,
+      "total": 84.6
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "SIP",
+      "station": "3R",
+      "size": "小件",
+      "sps": 219.9,
+      "sort_sps": 0.0,
+      "total": 219.9
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "SIP",
+      "station": "4L",
+      "size": "小件",
+      "sps": 268.7,
+      "sort_sps": 0.0,
+      "total": 268.7
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "SIP",
+      "station": "4R",
+      "size": "大件",
+      "sps": 6.1,
+      "sort_sps": 60.0,
+      "total": 66.1
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "SIP",
+      "station": "4R",
+      "size": "小件",
+      "sps": 188.7,
+      "sort_sps": 0.0,
+      "total": 188.7
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "SE1",
+      "station": "1",
+      "size": "大件",
+      "sps": 32.5,
+      "sort_sps": 0.0,
+      "total": 32.5
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "SE1",
+      "station": "1",
+      "size": "小件",
+      "sps": 198.8,
+      "sort_sps": 0.0,
+      "total": 198.8
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "SE1",
+      "station": "2",
+      "size": "大件",
+      "sps": 50.5,
+      "sort_sps": 0.0,
+      "total": 50.5
+    },
+    {
+      "shift": "2026-07-31_白",
+      "area": "SE1",
+      "station": "2",
+      "size": "小件",
+      "sps": 198.0,
+      "sort_sps": 0.0,
+      "total": 198.0
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "SD1",
+      "station": "1L",
+      "size": "大件",
+      "sps": 0.0,
+      "sort_sps": 120.0,
+      "total": 120.0
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "SD1",
+      "station": "1L",
+      "size": "小件",
+      "sps": 141.7,
+      "sort_sps": 0.0,
+      "total": 141.7
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "SD1",
+      "station": "1R",
+      "size": "大件",
+      "sps": 0.0,
+      "sort_sps": 120.0,
+      "total": 120.0
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "SD1",
+      "station": "1R",
+      "size": "小件",
+      "sps": 130.8,
+      "sort_sps": 0.0,
+      "total": 130.8
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "SD1",
+      "station": "2L",
+      "size": "大件",
+      "sps": 31.1,
+      "sort_sps": 0.0,
+      "total": 31.1
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "SD1",
+      "station": "2L",
+      "size": "小件",
+      "sps": 302.6,
+      "sort_sps": 0.0,
+      "total": 302.6
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "SD1",
+      "station": "2R",
+      "size": "小件",
+      "sps": 301.9,
+      "sort_sps": 0.0,
+      "total": 301.9
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "SD1",
+      "station": "3L",
+      "size": "大件",
+      "sps": 52.9,
+      "sort_sps": 0.0,
+      "total": 52.9
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "SD1",
+      "station": "3L",
+      "size": "小件",
+      "sps": 256.8,
+      "sort_sps": 0.0,
+      "total": 256.8
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "SD1",
+      "station": "3R",
+      "size": "小件",
+      "sps": 260.0,
+      "sort_sps": 0.0,
+      "total": 260.0
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "SD1",
+      "station": "4L",
+      "size": "大件",
+      "sps": 41.5,
+      "sort_sps": 0.0,
+      "total": 41.5
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "SD1",
+      "station": "4L",
+      "size": "小件",
+      "sps": 282.1,
+      "sort_sps": 0.0,
+      "total": 282.1
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "SD1",
+      "station": "4R",
+      "size": "大件",
+      "sps": 41.5,
+      "sort_sps": 0.0,
+      "total": 41.5
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "SD1",
+      "station": "4R",
+      "size": "小件",
+      "sps": 266.6,
+      "sort_sps": 0.0,
+      "total": 266.6
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "SD1",
+      "station": "5L",
+      "size": "大件",
+      "sps": 41.5,
+      "sort_sps": 0.0,
+      "total": 41.5
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "SD1",
+      "station": "5L",
+      "size": "小件",
+      "sps": 299.9,
+      "sort_sps": 0.0,
+      "total": 299.9
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "SD1",
+      "station": "5R",
+      "size": "大件",
+      "sps": 41.5,
+      "sort_sps": 0.0,
+      "total": 41.5
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "SD1",
+      "station": "5R",
+      "size": "小件",
+      "sps": 269.7,
+      "sort_sps": 0.0,
+      "total": 269.7
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "SD1",
+      "station": "6L",
+      "size": "大件",
+      "sps": 37.4,
+      "sort_sps": 180.0,
+      "total": 217.4
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "SD1",
+      "station": "6L",
+      "size": "小件",
+      "sps": 62.8,
+      "sort_sps": 0.0,
+      "total": 62.8
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "SD1",
+      "station": "6R",
+      "size": "大件",
+      "sps": 37.4,
+      "sort_sps": 180.0,
+      "total": 217.4
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "SD1",
+      "station": "6R",
+      "size": "小件",
+      "sps": 59.7,
+      "sort_sps": 0.0,
+      "total": 59.7
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "SD1",
+      "station": "7L",
+      "size": "小件",
+      "sps": 308.3,
+      "sort_sps": 0.0,
+      "total": 308.3
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "SD1",
+      "station": "7R",
+      "size": "大件",
+      "sps": 48.9,
+      "sort_sps": 0.0,
+      "total": 48.9
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "SD1",
+      "station": "7R",
+      "size": "小件",
+      "sps": 253.5,
+      "sort_sps": 0.0,
+      "total": 253.5
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "SD1",
+      "station": "8L",
+      "size": "大件",
+      "sps": 41.1,
+      "sort_sps": 0.0,
+      "total": 41.1
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "SD1",
+      "station": "8L",
+      "size": "小件",
+      "sps": 283.7,
+      "sort_sps": 0.0,
+      "total": 283.7
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "SD1",
+      "station": "8R",
+      "size": "大件",
+      "sps": 26.0,
+      "sort_sps": 0.0,
+      "total": 26.0
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "SD1",
+      "station": "8R",
+      "size": "小件",
+      "sps": 289.9,
+      "sort_sps": 0.0,
+      "total": 289.9
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "ST2",
+      "station": "1L",
+      "size": "大件",
+      "sps": 30.1,
+      "sort_sps": 60.0,
+      "total": 90.2
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "ST2",
+      "station": "1L",
+      "size": "小件",
+      "sps": 109.1,
+      "sort_sps": 0.0,
+      "total": 109.1
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "ST2",
+      "station": "1R",
+      "size": "小件",
+      "sps": 262.9,
+      "sort_sps": 0.0,
+      "total": 262.9
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "ST2",
+      "station": "2",
+      "size": "大件",
+      "sps": 32.1,
+      "sort_sps": 60.0,
+      "total": 92.2
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "ST2",
+      "station": "2",
+      "size": "小件",
+      "sps": 108.2,
+      "sort_sps": 0.0,
+      "total": 108.2
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "ST2",
+      "station": "3",
+      "size": "大件",
+      "sps": 31.2,
+      "sort_sps": 50.0,
+      "total": 81.2
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "ST2",
+      "station": "3",
+      "size": "小件",
+      "sps": 76.5,
+      "sort_sps": 0.0,
+      "total": 76.5
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "ST2",
+      "station": "4",
+      "size": "大件",
+      "sps": 61.7,
+      "sort_sps": 60.0,
+      "total": 121.7
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "ST2",
+      "station": "4",
+      "size": "小件",
+      "sps": 99.7,
+      "sort_sps": 0.0,
+      "total": 99.7
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "ST2",
+      "station": "5",
+      "size": "大件",
+      "sps": 43.1,
+      "sort_sps": 60.0,
+      "total": 103.1
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "ST2",
+      "station": "5",
+      "size": "小件",
+      "sps": 102.8,
+      "sort_sps": 0.0,
+      "total": 102.8
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "ST2",
+      "station": "6",
+      "size": "大件",
+      "sps": 24.8,
+      "sort_sps": 70.0,
+      "total": 94.8
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "ST2",
+      "station": "6",
+      "size": "小件",
+      "sps": 162.1,
+      "sort_sps": 0.0,
+      "total": 162.1
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "ST2",
+      "station": "7",
+      "size": "大件",
+      "sps": 36.9,
+      "sort_sps": 50.0,
+      "total": 86.9
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "ST2",
+      "station": "7",
+      "size": "小件",
+      "sps": 177.2,
+      "sort_sps": 0.0,
+      "total": 177.2
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "ST2",
+      "station": "8",
+      "size": "大件",
+      "sps": 16.1,
+      "sort_sps": 0.0,
+      "total": 16.1
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "ST2",
+      "station": "8",
+      "size": "小件",
+      "sps": 184.5,
+      "sort_sps": 0.0,
+      "total": 184.5
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "ST2",
+      "station": "9",
+      "size": "大件",
+      "sps": 32.6,
+      "sort_sps": 0.0,
+      "total": 32.6
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "ST2",
+      "station": "9",
+      "size": "小件",
+      "sps": 231.1,
+      "sort_sps": 0.0,
+      "total": 231.1
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "ST2",
+      "station": "10",
+      "size": "大件",
+      "sps": 6.3,
+      "sort_sps": 0.0,
+      "total": 6.3
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "ST2",
+      "station": "10",
+      "size": "小件",
+      "sps": 241.1,
+      "sort_sps": 0.0,
+      "total": 241.1
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "ST2",
+      "station": "11",
+      "size": "大件",
+      "sps": 15.5,
+      "sort_sps": 0.0,
+      "total": 15.5
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "ST2",
+      "station": "11",
+      "size": "小件",
+      "sps": 155.1,
+      "sort_sps": 0.0,
+      "total": 155.1
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "ST2",
+      "station": "12",
+      "size": "大件",
+      "sps": 15.1,
+      "sort_sps": 0.0,
+      "total": 15.1
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "ST2",
+      "station": "12",
+      "size": "小件",
+      "sps": 185.8,
+      "sort_sps": 0.0,
+      "total": 185.8
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "ST1",
+      "station": "1",
+      "size": "大件",
+      "sps": 30.1,
+      "sort_sps": 0.0,
+      "total": 30.1
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "ST1",
+      "station": "1",
+      "size": "小件",
+      "sps": 285.4,
+      "sort_sps": 0.0,
+      "total": 285.4
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "ST1",
+      "station": "2",
+      "size": "小件",
+      "sps": 355.1,
+      "sort_sps": 0.0,
+      "total": 355.1
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "ST1",
+      "station": "3",
+      "size": "小件",
+      "sps": 374.6,
+      "sort_sps": 0.0,
+      "total": 374.6
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "ST1",
+      "station": "4",
+      "size": "小件",
+      "sps": 355.0,
+      "sort_sps": 0.0,
+      "total": 355.0
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "ST1",
+      "station": "5",
+      "size": "小件",
+      "sps": 405.4,
+      "sort_sps": 0.0,
+      "total": 405.4
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "ST1",
+      "station": "6",
+      "size": "大件",
+      "sps": 129.4,
+      "sort_sps": 0.0,
+      "total": 129.4
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "ST1",
+      "station": "7",
+      "size": "大件",
+      "sps": 157.5,
+      "sort_sps": 60.0,
+      "total": 217.5
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "ST1",
+      "station": "8",
+      "size": "大件",
+      "sps": 87.5,
+      "sort_sps": 60.0,
+      "total": 147.5
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "ST1",
+      "station": "9",
+      "size": "大件",
+      "sps": 36.9,
+      "sort_sps": 0.0,
+      "total": 36.9
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "ST1",
+      "station": "9",
+      "size": "小件",
+      "sps": 331.2,
+      "sort_sps": 0.0,
+      "total": 331.2
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "ST1",
+      "station": "10",
+      "size": "小件",
+      "sps": 369.4,
+      "sort_sps": 0.0,
+      "total": 369.4
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "ST1",
+      "station": "11",
+      "size": "大件",
+      "sps": 0.0,
+      "sort_sps": 60.0,
+      "total": 60.0
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "ST1",
+      "station": "11",
+      "size": "小件",
+      "sps": 293.9,
+      "sort_sps": 0.0,
+      "total": 293.9
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "SW1",
+      "station": "1",
+      "size": "大件",
+      "sps": 10.9,
+      "sort_sps": 0.0,
+      "total": 10.9
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "SW1",
+      "station": "1",
+      "size": "小件",
+      "sps": 232.6,
+      "sort_sps": 0.0,
+      "total": 232.6
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "SW1",
+      "station": "2",
+      "size": "大件",
+      "sps": 71.2,
+      "sort_sps": 0.0,
+      "total": 71.2
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "SW1",
+      "station": "2",
+      "size": "小件",
+      "sps": 160.9,
+      "sort_sps": 0.0,
+      "total": 160.9
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "SW1",
+      "station": "3",
+      "size": "大件",
+      "sps": 6.3,
+      "sort_sps": 60.0,
+      "total": 66.3
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "SW1",
+      "station": "3",
+      "size": "小件",
+      "sps": 145.1,
+      "sort_sps": 0.0,
+      "total": 145.1
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "SW1",
+      "station": "4",
+      "size": "大件",
+      "sps": 17.1,
+      "sort_sps": 60.0,
+      "total": 77.1
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "SW1",
+      "station": "4",
+      "size": "小件",
+      "sps": 189.1,
+      "sort_sps": 0.0,
+      "total": 189.1
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "SW1",
+      "station": "5",
+      "size": "大件",
+      "sps": 18.5,
+      "sort_sps": 0.0,
+      "total": 18.5
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "SW1",
+      "station": "5",
+      "size": "小件",
+      "sps": 302.0,
+      "sort_sps": 0.0,
+      "total": 302.0
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "SW1",
+      "station": "6",
+      "size": "大件",
+      "sps": 9.2,
+      "sort_sps": 60.0,
+      "total": 69.2
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "SW1",
+      "station": "6",
+      "size": "小件",
+      "sps": 214.9,
+      "sort_sps": 0.0,
+      "total": 214.9
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "SW1",
+      "station": "7",
+      "size": "大件",
+      "sps": 45.1,
+      "sort_sps": 0.0,
+      "total": 45.1
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "SW1",
+      "station": "7",
+      "size": "小件",
+      "sps": 241.8,
+      "sort_sps": 0.0,
+      "total": 241.8
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "SW1",
+      "station": "8",
+      "size": "大件",
+      "sps": 15.5,
+      "sort_sps": 50.0,
+      "total": 65.5
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "SW1",
+      "station": "8",
+      "size": "小件",
+      "sps": 217.1,
+      "sort_sps": 0.0,
+      "total": 217.1
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "SIP",
+      "station": "1",
+      "size": "小件",
+      "sps": 164.0,
+      "sort_sps": 0.0,
+      "total": 164.0
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "SIP",
+      "station": "2",
+      "size": "大件",
+      "sps": 17.1,
+      "sort_sps": 0.0,
+      "total": 17.1
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "SIP",
+      "station": "2",
+      "size": "小件",
+      "sps": 122.6,
+      "sort_sps": 120.0,
+      "total": 242.6
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "SIP",
+      "station": "3L",
+      "size": "大件",
+      "sps": 0.0,
+      "sort_sps": 60.0,
+      "total": 60.0
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "SIP",
+      "station": "3L",
+      "size": "小件",
+      "sps": 193.4,
+      "sort_sps": 0.0,
+      "total": 193.4
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "SIP",
+      "station": "3R",
+      "size": "大件",
+      "sps": 29.1,
+      "sort_sps": 60.0,
+      "total": 89.1
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "SIP",
+      "station": "3R",
+      "size": "小件",
+      "sps": 173.4,
+      "sort_sps": 0.0,
+      "total": 173.4
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "SIP",
+      "station": "4L",
+      "size": "小件",
+      "sps": 216.2,
+      "sort_sps": 0.0,
+      "total": 216.2
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "SIP",
+      "station": "4R",
+      "size": "大件",
+      "sps": 9.2,
+      "sort_sps": 60.0,
+      "total": 69.2
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "SIP",
+      "station": "4R",
+      "size": "小件",
+      "sps": 138.9,
+      "sort_sps": 0.0,
+      "total": 138.9
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "SE1",
+      "station": "1",
+      "size": "大件",
+      "sps": 30.8,
+      "sort_sps": 0.0,
+      "total": 30.8
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "SE1",
+      "station": "1",
+      "size": "小件",
+      "sps": 214.9,
+      "sort_sps": 0.0,
+      "total": 214.9
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "SE1",
+      "station": "2",
+      "size": "大件",
+      "sps": 49.2,
+      "sort_sps": 0.0,
+      "total": 49.2
+    },
+    {
+      "shift": "2026-08-03_夜",
+      "area": "SE1",
+      "station": "2",
+      "size": "小件",
+      "sps": 217.7,
+      "sort_sps": 0.0,
+      "total": 217.7
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "SD1",
+      "station": "1L",
+      "size": "大件",
+      "sps": 0.0,
+      "sort_sps": 120.0,
+      "total": 120.0
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "SD1",
+      "station": "1L",
+      "size": "小件",
+      "sps": 135.3,
+      "sort_sps": 0.0,
+      "total": 135.3
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "SD1",
+      "station": "1R",
+      "size": "大件",
+      "sps": 0.0,
+      "sort_sps": 120.0,
+      "total": 120.0
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "SD1",
+      "station": "1R",
+      "size": "小件",
+      "sps": 127.1,
+      "sort_sps": 0.0,
+      "total": 127.1
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "SD1",
+      "station": "2L",
+      "size": "大件",
+      "sps": 31.7,
+      "sort_sps": 0.0,
+      "total": 31.7
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "SD1",
+      "station": "2L",
+      "size": "小件",
+      "sps": 306.1,
+      "sort_sps": 0.0,
+      "total": 306.1
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "SD1",
+      "station": "2R",
+      "size": "小件",
+      "sps": 286.6,
+      "sort_sps": 0.0,
+      "total": 286.6
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "SD1",
+      "station": "3L",
+      "size": "大件",
+      "sps": 48.0,
+      "sort_sps": 0.0,
+      "total": 48.0
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "SD1",
+      "station": "3L",
+      "size": "小件",
+      "sps": 262.0,
+      "sort_sps": 0.0,
+      "total": 262.0
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "SD1",
+      "station": "3R",
+      "size": "小件",
+      "sps": 260.3,
+      "sort_sps": 0.0,
+      "total": 260.3
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "SD1",
+      "station": "4L",
+      "size": "大件",
+      "sps": 38.3,
+      "sort_sps": 0.0,
+      "total": 38.3
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "SD1",
+      "station": "4L",
+      "size": "小件",
+      "sps": 285.4,
+      "sort_sps": 0.0,
+      "total": 285.4
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "SD1",
+      "station": "4R",
+      "size": "大件",
+      "sps": 38.3,
+      "sort_sps": 0.0,
+      "total": 38.3
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "SD1",
+      "station": "4R",
+      "size": "小件",
+      "sps": 269.6,
+      "sort_sps": 0.0,
+      "total": 269.6
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "SD1",
+      "station": "5L",
+      "size": "大件",
+      "sps": 38.3,
+      "sort_sps": 0.0,
+      "total": 38.3
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "SD1",
+      "station": "5L",
+      "size": "小件",
+      "sps": 301.3,
+      "sort_sps": 0.0,
+      "total": 301.3
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "SD1",
+      "station": "5R",
+      "size": "大件",
+      "sps": 38.3,
+      "sort_sps": 0.0,
+      "total": 38.3
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "SD1",
+      "station": "5R",
+      "size": "小件",
+      "sps": 272.7,
+      "sort_sps": 0.0,
+      "total": 272.7
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "SD1",
+      "station": "6L",
+      "size": "大件",
+      "sps": 32.1,
+      "sort_sps": 180.0,
+      "total": 212.1
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "SD1",
+      "station": "6L",
+      "size": "小件",
+      "sps": 64.9,
+      "sort_sps": 0.0,
+      "total": 64.9
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "SD1",
+      "station": "6R",
+      "size": "大件",
+      "sps": 32.1,
+      "sort_sps": 180.0,
+      "total": 212.1
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "SD1",
+      "station": "6R",
+      "size": "小件",
+      "sps": 64.9,
+      "sort_sps": 0.0,
+      "total": 64.9
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "SD1",
+      "station": "7L",
+      "size": "小件",
+      "sps": 328.4,
+      "sort_sps": 0.0,
+      "total": 328.4
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "SD1",
+      "station": "7R",
+      "size": "大件",
+      "sps": 37.1,
+      "sort_sps": 0.0,
+      "total": 37.1
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "SD1",
+      "station": "7R",
+      "size": "小件",
+      "sps": 250.9,
+      "sort_sps": 0.0,
+      "total": 250.9
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "SD1",
+      "station": "8L",
+      "size": "大件",
+      "sps": 36.7,
+      "sort_sps": 0.0,
+      "total": 36.7
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "SD1",
+      "station": "8L",
+      "size": "小件",
+      "sps": 280.9,
+      "sort_sps": 0.0,
+      "total": 280.9
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "SD1",
+      "station": "8R",
+      "size": "大件",
+      "sps": 22.4,
+      "sort_sps": 0.0,
+      "total": 22.4
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "SD1",
+      "station": "8R",
+      "size": "小件",
+      "sps": 290.3,
+      "sort_sps": 0.0,
+      "total": 290.3
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "ST2",
+      "station": "1L",
+      "size": "大件",
+      "sps": 28.6,
+      "sort_sps": 60.0,
+      "total": 88.6
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "ST2",
+      "station": "1L",
+      "size": "小件",
+      "sps": 111.0,
+      "sort_sps": 0.0,
+      "total": 111.0
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "ST2",
+      "station": "1R",
+      "size": "小件",
+      "sps": 265.6,
+      "sort_sps": 0.0,
+      "total": 265.6
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "ST2",
+      "station": "2",
+      "size": "大件",
+      "sps": 34.7,
+      "sort_sps": 60.0,
+      "total": 94.7
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "ST2",
+      "station": "2",
+      "size": "小件",
+      "sps": 100.0,
+      "sort_sps": 0.0,
+      "total": 100.0
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "ST2",
+      "station": "3",
+      "size": "大件",
+      "sps": 24.3,
+      "sort_sps": 50.0,
+      "total": 74.3
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "ST2",
+      "station": "3",
+      "size": "小件",
+      "sps": 78.7,
+      "sort_sps": 0.0,
+      "total": 78.7
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "ST2",
+      "station": "4",
+      "size": "大件",
+      "sps": 71.1,
+      "sort_sps": 60.0,
+      "total": 131.1
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "ST2",
+      "station": "4",
+      "size": "小件",
+      "sps": 104.3,
+      "sort_sps": 0.0,
+      "total": 104.3
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "ST2",
+      "station": "5",
+      "size": "大件",
+      "sps": 43.4,
+      "sort_sps": 60.0,
+      "total": 103.4
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "ST2",
+      "station": "5",
+      "size": "小件",
+      "sps": 104.9,
+      "sort_sps": 0.0,
+      "total": 104.9
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "ST2",
+      "station": "6",
+      "size": "大件",
+      "sps": 23.3,
+      "sort_sps": 70.0,
+      "total": 93.3
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "ST2",
+      "station": "6",
+      "size": "小件",
+      "sps": 156.6,
+      "sort_sps": 0.0,
+      "total": 156.6
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "ST2",
+      "station": "7",
+      "size": "大件",
+      "sps": 30.6,
+      "sort_sps": 50.0,
+      "total": 80.6
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "ST2",
+      "station": "7",
+      "size": "小件",
+      "sps": 181.4,
+      "sort_sps": 0.0,
+      "total": 181.4
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "ST2",
+      "station": "8",
+      "size": "大件",
+      "sps": 15.9,
+      "sort_sps": 0.0,
+      "total": 15.9
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "ST2",
+      "station": "8",
+      "size": "小件",
+      "sps": 190.7,
+      "sort_sps": 0.0,
+      "total": 190.7
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "ST2",
+      "station": "9",
+      "size": "大件",
+      "sps": 36.3,
+      "sort_sps": 0.0,
+      "total": 36.3
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "ST2",
+      "station": "9",
+      "size": "小件",
+      "sps": 219.7,
+      "sort_sps": 0.0,
+      "total": 219.7
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "ST2",
+      "station": "10",
+      "size": "大件",
+      "sps": 6.4,
+      "sort_sps": 0.0,
+      "total": 6.4
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "ST2",
+      "station": "10",
+      "size": "小件",
+      "sps": 237.7,
+      "sort_sps": 0.0,
+      "total": 237.7
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "ST2",
+      "station": "11",
+      "size": "大件",
+      "sps": 15.3,
+      "sort_sps": 0.0,
+      "total": 15.3
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "ST2",
+      "station": "11",
+      "size": "小件",
+      "sps": 154.4,
+      "sort_sps": 0.0,
+      "total": 154.4
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "ST2",
+      "station": "12",
+      "size": "大件",
+      "sps": 14.3,
+      "sort_sps": 0.0,
+      "total": 14.3
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "ST2",
+      "station": "12",
+      "size": "小件",
+      "sps": 187.1,
+      "sort_sps": 0.0,
+      "total": 187.1
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "ST1",
+      "station": "1",
+      "size": "大件",
+      "sps": 28.6,
+      "sort_sps": 0.0,
+      "total": 28.6
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "ST1",
+      "station": "1",
+      "size": "小件",
+      "sps": 306.1,
+      "sort_sps": 0.0,
+      "total": 306.1
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "ST1",
+      "station": "2",
+      "size": "小件",
+      "sps": 354.3,
+      "sort_sps": 0.0,
+      "total": 354.3
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "ST1",
+      "station": "3",
+      "size": "小件",
+      "sps": 384.0,
+      "sort_sps": 0.0,
+      "total": 384.0
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "ST1",
+      "station": "4",
+      "size": "小件",
+      "sps": 359.8,
+      "sort_sps": 0.0,
+      "total": 359.8
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "ST1",
+      "station": "5",
+      "size": "小件",
+      "sps": 423.9,
+      "sort_sps": 0.0,
+      "total": 423.9
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "ST1",
+      "station": "6",
+      "size": "大件",
+      "sps": 124.6,
+      "sort_sps": 0.0,
+      "total": 124.6
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "ST1",
+      "station": "7",
+      "size": "大件",
+      "sps": 169.7,
+      "sort_sps": 60.0,
+      "total": 229.7
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "ST1",
+      "station": "8",
+      "size": "大件",
+      "sps": 79.6,
+      "sort_sps": 60.0,
+      "total": 139.6
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "ST1",
+      "station": "9",
+      "size": "大件",
+      "sps": 30.6,
+      "sort_sps": 0.0,
+      "total": 30.6
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "ST1",
+      "station": "9",
+      "size": "小件",
+      "sps": 343.3,
+      "sort_sps": 0.0,
+      "total": 343.3
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "ST1",
+      "station": "10",
+      "size": "小件",
+      "sps": 378.9,
+      "sort_sps": 0.0,
+      "total": 378.9
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "ST1",
+      "station": "11",
+      "size": "大件",
+      "sps": 0.0,
+      "sort_sps": 60.0,
+      "total": 60.0
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "ST1",
+      "station": "11",
+      "size": "小件",
+      "sps": 298.1,
+      "sort_sps": 0.0,
+      "total": 298.1
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "SW1",
+      "station": "1",
+      "size": "大件",
+      "sps": 8.1,
+      "sort_sps": 0.0,
+      "total": 8.1
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "SW1",
+      "station": "1",
+      "size": "小件",
+      "sps": 258.1,
+      "sort_sps": 0.0,
+      "total": 258.1
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "SW1",
+      "station": "2",
+      "size": "大件",
+      "sps": 65.3,
+      "sort_sps": 0.0,
+      "total": 65.3
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "SW1",
+      "station": "2",
+      "size": "小件",
+      "sps": 133.9,
+      "sort_sps": 0.0,
+      "total": 133.9
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "SW1",
+      "station": "3",
+      "size": "大件",
+      "sps": 6.4,
+      "sort_sps": 60.0,
+      "total": 66.4
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "SW1",
+      "station": "3",
+      "size": "小件",
+      "sps": 142.3,
+      "sort_sps": 0.0,
+      "total": 142.3
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "SW1",
+      "station": "4",
+      "size": "大件",
+      "sps": 20.4,
+      "sort_sps": 60.0,
+      "total": 80.4
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "SW1",
+      "station": "4",
+      "size": "小件",
+      "sps": 183.4,
+      "sort_sps": 0.0,
+      "total": 183.4
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "SW1",
+      "station": "5",
+      "size": "大件",
+      "sps": 18.9,
+      "sort_sps": 0.0,
+      "total": 18.9
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "SW1",
+      "station": "5",
+      "size": "小件",
+      "sps": 290.6,
+      "sort_sps": 0.0,
+      "total": 290.6
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "SW1",
+      "station": "6",
+      "size": "大件",
+      "sps": 9.4,
+      "sort_sps": 60.0,
+      "total": 69.4
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "SW1",
+      "station": "6",
+      "size": "小件",
+      "sps": 216.6,
+      "sort_sps": 0.0,
+      "total": 216.6
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "SW1",
+      "station": "7",
+      "size": "大件",
+      "sps": 54.4,
+      "sort_sps": 0.0,
+      "total": 54.4
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "SW1",
+      "station": "7",
+      "size": "小件",
+      "sps": 269.6,
+      "sort_sps": 0.0,
+      "total": 269.6
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "SW1",
+      "station": "8",
+      "size": "大件",
+      "sps": 15.9,
+      "sort_sps": 50.0,
+      "total": 65.9
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "SW1",
+      "station": "8",
+      "size": "小件",
+      "sps": 216.9,
+      "sort_sps": 0.0,
+      "total": 216.9
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "SIP",
+      "station": "1",
+      "size": "小件",
+      "sps": 167.7,
+      "sort_sps": 0.0,
+      "total": 167.7
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "SIP",
+      "station": "2",
+      "size": "大件",
+      "sps": 20.6,
+      "sort_sps": 0.0,
+      "total": 20.6
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "SIP",
+      "station": "2",
+      "size": "小件",
+      "sps": 148.7,
+      "sort_sps": 120.0,
+      "total": 268.7
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "SIP",
+      "station": "3L",
+      "size": "大件",
+      "sps": 0.0,
+      "sort_sps": 60.0,
+      "total": 60.0
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "SIP",
+      "station": "3L",
+      "size": "小件",
+      "sps": 220.9,
+      "sort_sps": 0.0,
+      "total": 220.9
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "SIP",
+      "station": "3R",
+      "size": "大件",
+      "sps": 34.9,
+      "sort_sps": 60.0,
+      "total": 94.9
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "SIP",
+      "station": "3R",
+      "size": "小件",
+      "sps": 202.7,
+      "sort_sps": 0.0,
+      "total": 202.7
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "SIP",
+      "station": "4L",
+      "size": "小件",
+      "sps": 256.7,
+      "sort_sps": 0.0,
+      "total": 256.7
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "SIP",
+      "station": "4R",
+      "size": "大件",
+      "sps": 9.4,
+      "sort_sps": 60.0,
+      "total": 69.4
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "SIP",
+      "station": "4R",
+      "size": "小件",
+      "sps": 173.7,
+      "sort_sps": 0.0,
+      "total": 173.7
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "SE1",
+      "station": "1",
+      "size": "大件",
+      "sps": 28.6,
+      "sort_sps": 0.0,
+      "total": 28.6
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "SE1",
+      "station": "1",
+      "size": "小件",
+      "sps": 208.1,
+      "sort_sps": 0.0,
+      "total": 208.1
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "SE1",
+      "station": "2",
+      "size": "大件",
+      "sps": 44.9,
+      "sort_sps": 0.0,
+      "total": 44.9
+    },
+    {
+      "shift": "2026-08-04_白",
+      "area": "SE1",
+      "station": "2",
+      "size": "小件",
+      "sps": 240.6,
+      "sort_sps": 0.0,
+      "total": 240.6
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "SD1",
+      "station": "1L",
+      "size": "大件",
+      "sps": 0.0,
+      "sort_sps": 120.0,
+      "total": 120.0
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "SD1",
+      "station": "1L",
+      "size": "小件",
+      "sps": 138.1,
+      "sort_sps": 0.0,
+      "total": 138.1
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "SD1",
+      "station": "1R",
+      "size": "大件",
+      "sps": 0.0,
+      "sort_sps": 120.0,
+      "total": 120.0
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "SD1",
+      "station": "1R",
+      "size": "小件",
+      "sps": 131.6,
+      "sort_sps": 0.0,
+      "total": 131.6
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "SD1",
+      "station": "2L",
+      "size": "大件",
+      "sps": 54.9,
+      "sort_sps": 0.0,
+      "total": 54.9
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "SD1",
+      "station": "2L",
+      "size": "小件",
+      "sps": 300.6,
+      "sort_sps": 0.0,
+      "total": 300.6
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "SD1",
+      "station": "2R",
+      "size": "小件",
+      "sps": 295.6,
+      "sort_sps": 0.0,
+      "total": 295.6
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "SD1",
+      "station": "3L",
+      "size": "大件",
+      "sps": 68.0,
+      "sort_sps": 0.0,
+      "total": 68.0
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "SD1",
+      "station": "3L",
+      "size": "小件",
+      "sps": 247.7,
+      "sort_sps": 0.0,
+      "total": 247.7
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "SD1",
+      "station": "3R",
+      "size": "小件",
+      "sps": 268.0,
+      "sort_sps": 0.0,
+      "total": 268.0
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "SD1",
+      "station": "4L",
+      "size": "大件",
+      "sps": 39.7,
+      "sort_sps": 0.0,
+      "total": 39.7
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "SD1",
+      "station": "4L",
+      "size": "小件",
+      "sps": 287.0,
+      "sort_sps": 0.0,
+      "total": 287.0
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "SD1",
+      "station": "4R",
+      "size": "大件",
+      "sps": 39.7,
+      "sort_sps": 0.0,
+      "total": 39.7
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "SD1",
+      "station": "4R",
+      "size": "小件",
+      "sps": 259.6,
+      "sort_sps": 0.0,
+      "total": 259.6
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "SD1",
+      "station": "5L",
+      "size": "大件",
+      "sps": 39.7,
+      "sort_sps": 0.0,
+      "total": 39.7
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "SD1",
+      "station": "5L",
+      "size": "小件",
+      "sps": 300.3,
+      "sort_sps": 0.0,
+      "total": 300.3
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "SD1",
+      "station": "5R",
+      "size": "大件",
+      "sps": 39.7,
+      "sort_sps": 0.0,
+      "total": 39.7
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "SD1",
+      "station": "5R",
+      "size": "小件",
+      "sps": 288.9,
+      "sort_sps": 0.0,
+      "total": 288.9
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "SD1",
+      "station": "6L",
+      "size": "大件",
+      "sps": 40.6,
+      "sort_sps": 180.0,
+      "total": 220.6
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "SD1",
+      "station": "6L",
+      "size": "小件",
+      "sps": 57.1,
+      "sort_sps": 0.0,
+      "total": 57.1
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "SD1",
+      "station": "6R",
+      "size": "大件",
+      "sps": 40.6,
+      "sort_sps": 180.0,
+      "total": 220.6
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "SD1",
+      "station": "6R",
+      "size": "小件",
+      "sps": 55.6,
+      "sort_sps": 0.0,
+      "total": 55.6
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "SD1",
+      "station": "7L",
+      "size": "小件",
+      "sps": 330.6,
+      "sort_sps": 0.0,
+      "total": 330.6
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "SD1",
+      "station": "7R",
+      "size": "大件",
+      "sps": 61.1,
+      "sort_sps": 0.0,
+      "total": 61.1
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "SD1",
+      "station": "7R",
+      "size": "小件",
+      "sps": 270.7,
+      "sort_sps": 0.0,
+      "total": 270.7
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "SD1",
+      "station": "8L",
+      "size": "大件",
+      "sps": 18.0,
+      "sort_sps": 0.0,
+      "total": 18.0
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "SD1",
+      "station": "8L",
+      "size": "小件",
+      "sps": 297.7,
+      "sort_sps": 0.0,
+      "total": 297.7
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "SD1",
+      "station": "8R",
+      "size": "大件",
+      "sps": 12.3,
+      "sort_sps": 0.0,
+      "total": 12.3
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "SD1",
+      "station": "8R",
+      "size": "小件",
+      "sps": 322.9,
+      "sort_sps": 0.0,
+      "total": 322.9
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "ST2",
+      "station": "1L",
+      "size": "大件",
+      "sps": 11.4,
+      "sort_sps": 60.0,
+      "total": 71.4
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "ST2",
+      "station": "1L",
+      "size": "小件",
+      "sps": 99.1,
+      "sort_sps": 0.0,
+      "total": 99.1
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "ST2",
+      "station": "1R",
+      "size": "小件",
+      "sps": 258.4,
+      "sort_sps": 0.0,
+      "total": 258.4
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "ST2",
+      "station": "2",
+      "size": "大件",
+      "sps": 24.7,
+      "sort_sps": 60.0,
+      "total": 84.7
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "ST2",
+      "station": "2",
+      "size": "小件",
+      "sps": 110.0,
+      "sort_sps": 0.0,
+      "total": 110.0
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "ST2",
+      "station": "3",
+      "size": "大件",
+      "sps": 21.9,
+      "sort_sps": 50.0,
+      "total": 71.9
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "ST2",
+      "station": "3",
+      "size": "小件",
+      "sps": 73.0,
+      "sort_sps": 0.0,
+      "total": 73.0
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "ST2",
+      "station": "4",
+      "size": "大件",
+      "sps": 41.0,
+      "sort_sps": 60.0,
+      "total": 101.0
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "ST2",
+      "station": "4",
+      "size": "小件",
+      "sps": 105.3,
+      "sort_sps": 0.0,
+      "total": 105.3
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "ST2",
+      "station": "5",
+      "size": "大件",
+      "sps": 17.3,
+      "sort_sps": 60.0,
+      "total": 77.3
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "ST2",
+      "station": "5",
+      "size": "小件",
+      "sps": 154.3,
+      "sort_sps": 0.0,
+      "total": 154.3
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "ST2",
+      "station": "6",
+      "size": "大件",
+      "sps": 61.3,
+      "sort_sps": 70.0,
+      "total": 131.3
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "ST2",
+      "station": "6",
+      "size": "小件",
+      "sps": 145.7,
+      "sort_sps": 0.0,
+      "total": 145.7
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "ST2",
+      "station": "7",
+      "size": "大件",
+      "sps": 18.9,
+      "sort_sps": 50.0,
+      "total": 68.9
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "ST2",
+      "station": "7",
+      "size": "小件",
+      "sps": 118.3,
+      "sort_sps": 0.0,
+      "total": 118.3
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "ST2",
+      "station": "8",
+      "size": "大件",
+      "sps": 27.4,
+      "sort_sps": 0.0,
+      "total": 27.4
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "ST2",
+      "station": "8",
+      "size": "小件",
+      "sps": 171.6,
+      "sort_sps": 0.0,
+      "total": 171.6
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "ST2",
+      "station": "9",
+      "size": "大件",
+      "sps": 46.4,
+      "sort_sps": 0.0,
+      "total": 46.4
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "ST2",
+      "station": "9",
+      "size": "小件",
+      "sps": 202.0,
+      "sort_sps": 0.0,
+      "total": 202.0
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "ST2",
+      "station": "10",
+      "size": "小件",
+      "sps": 217.6,
+      "sort_sps": 0.0,
+      "total": 217.6
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "ST2",
+      "station": "11",
+      "size": "大件",
+      "sps": 27.6,
+      "sort_sps": 0.0,
+      "total": 27.6
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "ST2",
+      "station": "11",
+      "size": "小件",
+      "sps": 202.7,
+      "sort_sps": 0.0,
+      "total": 202.7
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "ST2",
+      "station": "12",
+      "size": "大件",
+      "sps": 5.7,
+      "sort_sps": 0.0,
+      "total": 5.7
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "ST2",
+      "station": "12",
+      "size": "小件",
+      "sps": 210.4,
+      "sort_sps": 0.0,
+      "total": 210.4
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "ST1",
+      "station": "1",
+      "size": "大件",
+      "sps": 11.4,
+      "sort_sps": 0.0,
+      "total": 11.4
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "ST1",
+      "station": "1",
+      "size": "小件",
+      "sps": 251.4,
+      "sort_sps": 0.0,
+      "total": 251.4
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "ST1",
+      "station": "2",
+      "size": "小件",
+      "sps": 358.0,
+      "sort_sps": 0.0,
+      "total": 358.0
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "ST1",
+      "station": "3",
+      "size": "小件",
+      "sps": 357.0,
+      "sort_sps": 0.0,
+      "total": 357.0
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "ST1",
+      "station": "4",
+      "size": "小件",
+      "sps": 344.7,
+      "sort_sps": 0.0,
+      "total": 344.7
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "ST1",
+      "station": "5",
+      "size": "小件",
+      "sps": 384.6,
+      "sort_sps": 0.0,
+      "total": 384.6
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "ST1",
+      "station": "6",
+      "size": "大件",
+      "sps": 125.9,
+      "sort_sps": 0.0,
+      "total": 125.9
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "ST1",
+      "station": "7",
+      "size": "大件",
+      "sps": 131.6,
+      "sort_sps": 60.0,
+      "total": 191.6
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "ST1",
+      "station": "8",
+      "size": "大件",
+      "sps": 62.9,
+      "sort_sps": 60.0,
+      "total": 122.9
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "ST1",
+      "station": "9",
+      "size": "大件",
+      "sps": 18.9,
+      "sort_sps": 0.0,
+      "total": 18.9
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "ST1",
+      "station": "9",
+      "size": "小件",
+      "sps": 340.0,
+      "sort_sps": 0.0,
+      "total": 340.0
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "ST1",
+      "station": "10",
+      "size": "小件",
+      "sps": 380.1,
+      "sort_sps": 0.0,
+      "total": 380.1
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "ST1",
+      "station": "11",
+      "size": "大件",
+      "sps": 0.0,
+      "sort_sps": 60.0,
+      "total": 60.0
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "ST1",
+      "station": "11",
+      "size": "小件",
+      "sps": 251.0,
+      "sort_sps": 0.0,
+      "total": 251.0
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "SW1",
+      "station": "1",
+      "size": "大件",
+      "sps": 6.6,
+      "sort_sps": 0.0,
+      "total": 6.6
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "SW1",
+      "station": "1",
+      "size": "小件",
+      "sps": 112.4,
+      "sort_sps": 0.0,
+      "total": 112.4
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "SW1",
+      "station": "2",
+      "size": "大件",
+      "sps": 29.4,
+      "sort_sps": 0.0,
+      "total": 29.4
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "SW1",
+      "station": "2",
+      "size": "小件",
+      "sps": 110.9,
+      "sort_sps": 0.0,
+      "total": 110.9
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "SW1",
+      "station": "3",
+      "size": "大件",
+      "sps": 13.9,
+      "sort_sps": 60.0,
+      "total": 73.9
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "SW1",
+      "station": "3",
+      "size": "小件",
+      "sps": 132.1,
+      "sort_sps": 0.0,
+      "total": 132.1
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "SW1",
+      "station": "4",
+      "size": "大件",
+      "sps": 19.0,
+      "sort_sps": 60.0,
+      "total": 79.0
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "SW1",
+      "station": "4",
+      "size": "小件",
+      "sps": 168.4,
+      "sort_sps": 0.0,
+      "total": 168.4
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "SW1",
+      "station": "5",
+      "size": "大件",
+      "sps": 54.9,
+      "sort_sps": 0.0,
+      "total": 54.9
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "SW1",
+      "station": "5",
+      "size": "小件",
+      "sps": 276.1,
+      "sort_sps": 0.0,
+      "total": 276.1
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "SW1",
+      "station": "6",
+      "size": "大件",
+      "sps": 41.3,
+      "sort_sps": 60.0,
+      "total": 101.3
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "SW1",
+      "station": "6",
+      "size": "小件",
+      "sps": 155.6,
+      "sort_sps": 0.0,
+      "total": 155.6
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "SW1",
+      "station": "7",
+      "size": "大件",
+      "sps": 45.1,
+      "sort_sps": 0.0,
+      "total": 45.1
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "SW1",
+      "station": "7",
+      "size": "小件",
+      "sps": 298.1,
+      "sort_sps": 0.0,
+      "total": 298.1
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "SW1",
+      "station": "8",
+      "size": "大件",
+      "sps": 27.4,
+      "sort_sps": 50.0,
+      "total": 77.4
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "SW1",
+      "station": "8",
+      "size": "小件",
+      "sps": 216.9,
+      "sort_sps": 0.0,
+      "total": 216.9
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "SIP",
+      "station": "1",
+      "size": "小件",
+      "sps": 109.3,
+      "sort_sps": 0.0,
+      "total": 109.3
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "SIP",
+      "station": "2",
+      "size": "大件",
+      "sps": 18.9,
+      "sort_sps": 0.0,
+      "total": 18.9
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "SIP",
+      "station": "2",
+      "size": "小件",
+      "sps": 156.1,
+      "sort_sps": 120.0,
+      "total": 276.1
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "SIP",
+      "station": "3L",
+      "size": "大件",
+      "sps": 0.0,
+      "sort_sps": 60.0,
+      "total": 60.0
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "SIP",
+      "station": "3L",
+      "size": "小件",
+      "sps": 188.6,
+      "sort_sps": 0.0,
+      "total": 188.6
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "SIP",
+      "station": "3R",
+      "size": "大件",
+      "sps": 22.3,
+      "sort_sps": 60.0,
+      "total": 82.3
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "SIP",
+      "station": "3R",
+      "size": "小件",
+      "sps": 130.0,
+      "sort_sps": 0.0,
+      "total": 130.0
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "SIP",
+      "station": "4L",
+      "size": "小件",
+      "sps": 164.9,
+      "sort_sps": 0.0,
+      "total": 164.9
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "SIP",
+      "station": "4R",
+      "size": "大件",
+      "sps": 27.4,
+      "sort_sps": 60.0,
+      "total": 87.4
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "SIP",
+      "station": "4R",
+      "size": "小件",
+      "sps": 178.9,
+      "sort_sps": 0.0,
+      "total": 178.9
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "SE1",
+      "station": "1",
+      "size": "大件",
+      "sps": 11.4,
+      "sort_sps": 0.0,
+      "total": 11.4
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "SE1",
+      "station": "1",
+      "size": "小件",
+      "sps": 156.7,
+      "sort_sps": 0.0,
+      "total": 156.7
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "SE1",
+      "station": "2",
+      "size": "大件",
+      "sps": 24.9,
+      "sort_sps": 0.0,
+      "total": 24.9
+    },
+    {
+      "shift": "2026-08-04_夜",
+      "area": "SE1",
+      "station": "2",
+      "size": "小件",
+      "sps": 194.7,
+      "sort_sps": 0.0,
+      "total": 194.7
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "SD1",
+      "station": "1L",
+      "size": "大件",
+      "sps": 0.0,
+      "sort_sps": 120.0,
+      "total": 120.0
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "SD1",
+      "station": "1L",
+      "size": "小件",
+      "sps": 147.7,
+      "sort_sps": 0.0,
+      "total": 147.7
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "SD1",
+      "station": "1R",
+      "size": "大件",
+      "sps": 0.0,
+      "sort_sps": 120.0,
+      "total": 120.0
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "SD1",
+      "station": "1R",
+      "size": "小件",
+      "sps": 144.6,
+      "sort_sps": 0.0,
+      "total": 144.6
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "SD1",
+      "station": "2L",
+      "size": "大件",
+      "sps": 49.7,
+      "sort_sps": 0.0,
+      "total": 49.7
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "SD1",
+      "station": "2L",
+      "size": "小件",
+      "sps": 292.4,
+      "sort_sps": 0.0,
+      "total": 292.4
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "SD1",
+      "station": "2R",
+      "size": "小件",
+      "sps": 320.6,
+      "sort_sps": 0.0,
+      "total": 320.6
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "SD1",
+      "station": "3L",
+      "size": "大件",
+      "sps": 49.7,
+      "sort_sps": 0.0,
+      "total": 49.7
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "SD1",
+      "station": "3L",
+      "size": "小件",
+      "sps": 262.6,
+      "sort_sps": 0.0,
+      "total": 262.6
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "SD1",
+      "station": "3R",
+      "size": "小件",
+      "sps": 279.6,
+      "sort_sps": 0.0,
+      "total": 279.6
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "SD1",
+      "station": "4L",
+      "size": "大件",
+      "sps": 44.6,
+      "sort_sps": 0.0,
+      "total": 44.6
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "SD1",
+      "station": "4L",
+      "size": "小件",
+      "sps": 293.9,
+      "sort_sps": 0.0,
+      "total": 293.9
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "SD1",
+      "station": "4R",
+      "size": "大件",
+      "sps": 44.6,
+      "sort_sps": 0.0,
+      "total": 44.6
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "SD1",
+      "station": "4R",
+      "size": "小件",
+      "sps": 273.0,
+      "sort_sps": 0.0,
+      "total": 273.0
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "SD1",
+      "station": "5L",
+      "size": "大件",
+      "sps": 44.6,
+      "sort_sps": 0.0,
+      "total": 44.6
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "SD1",
+      "station": "5L",
+      "size": "小件",
+      "sps": 335.4,
+      "sort_sps": 0.0,
+      "total": 335.4
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "SD1",
+      "station": "5R",
+      "size": "大件",
+      "sps": 44.6,
+      "sort_sps": 0.0,
+      "total": 44.6
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "SD1",
+      "station": "5R",
+      "size": "小件",
+      "sps": 297.1,
+      "sort_sps": 0.0,
+      "total": 297.1
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "SD1",
+      "station": "6L",
+      "size": "大件",
+      "sps": 28.3,
+      "sort_sps": 180.0,
+      "total": 208.3
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "SD1",
+      "station": "6L",
+      "size": "小件",
+      "sps": 76.1,
+      "sort_sps": 0.0,
+      "total": 76.1
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "SD1",
+      "station": "6R",
+      "size": "大件",
+      "sps": 28.3,
+      "sort_sps": 180.0,
+      "total": 208.3
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "SD1",
+      "station": "6R",
+      "size": "小件",
+      "sps": 72.9,
+      "sort_sps": 0.0,
+      "total": 72.9
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "SD1",
+      "station": "7L",
+      "size": "小件",
+      "sps": 298.1,
+      "sort_sps": 0.0,
+      "total": 298.1
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "SD1",
+      "station": "7R",
+      "size": "大件",
+      "sps": 79.4,
+      "sort_sps": 0.0,
+      "total": 79.4
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "SD1",
+      "station": "7R",
+      "size": "小件",
+      "sps": 266.4,
+      "sort_sps": 0.0,
+      "total": 266.4
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "SD1",
+      "station": "8L",
+      "size": "大件",
+      "sps": 42.3,
+      "sort_sps": 0.0,
+      "total": 42.3
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "SD1",
+      "station": "8L",
+      "size": "小件",
+      "sps": 302.9,
+      "sort_sps": 0.0,
+      "total": 302.9
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "SD1",
+      "station": "8R",
+      "size": "大件",
+      "sps": 22.9,
+      "sort_sps": 0.0,
+      "total": 22.9
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "SD1",
+      "station": "8R",
+      "size": "小件",
+      "sps": 322.3,
+      "sort_sps": 0.0,
+      "total": 322.3
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "ST2",
+      "station": "1L",
+      "size": "大件",
+      "sps": 38.9,
+      "sort_sps": 60.0,
+      "total": 98.9
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "ST2",
+      "station": "1L",
+      "size": "小件",
+      "sps": 134.7,
+      "sort_sps": 0.0,
+      "total": 134.7
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "ST2",
+      "station": "1R",
+      "size": "大件",
+      "sps": 0.3,
+      "sort_sps": 0.0,
+      "total": 0.3
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "ST2",
+      "station": "1R",
+      "size": "小件",
+      "sps": 223.6,
+      "sort_sps": 0.0,
+      "total": 223.6
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "ST2",
+      "station": "2",
+      "size": "大件",
+      "sps": 34.9,
+      "sort_sps": 60.0,
+      "total": 94.9
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "ST2",
+      "station": "2",
+      "size": "小件",
+      "sps": 116.7,
+      "sort_sps": 0.0,
+      "total": 116.7
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "ST2",
+      "station": "3",
+      "size": "大件",
+      "sps": 37.3,
+      "sort_sps": 50.0,
+      "total": 87.3
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "ST2",
+      "station": "3",
+      "size": "小件",
+      "sps": 59.9,
+      "sort_sps": 0.0,
+      "total": 59.9
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "ST2",
+      "station": "4",
+      "size": "大件",
+      "sps": 76.3,
+      "sort_sps": 60.0,
+      "total": 136.3
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "ST2",
+      "station": "4",
+      "size": "小件",
+      "sps": 121.7,
+      "sort_sps": 0.0,
+      "total": 121.7
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "ST2",
+      "station": "5",
+      "size": "大件",
+      "sps": 19.4,
+      "sort_sps": 60.0,
+      "total": 79.4
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "ST2",
+      "station": "5",
+      "size": "小件",
+      "sps": 160.4,
+      "sort_sps": 0.0,
+      "total": 160.4
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "ST2",
+      "station": "6",
+      "size": "大件",
+      "sps": 42.9,
+      "sort_sps": 70.0,
+      "total": 112.9
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "ST2",
+      "station": "6",
+      "size": "小件",
+      "sps": 183.1,
+      "sort_sps": 0.0,
+      "total": 183.1
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "ST2",
+      "station": "7",
+      "size": "大件",
+      "sps": 26.7,
+      "sort_sps": 50.0,
+      "total": 76.7
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "ST2",
+      "station": "7",
+      "size": "小件",
+      "sps": 175.7,
+      "sort_sps": 0.0,
+      "total": 175.7
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "ST2",
+      "station": "8",
+      "size": "大件",
+      "sps": 22.1,
+      "sort_sps": 0.0,
+      "total": 22.1
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "ST2",
+      "station": "8",
+      "size": "小件",
+      "sps": 153.1,
+      "sort_sps": 0.0,
+      "total": 153.1
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "ST2",
+      "station": "9",
+      "size": "大件",
+      "sps": 36.7,
+      "sort_sps": 0.0,
+      "total": 36.7
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "ST2",
+      "station": "9",
+      "size": "小件",
+      "sps": 226.3,
+      "sort_sps": 0.0,
+      "total": 226.3
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "ST2",
+      "station": "10",
+      "size": "大件",
+      "sps": 0.3,
+      "sort_sps": 0.0,
+      "total": 0.3
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "ST2",
+      "station": "10",
+      "size": "小件",
+      "sps": 241.3,
+      "sort_sps": 0.0,
+      "total": 241.3
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "ST2",
+      "station": "11",
+      "size": "大件",
+      "sps": 24.9,
+      "sort_sps": 0.0,
+      "total": 24.9
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "ST2",
+      "station": "11",
+      "size": "小件",
+      "sps": 226.0,
+      "sort_sps": 0.0,
+      "total": 226.0
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "ST2",
+      "station": "12",
+      "size": "大件",
+      "sps": 19.4,
+      "sort_sps": 0.0,
+      "total": 19.4
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "ST2",
+      "station": "12",
+      "size": "小件",
+      "sps": 210.7,
+      "sort_sps": 0.0,
+      "total": 210.7
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "ST1",
+      "station": "1",
+      "size": "大件",
+      "sps": 38.7,
+      "sort_sps": 0.0,
+      "total": 38.7
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "ST1",
+      "station": "1",
+      "size": "小件",
+      "sps": 241.9,
+      "sort_sps": 0.0,
+      "total": 241.9
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "ST1",
+      "station": "2",
+      "size": "小件",
+      "sps": 402.0,
+      "sort_sps": 0.0,
+      "total": 402.0
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "ST1",
+      "station": "3",
+      "size": "小件",
+      "sps": 432.6,
+      "sort_sps": 0.0,
+      "total": 432.6
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "ST1",
+      "station": "4",
+      "size": "小件",
+      "sps": 406.3,
+      "sort_sps": 0.0,
+      "total": 406.3
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "ST1",
+      "station": "5",
+      "size": "小件",
+      "sps": 396.3,
+      "sort_sps": 0.0,
+      "total": 396.3
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "ST1",
+      "station": "6",
+      "size": "大件",
+      "sps": 129.4,
+      "sort_sps": 0.0,
+      "total": 129.4
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "ST1",
+      "station": "6",
+      "size": "小件",
+      "sps": 0.4,
+      "sort_sps": 0.0,
+      "total": 0.4
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "ST1",
+      "station": "7",
+      "size": "大件",
+      "sps": 144.0,
+      "sort_sps": 60.0,
+      "total": 204.0
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "ST1",
+      "station": "8",
+      "size": "大件",
+      "sps": 92.0,
+      "sort_sps": 60.0,
+      "total": 152.0
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "ST1",
+      "station": "9",
+      "size": "大件",
+      "sps": 26.4,
+      "sort_sps": 0.0,
+      "total": 26.4
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "ST1",
+      "station": "9",
+      "size": "小件",
+      "sps": 337.7,
+      "sort_sps": 0.0,
+      "total": 337.7
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "ST1",
+      "station": "10",
+      "size": "小件",
+      "sps": 416.0,
+      "sort_sps": 0.0,
+      "total": 416.0
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "ST1",
+      "station": "11",
+      "size": "大件",
+      "sps": 0.0,
+      "sort_sps": 60.0,
+      "total": 60.0
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "ST1",
+      "station": "11",
+      "size": "小件",
+      "sps": 278.0,
+      "sort_sps": 0.0,
+      "total": 278.0
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "SW1",
+      "station": "1",
+      "size": "大件",
+      "sps": 3.9,
+      "sort_sps": 0.0,
+      "total": 3.9
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "SW1",
+      "station": "1",
+      "size": "小件",
+      "sps": 237.3,
+      "sort_sps": 0.0,
+      "total": 237.3
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "SW1",
+      "station": "2",
+      "size": "大件",
+      "sps": 81.4,
+      "sort_sps": 0.0,
+      "total": 81.4
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "SW1",
+      "station": "2",
+      "size": "小件",
+      "sps": 113.7,
+      "sort_sps": 0.0,
+      "total": 113.7
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "SW1",
+      "station": "3",
+      "size": "大件",
+      "sps": 15.3,
+      "sort_sps": 60.0,
+      "total": 75.3
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "SW1",
+      "station": "3",
+      "size": "小件",
+      "sps": 109.1,
+      "sort_sps": 0.0,
+      "total": 109.1
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "SW1",
+      "station": "4",
+      "size": "大件",
+      "sps": 15.0,
+      "sort_sps": 60.0,
+      "total": 75.0
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "SW1",
+      "station": "4",
+      "size": "小件",
+      "sps": 143.7,
+      "sort_sps": 0.0,
+      "total": 143.7
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "SW1",
+      "station": "5",
+      "size": "大件",
+      "sps": 42.9,
+      "sort_sps": 0.0,
+      "total": 42.9
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "SW1",
+      "station": "5",
+      "size": "小件",
+      "sps": 331.0,
+      "sort_sps": 0.0,
+      "total": 331.0
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "SW1",
+      "station": "6",
+      "size": "大件",
+      "sps": 36.4,
+      "sort_sps": 60.0,
+      "total": 96.4
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "SW1",
+      "station": "6",
+      "size": "小件",
+      "sps": 197.6,
+      "sort_sps": 0.0,
+      "total": 197.6
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "SW1",
+      "station": "7",
+      "size": "大件",
+      "sps": 36.4,
+      "sort_sps": 0.0,
+      "total": 36.4
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "SW1",
+      "station": "7",
+      "size": "小件",
+      "sps": 306.7,
+      "sort_sps": 0.0,
+      "total": 306.7
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "SW1",
+      "station": "8",
+      "size": "大件",
+      "sps": 21.4,
+      "sort_sps": 50.0,
+      "total": 71.4
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "SW1",
+      "station": "8",
+      "size": "小件",
+      "sps": 203.9,
+      "sort_sps": 0.0,
+      "total": 203.9
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "SIP",
+      "station": "1",
+      "size": "小件",
+      "sps": 105.6,
+      "sort_sps": 0.0,
+      "total": 105.6
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "SIP",
+      "station": "2",
+      "size": "大件",
+      "sps": 15.6,
+      "sort_sps": 0.0,
+      "total": 15.6
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "SIP",
+      "station": "2",
+      "size": "小件",
+      "sps": 164.6,
+      "sort_sps": 120.0,
+      "total": 284.6
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "SIP",
+      "station": "3L",
+      "size": "大件",
+      "sps": 0.0,
+      "sort_sps": 60.0,
+      "total": 60.0
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "SIP",
+      "station": "3L",
+      "size": "小件",
+      "sps": 174.0,
+      "sort_sps": 0.0,
+      "total": 174.0
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "SIP",
+      "station": "3R",
+      "size": "大件",
+      "sps": 31.7,
+      "sort_sps": 60.0,
+      "total": 91.7
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "SIP",
+      "station": "3R",
+      "size": "小件",
+      "sps": 185.9,
+      "sort_sps": 0.0,
+      "total": 185.9
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "SIP",
+      "station": "4L",
+      "size": "小件",
+      "sps": 258.7,
+      "sort_sps": 0.0,
+      "total": 258.7
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "SIP",
+      "station": "4R",
+      "size": "大件",
+      "sps": 21.4,
+      "sort_sps": 60.0,
+      "total": 81.4
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "SIP",
+      "station": "4R",
+      "size": "小件",
+      "sps": 102.3,
+      "sort_sps": 0.0,
+      "total": 102.3
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "SE1",
+      "station": "1",
+      "size": "大件",
+      "sps": 39.1,
+      "sort_sps": 0.0,
+      "total": 39.1
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "SE1",
+      "station": "1",
+      "size": "小件",
+      "sps": 242.0,
+      "sort_sps": 0.0,
+      "total": 242.0
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "SE1",
+      "station": "2",
+      "size": "大件",
+      "sps": 10.9,
+      "sort_sps": 0.0,
+      "total": 10.9
+    },
+    {
+      "shift": "2026-08-05_白",
+      "area": "SE1",
+      "station": "2",
+      "size": "小件",
+      "sps": 198.0,
+      "sort_sps": 0.0,
+      "total": 198.0
+    }
+  ],
+  "renxiao": [
+    {
+      "area": "SD1",
+      "配料": 4849.5,
+      "人数": 16,
+      "人效": 303.1
+    },
+    {
+      "area": "ST2",
+      "配料": 2849.2,
+      "人数": 13,
+      "人效": 219.2
+    },
+    {
+      "area": "ST1",
+      "配料": 3363.4,
+      "人数": 11,
+      "人效": 305.8
+    },
+    {
+      "area": "SW1",
+      "配料": 2076.9,
+      "人数": 8,
+      "人效": 259.6
+    },
+    {
+      "area": "SIP",
+      "配料": 1434.1,
+      "人数": 6,
+      "人效": 239.0
+    },
+    {
+      "area": "SE1",
+      "配料": 478.5,
+      "人数": 2,
+      "人效": 239.2
+    },
+    {
+      "area": "汇总",
+      "配料": 15051.6,
+      "人数": 56,
+      "人效": 268.8
+    }
+  ]
+}
