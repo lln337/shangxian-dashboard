@@ -52,6 +52,13 @@ function switchMainTab(tab) {
             });
         }
     }
+    if (tab === 'peiliao') {
+        if (typeof dataLoader !== 'undefined') {
+            dataLoader.loadPeiliaoData().then(function(data) {
+                if (typeof renderPeiliaoTab === 'function') renderPeiliaoTab();
+            });
+        }
+    }
 }
 
 
