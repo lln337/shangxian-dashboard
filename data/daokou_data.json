@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-04 08:57:35",
+  "generated_at": "2026-08-04 09:22:18",
   "current_month": {
     "month": "2026-08",
-    "total": 3330,
-    "timeout": 468,
-    "rate": 14.05,
+    "total": 44,
+    "timeout": 11,
+    "rate": 25.0,
     "is_complete": false,
-    "delta": 11.34,
+    "delta": 20.87,
     "trend": "up"
   },
   "monthly_trend": [
@@ -42,9 +42,9 @@
     },
     {
       "month": "2026-06",
-      "total": 4577,
-      "timeout": 124,
-      "rate": 2.71
+      "total": 4211,
+      "timeout": 174,
+      "rate": 4.13
     },
     {
       "month": "2026-07",
@@ -54,135 +54,135 @@
     },
     {
       "month": "2026-08",
-      "total": 3330,
-      "timeout": 468,
-      "rate": 14.05
+      "total": 44,
+      "timeout": 11,
+      "rate": 25.0
     }
   ],
   "weekly_trend": [
     {
       "week": "2026-W24",
-      "total": 1301,
-      "timeout": 29,
-      "rate": 2.23,
+      "total": 1288,
+      "timeout": 51,
+      "rate": 3.96,
       "incomplete": false
     },
     {
       "week": "2026-W25",
-      "total": 1190,
-      "timeout": 29,
-      "rate": 2.44,
+      "total": 1119,
+      "timeout": 35,
+      "rate": 3.13,
       "incomplete": false
     },
     {
       "week": "2026-W26",
-      "total": 1514,
-      "timeout": 49,
-      "rate": 3.24,
+      "total": 1403,
+      "timeout": 68,
+      "rate": 4.85,
       "incomplete": false
     },
     {
       "week": "2026-W27",
-      "total": 1908,
-      "timeout": 131,
-      "rate": 6.87,
+      "total": 1228,
+      "timeout": 89,
+      "rate": 7.25,
       "incomplete": false
     },
     {
       "week": "2026-W28",
-      "total": 1868,
-      "timeout": 170,
-      "rate": 9.1,
+      "total": 1050,
+      "timeout": 91,
+      "rate": 8.67,
       "incomplete": false
     },
     {
       "week": "2026-W29",
-      "total": 1325,
-      "timeout": 150,
-      "rate": 11.32,
+      "total": 882,
+      "timeout": 98,
+      "rate": 11.11,
       "incomplete": false
     },
     {
       "week": "2026-W30",
-      "total": 2486,
-      "timeout": 531,
-      "rate": 21.36,
+      "total": 1347,
+      "timeout": 287,
+      "rate": 21.31,
       "incomplete": false
     },
     {
       "week": "2026-W31",
-      "total": 1080,
-      "timeout": 208,
-      "rate": 19.26,
+      "total": 845,
+      "timeout": 170,
+      "rate": 20.12,
       "incomplete": false
     }
   ],
   "daily_trend": [
     {
       "date": "2026-07-02",
-      "total": 234,
-      "timeout": 27,
-      "rate": 11.54
+      "total": 215,
+      "timeout": 23,
+      "rate": 10.7
     },
     {
       "date": "2026-07-03",
-      "total": 410,
-      "timeout": 26,
+      "total": 205,
+      "timeout": 13,
       "rate": 6.34
     },
     {
       "date": "2026-07-04",
-      "total": 442,
-      "timeout": 24,
+      "total": 221,
+      "timeout": 12,
       "rate": 5.43
     },
     {
       "date": "2026-07-05",
-      "total": 412,
-      "timeout": 30,
+      "total": 206,
+      "timeout": 15,
       "rate": 7.28
     },
     {
       "date": "2026-07-06",
-      "total": 368,
-      "timeout": 22,
-      "rate": 5.98
+      "total": 188,
+      "timeout": 11,
+      "rate": 5.85
     },
     {
       "date": "2026-07-07",
-      "total": 223,
-      "timeout": 18,
-      "rate": 8.07
+      "total": 214,
+      "timeout": 15,
+      "rate": 7.01
     },
     {
       "date": "2026-07-08",
-      "total": 82,
-      "timeout": 6,
+      "total": 41,
+      "timeout": 3,
       "rate": 7.32
     },
     {
       "date": "2026-07-09",
-      "total": 2,
+      "total": 1,
       "timeout": 0,
       "rate": 0.0
     },
     {
       "date": "2026-07-10",
-      "total": 266,
-      "timeout": 20,
+      "total": 133,
+      "timeout": 10,
       "rate": 7.52
     },
     {
       "date": "2026-07-11",
-      "total": 502,
-      "timeout": 62,
+      "total": 251,
+      "timeout": 31,
       "rate": 12.35
     },
     {
       "date": "2026-07-12",
-      "total": 425,
-      "timeout": 42,
-      "rate": 9.88
+      "total": 222,
+      "timeout": 21,
+      "rate": 9.46
     },
     {
       "date": "2026-07-13",
@@ -192,99 +192,99 @@
     },
     {
       "date": "2026-07-14",
-      "total": 229,
-      "timeout": 27,
-      "rate": 11.79
+      "total": 217,
+      "timeout": 24,
+      "rate": 11.06
     },
     {
       "date": "2026-07-15",
-      "total": 118,
-      "timeout": 2,
+      "total": 59,
+      "timeout": 1,
       "rate": 1.69
     },
     {
       "date": "2026-07-16",
-      "total": 228,
-      "timeout": 40,
+      "total": 114,
+      "timeout": 20,
       "rate": 17.54
     },
     {
       "date": "2026-07-17",
-      "total": 44,
-      "timeout": 6,
+      "total": 22,
+      "timeout": 3,
       "rate": 13.64
     },
     {
       "date": "2026-07-18",
-      "total": 454,
-      "timeout": 50,
+      "total": 227,
+      "timeout": 25,
       "rate": 11.01
     },
     {
       "date": "2026-07-19",
-      "total": 49,
+      "total": 40,
       "timeout": 3,
-      "rate": 6.12
+      "rate": 7.5
     },
     {
       "date": "2026-07-20",
-      "total": 249,
-      "timeout": 45,
-      "rate": 18.07
+      "total": 220,
+      "timeout": 42,
+      "rate": 19.09
     },
     {
       "date": "2026-07-21",
-      "total": 468,
-      "timeout": 98,
+      "total": 234,
+      "timeout": 49,
       "rate": 20.94
     },
     {
       "date": "2026-07-22",
-      "total": 430,
-      "timeout": 112,
+      "total": 215,
+      "timeout": 56,
       "rate": 26.05
     },
     {
       "date": "2026-07-23",
-      "total": 440,
-      "timeout": 104,
+      "total": 220,
+      "timeout": 52,
       "rate": 23.64
     },
     {
       "date": "2026-07-24",
-      "total": 336,
-      "timeout": 58,
+      "total": 168,
+      "timeout": 29,
       "rate": 17.26
     },
     {
       "date": "2026-07-25",
-      "total": 132,
-      "timeout": 34,
+      "total": 66,
+      "timeout": 17,
       "rate": 25.76
     },
     {
       "date": "2026-07-26",
-      "total": 431,
-      "timeout": 80,
-      "rate": 18.56
+      "total": 224,
+      "timeout": 42,
+      "rate": 18.75
     },
     {
       "date": "2026-07-27",
-      "total": 229,
+      "total": 219,
       "timeout": 39,
-      "rate": 17.03
+      "rate": 17.81
     },
     {
       "date": "2026-07-28",
-      "total": 58,
-      "timeout": 10,
+      "total": 29,
+      "timeout": 5,
       "rate": 17.24
     },
     {
       "date": "2026-07-29",
-      "total": 412,
-      "timeout": 68,
-      "rate": 16.5
+      "total": 216,
+      "timeout": 35,
+      "rate": 16.2
     },
     {
       "date": "2026-07-30",
@@ -301,50 +301,38 @@
   ],
   "berth_rank": [
     {
-      "berth": "GS15",
-      "total": 848,
-      "timeout": 189,
-      "rate": 22.29
-    },
-    {
       "berth": "GS13",
-      "total": 374,
-      "timeout": 78,
-      "rate": 20.86
-    },
-    {
-      "berth": "GS22",
-      "total": 786,
-      "timeout": 132,
-      "rate": 16.79
+      "total": 4,
+      "timeout": 3,
+      "rate": 75.0
     },
     {
       "berth": "GS18",
-      "total": 231,
-      "timeout": 33,
-      "rate": 14.29
+      "total": 4,
+      "timeout": 2,
+      "rate": 50.0
+    },
+    {
+      "berth": "GS22",
+      "total": 7,
+      "timeout": 3,
+      "rate": 42.86
+    },
+    {
+      "berth": "GS15",
+      "total": 13,
+      "timeout": 3,
+      "rate": 23.08
     },
     {
       "berth": "GS04",
-      "total": 526,
-      "timeout": 33,
-      "rate": 6.27
-    },
-    {
-      "berth": "GS12",
-      "total": 122,
-      "timeout": 3,
-      "rate": 2.46
-    },
-    {
-      "berth": "GS03",
-      "total": 11,
+      "total": 9,
       "timeout": 0,
       "rate": 0.0
     },
     {
       "berth": "GS16",
-      "total": 432,
+      "total": 7,
       "timeout": 0,
       "rate": 0.0
     }
