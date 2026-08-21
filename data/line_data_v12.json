@@ -1,6 +1,6 @@
 {
   "takt_time": 60,
-  "update_time": "2026-08-20 12:06",
+  "update_time": "2026-08-21 12:09",
   "big": {
     "shifts": [
       "08-18白",
@@ -785,14 +785,14 @@
           },
           {
             "shift_name": "08-21夜",
-            "flow": 11.15,
-            "saturation": 74.3,
+            "flow": 11.58,
+            "saturation": 77.2,
             "prod_time": 12.0
           },
           {
             "shift_name": "08-22白",
-            "flow": 11.97,
-            "saturation": 79.8,
+            "flow": 12.27,
+            "saturation": 81.8,
             "prod_time": 8.5
           }
         ]
@@ -1306,8 +1306,8 @@
           },
           {
             "shift_name": "08-19白",
-            "flow": 7.26,
-            "saturation": 72.6,
+            "flow": 7.28,
+            "saturation": 72.8,
             "prod_time": 9.0
           },
           {
@@ -2244,8 +2244,8 @@
           },
           {
             "shift_name": "08-19白",
-            "flow": 52.9,
-            "saturation": 88.2,
+            "flow": 52.88,
+            "saturation": 88.1,
             "prod_time": 9.0
           },
           {
