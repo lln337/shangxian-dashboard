@@ -293,7 +293,8 @@ function renderFlowTables() {
         }
         html += '</tbody></table>';
 
-        wrapper.innerHTML = html;
+        // 包进 .table-container 使其横向滚动（移动端不再撑破页面）
+        wrapper.innerHTML = '<div class="table-container">' + html + '</div>';
         wrapper.style.display = (type === currentFlowSubTab) ? '' : 'none';
     });
 }
