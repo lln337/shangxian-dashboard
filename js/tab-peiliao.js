@@ -27,6 +27,10 @@ function renderPeiliaoTab() {
     var container = document.getElementById('peiliao-content');
     if (!container) return;
 
+    // 数据更新时间（每日自动更新时写入 peiliao_data.json.update_time）
+    peiliaoSetText('peiliao-update-time',
+        '数据更新时间：' + (data && data.update_time ? data.update_time : '未知'));
+
     if (!data || !data.areas || data.areas.length === 0) {
         showPeiliaoEmpty();
         return;
