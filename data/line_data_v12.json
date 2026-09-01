@@ -1,17 +1,17 @@
 {
   "takt_time": 60,
-  "update_time": "2026-08-30 12:06",
+  "update_time": "2026-09-01 12:26",
   "big": {
     "shifts": [
-      "08-30白",
-      "08-30夜",
       "08-31白",
       "08-31夜",
       "09-01白",
       "09-01夜",
-      "09-02白"
+      "09-02白",
+      "09-02夜",
+      "09-03白"
     ],
-    "date_range": "2026-08-30 ~ 2026-09-02",
+    "date_range": "2026-08-31 ~ 2026-09-03",
     "data": [
       {
         "team": "大件1",
@@ -19,21 +19,9 @@
         "std": 10.0,
         "shifts": [
           {
-            "shift_name": "08-30白",
-            "flow": 6.57,
-            "saturation": 65.7,
-            "prod_time": 10.5
-          },
-          {
-            "shift_name": "08-30夜",
-            "flow": 4.51,
-            "saturation": 45.1,
-            "prod_time": 9.5
-          },
-          {
             "shift_name": "08-31白",
-            "flow": 3.77,
-            "saturation": 37.7,
+            "flow": 3.91,
+            "saturation": 39.1,
             "prod_time": 9.5
           },
           {
@@ -59,6 +47,18 @@
             "flow": 4.86,
             "saturation": 48.6,
             "prod_time": 8.5
+          },
+          {
+            "shift_name": "09-02夜",
+            "flow": 3.73,
+            "saturation": 37.3,
+            "prod_time": 7.5
+          },
+          {
+            "shift_name": "09-03白",
+            "flow": 5.39,
+            "saturation": 53.9,
+            "prod_time": 8.5
           }
         ]
       },
@@ -68,21 +68,9 @@
         "std": 10.0,
         "shifts": [
           {
-            "shift_name": "08-30白",
-            "flow": 7.4,
-            "saturation": 74.0,
-            "prod_time": 10.5
-          },
-          {
-            "shift_name": "08-30夜",
-            "flow": 8.78,
-            "saturation": 87.8,
-            "prod_time": 9.5
-          },
-          {
             "shift_name": "08-31白",
-            "flow": 8.72,
-            "saturation": 87.2,
+            "flow": 8.9,
+            "saturation": 89.0,
             "prod_time": 9.5
           },
           {
@@ -108,6 +96,18 @@
             "flow": 7.68,
             "saturation": 76.8,
             "prod_time": 8.5
+          },
+          {
+            "shift_name": "09-02夜",
+            "flow": 6.31,
+            "saturation": 63.1,
+            "prod_time": 7.5
+          },
+          {
+            "shift_name": "09-03白",
+            "flow": 6.36,
+            "saturation": 63.6,
+            "prod_time": 8.5
           }
         ]
       },
@@ -117,21 +117,9 @@
         "std": 10.0,
         "shifts": [
           {
-            "shift_name": "08-30白",
-            "flow": 5.27,
-            "saturation": 52.7,
-            "prod_time": 10.5
-          },
-          {
-            "shift_name": "08-30夜",
-            "flow": 4.74,
-            "saturation": 47.4,
-            "prod_time": 9.5
-          },
-          {
             "shift_name": "08-31白",
-            "flow": 4.27,
-            "saturation": 42.7,
+            "flow": 4.42,
+            "saturation": 44.2,
             "prod_time": 9.5
           },
           {
@@ -157,6 +145,18 @@
             "flow": 5.16,
             "saturation": 51.6,
             "prod_time": 8.5
+          },
+          {
+            "shift_name": "09-02夜",
+            "flow": 5.45,
+            "saturation": 54.5,
+            "prod_time": 7.5
+          },
+          {
+            "shift_name": "09-03白",
+            "flow": 4.48,
+            "saturation": 44.8,
+            "prod_time": 8.5
           }
         ]
       },
@@ -166,21 +166,9 @@
         "std": 10.0,
         "shifts": [
           {
-            "shift_name": "08-30白",
-            "flow": 9.36,
-            "saturation": 93.6,
-            "prod_time": 10.5
-          },
-          {
-            "shift_name": "08-30夜",
-            "flow": 11.71,
-            "saturation": 117.1,
-            "prod_time": 9.5
-          },
-          {
             "shift_name": "08-31白",
-            "flow": 17.16,
-            "saturation": 171.6,
+            "flow": 17.37,
+            "saturation": 173.7,
             "prod_time": 9.5
           },
           {
@@ -206,6 +194,18 @@
             "flow": 10.88,
             "saturation": 108.8,
             "prod_time": 8.5
+          },
+          {
+            "shift_name": "09-02夜",
+            "flow": 11.8,
+            "saturation": 118.0,
+            "prod_time": 7.5
+          },
+          {
+            "shift_name": "09-03白",
+            "flow": 5.36,
+            "saturation": 53.6,
+            "prod_time": 8.5
           }
         ]
       },
@@ -215,21 +215,9 @@
         "std": 10.0,
         "shifts": [
           {
-            "shift_name": "08-30白",
-            "flow": 4.84,
-            "saturation": 48.4,
-            "prod_time": 10.5
-          },
-          {
-            "shift_name": "08-30夜",
-            "flow": 4.91,
-            "saturation": 49.1,
-            "prod_time": 9.5
-          },
-          {
             "shift_name": "08-31白",
-            "flow": 5.48,
-            "saturation": 54.8,
+            "flow": 5.62,
+            "saturation": 56.2,
             "prod_time": 9.5
           },
           {
@@ -252,8 +240,20 @@
           },
           {
             "shift_name": "09-02白",
-            "flow": 6.36,
-            "saturation": 63.6,
+            "flow": 6.31,
+            "saturation": 63.1,
+            "prod_time": 8.5
+          },
+          {
+            "shift_name": "09-02夜",
+            "flow": 6.06,
+            "saturation": 60.6,
+            "prod_time": 7.5
+          },
+          {
+            "shift_name": "09-03白",
+            "flow": 5.43,
+            "saturation": 54.3,
             "prod_time": 8.5
           }
         ]
@@ -264,21 +264,9 @@
         "std": 10.0,
         "shifts": [
           {
-            "shift_name": "08-30白",
-            "flow": 2.55,
-            "saturation": 25.5,
-            "prod_time": 10.5
-          },
-          {
-            "shift_name": "08-30夜",
-            "flow": 2.5,
-            "saturation": 25.0,
-            "prod_time": 9.5
-          },
-          {
             "shift_name": "08-31白",
-            "flow": 2.54,
-            "saturation": 25.4,
+            "flow": 2.6,
+            "saturation": 26.0,
             "prod_time": 9.5
           },
           {
@@ -304,6 +292,18 @@
             "flow": 2.73,
             "saturation": 27.3,
             "prod_time": 8.5
+          },
+          {
+            "shift_name": "09-02夜",
+            "flow": 2.67,
+            "saturation": 26.7,
+            "prod_time": 7.5
+          },
+          {
+            "shift_name": "09-03白",
+            "flow": 2.36,
+            "saturation": 23.6,
+            "prod_time": 8.5
           }
         ]
       },
@@ -313,21 +313,9 @@
         "std": 10.0,
         "shifts": [
           {
-            "shift_name": "08-30白",
-            "flow": 5.75,
-            "saturation": 57.5,
-            "prod_time": 10.5
-          },
-          {
-            "shift_name": "08-30夜",
-            "flow": 4.71,
-            "saturation": 47.1,
-            "prod_time": 9.5
-          },
-          {
             "shift_name": "08-31白",
-            "flow": 4.38,
-            "saturation": 43.8,
+            "flow": 4.51,
+            "saturation": 45.1,
             "prod_time": 9.5
           },
           {
@@ -350,8 +338,20 @@
           },
           {
             "shift_name": "09-02白",
-            "flow": 5.01,
-            "saturation": 50.1,
+            "flow": 4.99,
+            "saturation": 49.9,
+            "prod_time": 8.5
+          },
+          {
+            "shift_name": "09-02夜",
+            "flow": 4.4,
+            "saturation": 44.0,
+            "prod_time": 7.5
+          },
+          {
+            "shift_name": "09-03白",
+            "flow": 5.05,
+            "saturation": 50.5,
             "prod_time": 8.5
           }
         ]
@@ -362,21 +362,9 @@
         "std": 10.0,
         "shifts": [
           {
-            "shift_name": "08-30白",
-            "flow": 5.81,
-            "saturation": 58.1,
-            "prod_time": 10.5
-          },
-          {
-            "shift_name": "08-30夜",
-            "flow": 5.83,
-            "saturation": 58.3,
-            "prod_time": 9.5
-          },
-          {
             "shift_name": "08-31白",
-            "flow": 6.05,
-            "saturation": 60.5,
+            "flow": 6.23,
+            "saturation": 62.3,
             "prod_time": 9.5
           },
           {
@@ -393,14 +381,26 @@
           },
           {
             "shift_name": "09-01夜",
-            "flow": 5.29,
-            "saturation": 52.9,
+            "flow": 5.24,
+            "saturation": 52.4,
             "prod_time": 9.5
           },
           {
             "shift_name": "09-02白",
-            "flow": 6.57,
-            "saturation": 65.7,
+            "flow": 6.49,
+            "saturation": 64.9,
+            "prod_time": 8.5
+          },
+          {
+            "shift_name": "09-02夜",
+            "flow": 5.97,
+            "saturation": 59.7,
+            "prod_time": 7.5
+          },
+          {
+            "shift_name": "09-03白",
+            "flow": 6.09,
+            "saturation": 60.9,
             "prod_time": 8.5
           }
         ]
@@ -411,21 +411,9 @@
         "std": 10.0,
         "shifts": [
           {
-            "shift_name": "08-30白",
-            "flow": 5.54,
-            "saturation": 55.4,
-            "prod_time": 10.5
-          },
-          {
-            "shift_name": "08-30夜",
-            "flow": 4.52,
-            "saturation": 45.2,
-            "prod_time": 9.5
-          },
-          {
             "shift_name": "08-31白",
-            "flow": 4.29,
-            "saturation": 42.9,
+            "flow": 4.43,
+            "saturation": 44.3,
             "prod_time": 9.5
           },
           {
@@ -451,6 +439,18 @@
             "flow": 5.07,
             "saturation": 50.7,
             "prod_time": 8.5
+          },
+          {
+            "shift_name": "09-02夜",
+            "flow": 4.57,
+            "saturation": 45.7,
+            "prod_time": 7.5
+          },
+          {
+            "shift_name": "09-03白",
+            "flow": 4.86,
+            "saturation": 48.6,
+            "prod_time": 8.5
           }
         ]
       },
@@ -460,21 +460,9 @@
         "std": 10.0,
         "shifts": [
           {
-            "shift_name": "08-30白",
-            "flow": 7.37,
-            "saturation": 73.7,
-            "prod_time": 10.5
-          },
-          {
-            "shift_name": "08-30夜",
-            "flow": 6.45,
-            "saturation": 64.5,
-            "prod_time": 9.5
-          },
-          {
             "shift_name": "08-31白",
-            "flow": 9.05,
-            "saturation": 90.5,
+            "flow": 9.2,
+            "saturation": 92.0,
             "prod_time": 9.5
           },
           {
@@ -500,6 +488,18 @@
             "flow": 8.9,
             "saturation": 89.0,
             "prod_time": 8.5
+          },
+          {
+            "shift_name": "09-02夜",
+            "flow": 8.14,
+            "saturation": 81.4,
+            "prod_time": 7.5
+          },
+          {
+            "shift_name": "09-03白",
+            "flow": 8.85,
+            "saturation": 88.5,
+            "prod_time": 8.5
           }
         ]
       },
@@ -509,21 +509,9 @@
         "std": 10.0,
         "shifts": [
           {
-            "shift_name": "08-30白",
-            "flow": 7.31,
-            "saturation": 73.1,
-            "prod_time": 10.5
-          },
-          {
-            "shift_name": "08-30夜",
-            "flow": 6.77,
-            "saturation": 67.7,
-            "prod_time": 9.5
-          },
-          {
             "shift_name": "08-31白",
-            "flow": 6.33,
-            "saturation": 63.3,
+            "flow": 6.5,
+            "saturation": 65.0,
             "prod_time": 9.5
           },
           {
@@ -549,6 +537,18 @@
             "flow": 7.06,
             "saturation": 70.6,
             "prod_time": 8.5
+          },
+          {
+            "shift_name": "09-02夜",
+            "flow": 5.99,
+            "saturation": 59.9,
+            "prod_time": 7.5
+          },
+          {
+            "shift_name": "09-03白",
+            "flow": 6.43,
+            "saturation": 64.3,
+            "prod_time": 8.5
           }
         ]
       },
@@ -558,21 +558,9 @@
         "std": 10.0,
         "shifts": [
           {
-            "shift_name": "08-30白",
-            "flow": 3.98,
-            "saturation": 39.8,
-            "prod_time": 10.5
-          },
-          {
-            "shift_name": "08-30夜",
-            "flow": 3.99,
-            "saturation": 39.9,
-            "prod_time": 9.5
-          },
-          {
             "shift_name": "08-31白",
-            "flow": 3.57,
-            "saturation": 35.7,
+            "flow": 3.69,
+            "saturation": 36.9,
             "prod_time": 9.5
           },
           {
@@ -598,6 +586,18 @@
             "flow": 4.14,
             "saturation": 41.4,
             "prod_time": 8.5
+          },
+          {
+            "shift_name": "09-02夜",
+            "flow": 3.37,
+            "saturation": 33.7,
+            "prod_time": 7.5
+          },
+          {
+            "shift_name": "09-03白",
+            "flow": 3.99,
+            "saturation": 39.9,
+            "prod_time": 8.5
           }
         ]
       },
@@ -607,21 +607,9 @@
         "std": 10.0,
         "shifts": [
           {
-            "shift_name": "08-30白",
-            "flow": 7.72,
-            "saturation": 77.2,
-            "prod_time": 10.5
-          },
-          {
-            "shift_name": "08-30夜",
-            "flow": 8.29,
-            "saturation": 82.9,
-            "prod_time": 9.5
-          },
-          {
             "shift_name": "08-31白",
-            "flow": 8.22,
-            "saturation": 82.2,
+            "flow": 8.41,
+            "saturation": 84.1,
             "prod_time": 9.5
           },
           {
@@ -647,6 +635,18 @@
             "flow": 9.28,
             "saturation": 92.8,
             "prod_time": 8.5
+          },
+          {
+            "shift_name": "09-02夜",
+            "flow": 8.91,
+            "saturation": 89.1,
+            "prod_time": 7.5
+          },
+          {
+            "shift_name": "09-03白",
+            "flow": 7.44,
+            "saturation": 74.4,
+            "prod_time": 8.5
           }
         ]
       },
@@ -656,21 +656,9 @@
         "std": 10.0,
         "shifts": [
           {
-            "shift_name": "08-30白",
-            "flow": 6.6,
-            "saturation": 66.0,
-            "prod_time": 10.5
-          },
-          {
-            "shift_name": "08-30夜",
-            "flow": 6.66,
-            "saturation": 66.6,
-            "prod_time": 9.5
-          },
-          {
             "shift_name": "08-31白",
-            "flow": 6.25,
-            "saturation": 62.5,
+            "flow": 6.42,
+            "saturation": 64.2,
             "prod_time": 9.5
           },
           {
@@ -696,6 +684,18 @@
             "flow": 7.24,
             "saturation": 72.4,
             "prod_time": 8.5
+          },
+          {
+            "shift_name": "09-02夜",
+            "flow": 7.25,
+            "saturation": 72.5,
+            "prod_time": 7.5
+          },
+          {
+            "shift_name": "09-03白",
+            "flow": 6.16,
+            "saturation": 61.6,
+            "prod_time": 8.5
           }
         ]
       },
@@ -705,21 +705,9 @@
         "std": 10.0,
         "shifts": [
           {
-            "shift_name": "08-30白",
-            "flow": 3.98,
-            "saturation": 39.8,
-            "prod_time": 10.5
-          },
-          {
-            "shift_name": "08-30夜",
-            "flow": 3.87,
-            "saturation": 38.7,
-            "prod_time": 9.5
-          },
-          {
             "shift_name": "08-31白",
-            "flow": 3.15,
-            "saturation": 31.5,
+            "flow": 3.24,
+            "saturation": 32.4,
             "prod_time": 9.5
           },
           {
@@ -745,6 +733,18 @@
             "flow": 3.91,
             "saturation": 39.1,
             "prod_time": 8.5
+          },
+          {
+            "shift_name": "09-02夜",
+            "flow": 3.36,
+            "saturation": 33.6,
+            "prod_time": 7.5
+          },
+          {
+            "shift_name": "09-03白",
+            "flow": 2.62,
+            "saturation": 26.2,
+            "prod_time": 8.5
           }
         ]
       },
@@ -754,21 +754,9 @@
         "std": 15.0,
         "shifts": [
           {
-            "shift_name": "08-30白",
-            "flow": 10.96,
-            "saturation": 73.0,
-            "prod_time": 10.5
-          },
-          {
-            "shift_name": "08-30夜",
-            "flow": 11.14,
-            "saturation": 74.3,
-            "prod_time": 9.5
-          },
-          {
             "shift_name": "08-31白",
-            "flow": 12.26,
-            "saturation": 81.8,
+            "flow": 12.52,
+            "saturation": 83.5,
             "prod_time": 9.5
           },
           {
@@ -794,6 +782,18 @@
             "flow": 11.78,
             "saturation": 78.5,
             "prod_time": 8.5
+          },
+          {
+            "shift_name": "09-02夜",
+            "flow": 9.82,
+            "saturation": 65.5,
+            "prod_time": 7.5
+          },
+          {
+            "shift_name": "09-03白",
+            "flow": 11.13,
+            "saturation": 74.2,
+            "prod_time": 8.5
           }
         ]
       },
@@ -803,21 +803,9 @@
         "std": 15.0,
         "shifts": [
           {
-            "shift_name": "08-30白",
-            "flow": 11.38,
-            "saturation": 75.9,
-            "prod_time": 10.5
-          },
-          {
-            "shift_name": "08-30夜",
-            "flow": 10.86,
-            "saturation": 72.4,
-            "prod_time": 9.5
-          },
-          {
             "shift_name": "08-31白",
-            "flow": 12.1,
-            "saturation": 80.7,
+            "flow": 12.37,
+            "saturation": 82.4,
             "prod_time": 9.5
           },
           {
@@ -840,8 +828,20 @@
           },
           {
             "shift_name": "09-02白",
-            "flow": 12.21,
-            "saturation": 81.4,
+            "flow": 12.14,
+            "saturation": 80.9,
+            "prod_time": 8.5
+          },
+          {
+            "shift_name": "09-02夜",
+            "flow": 10.45,
+            "saturation": 69.7,
+            "prod_time": 7.5
+          },
+          {
+            "shift_name": "09-03白",
+            "flow": 11.43,
+            "saturation": 76.2,
             "prod_time": 8.5
           }
         ]
@@ -852,21 +852,9 @@
         "std": 10.0,
         "shifts": [
           {
-            "shift_name": "08-30白",
-            "flow": 4.62,
-            "saturation": 46.2,
-            "prod_time": 10.5
-          },
-          {
-            "shift_name": "08-30夜",
-            "flow": 4.93,
-            "saturation": 49.3,
-            "prod_time": 9.5
-          },
-          {
             "shift_name": "08-31白",
-            "flow": 5.04,
-            "saturation": 50.4,
+            "flow": 5.15,
+            "saturation": 51.5,
             "prod_time": 9.5
           },
           {
@@ -892,6 +880,18 @@
             "flow": 4.9,
             "saturation": 49.0,
             "prod_time": 8.5
+          },
+          {
+            "shift_name": "09-02夜",
+            "flow": 3.94,
+            "saturation": 39.4,
+            "prod_time": 7.5
+          },
+          {
+            "shift_name": "09-03白",
+            "flow": 4.66,
+            "saturation": 46.6,
+            "prod_time": 8.5
           }
         ]
       },
@@ -901,21 +901,9 @@
         "std": 10.0,
         "shifts": [
           {
-            "shift_name": "08-30白",
-            "flow": 9.25,
-            "saturation": 92.5,
-            "prod_time": 10.5
-          },
-          {
-            "shift_name": "08-30夜",
-            "flow": 9.64,
-            "saturation": 96.4,
-            "prod_time": 9.5
-          },
-          {
             "shift_name": "08-31白",
-            "flow": 9.59,
-            "saturation": 95.9,
+            "flow": 9.84,
+            "saturation": 98.4,
             "prod_time": 9.5
           },
           {
@@ -941,6 +929,18 @@
             "flow": 10.35,
             "saturation": 103.5,
             "prod_time": 8.5
+          },
+          {
+            "shift_name": "09-02夜",
+            "flow": 9.13,
+            "saturation": 91.3,
+            "prod_time": 7.5
+          },
+          {
+            "shift_name": "09-03白",
+            "flow": 10.11,
+            "saturation": 101.1,
+            "prod_time": 8.5
           }
         ]
       },
@@ -950,21 +950,9 @@
         "std": 10.0,
         "shifts": [
           {
-            "shift_name": "08-30白",
-            "flow": 8.83,
-            "saturation": 88.3,
-            "prod_time": 10.5
-          },
-          {
-            "shift_name": "08-30夜",
-            "flow": 8.0,
-            "saturation": 80.0,
-            "prod_time": 9.5
-          },
-          {
             "shift_name": "08-31白",
-            "flow": 9.34,
-            "saturation": 93.4,
+            "flow": 9.53,
+            "saturation": 95.3,
             "prod_time": 9.5
           },
           {
@@ -990,6 +978,18 @@
             "flow": 9.08,
             "saturation": 90.8,
             "prod_time": 8.5
+          },
+          {
+            "shift_name": "09-02夜",
+            "flow": 7.61,
+            "saturation": 76.1,
+            "prod_time": 7.5
+          },
+          {
+            "shift_name": "09-03白",
+            "flow": 8.84,
+            "saturation": 88.4,
+            "prod_time": 8.5
           }
         ]
       },
@@ -999,21 +999,9 @@
         "std": 10.0,
         "shifts": [
           {
-            "shift_name": "08-30白",
-            "flow": 8.08,
-            "saturation": 80.8,
-            "prod_time": 10.5
-          },
-          {
-            "shift_name": "08-30夜",
-            "flow": 8.34,
-            "saturation": 83.4,
-            "prod_time": 9.5
-          },
-          {
             "shift_name": "08-31白",
-            "flow": 8.57,
-            "saturation": 85.7,
+            "flow": 8.74,
+            "saturation": 87.4,
             "prod_time": 9.5
           },
           {
@@ -1039,6 +1027,18 @@
             "flow": 8.76,
             "saturation": 87.6,
             "prod_time": 8.5
+          },
+          {
+            "shift_name": "09-02夜",
+            "flow": 7.92,
+            "saturation": 79.2,
+            "prod_time": 7.5
+          },
+          {
+            "shift_name": "09-03白",
+            "flow": 8.5,
+            "saturation": 85.0,
+            "prod_time": 8.5
           }
         ]
       },
@@ -1048,21 +1048,9 @@
         "std": 10.0,
         "shifts": [
           {
-            "shift_name": "08-30白",
-            "flow": 10.75,
-            "saturation": 107.5,
-            "prod_time": 10.5
-          },
-          {
-            "shift_name": "08-30夜",
-            "flow": 9.91,
-            "saturation": 99.1,
-            "prod_time": 9.5
-          },
-          {
             "shift_name": "08-31白",
-            "flow": 11.74,
-            "saturation": 117.4,
+            "flow": 11.96,
+            "saturation": 119.6,
             "prod_time": 9.5
           },
           {
@@ -1088,6 +1076,18 @@
             "flow": 11.1,
             "saturation": 111.0,
             "prod_time": 8.5
+          },
+          {
+            "shift_name": "09-02夜",
+            "flow": 9.51,
+            "saturation": 95.1,
+            "prod_time": 7.5
+          },
+          {
+            "shift_name": "09-03白",
+            "flow": 10.88,
+            "saturation": 108.8,
+            "prod_time": 8.5
           }
         ]
       },
@@ -1097,21 +1097,9 @@
         "std": 10.0,
         "shifts": [
           {
-            "shift_name": "08-30白",
-            "flow": 9.44,
-            "saturation": 94.4,
-            "prod_time": 10.5
-          },
-          {
-            "shift_name": "08-30夜",
-            "flow": 9.99,
-            "saturation": 99.9,
-            "prod_time": 9.5
-          },
-          {
             "shift_name": "08-31白",
-            "flow": 10.07,
-            "saturation": 100.7,
+            "flow": 10.25,
+            "saturation": 102.5,
             "prod_time": 9.5
           },
           {
@@ -1122,8 +1110,8 @@
           },
           {
             "shift_name": "09-01白",
-            "flow": 1.3,
-            "saturation": 13.0,
+            "flow": 0.97,
+            "saturation": 9.7,
             "prod_time": 0.5
           },
           {
@@ -1137,6 +1125,18 @@
             "flow": 10.29,
             "saturation": 102.9,
             "prod_time": 8.5
+          },
+          {
+            "shift_name": "09-02夜",
+            "flow": 9.51,
+            "saturation": 95.1,
+            "prod_time": 7.5
+          },
+          {
+            "shift_name": "09-03白",
+            "flow": 10.15,
+            "saturation": 101.5,
+            "prod_time": 8.5
           }
         ]
       },
@@ -1146,21 +1146,9 @@
         "std": 10.0,
         "shifts": [
           {
-            "shift_name": "08-30白",
-            "flow": 5.67,
-            "saturation": 56.7,
-            "prod_time": 10.5
-          },
-          {
-            "shift_name": "08-30夜",
-            "flow": 5.35,
-            "saturation": 53.5,
-            "prod_time": 9.5
-          },
-          {
             "shift_name": "08-31白",
-            "flow": 6.01,
-            "saturation": 60.1,
+            "flow": 6.19,
+            "saturation": 61.9,
             "prod_time": 9.5
           },
           {
@@ -1186,6 +1174,18 @@
             "flow": 7.3,
             "saturation": 73.0,
             "prod_time": 8.5
+          },
+          {
+            "shift_name": "09-02夜",
+            "flow": 6.07,
+            "saturation": 60.7,
+            "prod_time": 7.5
+          },
+          {
+            "shift_name": "09-03白",
+            "flow": 7.6,
+            "saturation": 76.0,
+            "prod_time": 8.5
           }
         ]
       },
@@ -1195,21 +1195,9 @@
         "std": 10.0,
         "shifts": [
           {
-            "shift_name": "08-30白",
-            "flow": 9.57,
-            "saturation": 95.7,
-            "prod_time": 10.5
-          },
-          {
-            "shift_name": "08-30夜",
-            "flow": 9.87,
-            "saturation": 98.7,
-            "prod_time": 9.5
-          },
-          {
             "shift_name": "08-31白",
-            "flow": 10.08,
-            "saturation": 100.8,
+            "flow": 10.32,
+            "saturation": 103.2,
             "prod_time": 9.5
           },
           {
@@ -1226,14 +1214,26 @@
           },
           {
             "shift_name": "09-01夜",
-            "flow": 9.64,
-            "saturation": 96.4,
+            "flow": 9.15,
+            "saturation": 91.5,
             "prod_time": 9.5
           },
           {
             "shift_name": "09-02白",
-            "flow": 10.0,
-            "saturation": 100.0,
+            "flow": 9.73,
+            "saturation": 97.3,
+            "prod_time": 8.5
+          },
+          {
+            "shift_name": "09-02夜",
+            "flow": 7.12,
+            "saturation": 71.2,
+            "prod_time": 7.5
+          },
+          {
+            "shift_name": "09-03白",
+            "flow": 8.86,
+            "saturation": 88.6,
             "prod_time": 8.5
           }
         ]
@@ -1244,21 +1244,9 @@
         "std": 10.0,
         "shifts": [
           {
-            "shift_name": "08-30白",
-            "flow": 4.69,
-            "saturation": 46.9,
-            "prod_time": 10.5
-          },
-          {
-            "shift_name": "08-30夜",
-            "flow": 4.82,
-            "saturation": 48.2,
-            "prod_time": 9.5
-          },
-          {
             "shift_name": "08-31白",
-            "flow": 4.88,
-            "saturation": 48.8,
+            "flow": 5.0,
+            "saturation": 50.0,
             "prod_time": 9.5
           },
           {
@@ -1284,6 +1272,18 @@
             "flow": 5.22,
             "saturation": 52.2,
             "prod_time": 8.5
+          },
+          {
+            "shift_name": "09-02夜",
+            "flow": 4.72,
+            "saturation": 47.2,
+            "prod_time": 7.5
+          },
+          {
+            "shift_name": "09-03白",
+            "flow": 4.86,
+            "saturation": 48.6,
+            "prod_time": 8.5
           }
         ]
       },
@@ -1293,21 +1293,9 @@
         "std": 10.0,
         "shifts": [
           {
-            "shift_name": "08-30白",
-            "flow": 6.47,
-            "saturation": 64.7,
-            "prod_time": 10.5
-          },
-          {
-            "shift_name": "08-30夜",
-            "flow": 6.16,
-            "saturation": 61.6,
-            "prod_time": 9.5
-          },
-          {
             "shift_name": "08-31白",
-            "flow": 5.84,
-            "saturation": 58.4,
+            "flow": 6.05,
+            "saturation": 60.5,
             "prod_time": 9.5
           },
           {
@@ -1333,6 +1321,18 @@
             "flow": 6.1,
             "saturation": 61.0,
             "prod_time": 8.5
+          },
+          {
+            "shift_name": "09-02夜",
+            "flow": 6.08,
+            "saturation": 60.8,
+            "prod_time": 7.5
+          },
+          {
+            "shift_name": "09-03白",
+            "flow": 5.44,
+            "saturation": 54.4,
+            "prod_time": 8.5
           }
         ]
       },
@@ -1342,21 +1342,9 @@
         "std": 10.0,
         "shifts": [
           {
-            "shift_name": "08-30白",
-            "flow": 4.0,
-            "saturation": 40.0,
-            "prod_time": 10.5
-          },
-          {
-            "shift_name": "08-30夜",
-            "flow": 3.07,
-            "saturation": 30.7,
-            "prod_time": 9.5
-          },
-          {
             "shift_name": "08-31白",
-            "flow": 3.44,
-            "saturation": 34.4,
+            "flow": 3.58,
+            "saturation": 35.8,
             "prod_time": 9.5
           },
           {
@@ -1382,6 +1370,18 @@
             "flow": 5.03,
             "saturation": 50.3,
             "prod_time": 8.5
+          },
+          {
+            "shift_name": "09-02夜",
+            "flow": 3.96,
+            "saturation": 39.6,
+            "prod_time": 7.5
+          },
+          {
+            "shift_name": "09-03白",
+            "flow": 5.36,
+            "saturation": 53.6,
+            "prod_time": 8.5
           }
         ]
       },
@@ -1391,21 +1391,9 @@
         "std": 10.0,
         "shifts": [
           {
-            "shift_name": "08-30白",
-            "flow": 9.95,
-            "saturation": 99.5,
-            "prod_time": 10.5
-          },
-          {
-            "shift_name": "08-30夜",
-            "flow": 8.72,
-            "saturation": 87.2,
-            "prod_time": 9.5
-          },
-          {
             "shift_name": "08-31白",
-            "flow": 8.4,
-            "saturation": 84.0,
+            "flow": 8.62,
+            "saturation": 86.2,
             "prod_time": 9.5
           },
           {
@@ -1431,6 +1419,18 @@
             "flow": 8.9,
             "saturation": 89.0,
             "prod_time": 8.5
+          },
+          {
+            "shift_name": "09-02夜",
+            "flow": 8.33,
+            "saturation": 83.3,
+            "prod_time": 7.5
+          },
+          {
+            "shift_name": "09-03白",
+            "flow": 7.98,
+            "saturation": 79.8,
+            "prod_time": 8.5
           }
         ]
       },
@@ -1440,21 +1440,9 @@
         "std": 18.0,
         "shifts": [
           {
-            "shift_name": "08-30白",
-            "flow": 15.79,
-            "saturation": 87.7,
-            "prod_time": 10.5
-          },
-          {
-            "shift_name": "08-30夜",
-            "flow": 14.87,
-            "saturation": 82.6,
-            "prod_time": 9.5
-          },
-          {
             "shift_name": "08-31白",
-            "flow": 17.61,
-            "saturation": 97.8,
+            "flow": 17.95,
+            "saturation": 99.7,
             "prod_time": 9.5
           },
           {
@@ -1480,6 +1468,18 @@
             "flow": 16.65,
             "saturation": 92.5,
             "prod_time": 8.5
+          },
+          {
+            "shift_name": "09-02夜",
+            "flow": 14.27,
+            "saturation": 79.3,
+            "prod_time": 7.5
+          },
+          {
+            "shift_name": "09-03白",
+            "flow": 16.32,
+            "saturation": 90.7,
+            "prod_time": 8.5
           }
         ]
       },
@@ -1489,21 +1489,9 @@
         "std": 10.0,
         "shifts": [
           {
-            "shift_name": "08-30白",
-            "flow": 4.75,
-            "saturation": 47.5,
-            "prod_time": 10.5
-          },
-          {
-            "shift_name": "08-30夜",
-            "flow": 4.22,
-            "saturation": 42.2,
-            "prod_time": 9.5
-          },
-          {
             "shift_name": "08-31白",
-            "flow": 4.02,
-            "saturation": 40.2,
+            "flow": 4.18,
+            "saturation": 41.8,
             "prod_time": 9.5
           },
           {
@@ -1529,6 +1517,18 @@
             "flow": 5.02,
             "saturation": 50.2,
             "prod_time": 8.5
+          },
+          {
+            "shift_name": "09-02夜",
+            "flow": 4.62,
+            "saturation": 46.2,
+            "prod_time": 7.5
+          },
+          {
+            "shift_name": "09-03白",
+            "flow": 4.15,
+            "saturation": 41.5,
+            "prod_time": 8.5
           }
         ]
       },
@@ -1538,21 +1538,9 @@
         "std": 2.0,
         "shifts": [
           {
-            "shift_name": "08-30白",
-            "flow": 0.57,
-            "saturation": 28.3,
-            "prod_time": 10.5
-          },
-          {
-            "shift_name": "08-30夜",
-            "flow": 0.44,
-            "saturation": 21.8,
-            "prod_time": 9.5
-          },
-          {
             "shift_name": "08-31白",
-            "flow": 0.29,
-            "saturation": 14.7,
+            "flow": 0.31,
+            "saturation": 15.7,
             "prod_time": 9.5
           },
           {
@@ -1578,6 +1566,18 @@
             "flow": 0.26,
             "saturation": 13.0,
             "prod_time": 8.5
+          },
+          {
+            "shift_name": "09-02夜",
+            "flow": 0.2,
+            "saturation": 10.0,
+            "prod_time": 7.5
+          },
+          {
+            "shift_name": "09-03白",
+            "flow": 0.13,
+            "saturation": 6.4,
+            "prod_time": 8.5
           }
         ]
       },
@@ -1587,21 +1587,9 @@
         "std": 10.0,
         "shifts": [
           {
-            "shift_name": "08-30白",
-            "flow": 5.93,
-            "saturation": 59.3,
-            "prod_time": 10.5
-          },
-          {
-            "shift_name": "08-30夜",
-            "flow": 5.98,
-            "saturation": 59.8,
-            "prod_time": 9.5
-          },
-          {
             "shift_name": "08-31白",
-            "flow": 5.9,
-            "saturation": 59.0,
+            "flow": 6.04,
+            "saturation": 60.4,
             "prod_time": 9.5
           },
           {
@@ -1627,6 +1615,18 @@
             "flow": 6.23,
             "saturation": 62.3,
             "prod_time": 8.5
+          },
+          {
+            "shift_name": "09-02夜",
+            "flow": 5.81,
+            "saturation": 58.1,
+            "prod_time": 7.5
+          },
+          {
+            "shift_name": "09-03白",
+            "flow": 5.79,
+            "saturation": 57.9,
+            "prod_time": 8.5
           }
         ]
       }
@@ -1634,15 +1634,15 @@
   },
   "small": {
     "shifts": [
-      "08-30白",
-      "08-30夜",
       "08-31白",
       "08-31夜",
       "09-01白",
       "09-01夜",
-      "09-02白"
+      "09-02白",
+      "09-02夜",
+      "09-03白"
     ],
-    "date_range": "2026-08-30 ~ 2026-09-02",
+    "date_range": "2026-08-31 ~ 2026-09-03",
     "data": [
       {
         "team": "小件2",
@@ -1650,19 +1650,9 @@
         "std": 120,
         "shifts": [
           {
-            "shift_name": "08-30白",
-            "flow": 81.01,
-            "saturation": 67.5
-          },
-          {
-            "shift_name": "08-30夜",
-            "flow": 73.47,
-            "saturation": 61.2
-          },
-          {
             "shift_name": "08-31白",
-            "flow": 85.93,
-            "saturation": 71.6
+            "flow": 87.69,
+            "saturation": 73.1
           },
           {
             "shift_name": "08-31夜",
@@ -1676,13 +1666,23 @@
           },
           {
             "shift_name": "09-01夜",
-            "flow": 72.79,
-            "saturation": 60.7
+            "flow": 72.74,
+            "saturation": 60.6
           },
           {
             "shift_name": "09-02白",
-            "flow": 83.23,
+            "flow": 83.29,
             "saturation": 69.4
+          },
+          {
+            "shift_name": "09-02夜",
+            "flow": 71.09,
+            "saturation": 59.2
+          },
+          {
+            "shift_name": "09-03白",
+            "flow": 81.24,
+            "saturation": 67.7
           }
         ]
       },
@@ -1692,21 +1692,9 @@
         "std": 60.0,
         "shifts": [
           {
-            "shift_name": "08-30白",
-            "flow": 45.88,
-            "saturation": 76.5,
-            "prod_time": 10.5
-          },
-          {
-            "shift_name": "08-30夜",
-            "flow": 49.73,
-            "saturation": 82.9,
-            "prod_time": 9.5
-          },
-          {
             "shift_name": "08-31白",
-            "flow": 53.48,
-            "saturation": 89.1,
+            "flow": 54.75,
+            "saturation": 91.2,
             "prod_time": 9.5
           },
           {
@@ -1723,14 +1711,26 @@
           },
           {
             "shift_name": "09-01夜",
-            "flow": 43.48,
-            "saturation": 72.5,
+            "flow": 43.09,
+            "saturation": 71.8,
             "prod_time": 9.5
           },
           {
             "shift_name": "09-02白",
-            "flow": 53.05,
-            "saturation": 88.4,
+            "flow": 53.52,
+            "saturation": 89.2,
+            "prod_time": 8.5
+          },
+          {
+            "shift_name": "09-02夜",
+            "flow": 55.48,
+            "saturation": 92.5,
+            "prod_time": 7.5
+          },
+          {
+            "shift_name": "09-03白",
+            "flow": 47.58,
+            "saturation": 79.3,
             "prod_time": 8.5
           }
         ]
@@ -1741,21 +1741,9 @@
         "std": 60.0,
         "shifts": [
           {
-            "shift_name": "08-30白",
-            "flow": 49.89,
-            "saturation": 83.1,
-            "prod_time": 10.5
-          },
-          {
-            "shift_name": "08-30夜",
-            "flow": 44.46,
-            "saturation": 74.1,
-            "prod_time": 9.5
-          },
-          {
             "shift_name": "08-31白",
-            "flow": 42.25,
-            "saturation": 70.4,
+            "flow": 43.41,
+            "saturation": 72.3,
             "prod_time": 9.5
           },
           {
@@ -1772,14 +1760,26 @@
           },
           {
             "shift_name": "09-01夜",
-            "flow": 36.99,
-            "saturation": 61.6,
+            "flow": 36.89,
+            "saturation": 61.5,
             "prod_time": 9.5
           },
           {
             "shift_name": "09-02白",
-            "flow": 45.96,
-            "saturation": 76.6,
+            "flow": 46.08,
+            "saturation": 76.8,
+            "prod_time": 8.5
+          },
+          {
+            "shift_name": "09-02夜",
+            "flow": 40.39,
+            "saturation": 67.3,
+            "prod_time": 7.5
+          },
+          {
+            "shift_name": "09-03白",
+            "flow": 41.22,
+            "saturation": 68.7,
             "prod_time": 8.5
           }
         ]
@@ -1790,21 +1790,9 @@
         "std": 60.0,
         "shifts": [
           {
-            "shift_name": "08-30白",
-            "flow": 37.53,
-            "saturation": 62.5,
-            "prod_time": 10.5
-          },
-          {
-            "shift_name": "08-30夜",
-            "flow": 31.6,
-            "saturation": 52.7,
-            "prod_time": 9.5
-          },
-          {
             "shift_name": "08-31白",
-            "flow": 32.04,
-            "saturation": 53.4,
+            "flow": 32.84,
+            "saturation": 54.7,
             "prod_time": 9.5
           },
           {
@@ -1821,14 +1809,26 @@
           },
           {
             "shift_name": "09-01夜",
-            "flow": 32.26,
-            "saturation": 53.8,
+            "flow": 32.19,
+            "saturation": 53.7,
             "prod_time": 9.5
           },
           {
             "shift_name": "09-02白",
-            "flow": 36.4,
-            "saturation": 60.7,
+            "flow": 36.48,
+            "saturation": 60.8,
+            "prod_time": 8.5
+          },
+          {
+            "shift_name": "09-02夜",
+            "flow": 40.51,
+            "saturation": 67.5,
+            "prod_time": 7.5
+          },
+          {
+            "shift_name": "09-03白",
+            "flow": 35.23,
+            "saturation": 58.7,
             "prod_time": 8.5
           }
         ]
@@ -1839,21 +1839,9 @@
         "std": 60.0,
         "shifts": [
           {
-            "shift_name": "08-30白",
-            "flow": 53.37,
-            "saturation": 88.9,
-            "prod_time": 10.5
-          },
-          {
-            "shift_name": "08-30夜",
-            "flow": 45.88,
-            "saturation": 76.5,
-            "prod_time": 9.5
-          },
-          {
             "shift_name": "08-31白",
-            "flow": 43.91,
-            "saturation": 73.2,
+            "flow": 45.17,
+            "saturation": 75.3,
             "prod_time": 9.5
           },
           {
@@ -1876,8 +1864,20 @@
           },
           {
             "shift_name": "09-02白",
-            "flow": 47.44,
-            "saturation": 79.1,
+            "flow": 47.4,
+            "saturation": 79.0,
+            "prod_time": 8.5
+          },
+          {
+            "shift_name": "09-02夜",
+            "flow": 37.8,
+            "saturation": 63.0,
+            "prod_time": 7.5
+          },
+          {
+            "shift_name": "09-03白",
+            "flow": 47.29,
+            "saturation": 78.8,
             "prod_time": 8.5
           }
         ]
@@ -1888,21 +1888,9 @@
         "std": 120.0,
         "shifts": [
           {
-            "shift_name": "08-30白",
-            "flow": 70.49,
-            "saturation": 58.7,
-            "prod_time": 10.5
-          },
-          {
-            "shift_name": "08-30夜",
-            "flow": 67.56,
-            "saturation": 56.3,
-            "prod_time": 9.5
-          },
-          {
             "shift_name": "08-31白",
-            "flow": 62.5,
-            "saturation": 52.1,
+            "flow": 64.26,
+            "saturation": 53.6,
             "prod_time": 9.5
           },
           {
@@ -1928,6 +1916,18 @@
             "flow": 71.0,
             "saturation": 59.2,
             "prod_time": 8.5
+          },
+          {
+            "shift_name": "09-02夜",
+            "flow": 62.88,
+            "saturation": 52.4,
+            "prod_time": 7.5
+          },
+          {
+            "shift_name": "09-03白",
+            "flow": 60.7,
+            "saturation": 50.6,
+            "prod_time": 8.5
           }
         ]
       },
@@ -1937,21 +1937,9 @@
         "std": 60.0,
         "shifts": [
           {
-            "shift_name": "08-30白",
-            "flow": 9.0,
-            "saturation": 15.0,
-            "prod_time": 10.5
-          },
-          {
-            "shift_name": "08-30夜",
-            "flow": 7.5,
-            "saturation": 12.5,
-            "prod_time": 9.5
-          },
-          {
             "shift_name": "08-31白",
-            "flow": 9.19,
-            "saturation": 15.3,
+            "flow": 9.4,
+            "saturation": 15.7,
             "prod_time": 9.5
           },
           {
@@ -1977,6 +1965,18 @@
             "flow": 6.02,
             "saturation": 10.0,
             "prod_time": 8.5
+          },
+          {
+            "shift_name": "09-02夜",
+            "flow": 5.69,
+            "saturation": 9.5,
+            "prod_time": 7.5
+          },
+          {
+            "shift_name": "09-03白",
+            "flow": 3.57,
+            "saturation": 5.9,
+            "prod_time": 8.5
           }
         ]
       },
@@ -1986,21 +1986,9 @@
         "std": 60.0,
         "shifts": [
           {
-            "shift_name": "08-30白",
-            "flow": 39.36,
-            "saturation": 65.6,
-            "prod_time": 10.5
-          },
-          {
-            "shift_name": "08-30夜",
-            "flow": 40.2,
-            "saturation": 67.0,
-            "prod_time": 9.5
-          },
-          {
             "shift_name": "08-31白",
-            "flow": 40.87,
-            "saturation": 68.1,
+            "flow": 41.74,
+            "saturation": 69.6,
             "prod_time": 9.5
           },
           {
@@ -2017,14 +2005,26 @@
           },
           {
             "shift_name": "09-01夜",
-            "flow": 35.67,
+            "flow": 35.66,
             "saturation": 59.4,
             "prod_time": 9.5
           },
           {
             "shift_name": "09-02白",
-            "flow": 41.63,
+            "flow": 41.64,
             "saturation": 69.4,
+            "prod_time": 8.5
+          },
+          {
+            "shift_name": "09-02夜",
+            "flow": 38.8,
+            "saturation": 64.7,
+            "prod_time": 7.5
+          },
+          {
+            "shift_name": "09-03白",
+            "flow": 37.19,
+            "saturation": 62.0,
             "prod_time": 8.5
           }
         ]
@@ -2035,21 +2035,9 @@
         "std": 60.0,
         "shifts": [
           {
-            "shift_name": "08-30白",
-            "flow": 25.17,
-            "saturation": 42.0,
-            "prod_time": 10.5
-          },
-          {
-            "shift_name": "08-30夜",
-            "flow": 27.25,
-            "saturation": 45.4,
-            "prod_time": 9.5
-          },
-          {
             "shift_name": "08-31白",
-            "flow": 23.24,
-            "saturation": 38.7,
+            "flow": 24.21,
+            "saturation": 40.3,
             "prod_time": 9.5
           },
           {
@@ -2075,6 +2063,18 @@
             "flow": 34.08,
             "saturation": 56.8,
             "prod_time": 8.5
+          },
+          {
+            "shift_name": "09-02夜",
+            "flow": 33.65,
+            "saturation": 56.1,
+            "prod_time": 7.5
+          },
+          {
+            "shift_name": "09-03白",
+            "flow": 28.63,
+            "saturation": 47.7,
+            "prod_time": 8.5
           }
         ]
       },
@@ -2084,21 +2084,9 @@
         "std": 60.0,
         "shifts": [
           {
-            "shift_name": "08-30白",
-            "flow": 34.96,
-            "saturation": 58.3,
-            "prod_time": 10.5
-          },
-          {
-            "shift_name": "08-30夜",
-            "flow": 36.09,
-            "saturation": 60.1,
-            "prod_time": 9.5
-          },
-          {
             "shift_name": "08-31白",
-            "flow": 32.71,
-            "saturation": 54.5,
+            "flow": 33.73,
+            "saturation": 56.2,
             "prod_time": 9.5
           },
           {
@@ -2124,6 +2112,18 @@
             "flow": 36.65,
             "saturation": 61.1,
             "prod_time": 8.5
+          },
+          {
+            "shift_name": "09-02夜",
+            "flow": 30.54,
+            "saturation": 50.9,
+            "prod_time": 7.5
+          },
+          {
+            "shift_name": "09-03白",
+            "flow": 32.6,
+            "saturation": 54.3,
+            "prod_time": 8.5
           }
         ]
       },
@@ -2133,21 +2133,9 @@
         "std": 60.0,
         "shifts": [
           {
-            "shift_name": "08-30白",
-            "flow": 83.07,
-            "saturation": 138.4,
-            "prod_time": 10.5
-          },
-          {
-            "shift_name": "08-30夜",
-            "flow": 84.07,
-            "saturation": 140.1,
-            "prod_time": 9.5
-          },
-          {
             "shift_name": "08-31白",
-            "flow": 93.96,
-            "saturation": 156.6,
+            "flow": 95.85,
+            "saturation": 159.7,
             "prod_time": 9.5
           },
           {
@@ -2173,6 +2161,18 @@
             "flow": 88.64,
             "saturation": 147.7,
             "prod_time": 8.5
+          },
+          {
+            "shift_name": "09-02夜",
+            "flow": 76.84,
+            "saturation": 128.1,
+            "prod_time": 7.5
+          },
+          {
+            "shift_name": "09-03白",
+            "flow": 93.2,
+            "saturation": 155.3,
+            "prod_time": 8.5
           }
         ]
       },
@@ -2182,21 +2182,9 @@
         "std": 60.0,
         "shifts": [
           {
-            "shift_name": "08-30白",
-            "flow": 51.68,
-            "saturation": 86.1,
-            "prod_time": 10.5
-          },
-          {
-            "shift_name": "08-30夜",
-            "flow": 50.5,
-            "saturation": 84.2,
-            "prod_time": 9.5
-          },
-          {
             "shift_name": "08-31白",
-            "flow": 51.1,
-            "saturation": 85.2,
+            "flow": 52.45,
+            "saturation": 87.4,
             "prod_time": 9.5
           },
           {
@@ -2222,6 +2210,18 @@
             "flow": 52.59,
             "saturation": 87.7,
             "prod_time": 8.5
+          },
+          {
+            "shift_name": "09-02夜",
+            "flow": 48.9,
+            "saturation": 81.5,
+            "prod_time": 7.5
+          },
+          {
+            "shift_name": "09-03白",
+            "flow": 48.74,
+            "saturation": 81.2,
+            "prod_time": 8.5
           }
         ]
       },
@@ -2231,21 +2231,9 @@
         "std": 60.0,
         "shifts": [
           {
-            "shift_name": "08-30白",
-            "flow": 55.74,
-            "saturation": 92.9,
-            "prod_time": 10.5
-          },
-          {
-            "shift_name": "08-30夜",
-            "flow": 57.77,
-            "saturation": 96.3,
-            "prod_time": 9.5
-          },
-          {
             "shift_name": "08-31白",
-            "flow": 56.33,
-            "saturation": 93.9,
+            "flow": 57.59,
+            "saturation": 96.0,
             "prod_time": 9.5
           },
           {
@@ -2271,6 +2259,18 @@
             "flow": 58.67,
             "saturation": 97.8,
             "prod_time": 8.5
+          },
+          {
+            "shift_name": "09-02夜",
+            "flow": 55.56,
+            "saturation": 92.6,
+            "prod_time": 7.5
+          },
+          {
+            "shift_name": "09-03白",
+            "flow": 58.23,
+            "saturation": 97.0,
+            "prod_time": 8.5
           }
         ]
       },
@@ -2280,21 +2280,9 @@
         "std": 60.0,
         "shifts": [
           {
-            "shift_name": "08-30白",
-            "flow": 45.25,
-            "saturation": 75.4,
-            "prod_time": 10.5
-          },
-          {
-            "shift_name": "08-30夜",
-            "flow": 45.32,
-            "saturation": 75.5,
-            "prod_time": 9.5
-          },
-          {
             "shift_name": "08-31白",
             "flow": 43.47,
-            "saturation": 72.4,
+            "saturation": 72.5,
             "prod_time": 9.5
           },
           {
@@ -2311,14 +2299,26 @@
           },
           {
             "shift_name": "09-01夜",
-            "flow": 42.62,
-            "saturation": 71.0,
+            "flow": 41.0,
+            "saturation": 68.3,
             "prod_time": 9.5
           },
           {
             "shift_name": "09-02白",
-            "flow": 42.95,
-            "saturation": 71.6,
+            "flow": 41.62,
+            "saturation": 69.4,
+            "prod_time": 8.5
+          },
+          {
+            "shift_name": "09-02夜",
+            "flow": 41.36,
+            "saturation": 68.9,
+            "prod_time": 7.5
+          },
+          {
+            "shift_name": "09-03白",
+            "flow": 40.03,
+            "saturation": 66.7,
             "prod_time": 8.5
           }
         ]
@@ -2329,19 +2329,9 @@
         "std": 60,
         "shifts": [
           {
-            "shift_name": "08-30白",
-            "flow": 38.38,
-            "saturation": 64.0
-          },
-          {
-            "shift_name": "08-30夜",
-            "flow": 39.69,
-            "saturation": 66.1
-          },
-          {
             "shift_name": "08-31白",
-            "flow": 39.19,
-            "saturation": 65.3
+            "flow": 40.08,
+            "saturation": 66.8
           },
           {
             "shift_name": "08-31夜",
@@ -2360,8 +2350,18 @@
           },
           {
             "shift_name": "09-02白",
-            "flow": 39.4,
+            "flow": 39.41,
             "saturation": 65.7
+          },
+          {
+            "shift_name": "09-02夜",
+            "flow": 36.77,
+            "saturation": 61.3
+          },
+          {
+            "shift_name": "09-03白",
+            "flow": 33.8,
+            "saturation": 56.3
           }
         ]
       },
@@ -2371,21 +2371,9 @@
         "std": 60.0,
         "shifts": [
           {
-            "shift_name": "08-30白",
-            "flow": 43.57,
-            "saturation": 72.6,
-            "prod_time": 10.5
-          },
-          {
-            "shift_name": "08-30夜",
-            "flow": 43.93,
-            "saturation": 73.2,
-            "prod_time": 9.5
-          },
-          {
             "shift_name": "08-31白",
-            "flow": 43.3,
-            "saturation": 72.2,
+            "flow": 44.32,
+            "saturation": 73.9,
             "prod_time": 9.5
           },
           {
@@ -2411,6 +2399,18 @@
             "flow": 47.03,
             "saturation": 78.4,
             "prod_time": 8.5
+          },
+          {
+            "shift_name": "09-02夜",
+            "flow": 46.81,
+            "saturation": 78.0,
+            "prod_time": 7.5
+          },
+          {
+            "shift_name": "09-03白",
+            "flow": 41.6,
+            "saturation": 69.3,
+            "prod_time": 8.5
           }
         ]
       },
@@ -2420,21 +2420,9 @@
         "std": 60.0,
         "shifts": [
           {
-            "shift_name": "08-30白",
-            "flow": 20.21,
-            "saturation": 33.7,
-            "prod_time": 10.5
-          },
-          {
-            "shift_name": "08-30夜",
-            "flow": 19.72,
-            "saturation": 32.9,
-            "prod_time": 9.5
-          },
-          {
             "shift_name": "08-31白",
-            "flow": 19.68,
-            "saturation": 32.8,
+            "flow": 20.16,
+            "saturation": 33.6,
             "prod_time": 9.5
           },
           {
@@ -2460,6 +2448,18 @@
             "flow": 20.64,
             "saturation": 34.4,
             "prod_time": 8.5
+          },
+          {
+            "shift_name": "09-02夜",
+            "flow": 20.0,
+            "saturation": 33.3,
+            "prod_time": 7.5
+          },
+          {
+            "shift_name": "09-03白",
+            "flow": 18.66,
+            "saturation": 31.1,
+            "prod_time": 8.5
           }
         ]
       },
@@ -2469,21 +2469,9 @@
         "std": 60.0,
         "shifts": [
           {
-            "shift_name": "08-30白",
-            "flow": 44.7,
-            "saturation": 74.5,
-            "prod_time": 10.5
-          },
-          {
-            "shift_name": "08-30夜",
-            "flow": 41.69,
-            "saturation": 69.5,
-            "prod_time": 9.5
-          },
-          {
             "shift_name": "08-31白",
-            "flow": 39.25,
-            "saturation": 65.4,
+            "flow": 40.35,
+            "saturation": 67.3,
             "prod_time": 9.5
           },
           {
@@ -2509,6 +2497,18 @@
             "flow": 42.96,
             "saturation": 71.6,
             "prod_time": 8.5
+          },
+          {
+            "shift_name": "09-02夜",
+            "flow": 43.79,
+            "saturation": 73.0,
+            "prod_time": 7.5
+          },
+          {
+            "shift_name": "09-03白",
+            "flow": 37.81,
+            "saturation": 63.0,
+            "prod_time": 8.5
           }
         ]
       },
@@ -2518,21 +2518,9 @@
         "std": 60.0,
         "shifts": [
           {
-            "shift_name": "08-30白",
-            "flow": 20.95,
-            "saturation": 34.9,
-            "prod_time": 10.5
-          },
-          {
-            "shift_name": "08-30夜",
-            "flow": 19.6,
-            "saturation": 32.7,
-            "prod_time": 9.5
-          },
-          {
             "shift_name": "08-31白",
-            "flow": 18.81,
-            "saturation": 31.3,
+            "flow": 19.32,
+            "saturation": 32.2,
             "prod_time": 9.5
           },
           {
@@ -2558,6 +2546,18 @@
             "flow": 19.82,
             "saturation": 33.0,
             "prod_time": 8.5
+          },
+          {
+            "shift_name": "09-02夜",
+            "flow": 18.44,
+            "saturation": 30.7,
+            "prod_time": 7.5
+          },
+          {
+            "shift_name": "09-03白",
+            "flow": 17.54,
+            "saturation": 29.2,
+            "prod_time": 8.5
           }
         ]
       },
@@ -2567,21 +2567,9 @@
         "std": 60.0,
         "shifts": [
           {
-            "shift_name": "08-30白",
-            "flow": 37.54,
-            "saturation": 62.6,
-            "prod_time": 10.5
-          },
-          {
-            "shift_name": "08-30夜",
-            "flow": 35.48,
-            "saturation": 59.1,
-            "prod_time": 9.5
-          },
-          {
             "shift_name": "08-31白",
-            "flow": 35.99,
-            "saturation": 60.0,
+            "flow": 36.79,
+            "saturation": 61.3,
             "prod_time": 9.5
           },
           {
@@ -2607,6 +2595,18 @@
             "flow": 38.66,
             "saturation": 64.4,
             "prod_time": 8.5
+          },
+          {
+            "shift_name": "09-02夜",
+            "flow": 36.5,
+            "saturation": 60.8,
+            "prod_time": 7.5
+          },
+          {
+            "shift_name": "09-03白",
+            "flow": 37.41,
+            "saturation": 62.3,
+            "prod_time": 8.5
           }
         ]
       },
@@ -2616,21 +2616,9 @@
         "std": 60.0,
         "shifts": [
           {
-            "shift_name": "08-30白",
-            "flow": 18.99,
-            "saturation": 31.7,
-            "prod_time": 10.5
-          },
-          {
-            "shift_name": "08-30夜",
-            "flow": 19.28,
-            "saturation": 32.1,
-            "prod_time": 9.5
-          },
-          {
             "shift_name": "08-31白",
-            "flow": 19.44,
-            "saturation": 32.4,
+            "flow": 19.87,
+            "saturation": 33.1,
             "prod_time": 9.5
           },
           {
@@ -2647,14 +2635,26 @@
           },
           {
             "shift_name": "09-01夜",
-            "flow": 18.63,
-            "saturation": 31.1,
+            "flow": 18.47,
+            "saturation": 30.8,
             "prod_time": 9.5
           },
           {
             "shift_name": "09-02白",
-            "flow": 19.49,
-            "saturation": 32.5,
+            "flow": 19.68,
+            "saturation": 32.8,
+            "prod_time": 8.5
+          },
+          {
+            "shift_name": "09-02夜",
+            "flow": 17.75,
+            "saturation": 29.6,
+            "prod_time": 7.5
+          },
+          {
+            "shift_name": "09-03白",
+            "flow": 19.39,
+            "saturation": 32.3,
             "prod_time": 8.5
           }
         ]
@@ -2665,21 +2665,9 @@
         "std": 60.0,
         "shifts": [
           {
-            "shift_name": "08-30白",
-            "flow": 15.84,
-            "saturation": 26.4,
-            "prod_time": 10.5
-          },
-          {
-            "shift_name": "08-30夜",
-            "flow": 19.13,
-            "saturation": 31.9,
-            "prod_time": 9.5
-          },
-          {
             "shift_name": "08-31白",
-            "flow": 19.32,
-            "saturation": 32.2,
+            "flow": 19.88,
+            "saturation": 33.1,
             "prod_time": 9.5
           },
           {
@@ -2705,6 +2693,18 @@
             "flow": 22.5,
             "saturation": 37.5,
             "prod_time": 8.5
+          },
+          {
+            "shift_name": "09-02夜",
+            "flow": 21.68,
+            "saturation": 36.1,
+            "prod_time": 7.5
+          },
+          {
+            "shift_name": "09-03白",
+            "flow": 21.2,
+            "saturation": 35.3,
+            "prod_time": 8.5
           }
         ]
       }
@@ -2712,15 +2712,15 @@
   },
   "isolate": {
     "shifts": [
-      "08-30白",
-      "08-30夜",
       "08-31白",
       "08-31夜",
       "09-01白",
       "09-01夜",
-      "09-02白"
+      "09-02白",
+      "09-02夜",
+      "09-03白"
     ],
-    "date_range": "2026-08-30 ~ 2026-09-02",
+    "date_range": "2026-08-31 ~ 2026-09-03",
     "data": [
       {
         "team": "隔离区",
@@ -2728,21 +2728,9 @@
         "std": 10.0,
         "shifts": [
           {
-            "shift_name": "08-30白",
-            "flow": 1.34,
-            "saturation": 13.4,
-            "prod_time": 10.5
-          },
-          {
-            "shift_name": "08-30夜",
-            "flow": 1.41,
-            "saturation": 14.1,
-            "prod_time": 9.5
-          },
-          {
             "shift_name": "08-31白",
-            "flow": 1.34,
-            "saturation": 13.4,
+            "flow": 1.38,
+            "saturation": 13.8,
             "prod_time": 9.5
           },
           {
@@ -2767,6 +2755,18 @@
             "shift_name": "09-02白",
             "flow": 1.42,
             "saturation": 14.2,
+            "prod_time": 8.5
+          },
+          {
+            "shift_name": "09-02夜",
+            "flow": 1.22,
+            "saturation": 12.2,
+            "prod_time": 7.5
+          },
+          {
+            "shift_name": "09-03白",
+            "flow": 1.23,
+            "saturation": 12.3,
             "prod_time": 8.5
           }
         ]
