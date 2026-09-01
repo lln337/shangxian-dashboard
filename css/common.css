@@ -431,13 +431,8 @@ body {
     /* 横向滚动更顺滑 */
     .table-container { -webkit-overflow-scrolling: touch; }
 
-    /* ===== 上线流量表：缩小字号/内边距，靠容器横滑 ===== */
+    /* ===== 上线流量表：缩小字号/内边距，纯横滑（与每日统计TAB同款） ===== */
     .flow-table th, .flow-table td { padding: 6px 4px; font-size: 11px; white-space: nowrap; }
-    /* 取消 width:100% 的强制压缩，让表格按内容自然宽横滑，固定列才不会挡住滚动列 */
-    .flow-table { table-layout: auto; width: auto; min-width: 100%; }
-    /* 滚动列（第5列起）设最小宽，保证可读且撑出横向滚动 */
-    .flow-table th:not(:nth-child(-n+4)),
-    .flow-table td:not(:nth-child(-n+4)) { min-width: 70px; }
 
     /* ===== 配料表：冻结首两列 + 自然宽度横滑 ===== */
     .peiliao-table { table-layout: auto; width: auto; min-width: 100%; font-size: 11px; }
@@ -464,23 +459,5 @@ body {
     .peiliao-table th { padding: 8px 5px; }
     .peiliao-table td { padding: 6px 5px; }
 
-    /* ===== 上线流量表：冻结左四列（序号/班组/线路/标准），横滑时常驻 ===== */
-    .flow-table th:nth-child(1), .flow-table td:nth-child(1),
-    .flow-table th:nth-child(2), .flow-table td:nth-child(2),
-    .flow-table th:nth-child(3), .flow-table td:nth-child(3),
-    .flow-table th:nth-child(4), .flow-table td:nth-child(4) {
-        position: sticky; z-index: 2; background: #fff;
-    }
-    /* 表头冻结列保持蓝色并置于最上层 */
-    .flow-table th:nth-child(1), .flow-table th:nth-child(2),
-    .flow-table th:nth-child(3), .flow-table th:nth-child(4) {
-        background: #1a73e8; color: #fff; z-index: 3;
-    }
-    /* 固定列宽 + 左偏移（列宽累加：38 / 76 / 100 / 56） */
-    .flow-table th:nth-child(1), .flow-table td:nth-child(1) { left: 0;     min-width: 38px;  max-width: 38px; }
-    .flow-table th:nth-child(2), .flow-table td:nth-child(2) { left: 38px;  min-width: 76px;  max-width: 76px; }
-    .flow-table th:nth-child(3), .flow-table td:nth-child(3) { left: 114px; min-width: 100px; max-width: 100px; }
-    .flow-table th:nth-child(4), .flow-table td:nth-child(4) { left: 214px; min-width: 56px;  max-width: 56px; }
-    /* 冻结区右侧分隔线，与普通数据列区分 */
-    .flow-table th:nth-child(4), .flow-table td:nth-child(4) { border-right: 2px solid #1a73e8; }
+    /* 上线流量表改为与每日统计TAB同款纯横滑：移除固定列（sticky 在企微/微信内置浏览器兼容性差，会列重叠） */
 }
