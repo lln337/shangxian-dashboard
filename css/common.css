@@ -433,6 +433,11 @@ body {
 
     /* ===== 上线流量表：缩小字号/内边距，靠容器横滑 ===== */
     .flow-table th, .flow-table td { padding: 6px 4px; font-size: 11px; white-space: nowrap; }
+    /* 取消 width:100% 的强制压缩，让表格按内容自然宽横滑，固定列才不会挡住滚动列 */
+    .flow-table { table-layout: auto; width: auto; min-width: 100%; }
+    /* 滚动列（第5列起）设最小宽，保证可读且撑出横向滚动 */
+    .flow-table th:not(:nth-child(-n+4)),
+    .flow-table td:not(:nth-child(-n+4)) { min-width: 70px; }
 
     /* ===== 配料表：冻结首两列 + 自然宽度横滑 ===== */
     .peiliao-table { table-layout: auto; width: auto; min-width: 100%; font-size: 11px; }
