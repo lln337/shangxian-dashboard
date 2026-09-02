@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-31 09:16:53",
+  "generated_at": "2026-09-02 09:12:07",
   "current_month": {
     "month": "2026-08",
     "total": 4772,
     "timeout": 1011,
     "rate": 21.19,
-    "is_complete": false,
-    "delta": 17.06,
+    "is_complete": true,
+    "delta": 6.94,
     "trend": "up"
   },
   "monthly_trend": [
